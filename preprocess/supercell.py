@@ -74,10 +74,6 @@ def get_points_and_labels(all_coords_list, loop_values):
         atom_site_label = loop_values[0][i]
         atom_site_type = loop_values[1][i]
         
-        # atom_site_label Co,Ni1
-        print("atom_site_label", atom_site_label)
-        print("atom_site_type", atom_site_type)
-
         unique_labels.append(atom_site_label)
         unique_atoms_tuple.append(atom_site_type)
         all_points.extend(shift_and_append_points(points, atom_site_label))

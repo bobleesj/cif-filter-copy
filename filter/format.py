@@ -140,9 +140,6 @@ def move_files_based_on_format_error(script_directory):
                 os.rename(file_path, debug_filename)
                 num_files_bad_third_line += 1
             
-            
-
-
             print()
     
     # Display the number of files moved to each folder
