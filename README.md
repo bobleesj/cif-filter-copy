@@ -16,8 +16,7 @@ This Python toolkit provides a set of tools for processing Crystallographic Info
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/bobleesj/cif-preprocess.git
-cd cif-preprocess
+git clone https://github.com/bobleesj/cif-filter-copy.git
+cd cif-filter-copy
 python main.py
 ```
-# cif-preprocess
