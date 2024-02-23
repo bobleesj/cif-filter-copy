@@ -1,0 +1,232 @@
+##############################################################################
+#                                                                            #
+# In-Pt            # Pt13In9                                       # 1717952 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1717952
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1717952
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Pt~13~ In~9~'
+_chemical_formula_sum                    'In9 Pt11.99'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni~13~Ga~9~,mS44,12
+_chemical_formula_weight                 3569.6
+
+# Bibliographic data
+
+_publ_section_title                      'Kristallstruktur von Pt~13~In~9~'
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1978
+_journal_volume                          69
+_journal_page_first                      230
+_journal_page_last                       236
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Heinrich S.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.1258
+_cell_length_b                           8.802
+_cell_length_c                           9.439
+_cell_angle_alpha                        90
+_cell_angle_beta                         125.663
+_cell_angle_gamma                        90
+_cell_volume                             751
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pt
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt4 Pt 8 j 0.1978 0.257 0.1609 0.748
+ In3 In 8 j 0.4605 0.2876 0.1873 1
+ In2 In 4 i 0.1767 0 0.625 1
+ Pt5 Pt 4 i 0.2582 0 0.0047 1
+ In1 In 4 i 0.2874 0 0.3224 1
+ Pt3 Pt 4 i 0.549 0 0.3261 1
+ Pt1 Pt 4 h 0 0.2529 0.5 1
+ Pt2 Pt 4 f 0.25 0.25 0.5 1
+ In4 In 2 b 0 0.5 0 1
+ Pt6 Pt 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            15.79
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.090
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 1 6.286 2
+ 2 0 0 4.524 2
+ 0 2 0 4.396 2
+ 3 1 1 4.116 3
+ 3 1 2 4.096 3
+ 4 0 2 3.839 3
+ 2 2 1 3.814 5
+ 1 1 2 3.336 3
+ 4 2 2 2.893 1
+ 5 1 3 2.802 3
+ 1 3 0 2.789 5
+ 4 2 1 2.571 2
+ 4 2 3 2.565 2
+ 3 3 2 2.478 5
+ 6 0 2 2.329 1
+ 6 0 4 2.319 1
+ 5 1 1 2.291 5
+ 1 3 2 2.275 5
+ 4 0 0 2.259 7
+ -2 2 1 2.252 8
+ 4 0 4 2.246 8
+ 6 2 3 2.212 8
+ 0 4 0 2.2 7
+ 3 3 0 2.104 2
+ 4 2 4 2.001 1
+ -3 1 1 1.994 1
+ 3 1 4 1.985 1
+ 2 4 0 1.976 1
+ 8 0 4 1.914 2
+ 4 4 2 1.908 3
+ 5 3 1 1.844 2
+ -1 3 2 1.763 3
+ 6 2 1 1.737 1
+ 0 4 2 1.726 1
+ 8 2 5 1.674 3
+ 3 5 1 1.656 2
+ 9 1 5 1.654 3
+ 6 4 2 1.599 1
+ 8 0 2 1.584 5
+ 4 4 0 1.576 5
+ 4 4 4 1.572 5
+ -4 2 1 1.566 1
+ -1 1 3 1.559 2
+ 3 5 3 1.517 1
+ 5 5 3 1.511 2
+ -3 1 2 1.499 1
+ 3 1 5 1.494 1
+ 10 0 6 1.477 1
+ 10 2 5 1.45 2
+ 8 4 4 1.446 2
+ 2 6 1 1.44 2
+ 5 5 1 1.413 3
+ -5 1 1 1.398 2
+ 2 6 2 1.394 2
+ 0 0 4 1.392 5
+ -3 3 2 1.351 1
+ 9 1 7 1.334 2
+ 4 6 3 1.329 2
+ -4 0 2 1.311 2
+ 2 2 5 1.306 3
+ 11 1 4 1.294 2
+ 7 5 2 1.288 5
+ 8 4 2 1.285 5
+ 10 2 7 1.282 5
+ -2 6 1 1.28 5
+ 2 6 3 1.278 5
+ 6 6 3 1.272 5
+ 5 5 5 1.257 2
+ 12 2 6 1.228 1
+ 10 4 6 1.226 1
+ 9 5 5 1.216 2
+ 3 7 2 1.212 2
+ 12 2 5 1.2 2
+ 12 2 7 1.197 1
+ 11 3 4 1.194 3
+ 1 7 2 1.186 2
+ -6 2 1 1.18 5
+ 0 4 4 1.175 5
+ 9 5 3 1.163 1
+ 3 7 0 1.159 1
+ 3 5 5 1.148 1
+ -4 4 2 1.126 2
+ 8 0 8 1.123 2
+ 12 4 6 1.106 5
+ -5 5 1 1.103 1
+ 4 6 5 1.101 1
+ 0 8 0 1.1 3
+ 11 3 8 1.094 1
+
+# End of data set 1717952
+

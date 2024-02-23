@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# Pt-Si            # Pt3Si ht1                                     #  452383 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_452383
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      452383
+_database_code_PDF                       04-003-1665
+
+# Entry summary
+
+_chemical_formula_structural             'Pt~3~ Si'
+_chemical_formula_sum                    'Pt3 Si'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Fe~3~C-b,oP16,62
+_chemical_formula_weight                 613.4
+
+# Bibliographic data
+
+_publ_section_title
+'On the Constitution of Platinum-Silicon Alloys'                              
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1978
+_journal_volume                          69
+_journal_page_first                      524
+_journal_page_last                       529
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ram R.P.'
+;
+Banaras Hindu University (Central Hindu College)
+Department of Metallurgical Engineering
+Varanasi / Uttar Pradesh
+India
+;
+'Bhan S.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Eisenforschung
+Dusseldorf
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.579
+_cell_length_b                           7.697
+_cell_length_c                           5.52
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             237.04
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pt
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt1 Pt 8 d 0.181 0.0508 0.1783 1
+ Pt2 Pt 4 c 0.0053 0.25 0.5964 1
+ Si Si 4 c 0.3976 0.25 0.4696 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            17.19
+_cell_measurement_temperature            878(13)
+_cell_measurement_radiation              'X-rays, Cr Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'high-temperature camera'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 1 1 2.374 4.5
+ 1 1 2 2.358 5
+ 0 3 1 2.329 6.5
+ 2 2 0 2.261 5.5
+ 0 2 2 2.246 5
+ 1 3 1 2.15 5
+ 2 2 1 2.093 5
+ 1 2 2 2.084 5
+ 2 0 2 1.964 5
+ 0 4 0 1.927 5
+ 2 3 0 1.891 4.5
+ 0 1 3 1.789 5
+ 3 0 1 1.764 5
+ 1 4 1 1.73 2
+ 1 1 3 1.705 2
+ 1 2 3 1.594 2
+ 2 3 2 1.561 2
+ 0 5 1 1.485 3.5
+ 1 3 3 1.446 3.5
+ 1 5 1 1.439 3
+ 2 4 2 1.375 3.5
+ 4 0 1 1.354 3.5
+ 2 5 0 1.349 3
+ 1 0 4 1.341 3.5
+ 3 3 2 1.323 5
+ 2 3 3 1.32 3
+ 4 2 0 1.315 3
+ 2 5 1 1.311 5.5
+ 1 5 2 1.308 3.5
+ 3 4 1 1.301 3
+ 4 2 1 1.277 3.5
+ 1 2 4 1.266 3.5
+ 3 2 3 1.239 3.5
+ 4 3 0 1.226 3
+ 2 1 4 1.221 2
+ 2 5 2 1.212 2.5
+ 1 3 4 1.191 3
+
+# End of data set 452383
+

@@ -1,0 +1,194 @@
+##############################################################################
+#                                                                            #
+# Fe-Si            # FeSi2                                         # 1627521 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1627521
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1627521
+_database_code_PDF                       04-016-2551
+
+# Entry summary
+
+_chemical_formula_structural             'Fe Si~2~'
+_chemical_formula_sum                    'Fe0.96 Si2'
+_chemical_name_mineral                   luobusaite
+_chemical_compound_source                unknown
+_chemical_name_structure_type            FeSi~2~,oS48,64
+_chemical_formula_weight                 112.0
+
+# Bibliographic data
+
+_publ_section_title
+'Rietveld structure refinement of new mineral luobusaite (\b-FeSi~2~)'        
+_journal_coden_ASTM                      KUYAE2
+_journal_name_full                       'Kwangwu Yanshi'
+_journal_year                            2007
+_journal_volume                          27
+_journal_page_first                      1
+_journal_page_last                       5
+_journal_language                        Chinese
+loop_
+ _publ_author_name
+ _publ_author_address
+'Li G.W.'
+;
+China University of Geosciences
+Beijing
+China
+;
+'Shi N.C.'
+;
+China University of Geosciences
+Beijing
+China
+;
+'Xiong M.'
+;
+China University of Geosciences
+Beijing
+China
+;
+'Ma Z.S.'
+;
+China University of Geosciences
+Beijing
+China
+;
+'Bai W.J.'
+;
+Chinese Academy of Geological Sciences (CAGS)
+Institute of Geology
+Beijing
+China
+;
+'Fang Q.S.'
+;
+Chinese Academy of Geological Sciences (CAGS)
+Institute of Geology
+Beijing
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.8362
+_cell_length_b                           7.8301
+_cell_length_c                           7.8655
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             605.79
+_cell_formula_units_Z                    16
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Si
+ Fe
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si2 Si 16 g 0.13744 0.05784 0.28667 1
+ Si1 Si 16 g 0.11806 0.26176 0.05338 1
+ Fe2 Fe 8 f 0 0.29716 0.30213 0.92
+ Fe1 Fe 8 d 0.22115 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            4.91
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_pd_proc_wavelength                      0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART APEX'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.0535
+_pd_proc_ls_proof_wR_factor              0.0690
+_refine_ls_R_I_factor                    ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 2 0 3.06 80
+ 2 2 1 2.849 20
+ 3 1 2 2.402 25
+ 3 1 3 1.977 40
+ 0 4 1 1.889 60
+ 1 1 4 1.865 40
+ 4 2 2 1.844 100
+ 0 2 4 1.75 15
+ 2 4 2 1.644 15
+ 6 0 2 1.517 10
+ 5 3 3 1.345 15
+ 2 6 1 1.237 5
+ 5 1 5 1.211 15
+ 4 6 0 1.146 10
+ 1 1 7 1.1 5
+ 3 7 1 1.047 10
+ 0 8 1 0.965 5
+
+# End of data set 1627521
+

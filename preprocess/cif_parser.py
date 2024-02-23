@@ -1,7 +1,6 @@
 import gemmi
 import re
 from util.string_parser import remove_string_braket
-import numpy as np
 
 def extract_formula_and_tag(compound_formula_tag):
     parts = compound_formula_tag.split()
@@ -210,7 +209,6 @@ def get_loop_values(block, loop_tags):
         raise RuntimeError("Missing atomic coordinates")
 
     return loop_values
-
 
 
 def print_loop_values(loop_values, i):

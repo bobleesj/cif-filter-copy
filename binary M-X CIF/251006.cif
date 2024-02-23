@@ -1,0 +1,176 @@
+##############################################################################
+#                                                                            #
+# Ga-Ni            # Ni5Ga3 rt                                     #  251006 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_251006
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      251006
+_database_code_PDF                       04-001-0555
+
+# Entry summary
+
+_chemical_formula_structural             'Ni~5~ Ga~3~'
+_chemical_formula_sum                    'Ga3 Ni5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pt~5~Ga~3~,oS16,65
+_chemical_formula_weight                 502.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Uber die Struktur von Phasen mit Kupfer Unterstruktur in einigen T-B Legierungen (T= Ni, Pd, Pt; B= Ga, In, Tl, Pb, Sb, Bi)
+;
+_journal_coden_ASTM                      JCOMAH
+_journal_name_full                       'J. Less-Common Met.'
+_journal_year                            1969
+_journal_volume                          17
+_journal_page_first                      73
+_journal_page_last                       90
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bhan S.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.72
+_cell_length_b                           7.53
+_cell_length_c                           3.77
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             190.77
+_cell_formula_units_Z                    2
+_space_group_IT_number                   65
+_space_group_name_H-M_alt                'C m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, z'
+ 12 '1/2-x, 1/2+y, -z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, z'
+ 16 '1/2+x, 1/2+y, -z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga2 Ga 4 j 0 0.264 0.5 1
+ Ni3 Ni 4 h 0.242 0 0.5 1
+ Ni2 Ni 4 e 0.25 0.25 0 1
+ Ni1 Ni 2 b 0.5 0 0 1
+ Ga1 Ga 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.75
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 3.762 4
+ 0 2 0 3.365 13
+ 1 1 1 3.012 16
+ 2 0 1 2.662 11
+ 2 2 0 2.504 4
+ 3 1 0 2.357 90
+ 1 3 0 2.148 11
+ 2 2 1 2.087 1000
+ 3 1 1 1.996 64
+ 4 0 0 1.885 500
+ 1 3 1 1.864 22
+ 0 4 0 1.676 200
+ 4 2 0 1.64 6
+ 2 4 0 1.535 1
+ 3 3 1 1.526 1
+ 4 2 1 1.506 1
+ 3 1 2 1.469 45
+ 2 4 1 1.421 8
+ 1 3 2 1.414 11
+ 5 1 1 1.37 45
+ 4 0 2 1.332 200
+ 4 4 0 1.253 500
+ 3 3 2 1.251 3
+ 5 3 1 1.185 64
+ 0 2 3 1.159 4
+ 2 2 3 1.122 200
+
+# End of data set 251006
+

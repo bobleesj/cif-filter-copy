@@ -1,0 +1,198 @@
+##############################################################################
+#                                                                            #
+# Pt-Si            # PtSi                                          #  261219 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_261219
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      261219
+_database_code_PDF                       04-001-2784
+
+# Entry summary
+
+_chemical_formula_structural             'Pt Si'
+_chemical_formula_sum                    'Pt Si'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            FeAs,oP8,62
+_chemical_formula_weight                 223.2
+
+# Bibliographic data
+
+_publ_section_title                      'Neue Phasen vom MnP (B31)-Typ'
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1950
+_journal_volume                          41
+_journal_page_first                      358
+_journal_page_last                       367
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pfisterer H.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.595
+_cell_length_b                           3.603
+_cell_length_c                           5.932
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             119.58
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pt
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt Pt 4 c 0.01 0.25 0.195 1
+ Si Si 4 c 0.195 0.25 0.59 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.40
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Debye-Scherrer film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 4.077 4
+ 1 0 1 3.079 7
+ 2 0 0 2.969 4
+ 0 2 0 2.796 4.7
+ 0 2 1 2.216 1
+ 2 1 1 2.122 6
+ 1 2 1 2.075 7.3
+ 2 2 0 2.037 4
+ 3 1 0 1.866 5
+ 0 0 2 1.804 4
+ 1 3 0 1.78 2.7
+ 3 0 1 1.737 3.7
+ 1 1 2 1.648 2
+ 2 0 2 1.542 3
+ 0 2 2 1.517 4
+ 3 2 1 1.475 3
+ 2 3 1 1.449 4
+ 0 4 0 1.401 3.3
+ 1 4 0 1.358 3
+ 2 2 2 1.35 4
+ 4 1 1 1.333 5.3
+ 3 1 2 1.296 5
+ 1 4 1 1.276 4.7
+ 1 3 2 1.266 4
+ 1 0 3 1.177 3
+ 5 1 0 1.161 4
+ 1 1 3 1.153 1
+ 5 0 1 1.128 1
+ 5 1 1 1.106 6
+ 5 2 0 1.093 3
+ 3 4 1 1.089 5.3
+ 3 3 2 1.085 4.7
+ 2 4 2 1.037 3.3
+ 2 2 3 1.035 ?
+ 3 0 3 1.027 2
+ 2 5 1 1.006 3.3
+ 5 3 0 1.002 3
+ 5 1 2 0.977 5.3
+ 3 2 3 0.965 1
+ 2 3 3 0.957 1
+ 6 1 1 0.941 4.7
+ 1 5 2 0.939 2.7
+ 0 6 0 0.933 3
+ 4 1 3 0.921 4.7
+ 0 0 4 0.902 4.7
+ 4 5 0 0.894 3
+ 1 6 1 0.893 ?
+ 2 6 0 0.891 2
+ 5 3 2 0.875 3.3
+ 4 5 1 0.867 3.3
+ 0 2 4 0.858 3.3
+ 6 3 1 0.85 3.3
+ 5 1 3 0.835 4
+ 0 6 2 0.828 4
+ 7 0 1 0.824 3
+ 3 6 1 0.821 1
+ 5 5 0 0.814 3
+ 3 1 4 0.812 3.3
+ 1 3 4 0.805 1
+ 2 6 2 0.798 3
+ 1 7 0 0.791 3.3
+ 2 5 3 0.789 3
+
+# End of data set 261219
+

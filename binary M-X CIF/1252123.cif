@@ -1,0 +1,153 @@
+##############################################################################
+#                                                                            #
+# Ga-Pt            # PtGa2 rt                                      # 1252123 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1252123
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252123
+_database_code_PDF                       04-007-2327
+
+# Entry summary
+
+_chemical_formula_structural             'Pt Ga~2~'
+_chemical_formula_sum                    'Ga2 Pt'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            PtGa~2~,tI96,142
+_chemical_formula_weight                 334.5
+
+# Bibliographic data
+
+_publ_section_title
+'On the preparation and crystal structure of a new form of PtGa~2~'           
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1996
+_journal_volume                          243
+_journal_page_first                      173
+_journal_page_last                       181
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Swenson D.C.'
+;
+University of Wisconsin-Madison (UW-Madison)
+Department of Materials Science
+Madison
+U.S.A. Wisconsin
+;
+'Morosin B.'
+;
+Sandia National Laboratories (SNL)
+Albuquerque
+U.S.A. New Mexico
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.5544
+_cell_length_b                           8.5544
+_cell_length_c                           21.574
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1578.74
+_cell_formula_units_Z                    32
+_space_group_IT_number                   142
+_space_group_name_H-M_alt                'I 41/a c d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '-x, 1/2-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 1/2+z'
+ 6 '1/4-y, 1/4-x, 1/4-z'
+ 7 '1/4-y, -1/4-x, -1/4+z'
+ 8 '1/4-y, -1/4+x, 1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 '1/2+x, -y, z'
+ 11 'x, -y, 1/2-z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '-1/4+y, 1/4-x, -1/4-z'
+ 15 '-1/4+y, 1/4+x, 1/4-z'
+ 16 '-1/4+y, -1/4+x, -1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1-x, 1/2+y, 1/2-z'
+ 19 '1/2-x, 1-y, 1/2+z'
+ 20 '1/2-x, 1/2-y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1+z'
+ 22 '3/4-y, 3/4-x, 3/4-z'
+ 23 '3/4-y, 1/4-x, 1/4+z'
+ 24 '3/4-y, 1/4+x, 3/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1+x, 1/2-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '1/4+y, 3/4-x, 1/4-z'
+ 31 '1/4+y, 3/4+x, 3/4-z'
+ 32 '1/4+y, 1/4+x, 1/4+z'
+loop_
+ _atom_type_symbol
+ Ga
+ Pt
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 32 g 0.04608 0.02711 0.31168 1
+ Ga2 Ga 32 g 0.27520 0.20109 0.18947 1
+ Pt2 Pt 16 f 0.19080 0.44080 0.125 1
+ Pt1 Pt 16 d 0 0.25 0.01858 1
+
+
+_exptl_crystal_colour                    'gray silver'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.26
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3330
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0392
+_refine_ls_wR_factor_gt                  0.0434
+
+# End of data set 1252123
+

@@ -1,0 +1,157 @@
+##############################################################################
+#                                                                            #
+# Fe-Sn            # Fe1.67Sn rt                                   # 1046082 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1046082
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1046082
+_database_code_PDF                       04-025-1142
+
+# Entry summary
+
+_chemical_formula_structural             'Fe~1.66~ Sn'
+_chemical_formula_sum                    'Fe1.65 Sn'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Fe~1.66~Sn,oP28,62
+_chemical_formula_weight                 211.4
+
+# Bibliographic data
+
+_publ_section_title
+'Ferromagnetism of Fe~3~Sn and alloys'                                        
+_journal_coden_ASTM                      SRCEC3
+_journal_name_full                       'Sci. Rep.'
+_journal_year                            2014
+_journal_volume                          4
+_journal_page_first                      1
+_journal_page_last                       6
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sales B.C.'
+;
+Oak Ridge National Laboratory (ORNL)
+Materials Science and Technology Division
+Oak Ridge
+U.S.A. Tennessee
+;
+'Saparov B.'
+;
+Oak Ridge National Laboratory (ORNL)
+Materials Science and Technology Division
+Oak Ridge
+U.S.A. Tennessee
+;
+'McGuire M.A.'
+;
+Oak Ridge National Laboratory (ORNL)
+Materials Science and Technology Division
+Oak Ridge
+U.S.A. Tennessee
+;
+'Singh D.J.'
+;
+Oak Ridge National Laboratory (ORNL)
+Materials Science and Technology Division
+Oak Ridge
+U.S.A. Tennessee
+;
+'Parker D.S.'
+;
+Oak Ridge National Laboratory (ORNL)
+Materials Science and Technology Division
+Oak Ridge
+U.S.A. Tennessee
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.2997
+_cell_length_b                           5.2473
+_cell_length_c                           8.4026
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             321.9
+_cell_formula_units_Z                    8
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Fe
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Fe1 Fe 8 d 0.2347 0.0043 0.3738 1
+ Sn2A Sn 4 c 0.0569 0.25 0.0898 0.67
+ Sn2B Sn 4 c 0.094 0.25 0.135 0.34
+ Sn1 Sn 4 c 0.0989 0.25 0.6386 1
+ Fe2 Fe 4 c 0.4134 0.25 0.1273 1
+ Fe3 Fe 4 c 0.428 0.25 0.6222 0.31
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.73
+_cell_measurement_temperature            173(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              173(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART APEX'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    3519
+_diffrn_reflns_theta_min                 3.7
+_diffrn_reflns_theta_max                 26.37
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             43
+_refine_ls_number_reflns                 365
+_refine_ls_R_factor_gt                   0.0721
+_refine_ls_wR_factor_gt                  0.1936
+
+# End of data set 1046082
+

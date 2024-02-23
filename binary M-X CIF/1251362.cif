@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# Ga-Ir            # Ir3Ga5                                        # 1251362 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1251362
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251362
+_database_code_PDF                       04-007-1622
+
+# Entry summary
+
+_chemical_formula_structural             'Ir~3~ Ga~5~'
+_chemical_formula_sum                    'Ga5 Ir3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ir~3~Ga~5~,tP32,118
+_chemical_formula_weight                 925.3
+
+# Bibliographic data
+
+_publ_section_title
+'Die Kristallstrukturen von Rh~10~Ga~17~ und Ir~3~Ga~5~'                      
+_journal_coden_ASTM                      MOCMB7
+_journal_name_full                       'Monatsh. Chem.'
+_journal_year                            1967
+_journal_volume                          98
+_journal_page_first                      176
+_journal_page_last                       183
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Vollenkle H.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Wittmann A.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Nowotny H.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.823
+_cell_length_b                           5.823
+_cell_length_c                           14.2
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             481.48
+_cell_formula_units_Z                    4
+_space_group_IT_number                   118
+_space_group_name_H-M_alt                'P -4 n 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2+z'
+ 3 '-x, -y, z'
+ 4 '1/2-y, 1/2-x, 1/2-z'
+ 5 '-y, x, -z'
+ 6 '1/2+x, 1/2-y, 1/2+z'
+ 7 '1/2+y, 1/2+x, 1/2-z'
+ 8 'y, -x, -z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ir
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 8 i 0.23 0.35 0.0515 1
+ Ga2 Ga 8 i 0.34 0.30 0.6500 1
+ Ir4 Ir 4 h 0 0.5 0.5861 1
+ Ga3 Ga 4 f 0.325 0.175 0.25 1
+ Ir3 Ir 4 e 0 0 0.3291 1
+ Ir2 Ir 2 c 0 0.5 0.25 1
+ Ir1 Ir 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.76
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu K'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution
+'crystal chemical considerations, Fourier synthesis'                          
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.106
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1251362
+

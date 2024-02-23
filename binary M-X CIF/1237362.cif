@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# Pt-Sb            # PtSb2                                         # 1237362 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1237362
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1237362
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Pt Sb~2~'
+_chemical_formula_sum                    'Pt Sb2'
+_chemical_name_mineral                   geversite
+_chemical_compound_source                ?
+_chemical_name_structure_type            FeS~2~,cP12,205
+_chemical_formula_weight                 438.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+Bonding analysis of the pyrite structure and a careful determination of the structures of PdAs~2~, PdSb~2~, PtSb~2~ and PtBi~2~
+;
+_journal_coden_ASTM                      ACAANN
+_journal_name_full
+'Am. Crystallogr. Assoc., Annu. Meet.'                                        
+_journal_year                            1992
+_journal_volume                          ?
+_journal_page_first                      129a
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Brese N.E.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+'Von Schnering H.G.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+'Peters K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.4365
+_cell_length_b                           6.4365
+_cell_length_c                           6.4365
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             266.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   205
+_space_group_name_H-M_alt                'P a -3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, 1/2-z'
+ 6 '1/2-y, -z, 1/2+x'
+ 7 '1/2-y, 1/2+z, x'
+ 8 '-y, -z, -x'
+ 9 '-y, 1/2+z, 1/2-x'
+ 10 '1/2-z, -x, 1/2+y'
+ 11 '1/2-z, 1/2+x, y'
+ 12 '-z, -x, -y'
+ 13 '-z, 1/2+x, 1/2-y'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, y, 1/2-z'
+ 16 'x, 1/2-y, 1/2+z'
+ 17 '1/2+y, 1/2-z, -x'
+ 18 '1/2+y, z, 1/2-x'
+ 19 'y, 1/2-z, 1/2+x'
+ 20 'y, z, x'
+ 21 '1/2+z, 1/2-x, -y'
+ 22 '1/2+z, x, 1/2-y'
+ 23 'z, 1/2-x, 1/2+y'
+ 24 'z, x, y'
+loop_
+ _atom_type_symbol
+ Sb
+ Pt
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb Sb 8 c 0.3753 0.3753 0.3753 1
+ Pt Pt 4 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.93
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1237362
+

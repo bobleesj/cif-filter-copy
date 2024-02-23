@@ -1,0 +1,152 @@
+##############################################################################
+#                                                                            #
+# Ga-Ir            # IrGa2                                         # 1906603 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1906603
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1906603
+_database_code_PDF                       04-015-1935
+
+# Entry summary
+
+_chemical_formula_structural             'Ir Ga~2~'
+_chemical_formula_sum                    'Ga2 Ir'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            IrGa~2~,oS36,63
+_chemical_formula_weight                 331.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis, crystal structure and chemical bonding of the novel compound IrGa~2~
+;
+_journal_coden_ASTM                      SSSCFJ
+_journal_name_full                       'Solid State Sci.'
+_journal_year                            2004
+_journal_volume                          6
+_journal_page_first                      499
+_journal_page_last                       503
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bostrom M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.9021
+_cell_length_b                           12.9925
+_cell_length_c                           10.8808
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             551.6
+_cell_formula_units_Z                    12
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ir
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga4 Ga 8 f 0 0.05858 0.60556 1
+ Ir2 Ir 8 f 0 0.14036 0.12313 1
+ Ga3 Ga 8 f 0 0.32159 0.01733 1
+ Ir1 Ir 4 c 0 0.35089 0.25 1
+ Ga2 Ga 4 c 0 0.5405 0.25 1
+ Ga1 Ga 4 c 0 0.7337 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.98
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54056
+_pd_proc_wavelength                      1.54056
+_cell_measurement_reflns_used            72
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    2437
+_exptl_absorpt_coefficient_mu            100.7
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             32
+_refine_ls_number_reflns                 527
+_refine_ls_R_factor_gt                   0.022
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1906603
+

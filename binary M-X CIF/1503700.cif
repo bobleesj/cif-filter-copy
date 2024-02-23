@@ -1,0 +1,236 @@
+##############################################################################
+#                                                                            #
+# Rh-Sb            # RhSb3                                         # 1503700 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1503700
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1503700
+_database_code_PDF                       04-007-9904
+
+# Entry summary
+
+_chemical_formula_structural             'Rh Sb~3~'
+_chemical_formula_sum                    'Rh Sb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CoAs~3~,cI32,204
+_chemical_formula_weight                 468.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+X-ray diffraction determination of the structure of CoSb~3~, RhSb~3~, and IrSb~3~
+;
+_journal_coden_ASTM                      SPHCA6
+_journal_name_full                       'Sov. Phys. Crystallogr.'
+_journal_year                            1956
+_journal_volume                          1
+_journal_page_first                      404
+_journal_page_last                       406
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhuravlev N.N.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Moscow
+Russia
+;
+'Zhdanov G.S.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.23
+_cell_length_b                           9.23
+_cell_length_c                           9.23
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             786.3
+_cell_formula_units_Z                    8
+_space_group_IT_number                   204
+_space_group_name_H-M_alt                'I m -3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+ 25 '1/2+x, 1/2+y, 1/2+z'
+ 26 '1/2-x, 1/2-y, 1/2-z'
+ 27 '1/2-x, 1/2-y, 1/2+z'
+ 28 '1/2-x, 1/2+y, 1/2-z'
+ 29 '1/2-x, 1/2+y, 1/2+z'
+ 30 '1/2-y, 1/2-z, 1/2-x'
+ 31 '1/2-y, 1/2-z, 1/2+x'
+ 32 '1/2-y, 1/2+z, 1/2-x'
+ 33 '1/2-y, 1/2+z, 1/2+x'
+ 34 '1/2-z, 1/2-x, 1/2-y'
+ 35 '1/2-z, 1/2-x, 1/2+y'
+ 36 '1/2-z, 1/2+x, 1/2-y'
+ 37 '1/2-z, 1/2+x, 1/2+y'
+ 38 '1/2+x, 1/2-y, 1/2-z'
+ 39 '1/2+x, 1/2-y, 1/2+z'
+ 40 '1/2+x, 1/2+y, 1/2-z'
+ 41 '1/2+y, 1/2-z, 1/2-x'
+ 42 '1/2+y, 1/2-z, 1/2+x'
+ 43 '1/2+y, 1/2+z, 1/2-x'
+ 44 '1/2+y, 1/2+z, 1/2+x'
+ 45 '1/2+z, 1/2-x, 1/2-y'
+ 46 '1/2+z, 1/2-x, 1/2+y'
+ 47 '1/2+z, 1/2+x, 1/2-y'
+ 48 '1/2+z, 1/2+x, 1/2+y'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Sb
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb1 Sb 24 g 0 0.1514 0.3442 1
+ Rh1 Rh 8 c 0.25 0.25 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              7.5
+_exptl_crystal_density_diffrn            7.91
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 6.493 2
+ 2 0 0 4.599 2
+ 2 1 1 3.737 2
+ 2 2 0 3.256 2
+ 3 1 0 2.906 8
+ 2 2 2 2.655 2
+ 3 2 1 2.465 7
+ 4 1 1 2.164 3
+ 4 2 0 2.064 6
+ 3 3 2 1.964 3
+ 4 2 2 1.874 6
+ 5 1 0 1.804 6
+ 5 3 0 1.583 6
+ 6 0 0 1.533 3
+ 6 1 1 1.493 2
+ 6 2 0 1.453 3
+ 6 2 2 1.393 7
+ 6 3 1 1.363 6
+ 4 4 4 1.333 3
+ 7 1 0 1.303 3
+ 6 4 0 1.283 3
+ 7 2 1 1.252 3
+ 7 3 0 1.212 7
+ 7 3 2 1.172 7
+ 8 0 0 1.152 3
+ 5 5 4 1.134 2
+ 8 2 0 1.118 7
+ 6 5 3 1.102 3
+ 8 2 2 1.087 6
+ 8 3 1 1.071 6
+ 8 3 3 1.02 7
+ 8 4 2 1.005 2
+ 9 2 1 0.995 2
+ 9 3 0 0.973 2
+ 9 3 2 0.951 6
+ 8 4 4 0.941 3
+ 9 4 1 0.933 7
+ 0 0 10 0.922 2
+ 1 1 10 0.914 2
+ 0 2 10 0.905 2
+ 0 5 9 0.896 3
+ 1 3 10 0.88 6
+ 1 7 8 0.864 2
+ 0 4 10 0.857 6
+ 1 6 9 0.85 7
+ 2 4 10 0.842 6
+ 0 1 11 0.836 7
+ 1 2 11 0.822 3
+ 0 8 8 0.816 2
+ 0 7 9 0.81 6
+ 2 8 8 0.803 7
+ 2 7 9 0.797 6
+ 0 6 10 0.791 6
+ 1 4 11 0.786 3
+ 2 6 10 0.78 8
+ 5 6 9 0.775 5
+
+# End of data set 1503700
+

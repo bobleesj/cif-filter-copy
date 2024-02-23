@@ -1,0 +1,141 @@
+##############################################################################
+#                                                                            #
+# Os-Sn            # Os4Sn17                                       # 1252495 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1252495
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252495
+_database_code_PDF                       04-007-2660
+
+# Entry summary
+
+_chemical_formula_structural             'Os~4~ Sn~17~'
+_chemical_formula_sum                    'Os4 Sn17'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Os~4~Sn~17~,oP84,57
+_chemical_formula_weight                 2778.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+Transition-metal stannides with high tin content: Os~4~Sn~17~, RhSn~3~, RhSn~4~ and IrSn~4~
+;
+_journal_coden_ASTM                      JMACEP
+_journal_name_full                       'J. Mater. Chem.'
+_journal_year                            1996
+_journal_volume                          6
+_journal_page_first                      1897
+_journal_page_last                       1903
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lang A.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+'Jeitschko W.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.949
+_cell_length_b                           14.281
+_cell_length_c                           19.211
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1906.47
+_cell_formula_units_Z                    4
+_space_group_IT_number                   57
+_space_group_name_H-M_alt                'P b c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, 1/2+y, z'
+ 6 'x, 1/2-y, -z'
+ 7 'x, 1/2-y, 1/2+z'
+ 8 'x, y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Os
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Os1 Os 8 e 0.02744 0.24411 0.11942 1
+ Sn1 Sn 8 e 0.1353 0.06061 0.07301 1
+ Sn2 Sn 8 e 0.1675 0.4175 0.0901 1
+ Sn3 Sn 8 e 0.2087 0.61322 0.17243 1
+ Sn4 Sn 8 e 0.3737 0.18674 0.17172 1
+ Os2 Os 8 e 0.48741 0.00303 0.12445 1
+ Sn5 Sn 8 e 0.5589 0.09903 0.00346 1
+ Sn6 Sn 8 e 0.6832 0.3337 0.15041 1
+ Sn7 Sn 4 d 0.048 0.3079 0.25 1
+ Sn8 Sn 4 d 0.2236 0.0063 0.25 1
+ Sn9 Sn 4 d 0.3705 0.4362 0.25 1
+ Sn10 Sn 4 c 0.2598 0.25 0 1
+ Sn11 Sn 4 c 0.8303 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.68
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Enraf-Nonius
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    17167
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             102
+_refine_ls_number_reflns                 1573
+_refine_ls_R_factor_gt                   0.023
+_refine_ls_wR_factor_gt                  0.023
+
+# End of data set 1252495
+

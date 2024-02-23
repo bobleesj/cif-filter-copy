@@ -1,0 +1,211 @@
+##############################################################################
+#                                                                            #
+# Ni-Si            # Ni31Si12                                      #  530106 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_530106
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      530106
+_database_code_PDF                       04-004-4718
+
+# Entry summary
+
+_chemical_formula_structural             'Ni~30.7~ Si~12.3~'
+_chemical_formula_sum                    'Ni30.7 Si12.3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni~31~Si~12~,hP43,150
+_chemical_formula_weight                 2147.5
+
+# Bibliographic data
+
+_publ_section_title
+'Compounds of the type M~5~X~2~: Pd~5~As~2~, Ni~5~Si~2~, and Ni~5~P~2~'       
+_journal_coden_ASTM                      CJCHAG
+_journal_name_full                       'Can. J. Chem.'
+_journal_year                            1964
+_journal_volume                          42
+_journal_page_first                      1511
+_journal_page_last                       1517
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Saini G.S.'
+;
+National Research Council Canada (NRC)
+Division of Applied Chemistry
+Ottawa
+Canada
+;
+'Calvert L.D.'
+;
+National Research Council Canada (NRC)
+Division of Applied Chemistry
+Ottawa
+Canada
+;
+'Taylor J.B.'
+;
+National Research Council Canada (NRC)
+Division of Applied Chemistry
+Ottawa
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.667
+_cell_length_b                           6.667
+_cell_length_c                           12.277
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             472.59
+_cell_formula_units_Z                    1
+_space_group_IT_number                   150
+_space_group_name_H-M_alt                'P 3 2 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x, -x+y, -z'
+ 4 '-y, x-y, z'
+ 5 'x-y, -y, -z'
+ 6 'y, x, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ni
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni 6 g 0.034 0.358 0.1935 1
+ Ni2 Ni 6 g 0.079 0.413 0.4036 1
+ Ni3 Ni 6 g 0.336 0.298 0.3017 1
+ Ni4 Ni 6 g 0.373 0.309 0.0954 1
+ Si1 Si 3 f 0.682 0 0.5 1
+ Si2 Si 3 e 0.349 0 0 1
+ Ni5 Ni 2 d 0.333333 0.666667 0.0667 1
+ Si3 Si 2 d 0.333333 0.666667 0.274 1
+ Ni6 Ni 2 d 0.333333 0.666667 0.5717 1
+ Si4 Si 2 d 0.333333 0.666667 0.775 1
+ Si5 Si 2 c 0 0 0.213 1
+ Ni7 Ni 2 c 0 0 0.4049 1
+ Ni8 Ni 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.55
+_cell_measurement_temperature            297
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5405
+_pd_proc_wavelength                      1.5405
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 6.16 2.8
+ 1 0 1 5.23 1.8
+ 1 0 2 4.21 2.8
+ 0 0 3 4.05 2.2
+ 1 1 0 3.337 13
+ 1 1 1 3.217 11
+ 0 0 4 3.069 7
+ 1 1 2 2.931 17
+ 2 0 0 2.887 4.4
+ 2 0 1 2.811 3.5
+ 1 0 4 2.712 8.6
+ 2 0 2 2.613 33
+ 1 1 3 2.585 33
+ 0 0 5 2.457 4.4
+ 1 0 5 2.26 17
+ 2 1 0 2.184 21
+ 2 1 1 2.15 64
+ 2 0 4 2.103 64
+ 2 1 2 2.057 26
+ 0 0 6 2.044 7
+ 1 1 5 1.977 100
+ 3 0 0 1.924 100
+ 2 0 5 1.872 26
+ 3 0 2 1.838 5.5
+ 2 1 4 1.778 41
+ 1 1 6 1.742 26
+ 2 0 6 1.669 21
+ 2 2 1 1.652 11
+ 2 1 5 1.631 21
+ 2 2 2 1.609 2.2
+ 3 1 0 1.599 7
+ 3 1 1 1.588 26
+ 2 2 3 1.543 13
+ 0 0 8 1.533 8.6
+ 3 0 5 1.515 5.5
+ 2 1 6 1.491 5.5
+ 1 0 8 1.481 7
+ 2 2 4 1.464 5.5
+ 4 0 0 1.442 7
+ 4 0 1 1.432 8.6
+ 3 1 4 1.419 8.6
+ 3 0 6 1.404 8.6
+ 2 2 5 1.379 41
+ 2 1 7 1.366 8.6
+ 2 0 8 1.353 8.6
+ 3 1 5 1.342 8.6
+ 3 2 1 1.317 20
+ 4 0 4 1.305 11
+ 2 2 6 1.293 20
+ 3 1 6 1.261 21
+ 4 1 1 1.253 8.6
+ 0 0 10 1.226 8.6
+ 3 2 4 1.216 33
+
+# End of data set 530106
+

@@ -1,0 +1,155 @@
+##############################################################################
+#                                                                            #
+# Ga-Rh            # Rh4Ga21                                       # 1420790 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1420790
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1420790
+_database_code_PDF                       04-013-4139
+
+# Entry summary
+
+_chemical_formula_structural             'Rh~4~ Ga~21~'
+_chemical_formula_sum                    'Ga21 Rh4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Rh~4~Ga~21~,oS100,64
+_chemical_formula_weight                 1875.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Preparation, crystal structure and chemical bonding analysis of the new binary compounds Rh~4~Ga~21~ and Rh~3~Ga~16~
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2006
+_journal_volume                          179
+_journal_page_first                      2472
+_journal_page_last                       2478
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bostrom M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           40.135
+_cell_length_b                           6.47
+_cell_length_c                           6.473
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1680.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Ga
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga4 Ga 16 g 0.03435 0.1496 0.3505 1
+ Ga5 Ga 16 g 0.08557 0.3484 0.1516 1
+ Ga6 Ga 16 g 0.15299 0.3537 0.1456 1
+ Ga7 Ga 16 g 0.29621 0.1609 0.1614 1
+ Rh1 Rh 8 d 0.06042 0 0 1
+ Ga2 Ga 8 d 0.12076 0 0 1
+ Rh2 Rh 8 d 0.18169 0 0 1
+ Ga3 Ga 8 d 0.24307 0 0 1
+ Ga1 Ga 4 a 0 0 0 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.41
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54059
+_pd_proc_wavelength                      1.54059
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    6820
+_exptl_absorpt_coefficient_mu            36.8
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             62
+_refine_ls_number_reflns                 1286
+_refine_ls_R_factor_gt                   0.053
+_refine_ls_wR_factor_gt                  0.046
+
+# End of data set 1420790
+

@@ -1,0 +1,203 @@
+##############################################################################
+#                                                                            #
+# Ir-Sn            # Ir5Sn7                                        #  450427 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_450427
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      450427
+_database_code_PDF                       04-002-9916
+
+# Entry summary
+
+_chemical_formula_structural             'Ir~5~ Sn~7~'
+_chemical_formula_sum                    'Ir5 Sn7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Co~5~Ge~7~,tI24,107
+_chemical_formula_weight                 1791.9
+
+# Bibliographic data
+
+_publ_section_title                      'Kristallstruktur von Ir~5~Sn~7~'
+_journal_coden_ASTM                      JCOMAH
+_journal_name_full                       'J. Less-Common Met.'
+_journal_year                            1978
+_journal_volume                          61
+_journal_page_first                      P1
+_journal_page_last                       P7
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Mayer H.W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Ellner M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.537
+_cell_length_b                           8.537
+_cell_length_c                           6.4701
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             471.54
+_cell_formula_units_Z                    2
+_space_group_IT_number                   107
+_space_group_name_H-M_alt                'I 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1/2-x, 1/2+z'
+ 13 '1/2-y, 1/2+x, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1/2-x, 1/2+z'
+ 16 '1/2+y, 1/2+x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ir
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ir2 Ir 8 d 0.2437 0 0.322 1
+ Sn3 Sn 8 c 0.2129 0.2129 -0.012 1
+ Sn2 Sn 4 b 0 0.5 0.086 1
+ Ir1 Ir 2 a 0 0 0.0 1
+ Sn1 Sn 2 a 0 0 0.602 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.62
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    637
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.083
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 6.014 3
+ 0 1 1 5.143 6
+ 0 2 0 4.261 2
+ 1 2 1 3.285 7
+ 0 0 2 3.232 4
+ 2 2 0 3.017 3
+ 1 1 2 2.85 3
+ 0 3 1 2.603 5
+ 0 2 2 2.578 5
+ 2 3 1 2.224 7
+ 2 2 2 2.207 8
+ 0 4 0 2.135 7
+ 0 1 3 2.091 5
+ 1 3 2 2.072 1
+ 1 4 1 1.972 4
+ 2 4 0 1.909 2
+ 1 2 3 1.878 3
+ 0 4 2 1.782 3
+ 0 3 3 1.719 2
+ 3 3 2 1.709 3
+ 1 5 0 1.674 2
+ 3 4 1 1.651 5
+ 2 4 2 1.644 3
+ 0 0 4 1.617 3
+ 2 3 3 1.595 2
+ 1 1 4 1.563 2
+ 2 5 1 1.54 2
+ 0 2 4 1.513 3
+ 4 4 0 1.509 5
+ 1 4 3 1.494 5
+ 1 5 2 1.487 1
+ 2 2 4 1.425 3
+ 0 6 0 1.423 2
+ 1 3 4 1.387 1
+ 1 6 1 1.372 5
+ 4 4 2 1.367 1
+ 3 4 3 1.339 6
+ 4 5 1 1.306 2
+ 0 6 2 1.302 1
+ 0 4 4 1.289 5
+ 0 1 5 1.279 1
+ 2 5 3 1.277 2
+ 3 3 4 1.261 2
+ 3 6 1 1.249 2
+ 2 6 2 1.246 6
+ 2 4 4 1.234 2
+ 1 2 5 1.226 3
+ 5 5 0 1.208 2
+ 0 7 1 1.198 2
+
+# End of data set 450427
+
