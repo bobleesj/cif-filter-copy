@@ -1,0 +1,216 @@
+##############################################################################
+#                                                                            #
+# Pd-Sn            # Pd13Sn9                                       # 1252216 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1252216
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1252216
+_database_code_PDF                       04-007-2411
+
+# Entry summary
+
+_chemical_formula_structural             'Pd~13~ Sn~9~'
+_chemical_formula_sum                    'Pd13 Sn9'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd~13~Sn~9~,hP66,152
+_chemical_formula_weight                 2451.4
+
+# Bibliographic data
+
+_publ_section_title
+'Kristallstruktur von Pd~20~Sn~13~, Pd~6~AgPb~4~ und Ni~13~ZnGe~8~'           
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1981
+_journal_volume                          72
+_journal_page_first                      517
+_journal_page_last                       520
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sarah N.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Alasafi K.M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+'Schubert K.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.7985
+_cell_length_b                           8.7985
+_cell_length_c                           16.9837
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1138.62
+_cell_formula_units_Z                    3
+_space_group_IT_number                   152
+_space_group_name_H-M_alt                'P 31 2 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -1/3+z'
+ 3 '-x, -x+y, 1/3-z'
+ 4 '-y, x-y, 1/3+z'
+ 5 'x-y, -y, -1/3-z'
+ 6 'y, x, -z'
+loop_
+ _atom_type_symbol
+ Pd
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd4 Pd 6 c 0.0023 0.5057 0.3303 1
+ Sn5 Sn 6 c 0.1178 0.3111 0.4106 1
+ Pd8 Pd 6 c 0.1615 0.3381 0.2474 1
+ Sn2 Sn 6 c 0.1926 0.3093 0.0794 1
+ Pd6 Pd 6 c 0.3217 0.6607 0.0877 1
+ Pd7 Pd 6 c 0.3382 0.1775 0.4259 1
+ Sn4 Sn 6 c 0.3390 0.1703 0.2514 1
+ Pd5 Pd 6 c 0.5010 0.0011 0.1659 1
+ Sn3 Sn 6 c 0.6162 0.3069 0.0782 1
+ Sn1 Sn 3 b 0.4961 0 0.833333 1
+ Pd3 Pd 3 b 0.9990 0 0.833333 1
+ Pd1 Pd 3 a 0.0043 0 0.333333 1
+ Pd2 Pd 3 a 0.4941 0 0.333333 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.73
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 1 1 6.971 2
+ 0 1 2 5.693 2
+ 0 1 3 4.548 2
+ 1 1 0 4.405 2
+ 1 1 1 4.263 3
+ 1 1 2 3.915 2
+ 0 2 0 3.814 3
+ 0 1 4 3.711 2
+ 0 2 3 3.164 5
+ 0 1 5 3.106 1
+ 1 1 4 3.058 2
+ 1 2 0 2.884 2
+ 1 2 1 2.841 5
+ 0 0 6 2.831 5
+ 1 2 2 2.728 5
+ 1 2 3 2.567 6
+ 0 3 0 2.537 2
+ 0 3 1 2.512 6
+ 0 3 2 2.435 5
+ 1 2 4 2.385 5
+ 0 3 3 2.317 2
+ 0 2 6 2.274 8
+ 2 2 0 2.201 8
+ 1 2 7 1.855 3
+ 0 4 3 1.807 1
+ 1 3 5 1.795 2
+ 0 3 7 1.754 3
+ 2 3 1 1.739 3
+ 2 2 6 1.737 5
+ 1 2 8 1.71 3
+ 0 2 9 1.692 3
+ 0 1 10 1.656 2
+ 1 4 2 1.631 3
+ 0 3 8 1.629 6
+ 2 3 4 1.616 2
+ 1 3 7 1.595 2
+ 0 4 6 1.58 8
+ 2 3 5 1.554 2
+ 1 4 4 1.548 3
+ 0 5 1 1.517 3
+ 0 3 9 1.514 2
+ 0 5 2 1.5 3
+ 0 4 7 1.499 2
+ 0 5 3 1.471 2
+ 1 2 10 1.462 3
+ 2 4 0 1.441 2
+ 0 5 4 1.435 3
+ 0 0 12 1.415 6
+ 0 3 10 1.411 1
+ 0 5 5 1.391 3
+ 1 4 7 1.372 2
+ 1 5 1 1.366 2
+ 1 5 2 1.35 3
+ 1 5 3 1.331 2
+ 0 2 12 1.327 3
+ 1 3 10 1.325 1
+ 1 4 8 1.309 2
+ 1 5 4 1.303 3
+ 2 4 6 1.284 8
+ 0 6 0 1.27 7
+
+# End of data set 1252216
+

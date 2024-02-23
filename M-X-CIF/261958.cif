@@ -1,0 +1,137 @@
+##############################################################################
+#                                                                            #
+# Ge-Pt            # Pt3Ge2 rt                                     #  261958 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_261958
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      261958
+_database_code_PDF                       04-001-3475
+
+# Entry summary
+
+_chemical_formula_structural             'Pt~3~ Ge~2~'
+_chemical_formula_sum                    'Ge2 Pt3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pt~3~Ge~2~,oP40,62
+_chemical_formula_weight                 730.4
+_chemical_melting_point                  1080
+
+# Bibliographic data
+
+_publ_section_title
+'The Platinum-Germanium Phase Diagram'                                        
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1987
+_journal_volume                          78
+_journal_page_first                      295
+_journal_page_last                       300
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Oya Y.'
+;
+Tokyo Institute of Technology
+Research Laboratory of Precision Machinery and Electronics
+Yokohama / Kanagawa
+Japan
+;
+'Suzuki T.'
+;
+Tokyo Institute of Technology
+Research Laboratory of Precision Machinery and Electronics
+Yokohama / Kanagawa
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.24
+_cell_length_b                           7.549
+_cell_length_c                           6.854
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             633.31
+_cell_formula_units_Z                    8
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Pt
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt1 Pt 8 d 0.091 0.559 0.123 1
+ Ge1 Ge 8 d 0.244 0.031 0.375 1
+ Pt2 Pt 8 d 0.411 0.059 0.127 1
+ Ge2 Ge 4 c 0.007 0.25 0.627 1
+ Ge3 Ge 4 c 0.011 0.25 0.122 1
+ Pt3 Pt 4 c 0.216 0.25 0.657 1
+ Pt4 Pt 4 c 0.218 0.25 0.090 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            15.32
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 261958
+

@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# In-Ni            # Ni7In3 rt                                     # 1522432 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1522432
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1522432
+_database_code_PDF                       04-013-5260
+
+# Entry summary
+
+_chemical_formula_structural             'Ni~7~ In~3~'
+_chemical_formula_sum                    'In3 Ni7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cu~7~In~3~,aP40,2
+_chemical_formula_weight                 755.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+A neutron and X-ray powder diffraction study of B8~2~ related superstructure phases in the Ni-In system
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2006
+_journal_volume                          424
+_journal_page_first                      247
+_journal_page_last                       254
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Noren L.'
+;
+Australian National University (ANU)
+Research School of Chemistry
+Canberra
+Australia
+;
+'Larsson A.K.'
+;
+Australian National University (ANU)
+Department of Applied Mathematics
+Canberra
+Australia
+;
+'Withers R.L.'
+;
+Australian National University (ANU)
+Research School of Chemistry
+Canberra
+Australia
+;
+'Rundlof H.'
+;
+Uppsala University
+Studsvik Neutron Research Laboratory (NFL)
+Studsvik/Nykoping
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.5721
+_cell_length_b                           8.91
+_cell_length_c                           9.7964
+_cell_angle_alpha                        73.139
+_cell_angle_beta                         82.862
+_cell_angle_gamma                        90.28
+_cell_volume                             544.23
+_cell_formula_units_Z                    4
+_space_group_IT_number                   2
+_space_group_name_H-M_alt                'P -1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+loop_
+ _atom_type_symbol
+ Ni
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni15 Ni 2 i 0.0716 0.7666 0.4148 1
+ In4 In 2 i 0.1521 0.2688 0.313 1
+ Ni12 Ni 2 i 0.1456 0.2327 0.7857 1
+ Ni7 Ni 2 i 0.161 0.5753 0.2717 1
+ In1 In 2 i 0.2141 0.4708 0.5528 1
+ Ni13 Ni 2 i 0.2504 0.4587 0.0569 1
+ Ni10 Ni 2 i 0.2449 0.8582 0.1689 1
+ Ni4 Ni 2 i 0.2815 0.1482 0.0803 1
+ Ni6 Ni 2 i 0.3051 0.1441 0.5598 1
+ Ni9 Ni 2 i 0.3342 -0.002 0.3338 1
+ In2 In 2 i 0.3796 0.0045 0.8644 1
+ Ni14 Ni 2 i 0.4735 0.4171 0.3664 1
+ In6 In 2 i 0.5416 0.6334 0.1092 1
+ Ni8 Ni 2 i 0.5442 0.2974 0.1524 1
+ Ni3 Ni 2 i 0.5509 0.2915 0.6346 1
+ In5 In 2 i 0.6747 0.1631 0.3972 1
+ Ni2 Ni 2 i 0.8494 0.4556 0.205 1
+ In3 In 2 i 0.9341 0.289 0.0144 1
+ Ni11 Ni 2 i 0.9706 0.013 0.2474 1
+ Ni1 Ni 1 b 0 0 0.5 1
+ Ni5 Ni 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.22
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE STADI P'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 3.5
+_diffrn_reflns_theta_max                 54.95
+_pd_proc_2theta_range_min                7
+_pd_proc_2theta_range_max                109.9
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.0730
+
+# End of data set 1522432
+

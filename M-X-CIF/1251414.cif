@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# Ni-Si            # Ni3Si2                                        # 1251414 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1251414
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1251414
+_database_code_PDF                       04-007-1673
+
+# Entry summary
+
+_chemical_formula_structural             'Ni~3~ Si~2~'
+_chemical_formula_sum                    'Ni3 Si2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ni~3~Si~2~,oS80,36
+_chemical_formula_weight                 232.3
+
+# Bibliographic data
+
+_publ_section_title
+'The Crystal Structure of Ni~3~Si~2~ with some Notes on Ni~5~Si~2~'           
+_journal_coden_ASTM                      ACSAA4
+_journal_name_full                       'Acta Chem. Scand.'
+_journal_year                            1961
+_journal_volume                          15
+_journal_page_first                      893
+_journal_page_last                       902
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pilstrom G.'
+;
+Uppsala University
+Institute of Chemistry
+Uppsala
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.229
+_cell_length_b                           10.805
+_cell_length_c                           6.924
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             914.9
+_cell_formula_units_Z                    16
+_space_group_IT_number                   36
+_space_group_name_H-M_alt                'C m c 21'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 1/2+z'
+ 3 '-x, y, z'
+ 4 'x, -y, 1/2+z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, 1/2+z'
+ 7 '1/2-x, 1/2+y, z'
+ 8 '1/2+x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Si
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ SiIII Si 8 b 0.151 0.343 0.104 1
+ Ni2 Ni 8 b 0.1723 0.1189 0.124 1
+ Ni3 Ni 8 b 0.3028 0.2533 0.307 1
+ Ni4 Ni 8 b 0.3176 0.0025 0.299 1
+ Ni1 Ni 8 b 0.3268 0.3823 0.006 1
+ SiII Si 8 b 0.348 0.156 0.018 1
+ SiI Si 8 b 0.380 0.441 0.310 1
+ Ni5 Ni 4 a 0 0.000 0.024 1
+ SiIV Si 4 a 0 0.157 0.312 1
+ Ni7 Ni 4 a 0 0.2330 0.624 1
+ Ni6 Ni 4 a 0 0.2345 0.000 1
+ Ni8 Ni 4 a 0 0.3814 0.310 1
+ SiV Si 4 a 0 0.591 0.306 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              6.32
+_exptl_crystal_density_diffrn            6.75
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cr Ka1'
+_cell_measurement_wavelength             2.2896
+_pd_proc_wavelength                      2.2896
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Weissenberg photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 367
+_refine_ls_R_factor_gt                   0.118
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 8.095 5
+ 2 0 0 6.119 3
+ 0 2 0 5.403 2.5
+ 2 2 1 3.495 3.5
+ 3 1 1 3.341 2.5
+ 1 1 2 3.183 5.5
+ 1 3 1 3.091 5
+ 4 0 0 3.056 2
+ 2 0 2 3.015 2.5
+ 0 2 2 2.914 3
+ 3 3 0 2.7 3.5
+ 4 2 0 2.663 3
+ 2 2 2 2.634 2.5
+ 3 1 2 2.563 2.5
+ 3 3 1 2.515 2.5
+ 1 3 2 2.446 2.5
+ 5 1 1 2.255 2.5
+ 0 4 2 2.127 5
+ 0 2 3 2.122 3
+ 4 2 2 2.11 2.5
+ 6 0 0 2.038 7.5
+ 2 4 2 2.011 7.5
+ 3 1 3 1.975 7.5
+ 5 1 2 1.965 7
+ 5 3 1 1.942 5.5
+ 1 3 3 1.92 ?
+ 3 5 0 1.91 7
+ 3 5 1 1.84 3.5
+ 0 4 3 1.755 3.5
+ 4 4 2 1.747 7
+ 0 0 4 1.73 5.5
+ 3 5 2 1.672 2.5
+
+# End of data set 1251414
+

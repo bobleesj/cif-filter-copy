@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Fe-Si            # Fe0.92Si2 ht                                  # 1821724 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1821724
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1821724
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Fe Si~2~'
+_chemical_formula_sum                    'Fe Si2'
+_chemical_name_mineral                   linzhiite
+_chemical_compound_source                ?
+_chemical_name_structure_type            Fe~0.92~Si~2~,tP3,123
+_chemical_formula_weight                 112.0
+
+# Bibliographic data
+
+_publ_section_title
+'The Equilibrium Diagram of the Iron and Silicon System'                      
+_journal_coden_ASTM                      NIKGAV
+_journal_name_full
+'Nippon Kinzoku Gakkaishi (J. Jpn. Inst. Met.)'                               
+_journal_year                            1940
+_journal_volume                          4
+_journal_issue                           8
+_journal_page_first                      228
+_journal_page_last                       242
+_journal_language                        Japanese
+loop_
+ _publ_author_name
+ _publ_author_address
+'Osawa A.'
+;
+Japan Institute of Metals and Materials
+Sendai / Miyagi
+Japan
+;
+'Murata T.'
+;
+Japan Institute of Metals and Materials
+Sendai / Miyagi
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           2.6801
+_cell_length_b                           2.6801
+_cell_length_c                           5.1196
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             36.8
+_cell_formula_units_Z                    1
+_space_group_IT_number                   123
+_space_group_name_H-M_alt                'P 4/m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Si
+ Fe
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si1 Si 2 h 0.5 0.5 0.2700 1
+ Fe1 Fe 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            5.06
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Debye-Scherrer film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 1 5.192 4
+ 1 0 1 2.386 7
+ 1 1 0 1.906 6
+ 1 0 2 1.853 8
+ 1 1 1 1.783 3
+ 0 0 3 1.706 3
+ 2 0 0 1.342 6
+ 2 0 1 1.297 4
+ 0 0 4 1.278 3
+ 1 1 3 1.268 3
+ 2 1 0 1.197 3
+ 2 1 1 1.169 6
+ 2 1 2 1.087 9
+ 1 1 4 1.061 7
+ 2 0 3 1.055 6
+
+# End of data set 1821724
+

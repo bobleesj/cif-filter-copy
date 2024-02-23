@@ -1,0 +1,143 @@
+##############################################################################
+#                                                                            #
+# Pd-Sn            # Pd5Sn7                                        # 1824395 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2022/23                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2022 #
+#                   All rights reserved. Version 2022.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   University of Alberta, Chemistry Department, 1-5 Installations License         #
+#                                                                            #
+##############################################################################
+
+data_1824395
+_audit_creation_date                     2023-07-09
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1824395
+_database_code_PDF                       04-017-5395
+
+# Entry summary
+
+_chemical_formula_structural             'Pd~5~ Sn~7~'
+_chemical_formula_sum                    'Pd5 Sn7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pd~5~Sn~7~,mS26,12
+_chemical_formula_weight                 1362.8
+
+# Bibliographic data
+
+_publ_section_title
+'Pd~5~Sn~7~ - A novel binary stannide in Pd-Sn system'                        
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2010
+_journal_volume                          496
+_journal_page_first                      L7
+_journal_page_last                       L9
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Romaka V.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Tkachuk A.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Romaka V.A.'
+;
+Lviv Polytechnic National University
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.9475
+_cell_length_b                           4.3764
+_cell_length_c                           9.5659
+_cell_angle_alpha                        90
+_cell_angle_beta                         111.576
+_cell_angle_gamma                        90
+_cell_volume                             504.1
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pd
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd1 Pd 4 i 0.11396 0 0.32098 1
+ Pd2 Pd 4 i 0.12852 0 0.80154 1
+ Sn1 Sn 4 i 0.22927 0 0.11858 1
+ Sn2 Sn 4 i 0.2498 0 0.62087 1
+ Sn3 Sn 4 i 0.49148 0 0.16588 1
+ Sn4 Sn 4 h 0 0.1798 0.5 0.502
+ Pd3 Pd 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    'gray silvery'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.98
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    3024
+_diffrn_reflns_theta_min                 2.3
+_diffrn_reflns_theta_max                 30.5
+_exptl_absorpt_coefficient_mu            25.62
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             42
+_refine_ls_number_reflns                 819
+_refine_ls_R_factor_gt                   0.029
+_refine_ls_wR_factor_gt                  0.080
+
+# End of data set 1824395
+
