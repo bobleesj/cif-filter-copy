@@ -65,7 +65,7 @@ Dnipro
 Ukraine
 ;
 'Kravtsov I.A.'
-
+;
 # Standardized crystallographic data
 
 _cell_length_a                           2.88

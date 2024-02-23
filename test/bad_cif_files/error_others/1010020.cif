@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Ge-Pd            # Pd2Ge                                         # 1244601 #
+# Ga-Ni            # NiGa                                          # 1010020 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,85 +18,121 @@
 #                                                                            #
 ##############################################################################
 
-data_1244601
+data_1010020
 _audit_creation_date                     2023-07-09
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      1244601
+#_database_code_PCD                      1010020
 _database_code_PDF                       ?
 
 # Entry summary
 
-_chemical_formula_structural             'Pd~2~ Ge'
-_chemical_formula_sum                    'Ge Pd2'
-_chemical_name_mineral                   palladogermanide
-_chemical_compound_source
-'Canada, Ontario, Coldwell Complex, Marathon deposit'                         
-_chemical_name_structure_type            Fe~2~P,hP9,189
-_chemical_formula_weight                 285.4
+_chemical_formula_structural             'Ni Ga'
+_chemical_formula_sum                    'Ga Ni'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CsCl,cP2,221
+_chemical_formula_weight                 128.4
 
 # Bibliographic data
 
 _publ_section_title
-'Palladogermanide, IMA 2016-086. CNMNC Newsletter No. 35, February 2017'      
-_journal_coden_ASTM                      MNLMBB
-_journal_name_full                       'Mineral. Mag.'
-_journal_year                            2017
-_journal_volume                          81
-_journal_page_first                      210
-_journal_page_last                       211
-_journal_language                        English
+;
+Continuous series of solid solutions between intermetallic compounds in quasi-binary systems
+;
+_journal_coden_ASTM                      DUKABM
+_journal_name_full                       'Dopov. Akad. Nauk Ukr. RSR, Ser. A'
+_journal_year                            1973
+_journal_volume                          ?
+_journal_page_first                      84
+_journal_page_last                       88
+_journal_language                        Ukrainian
 loop_
  _publ_author_name
  _publ_author_address
-'McDonald A.M.'
+'Varich N.I.'
 ;
-Laurentian University
-Sudbury
-Canada
+Dnipropetrovsk State University
+Dnipro
+Ukraine
 ;
-'Zhe W.'
-'Ames D.E.'
-'Ross K.C.'
-'Kjarsgaard I.M.'
-'Good D.J.'
-
+'Varich A.N.'
+;
+Dnipropetrovsk State University
+Dnipro
+Ukraine
+;
+'Kravtsov I.A.'
+;
 # Standardized crystallographic data
 
-_cell_length_a                           6.712
-_cell_length_b                           6.712
-_cell_length_c                           3.408
+_cell_length_a                           2.88
+_cell_length_b                           2.88
+_cell_length_c                           2.88
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
-_cell_angle_gamma                        120
-_cell_volume                             133
-_cell_formula_units_Z                    3
-_space_group_IT_number                   189
-_space_group_name_H-M_alt                'P -6 2 m'
+_cell_angle_gamma                        90
+_cell_volume                             23.9
+_cell_formula_units_Z                    1
+_space_group_IT_number                   221
+_space_group_name_H-M_alt                'P m -3 m'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
  1 'x, y, z'
- 2 '-x+y, -x, -z'
- 3 '-x+y, -x, z'
- 4 '-x, -x+y, -z'
- 5 '-x, -x+y, z'
- 6 '-y, x-y, -z'
- 7 '-y, x-y, z'
- 8 'x, y, -z'
- 9 'x-y, -y, -z'
- 10 'x-y, -y, z'
- 11 'y, x, -z'
- 12 'y, x, z'
-
-# Atomic positions taken from type-defining entry
-
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
 loop_
  _atom_type_symbol
- Pd
- Ge
+ Ga
+ Ni
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -106,20 +142,18 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Pd1 Pd 3 g 0.25683 0 0.5 1
- Pd2 Pd 3 f 0.59461 0 0 1
- Ge1 Ge 2 d 0.333333 0.666667 0.5 1
- Ge2 Ge 1 a 0 0 0 1
+ Ga Ga 1 b 0.5 0.5 0.5 1
+ Ni Ni 1 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            10.69
+_exptl_crystal_density_diffrn            8.93
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              ?
+_cell_measurement_radiation              X-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               ?
+_diffrn_measurement_device               'Debye-Scherrer film'
 _diffrn_measurement_device_type          ?
 _diffrn_radiation_type                   ?
 _diffrn_reflns_number                    ?
@@ -131,5 +165,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 1244601
+# End of data set 1010020
 

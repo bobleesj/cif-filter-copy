@@ -1,7 +1,4 @@
 import os
-import gemmi
-import math
-import re
 import numpy as np
 import pandas as pd
 import time
@@ -9,7 +6,6 @@ import glob
 import util.folder as folder
 import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
-from numpy import sqrt
 
 
 def preprocess_cif_file(file_path, compound_formula):
@@ -75,6 +71,7 @@ def move_files_based_on_format_error(script_directory):
     CIF_directory_path_bad_coords = os.path.join(directory_path, f"{chosen_directory_name}_error_coords")
     CIF_directory_path_bad_label = os.path.join(directory_path, f"{chosen_directory_name}_error_label")
     CIF_directory_path_bad_third_line = os.path.join(directory_path, f"{chosen_directory_name}_error_third_line")
+    CIF_directory_path_bad_other_error = os.path.join(directory_path, f"{chosen_directory_name}_error_others")
 
     # Initialize counters for each error directory
     num_files_bad_op = 0
@@ -82,6 +79,7 @@ def move_files_based_on_format_error(script_directory):
     num_files_bad_coords = 0
     num_files_bad_label = 0
     num_files_bad_third_line = 0
+    num_files_bad_others = 0
     
     # Get the list of all CIF files in the directory
     files = glob.glob(os.path.join(directory_path, "*.cif"))
@@ -139,7 +137,11 @@ def move_files_based_on_format_error(script_directory):
                 debug_filename = os.path.join(CIF_directory_path_bad_third_line, filename)
                 os.rename(file_path, debug_filename)
                 num_files_bad_third_line += 1
-            
+            else:
+                os.makedirs(CIF_directory_path_bad_other_error, exist_ok=True)
+                debug_filename = os.path.join(CIF_directory_path_bad_other_error, filename)
+                os.rename(file_path, debug_filename)
+                num_files_bad_others += 1
             print()
     
     # Display the number of files moved to each folder
@@ -149,6 +151,7 @@ def move_files_based_on_format_error(script_directory):
     print(f"Number of files moved to 'error_coords' folder: {num_files_bad_coords}")
     print(f"Number of files moved to 'error_label' folder: {num_files_bad_label}")
     print(f"Number of files moved to 'error_third_line' folder: {num_files_bad_third_line}")
+    print(f"Number of files moved to 'error_others' folder: {num_files_bad_others}")
     
     df_errors = pd.DataFrame(file_errors)
 
