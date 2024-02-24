@@ -26,11 +26,23 @@ No need to import packages or *write a line of code*. One can simply drag and dr
 - **Excel Integration:** Check CIF folder content against an Excel file for missing entries.
 
 ## Installation
-Clone this repository to your local machine:
+The simpliest method to run the code is just copying and pasting each line below on your command line interface.
 
 ```bash
 git clone https://github.com/bobleesj/cif-filter-copy.git
 cd cif-filter-copy
+pip install pandas==2.2.1 click==8.1.7 gemmi==0.6.5 matplotlib==3.8.3 pytest==8.0.1
+python main.py
+```
+
+The above method had no issue so far. But If you are interested in using `Conda` with a fresh new environment
+
+```bash
+git clone https://github.com/bobleesj/cif-filter-copy.git
+cd cif-filter-copy
+conda create -n cif python=3.10
+conda activate cif
+pip install -r requirements.txt
 python main.py
 ```
 
@@ -40,4 +52,4 @@ python main.py
 python -m pytest           
 ```
 
-README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue.
+README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue. If you have any questions, please feel free to send me an email at sl5400@columbia.edu
