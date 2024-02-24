@@ -43,7 +43,6 @@ def get_compound_phase_tag_id_from_third_line(file_path):
         return compound_phase, compound_formula, tags, compound_id
 
 
-
 def get_atom_type(label):
     """
     print(get_atom_type("Co4(2)"))  # Output: "Co"
