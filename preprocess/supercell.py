@@ -297,34 +297,3 @@ def process_cell_data(CIF_block):
     return cell_lengths, cell_angles_rad
 
 
-def get_atomic_pair_list_dict(all_points, unique_labels, cell_lengths, cell_angles_rad):
-    """
-    Extracts and processes atomic data from the CIF block.
-    """
-
-    # Calculate atomic pairs based on cell lengths and angles
-    atomic_pair_list = get_atomic_pair_list(all_points, cell_lengths, cell_angles_rad)
-    
-    # Create a dictionary containing information about atom pairs
-    atom_pair_info_dict = get_atom_pair_info_dict(unique_labels, atomic_pair_list)
-
-    return atomic_pair_list, atom_pair_info_dict
-
-
-def swap_pairs(pair_info, counts, label, dist_type, most_common_point):
-    """
-    Swaps pairs based on the most commont point as the ith atom
-    """
-
-    swapped_pair_info = []
-
-    for pair in pair_info[:counts[label][dist_type]]:
-        ith_point = pair[0][0]
-        if ith_point != most_common_point:
-            # Swap ith and jth in the pair if the ith label does not match the most common label
-            swapped_pair = ((pair[0][1], pair[0][0]), (pair[1][1], pair[1][0]), pair[2], (pair[3][1], pair[3][0]))
-            swapped_pair_info.append(swapped_pair)
-        else:
-            swapped_pair_info.append(pair)
-    
-    return swapped_pair_info

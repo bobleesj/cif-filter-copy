@@ -1,6 +1,5 @@
 import click
 import os
-import glob
 import pandas as pd
 import time
 from click import style
@@ -8,6 +7,7 @@ import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import util.folder as folder
 import matplotlib.pyplot as plt
+
 
 def get_user_input():
     click.echo("Do you want to skip any CIF files based on the number of unique atoms in the supercell?")
@@ -32,6 +32,7 @@ def save_results_to_csv(results, folder_info):
         else:
             folder.save_to_csv_directory(folder_info, pd.DataFrame(results), "info")
         print("CSV saved!")
+
 
 def get_file_info(file_path, max_atoms_count, compute_min_distance=True):
     filename_base = os.path.basename(file_path)

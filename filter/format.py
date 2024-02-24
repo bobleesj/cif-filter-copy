@@ -1,7 +1,5 @@
 import os
-import numpy as np
 import pandas as pd
-import time
 import glob
 import util.folder as folder
 import preprocess.cif_parser as cif_parser
@@ -95,11 +93,11 @@ def move_files_based_on_format_error(script_directory):
             _, compound_formula, _, _ = result
             preprocess_cif_file(file_path, compound_formula)
             print(f"Processing {filename} ({idx} out of {total_files})")
-            start_time = time.time()
+
             CIF_block = cif_parser.get_CIF_block(file_path)
             CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
             all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
-            all_points, unique_labels, unique_atoms_tuple = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
+            _, _, _ = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
             
     
         except Exception as e:
