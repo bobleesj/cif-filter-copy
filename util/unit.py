@@ -9,6 +9,7 @@ def get_radians_from_degrees(angles):
 
     return radians
 
+
 def rounded_distance(distance, precision=2):
     """
     Round a distance value to a specified precision.

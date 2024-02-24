@@ -16,14 +16,26 @@ def extract_formula_and_tag(compound_formula_tag):
     
     return compound_formula, tags
 
-def move_files_based_on_tags(script_directory):
+def move_files_based_on_tags(script_directory, isInteractiveMode=True):
     print("This script sorts CIF files based on specific tags present in their third line.")
     
+    print("Script directory",script_directory)
+    folder_info = ""
+
+    # With graphic user interface
+    if isInteractiveMode:
+        print(folder_info)
+        folder_info = folder.choose_CIF_directory(script_directory)
+        folder_name = os.path.basename(folder_info)
+    
+    # No graphic user interface - enter the folder path
+    if not isInteractiveMode:
+        print(folder_info)
+        folder_info = script_directory
+        folder_name = os.path.basename(folder_info)
+
     # Create an empty dataframe to track the moved files
     df = pd.DataFrame(columns=['Filename', 'Formula', 'Tag(s)'])
-
-    # Allow the user to select a directory containing the CIF files to be processed
-    folder_info = folder.choose_CIF_directory(script_directory)
 
     # Get a list of all .cif files in the chosen directory
     files_lst = [os.path.join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]

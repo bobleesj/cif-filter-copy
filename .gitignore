@@ -9,6 +9,7 @@ __pycache__/
 
 # CIF files
 binary M-X CIF/
+cif_files/
 
 # Distribution / packaging
 .Python

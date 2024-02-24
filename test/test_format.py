@@ -6,6 +6,20 @@ import preprocess.supercell as supercell
 import filter.format as format
 
 
+"""
+This test module contains a suite of tests for the CIF file preprocessing and validation functions.
+It includes tests that:
+
+- Verify the preprocessing of CIF files for extracting compound information, formatting the file, 
+  and extracting structural data through the 'preprocess_supercell_operation' function.
+- Ensure that known bad CIF files raise appropriate exceptions, with specific error messages 
+  for different types of expected issues. This is done through the 'test_bad_cif_files_with_error_message' function.
+- Check for the handling of CIF files that are expected to be problematic but do not have a defined error message 
+  through the 'test_bad_cif_files_without_error_message' function.
+- Confirm that CIF files without any known issues are processed correctly and do not raise any exceptions, 
+  ensuring that the system works correctly with valid input data through the 'test_good_cif_files' function.
+"""
+
 def preprocess_supercell_operation(file_path):
     """
     Processes a CIF file by extracting compound information, formatting the file,
