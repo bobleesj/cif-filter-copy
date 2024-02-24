@@ -8,7 +8,6 @@ import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import util.folder as folder
 import matplotlib.pyplot as plt
-import util.log as log
 import textwrap
 
 def print_intro_prompt():
