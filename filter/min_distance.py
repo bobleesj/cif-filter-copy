@@ -156,11 +156,12 @@ def get_folder_and_files_info(script_directory, isInteractiveMode):
     - loop_tags: Loop tags used for parsing CIF files.
     """
 
+    # With graphic user interface
     if isInteractiveMode:
         folder_info = folder.choose_CIF_directory(script_directory)
         folder_name = os.path.basename(folder_info)
-
-    # Test mode    
+        
+    # No graphic user interface
     if not isInteractiveMode:
         folder_info = script_directory
         folder_name = os.path.basename(folder_info)

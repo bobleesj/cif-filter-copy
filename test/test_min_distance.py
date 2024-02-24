@@ -1,11 +1,10 @@
 import os
 import glob
-import pytest
 import pandas as pd
 import shutil
 from filter.min_distance import move_files_based_on_min_dist
 
-def test_files_removed():
+def test_move_files_based_on_min_dist():
     base_dir = "test/bad_cif_files/min_dist"
     target_dir = os.path.join(base_dir, "min_dist_filter_dist_min")
     histogram_path = os.path.join(base_dir, "plot", "histogram.png")
