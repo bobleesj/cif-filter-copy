@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Fe-Ge            # Fe3Ge ht2                                     # 1819428 #
+# Ni-Sn            # Ni3Sn rt                                      #  453316 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,97 +18,76 @@
 #                                                                            #
 ##############################################################################
 
-data_1819428
+data_453316
 _audit_creation_date                     2023-07-09
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      1819428
-_database_code_PDF                       ?
+#_database_code_PCD                      453316
+_database_code_PDF                       04-003-2432
 
 # Entry summary
 
-_chemical_formula_structural             'Fe~3~ Ge'
-_chemical_formula_sum                    'Fe3 Ge'
+_chemical_formula_structural             'Ni~3~ Sn'
+_chemical_formula_sum                    'Ni3 Sn'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            Mg~3~Cd,hP8,194
-_chemical_formula_weight                 240.1
+_chemical_formula_weight                 294.8
 
 # Bibliographic data
 
 _publ_section_title
-;
-Thermal stability and hyperfine interactions of mechanically alloyed Fe-Ge phases
-;
-_journal_coden_ASTM                      JALCEU
-_journal_name_full                       'J. Alloys Compd.'
-_journal_year                            2007
-_journal_volume                          430
-_journal_page_first                      116
-_journal_page_last                       122
+'Structural studies on Ni-Sn-In ternary system'                               
+_journal_coden_ASTM                      IJOTA8
+_journal_name_full                       'Indian J. Technol.'
+_journal_year                            1986
+_journal_volume                          24
+_journal_page_first                      105
+_journal_page_last                       107
 _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Jartych E.'
+'Shadangi S.K.'
 ;
-Maria Curie-Sklodowska University (UMCS)
+Banaras Hindu University (Central Hindu College)
+Department of Metallurgical Engineering
+Varanasi / Uttar Pradesh
+India
+;
+'Singh M.'
+;
+Banaras Hindu University (Central Hindu College)
+Department of Metallurgical Engineering
+Varanasi / Uttar Pradesh
+India
+;
+'Panda S.C.'
+;
+Government College of Engineering and Technology (CET)
 Department of Physics
-Lublin
-Poland
+Raipur / Chhattisgarh
+India
 ;
-'Oleszak D.'
+'Bhan S.'
 ;
-Warsaw University of Technology (PW)
-Faculty of Materials Science and Engineering
-Warsaw
-Poland
-;
-'Kubalova L.'
-;
-K.L. Khetagurov North Ossetian State University
-Vladikavkaz
-Russia
-;
-'Vasilyeva O.Y.'
-;
-Moscow Power Engineering Institute (MPEI)
-Moscow
-Russia
-;
-'Zurawicz J.K.'
-;
-Maria Curie-Sklodowska University (UMCS)
-Department of Physics
-Lublin
-Poland
-;
-'Pikula T.'
-;
-Maria Curie-Sklodowska University (UMCS)
-Department of Physics
-Lublin
-Poland
-;
-'Fedotov S.A.'
-;
-Moscow M.V. Lomonosov State University (MSU)
-Department of Chemistry
-Moscow
-Russia
+Banaras Hindu University (Central Hindu College)
+Department of Metallurgical Engineering
+Varanasi / Uttar Pradesh
+India
 ;
 
 # Standardized crystallographic data
 
-_cell_length_a                           5.186
-_cell_length_b                           5.186
-_cell_length_c                           4.221
+_cell_length_a                           5.316
+_cell_length_b                           5.316
+_cell_length_c                           4.259
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        120
-_cell_volume                             98.3
+_cell_volume                             104.23
 _cell_formula_units_Z                    2
 _space_group_IT_number                   194
 _space_group_name_H-M_alt                'P 63/m m c'
@@ -144,8 +123,8 @@ loop_
 
 loop_
  _atom_type_symbol
- Fe
- Ge
+ Ni
+ Sn
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -155,18 +134,18 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Fe1 Fe 6 h 0.16667 0.33333 0.25 1
- Ge1 Ge 2 d 0.333333 0.666667 0.75 1
+ Ni1 Ni 6 h 0.16667 0.33333 0.25 1
+ Sn1 Sn 2 d 0.333333 0.666667 0.75 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            8.11
+_exptl_crystal_density_diffrn            9.39
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_radiation              'X-rays, Cu Ka1'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device               'Guinier film'
 _diffrn_measurement_device_type          ?
 _diffrn_radiation_type                   ?
 _diffrn_reflns_number                    ?
@@ -178,5 +157,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 1819428
+# End of data set 453316
 
