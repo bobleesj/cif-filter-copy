@@ -1,4 +1,5 @@
-# CIF File Processing Toolkit
+# CIF KIT
+Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
 
 ## Overview
 This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information, and checking CIF folder content against an Excel file.
