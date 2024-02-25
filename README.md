@@ -1,4 +1,4 @@
-# CIF Clenear
+# CIF Cleaner
 Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
 
 ## Overview
