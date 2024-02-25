@@ -1,4 +1,4 @@
-# CIF KIT
+# CIF Clenear
 Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
 
 ## Overview
