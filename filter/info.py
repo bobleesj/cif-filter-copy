@@ -50,7 +50,7 @@ def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
     return num_of_atoms, min_distance
     
 
-def get_CIF_files_info(script_directory, is_interactive_mode=True):
+def get_cif_folder_info(script_directory, is_interactive_mode=True):
     global results, folder_info  # Declare both variables as global # This allows the results variable to be accessed by other functions
     results = []
 

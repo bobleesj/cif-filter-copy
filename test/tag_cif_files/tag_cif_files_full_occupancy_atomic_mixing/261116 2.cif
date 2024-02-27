@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Er-Th            # Th0.429Er0.571 rt                             #  250538 #
+# Co-Pt            # Co0.7Pt0.3 ht                                 #  261116 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,71 +18,62 @@
 #                                                                            #
 ##############################################################################
 
-data_250538
+data_261116
 _audit_creation_date                     2024-02-18
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      250538
-_database_code_PDF                       04-001-0319
+#_database_code_PCD                      261116
+_database_code_PDF                       04-001-2682
 
 # Entry summary
 
-_chemical_formula_structural             'Th~0.5~ Er~0.5~'
-_chemical_formula_sum                    'Er0.50 Th0.50'
+_chemical_formula_structural             'Co~0.5~ Pt~0.5~'
+_chemical_formula_sum                    'Co0.50 Pt0.50'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            Cu,cF4,225
-_chemical_formula_weight                 199.6
+_chemical_formula_weight                 127.0
 
 # Bibliographic data
 
 _publ_section_title
-;
-The lattice spacings of thorium-rich solid solutions with praseodymium, samarium, gadolinium and erbium
-;
-_journal_coden_ASTM                      JCOMAH
-_journal_name_full                       'J. Less-Common Met.'
-_journal_year                            1966
-_journal_volume                          11
-_journal_page_first                      395
-_journal_page_last                       402
-_journal_language                        English
+'Das System Platin-Kobalt mit besonderer Berucksichtigung der Phase CoPt'     
+_journal_coden_ASTM                      ZEMTAE
+_journal_name_full                       'Z. Metallkd.'
+_journal_year                            1940
+_journal_volume                          32
+_journal_page_first                      253
+_journal_page_last                       261
+_journal_language                        German
 loop_
  _publ_author_name
  _publ_author_address
-'Norman M.'
+'Gebhardt E.'
 ;
-Birmingham University
-Department of Physical Metallurgy
-Birmingham
-United Kingdom
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
 ;
-'Harris I.R.'
+'Koster W.'
 ;
-Birmingham University
-Department of Physical Metallurgy
-Birmingham
-United Kingdom
-;
-'Raynor G.V.'
-;
-Birmingham University
-Department of Physical Metallurgy
-Birmingham
-United Kingdom
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Metallforschung
+Stuttgart
+Germany
 ;
 
 # Standardized crystallographic data
 
-_cell_length_a                           5.0329
-_cell_length_b                           5.0329
-_cell_length_c                           5.0329
+_cell_length_a                           3.744
+_cell_length_b                           3.744
+_cell_length_c                           3.744
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             127.48
+_cell_volume                             52.48
 _cell_formula_units_Z                    4
 _space_group_IT_number                   225
 _space_group_name_H-M_alt                'F m -3 m'
@@ -283,8 +274,8 @@ loop_
  192 '1/2+z, 1/2+y, x'
 loop_
  _atom_type_symbol
- Er
- Th
+ Co
+ Pt
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -294,20 +285,18 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Er1 Er 4 a 0 0 0 0.5
- Th2 Th 4 a 0 0 0 0.5
+ Co1 Co 4 a 0 0 0 0.5
+ Pt2 Pt 4 a 0 0 0 0.5
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            10.40
-_cell_measurement_temperature            295
-_cell_measurement_radiation              'X-rays, Cu Ka1'
-_cell_measurement_wavelength             1.5405
-_pd_proc_wavelength                      1.5405
+_exptl_crystal_density_diffrn            16.08
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co K'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               film
+_diffrn_measurement_device               'Debye-Scherrer film'
 _diffrn_measurement_device_type          ?
 _diffrn_radiation_type                   ?
 _diffrn_reflns_number                    ?
@@ -319,5 +308,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 250538
+# End of data set 261116
 
