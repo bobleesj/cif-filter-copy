@@ -46,7 +46,7 @@ def get_CIF_info(file_path, loop_tags):
     Parse the CIF data from the given file path.
     """
     CIF_block = cif_parser.get_CIF_block(file_path)
-    cell_lengths, cell_angles_rad = supercell.process_cell_data(CIF_block)
+    cell_lengths, cell_angles_rad = cif_parser.get_cell_lenghts_angles_rad(CIF_block)
     CIF_loop_values = cif_parser.get_loop_values(CIF_block, loop_tags)
     all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
     all_points, unique_labels, unique_atoms_tuple = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)

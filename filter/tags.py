@@ -16,20 +16,20 @@ def extract_formula_and_tag(compound_formula_tag):
     
     return compound_formula, tags
 
-def move_files_based_on_tags(script_directory, isInteractiveMode=True):
+def move_files_based_on_tags(script_directory, is_interactive_mode=True):
     print("This script sorts CIF files based on specific tags present in their third line.")
     
     print("Script directory",script_directory)
     folder_info = ""
 
     # With graphic user interface
-    if isInteractiveMode:
+    if is_interactive_mode:
         print(folder_info)
         folder_info = folder.choose_CIF_directory(script_directory)
         folder_name = os.path.basename(folder_info)
     
     # No graphic user interface - enter the folder path
-    if not isInteractiveMode:
+    if not is_interactive_mode:
         print(folder_info)
         folder_info = script_directory
         folder_name = os.path.basename(folder_info)

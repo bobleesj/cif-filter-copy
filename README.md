@@ -10,10 +10,11 @@ Welcome! Please choose an option to proceed:
 [1] Move files based on unsupported CIF format
 [2] Move files based on unreasonable distance
 [3] Move files based on tags
-[4] Copy files based on atomic occupancy and mixing
-[5] Get file info in the folder
-[6] Check CIF folder content against Excel file
-Enter your choice (1-6): 
+[4] Move files based on supercell atom count
+[5] Copy files based on atomic occupancy and mixing
+[6] Get file info in the folder
+[7] Check CIF folder content against Excel file
+Enter your choice (1-7): 
 ```
 
 No need to import packages or *write a line of code*. One can simply drag and drop CIF files to have all the features below.
