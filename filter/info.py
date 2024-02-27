@@ -13,10 +13,10 @@ def plot_supercell_size_histogram(supercell_atom_count_list, save_path, num_of_f
     plot_directory = os.path.join(folder_info, "plot")
     if not os.path.exists(plot_directory):
         os.makedirs(plot_directory)
-        
+
     plt.figure(figsize=(10,6))
     plt.hist(supercell_atom_count_list, bins=50, color='blue', edgecolor='black')
-    plt.title(f"Histogram of supercel atom count of {num_of_files} files")
+    plt.title(f"Histogram of supercell atom count of {num_of_files} files")
     plt.xlabel('Number of atoms')
     plt.ylabel('Number of CIF Files')
     plt.grid(True, which='both', linestyle='--', linewidth=0.5)
