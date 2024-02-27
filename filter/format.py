@@ -99,7 +99,7 @@ def move_files_based_on_format_error(script_directory):
             all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
             _, _, _ = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
             
-    
+
         except Exception as e:
             error_message = str(e)
             print(error_message)

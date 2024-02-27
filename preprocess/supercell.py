@@ -1,6 +1,5 @@
 import numpy as np
 from preprocess.cif_parser import *
-from util.unit import *
 
 def calculate_distance(point1, point2, cell_lengths, angles):
     """
@@ -23,6 +22,22 @@ def calculate_distance(point1, point2, cell_lengths, angles):
     return distance, label1, label2
 
 
+def shift_and_append_points(points, atom_site_label):
+    """
+    Shift and duplicate points to create a 2 by 2 by 2 supercell.
+    """
+    shifts = np.array([[0, 0, 0], [1, 0, 0], [0, 1, 0], [1, 1, 0], [0, 0, 1], [1, 0, 1], [0, 1, 1], [1, 1, 1],
+                        [-1, 0, 0], [0, -1, 0], [-1, -1, 0], [0, 0, -1], [1, 0, -1], [0, -1, -1], [-1, -1, -1]])
+    shifted_points = points[:, None, :] + shifts[None, :, :]
+    all_points = []
+    for point_group in shifted_points:
+        for point in point_group:
+            new_point = (*np.round(point,5), atom_site_label)
+            all_points.append(new_point)
+
+    return all_points
+
+
 def get_coords_list(block, loop_values):
     """
     Computes the new coordinates after applying symmetry operations to the initial coordinates.
@@ -34,13 +49,15 @@ def get_coords_list(block, loop_values):
         atom_site_x, atom_site_y, atom_site_z = remove_string_braket(loop_values[4][i]), remove_string_braket(loop_values[5][i]), remove_string_braket(loop_values[6][i])
         atom_site_label = loop_values[0][i]
         atom_type_symbol = loop_values[1][i]
-        all_coords = get_coords_after_sym_op(block, float(atom_site_x), float(atom_site_y), float(atom_site_z), atom_site_label)
-        coords_list.append(all_coords)
+
+        # print(atom_site_x, atom_site_y, atom_site_z, atom_site_label, atom_type_symbol)
+        coordinates_after_symmetry_operations = get_coords_after_sym_operations(block, float(atom_site_x), float(atom_site_y), float(atom_site_z), atom_site_label)
+        coords_list.append(coordinates_after_symmetry_operations)
 
     return coords_list
 
 
-def get_coords_after_sym_op(block, atom_site_fract_x, atom_site_fract_y, atom_site_fract_z, atom_site_label):
+def get_coords_after_sym_operations(block, atom_site_fract_x, atom_site_fract_y, atom_site_fract_z, atom_site_label):
     """
     Generates a list of coordinates for each atom site in the block.
     """
@@ -61,6 +78,7 @@ def get_coords_after_sym_op(block, atom_site_fract_x, atom_site_fract_y, atom_si
             raise RuntimeError("An error occurred while processing symmetry operation") from e
 
     return list(all_coords)
+
 
 def get_points_and_labels(all_coords_list, loop_values):
     """
@@ -91,37 +109,22 @@ def get_points_and_labels(all_coords_list, loop_values):
     return list(set(all_points)), unique_labels, unique_atoms_tuple
 
 
-def shift_and_append_points(points, atom_site_label):
-    """
-    Shift and duplicate points to create a 2 by 2 by 2 supercell.
-    """
-    shifts = np.array([[0, 0, 0], [1, 0, 0], [0, 1, 0], [1, 1, 0], [0, 0, 1], [1, 0, 1], [0, 1, 1], [1, 1, 1],
-                        [-1, 0, 0], [0, -1, 0], [-1, -1, 0], [0, 0, -1], [1, 0, -1], [0, -1, -1], [-1, -1, -1]])
-    shifted_points = points[:, None, :] + shifts[None, :, :]
-    all_points = []
-    for point_group in shifted_points:
-        for point in point_group:
-            new_point = (*np.round(point,5), atom_site_label)
-            all_points.append(new_point)
-
-    return all_points
-
-
 def get_atomic_pair_list(flattened_points, cell_lengths, angles):
     """
     Calculate atomic distances and properties between pairs of points.
     """
-        
+    
     atomic_info_list = []
-    seen_pairs = set()  # This set will track pairs that we've already processed
+    pairs_set = set()
 
     for i, point1 in enumerate(flattened_points):
         distances_from_point_i = []
+        print("i, point1", i, point1)
 
         for j, point2 in enumerate(flattened_points):
             if i != j:
                 pair = tuple(sorted([i, j]))  # Sort the pair so (i, j) is treated as equivalent to (j, i)
-                if pair not in seen_pairs:  # Check if we've already processed this pair
+                if pair not in pairs_set:  # Check if we've already processed this pair
                     distance, label1, label2 = calculate_distance(point1, point2, cell_lengths, angles)
                     if abs(distance) > 1e-8:  # Update the condition with the tolerance value
                         distances_from_point_i.append({
@@ -130,170 +133,9 @@ def get_atomic_pair_list(flattened_points, cell_lengths, angles):
                             'coordinates': (point1[:3], point2[:3]),  # include coordinates
                             'distance': np.round(distance, 5)
                         })
-                        seen_pairs.add(pair)  # Add the pair to the set of seen pairs
+                        pairs_set.add(pair)  # Add the pair to the set of seen pairs
 
         distances_from_point_i.sort(key=lambda x: x['distance'])
         atomic_info_list.extend(distances_from_point_i)
 
     return atomic_info_list
-
-
-def exceeds_atom_count_limit(all_points, max_atoms_count):
-    """
-    Checks if the number of unique atomic positions after applying symmetry operations 
-    exceeds the specified atom count limit.
-    """
-    return len(all_points) > max_atoms_count
-
-
-def swap_labels_and_coordinates(pair, label):
-    # If label is not the first one, swap labels, coordinates, pair
-    if pair['labels'][0] != label:
-        pair['labels'] = pair['labels'][::-1]
-        pair['coordinates'] = pair['coordinates'][::-1]
-        pair['point_pair'] = pair['point_pair'][::-1]
-
-    return pair
-
-
-def filter_and_swap_pairs(atomic_pair_list, label):
-    """
-    Filter and swap pairs to to ensure the label exists in either in the ith or jth atom in each pair.
-    """
-    filtered_atomic_pair_list = [pair for pair in atomic_pair_list if label in pair['labels']]
-
-    for j in range(len(filtered_atomic_pair_list)):
-        filtered_atomic_pair_list[j] = swap_labels_and_coordinates(filtered_atomic_pair_list[j], label)
-    
-    return filtered_atomic_pair_list
-
-
-def get_unique_distances(filtered_atomic_pair_list, label):
-    """
-    Get unique atomic distances based on a given label.
-    """
-    unique_distances = set()
-
-    for pair in filtered_atomic_pair_list:
-        if label in pair['labels']:
-            unique_distances.add(round(pair['distance'], 2))
-            
-    return unique_distances
-
-
-def find_most_common_distances_and_points(filtered_atomic_pair_list, label, unique_distances):
-    """
-    Determines the common points among lists of points associated with various distances.
-    """
-    num_distances = len(unique_distances)
-    max_distance_counts = [0] * num_distances
-    points_with_most_min_distances = [[] for _ in range(num_distances)]
-
-    counted_pairs = set()
-    point_label_counts = {i: {} for i in range(num_distances)}
-
-    for pair in filtered_atomic_pair_list:
-        if pair['labels'][0] == label:
-            sorted_pair = ((pair['point_pair'][0], pair['labels'][0]), (pair['point_pair'][1], pair['labels'][1]))
-
-            if sorted_pair not in counted_pairs:
-                for idx, dist in enumerate(unique_distances):
-                    if rounded_distance(pair['distance']) == rounded_distance(dist):
-                        for point, point_label in sorted_pair:
-                            if point_label == label:
-                                new_count = point_label_counts[idx].get((point, point_label), 0) + 1
-                                point_label_counts[idx][(point, point_label)] = new_count
-
-                                if new_count > max_distance_counts[idx]:
-                                    max_distance_counts[idx] = new_count
-                                    points_with_most_min_distances[idx] = [(point, point_label)]
-                                elif new_count == max_distance_counts[idx]:
-                                    points_with_most_min_distances[idx].append((point, point_label))
-
-                counted_pairs.add(sorted_pair)
-
-    return max_distance_counts, points_with_most_min_distances
-
-
-def find_common_points(points_with_most_min_distances):
-    """
-    Finds the common points among lists of points associated with various distances.
-    """
-    set_of_min_distances = [set(points) for points in points_with_most_min_distances]
-    # print("set_of_min_distances", set_of_min_distances)
-    common_points = set.intersection(*set_of_min_distances)
-
-    return common_points
-
-
-def get_atom_pair_info_dict(unique_atom_labels, atomic_pairs):
-    """
-    1. Filters the atomic pairs to those that match the label.
-    2. Extracts the unique distances associated with that label.
-    3. Finds the most common distances and points associated with those distances.
-    4. Identifies the point that appears most frequently across the top six shortest distances.
-    5. Collects and sorts atomic pairs related to the point found in step 4.
-    6. Constructs and returns a dictionary containing this collected information for each atom label.
-    """
-    atom_pairs_info_dict = {}
-
-    for idx, atom_label in enumerate(unique_atom_labels):
-
-        atom_pairs_filtered = filter_and_swap_pairs(atomic_pairs, atom_label)
-        unique_distances = get_unique_distances(atom_pairs_filtered, atom_label)
-
-        top_six_distances = sorted(unique_distances)[:6]
-
-        most_common_distance_counts, points_with_common_distances = find_most_common_distances_and_points(
-            atom_pairs_filtered, atom_label, top_six_distances
-        )
-
-        shared_points = None
-        for i in range(6, 0, -1):
-            shared_points = find_common_points(points_with_common_distances[:i])
-            if shared_points:
-                # print(f"The point with the largest occurrences of the {i} shortest distances are found")
-                break
-            # else:
-            #     # print(f"The point with the largest occurrences of the {i} shortest distances are NOT found")
-
-        point_with_most_common_distances = list(shared_points)[0]
-
-        count_top_two_common_distances = most_common_distance_counts[:2]
-
-        atom_pairs_related_to_point = [
-            (pair['point_pair'], pair['labels'], pair['distance'], pair['coordinates'])
-            for pair in atom_pairs_filtered
-            if pair['point_pair'][0] == point_with_most_common_distances[0] or pair['point_pair'][1] == point_with_most_common_distances[0]
-        ]
-
-        atom_pairs_related_to_point_sorted = sorted(atom_pairs_related_to_point, key=lambda x: x[2])
-
-        atom_pairs_info_dict.setdefault(atom_label, {
-            "pair_info": atom_pairs_related_to_point_sorted,
-            "shortest_distances": top_six_distances[:2],
-            "shortest_distances_count": count_top_two_common_distances
-        })
-
-
-    return atom_pairs_info_dict
-
-
-def process_cell_data(CIF_block):
-    """
-    Processes the CIF block data to retrieve cell dimensions and angles.
-    """
-    # Extract cell dimensions and angles from CIF block
-    cell_lengths_angles = get_unit_cell_lengths_angles(CIF_block)
-    cell_length_a, cell_length_b, cell_length_c, alpha_deg, beta_deg, gamma_deg = cell_lengths_angles
-    
-    # Convert angles from degrees to radians
-    alpha_rad, beta_rad, gamma_rad = get_radians_from_degrees([alpha_deg, beta_deg, gamma_deg])
-
-    # Store angles in radians and cell lengths in a list
-    cell_angles_rad = [alpha_rad, beta_rad, gamma_rad]
-    cell_lengths = [cell_length_a, cell_length_b, cell_length_c]
-
-    return cell_lengths, cell_angles_rad
-
-
