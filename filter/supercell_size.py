@@ -37,6 +37,8 @@ def move_files_based_on_supercell_size(script_directory, is_interactive_mode = T
     filtered_folder = join(folder_info, filtered_folder_name)
 
     files_lst = [join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]
+    num_of_files_moved = 0
+
     for idx, file_path in enumerate(files_lst, start=1):
         filtered_flag = False
 
@@ -58,6 +60,7 @@ def move_files_based_on_supercell_size(script_directory, is_interactive_mode = T
             new_file_path = join(filtered_folder, os.path.basename(file_path))
             shutil.move(file_path, new_file_path)
             click.echo(style(f"Moved - {filename_base} has {num_of_atoms} atoms", fg="yellow"))
+            num_of_files_moved += 1
         
 
         data = {
@@ -70,4 +73,5 @@ def move_files_based_on_supercell_size(script_directory, is_interactive_mode = T
         results.append(data)
         print(f"Processed {filename_base} with {num_of_atoms} atoms ({idx}/{len(files_lst)})")
     
+    print(f"A total of {num_of_files_moved} files were removed")
     folder.save_to_csv_directory(folder_info, pd.DataFrame(results), "supercell_size")
