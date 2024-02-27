@@ -39,7 +39,7 @@ def test_move_files_based_on_tags():
     initial_cif_files_count = len(glob.glob(os.path.join(base_dir, "*.cif")))
 
     # Run the function in non-interactive mode
-    move_files_based_on_tags(base_dir, isInteractiveMode=False)
+    move_files_based_on_tags(base_dir, is_interactive_mode=False)
 
     # There should be one file in each ht and m tags for testing
     moved_ht_files_count = len(glob.glob(os.path.join(dir_tags_ht, "*.cif")))

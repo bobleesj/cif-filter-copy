@@ -27,10 +27,11 @@ def get_user_input():
 def save_results_to_csv(results, folder_info):
     if results:
         if 'Min distance' in results[0]:
-            folder.save_to_csv_directory(folder_info, pd.DataFrame(results), "info_min_dist")
+            folder.save_to_csv_directory(folder_info, pd.DataFrame(results), "info")
 
 
 def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
+
     CIF_block = cif_parser.get_CIF_block(file_path)
     cell_lengths, cell_angles_rad = cif_parser.get_cell_lenghts_angles_rad(CIF_block)
     print("cell_angles_rad cell_lengths", cell_angles_rad, cell_lengths)
@@ -49,16 +50,20 @@ def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
     return num_of_atoms, min_distance
     
 
-def get_CIF_files_info(script_directory):
+def get_CIF_files_info(script_directory, is_interactive_mode=True):
     global results, folder_info  # Declare both variables as global # This allows the results variable to be accessed by other functions
     results = []
 
     start_time = time.time()  # Start the timer
-    max_atoms_count, is_dist_computed = get_user_input()
-    # max_atoms_count = 10000
-    # is_dist_computed = True
+    if is_interactive_mode:
+        max_atoms_count, is_dist_computed = get_user_input()
+        folder_info = folder.choose_CIF_directory(script_directory)
 
-    folder_info = folder.choose_CIF_directory(script_directory)
+    if not is_interactive_mode:
+        folder_info = script_directory
+        max_atoms_count = 10000
+        is_dist_computed = True
+
     # folder_info = "/Users/imac/Documents/GitHub/cif-filter-copy/20240226_big_cif_files"
 
     files_lst = [os.path.join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]

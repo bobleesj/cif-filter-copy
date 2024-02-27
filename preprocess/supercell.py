@@ -117,19 +117,21 @@ def get_atomic_pair_list(flattened_points, cell_lengths, angles):
     atomic_info_list = []
     pairs_set = set()
 
+    # i, and j refers to nth atom in the 2x2x2 supercell
+    # If there are 3,000 atoms total, ith atoms loops through every jth atom
+    # no distance between the same atom
     for i, point1 in enumerate(flattened_points):
         distances_from_point_i = []
-        print("i, point1", i, point1)
 
         for j, point2 in enumerate(flattened_points):
             if i != j:
                 pair = tuple(sorted([i, j]))  # Sort the pair so (i, j) is treated as equivalent to (j, i)
                 if pair not in pairs_set:  # Check if we've already processed this pair
-                    distance, label1, label2 = calculate_distance(point1, point2, cell_lengths, angles)
+                    distance, atom_label1, atom_label2 = calculate_distance(point1, point2, cell_lengths, angles)
                     if abs(distance) > 1e-8:  # Update the condition with the tolerance value
                         distances_from_point_i.append({
                             'point_pair': (i + 1, j + 1),
-                            'labels': (label1, label2),
+                            'labels': (atom_label1, atom_label2),
                             'coordinates': (point1[:3], point2[:3]),  # include coordinates
                             'distance': np.round(distance, 5)
                         })
