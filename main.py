@@ -63,7 +63,7 @@ def main():
 
     # 6. Get info on the supercell
     elif choice == '6':
-        info.get_CIF_files_info(script_directory)
+        info.get_cif_folder_info(script_directory)
     
     # 7. Check missing files against Excel sheet
     elif choice == '7':

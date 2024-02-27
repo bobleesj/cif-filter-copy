@@ -1,12 +1,15 @@
 import os
+from os.path import join, exists
+import glob
+from shutil import rmtree, move
 
 def choose_CIF_directory(script_directory):
     """
     Allows the user to select a directory from the given path.
     """
     directories = [d for d in os.listdir(script_directory) 
-                   if os.path.isdir(os.path.join(script_directory, d)) 
-                   and any(file.endswith('.cif') for file in os.listdir(os.path.join(script_directory, d)))]
+                   if os.path.isdir(join(script_directory, d)) 
+                   and any(file.endswith('.cif') for file in os.listdir(join(script_directory, d)))]
     
     if not directories:
         print("No directories found in the current path containing .cif files!")
@@ -18,7 +21,7 @@ def choose_CIF_directory(script_directory):
         try:
             choice = int(input("\nEnter the number corresponding to the folder containing .cif files: "))
             if 1 <= choice <= len(directories):
-                return os.path.join(script_directory, directories[choice-1])
+                return join(script_directory, directories[choice-1])
             else:
                 print(f"Please enter a number between 1 and {len(directories)}.")
         except ValueError:
@@ -29,14 +32,10 @@ def choose_CIF_directory(script_directory):
 def save_to_csv_directory(folder_info, df, base_filename):
     """
     Saves the dataframe as a CSV inside a 'csv' sub-directory of the provided folder.
-
-    :param folder_info: The parent directory where 'csv' sub-directory should be created.
-    :param df: The dataframe to be saved.
-    :param base_filename: The base name for the CSV file.
-    :return: None
     """
     # Create the sub-directory for CSVs if it doesn't exist
-    csv_directory = os.path.join(folder_info, "csv")
+    
+    csv_directory = join(folder_info, "csv")
     if not os.path.exists(csv_directory):
         os.mkdir(csv_directory)
 
@@ -47,7 +46,33 @@ def save_to_csv_directory(folder_info, df, base_filename):
     csv_filename = f"{folder_name}_{base_filename}.csv"
 
     # Save the DataFrame to the desired location (within the 'csv' sub-directory)
-    df.to_csv(os.path.join(csv_directory, csv_filename), index=False)
+    df.to_csv(join(csv_directory, csv_filename), index=False)
 
     print(csv_filename, "saved")
+
+
+def get_cif_file_count_from_directory(directory):
+    """Helper function to count .cif files in a given directory."""
+    return len(glob.glob(join(directory, "*.cif")))
+
+
+def get_cif_file_path_list_from_directory(directory):
+    return glob.glob(os.path.join(directory, "*.cif"))
+
+
+def remove_directories(directory_list):
+    for direcotry in directory_list:
+        if exists(direcotry):
+            rmtree(direcotry)
+
+
+def move_files(to_directory, file_path_list):
+    for file_path in file_path_list:
+        move(file_path, to_directory)
+
+
+def remove_file(file_path):
+    if exists(file_path):
+       os.remove(file_path)
+
 

@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Co-Ni            # Co0.35Ni0.65 ht                               # 1965988 #
+# Pt-Sn            # Pt0.5Sn0.5 m                                  # 1923821 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,85 +18,57 @@
 #                                                                            #
 ##############################################################################
 
-data_1965988
+data_1923821
 _audit_creation_date                     2024-02-18
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      1965988
-_database_code_PDF                       ?
+#_database_code_PCD                      1923821
+_database_code_PDF                       04-015-0499
 
 # Entry summary
 
-_chemical_formula_structural             'Co~0.5~ Ni~0.5~'
-_chemical_formula_sum                    'Co0.50 Ni0.50'
+_chemical_formula_structural             'Pt~0.5~ Sn~0.5~'
+_chemical_formula_sum                    'Pt0.50 Sn0.50'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            Cu,cF4,225
-_chemical_formula_weight                 58.8
+_chemical_formula_weight                 156.9
 
 # Bibliographic data
 
 _publ_section_title
 ;
-Structural, morphological and magnetic properties of compositionally modulated CoNi nanowires
+PtM/C (M= Sn, Ru, Pd, W) based anode direct ethanol-PEMFCs: structural characteristics and cell performance
 ;
-_journal_coden_ASTM                      JALCEU
-_journal_name_full                       'J. Alloys Compd.'
-_journal_year                            2021
-_journal_volume                          864
-_journal_page_first                      1
-_journal_page_last                       7
+_journal_coden_ASTM                      JPSODZ
+_journal_name_full                       'J. Power Sources'
+_journal_year                            2007
+_journal_volume                          171
+_journal_page_first                      107
+_journal_page_last                       112
 _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Elkins J.'
+'Tsiakaras P.E.'
 ;
-University of Texas Arlington (UTA)
-Department of Physics
-Arlington
-U.S.A. Texas
-;
-'Mohapatra J.'
-;
-University of Texas Arlington (UTA)
-Department of Physics
-Arlington
-U.S.A. Texas
-;
-'Xing M.'
-;
-University of Texas Arlington (UTA)
-Department of Physics
-Arlington
-U.S.A. Texas
-;
-'Beatty J.'
-;
-University of Texas Arlington (UTA)
-Department of Physics
-Arlington
-U.S.A. Texas
-;
-'Liu J.P.'
-;
-University of Texas Arlington (UTA)
-Department of Physics
-Arlington
-U.S.A. Texas
+Thessaly University (UTH)
+Department of Mechanical Engineering
+Volos
+Greece
 ;
 
 # Standardized crystallographic data
 
-_cell_length_a                           3.526
-_cell_length_b                           3.526
-_cell_length_c                           3.526
+_cell_length_a                           3.9873
+_cell_length_b                           3.9873
+_cell_length_c                           3.9873
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             43.8
+_cell_volume                             63.4
 _cell_formula_units_Z                    4
 _space_group_IT_number                   225
 _space_group_name_H-M_alt                'F m -3 m'
@@ -297,8 +269,8 @@ loop_
  192 '1/2+z, 1/2+y, x'
 loop_
  _atom_type_symbol
- Co
- Ni
+ Pt
+ Sn
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -308,18 +280,18 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Co,Ni1 Co 4 a 0 0 0 0.50
- Co,Ni2 Ni 4 a 0 0 0 0.50
+ Pt,Sn1 Pt 4 a 0 0 0 0.5
+ Pt,Sn2 Sn 4 a 0 0 0 0.5
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            8.91
+_exptl_crystal_density_diffrn            16.44
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_radiation              X-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device               ?
 _diffrn_measurement_device_type          ?
 _diffrn_radiation_type                   ?
 _diffrn_reflns_number                    ?
@@ -331,5 +303,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 1965988
+# End of data set 1923821
 

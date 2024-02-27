@@ -4,21 +4,8 @@ import pytest
 import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import filter.format as format
+from util.folder import get_cif_file_path_list_from_directory
 
-
-"""
-This test module contains a suite of tests for the CIF file preprocessing and validation functions.
-It includes tests that:
-
-- Verify the preprocessing of CIF files for extracting compound information, formatting the file, 
-  and extracting structural data through the 'preprocess_supercell_operation' function.
-- Ensure that known bad CIF files raise appropriate exceptions, with specific error messages 
-  for different types of expected issues. This is done through the 'test_bad_cif_files_with_error_message' function.
-- Check for the handling of CIF files that are expected to be problematic but do not have a defined error message 
-  through the 'test_bad_cif_files_without_error_message' function.
-- Confirm that CIF files without any known issues are processed correctly and do not raise any exceptions, 
-  ensuring that the system works correctly with valid input data through the 'test_good_cif_files' function.
-"""
 
 def preprocess_supercell_operation(file_path):
     """
@@ -41,12 +28,12 @@ def run_test_for_error_type(error_dir, expected_error_message):
     Verifies that the correct exception is raised for each file, ensuring error handling works as expected.
     """
 
-    files = glob.glob(os.path.join(error_dir, "*.cif"))
+    cif_file_path_list = get_cif_file_path_list_from_directory(error_dir)
 
-    for file_path in files:
+    for cif_file_path in cif_file_path_list:
         with pytest.raises(Exception) as excinfo:
-            preprocess_supercell_operation(file_path)
-        assert str(excinfo.value) == expected_error_message, f"Failed on {file_path}"
+            preprocess_supercell_operation(cif_file_path)
+        assert str(excinfo.value) == expected_error_message, f"Failed on {cif_file_path}"
 
 
 def test_bad_cif_files_with_error_message():
@@ -72,11 +59,11 @@ def test_bad_cif_files_without_error_message():
     Ensures that any processing error is caught, verifying that problematic files are indeed recognized.
     """
     cif_error_others = "test/bad_cif_files_error_others"
-    files = glob.glob(os.path.join(cif_error_others, "*.cif"))
+    cif_file_path_list = get_cif_file_path_list_from_directory(cif_error_others)
 
-    for file_path in files:
+    for cif_file_path in cif_file_path_list:
         with pytest.raises(Exception):
-            preprocess_supercell_operation(file_path)
+            preprocess_supercell_operation(cif_file_path)
 
 
 def test_good_cif_files():
@@ -86,11 +73,10 @@ def test_good_cif_files():
     """
 
     good_files_dir = "test/good_cif_files"
-    files = glob.glob(os.path.join(good_files_dir, "*.cif"))
-
-    for file_path in files:
+    cif_file_path_list = get_cif_file_path_list_from_directory(good_files_dir)
+    for cif_file_path in cif_file_path_list:
         try:
-            preprocess_supercell_operation(file_path)
+            preprocess_supercell_operation(cif_file_path)
         except Exception as e:
-            assert False, f"An unexpected error occurred for {file_path}: {str(e)}"
+            assert False, f"An unexpected error occurred for {cif_file_path}: {str(e)}"
 
