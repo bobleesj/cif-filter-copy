@@ -6,7 +6,7 @@ import util.folder as folder
 import textwrap
 
 
-def copy_files_based_on_atomic_occupancy_mixing(script_directory):
+def copy_files_based_on_atomic_occupancy_mixing(script_directory, is_interactive_mode=True):
     introductory_paragraph = textwrap.dedent("""\
     ===
     Welcome to the CIF Atomic Occupancy and Mixing Filter Tool!
@@ -28,23 +28,29 @@ def copy_files_based_on_atomic_occupancy_mixing(script_directory):
     """)
     
     print(introductory_paragraph)
-    total_files, chosen_folder_name, chosen_folder_path, files = get_cif_files_and_folder_info(script_directory)
-
-    if total_files is not None:
+    _, chosen_folder_path, files = get_cif_files_and_folder_info(script_directory, is_interactive_mode)
+    if len(files) is not None:
         process_files(files, chosen_folder_path)
 
     print("Finished - relevant folder(s) and file(s) moved!")
 
 
-def get_cif_files_and_folder_info(script_directory):
-    chosen_folder_path = folder.choose_CIF_directory(script_directory)
-    chosen_folder_name = os.path.basename(chosen_folder_path)
-    if not chosen_folder_path:
-        print("No directory chosen. Exiting.")
-        return None, None, None, None
+def get_cif_files_and_folder_info(script_directory, is_interactive_mode):
+
+    if is_interactive_mode:
+        chosen_folder_path = folder.choose_CIF_directory(script_directory)
+        chosen_folder_name = os.path.basename(chosen_folder_path)
+        if not chosen_folder_path:
+            print("No directory chosen. Exiting.")
+            return None, None, None, None
+        
+    # No graphic user interface
+    if not is_interactive_mode:
+        chosen_folder_path = script_directory
+        chosen_folder_name = os.path.basename(chosen_folder_path)
+
     files = glob.glob(os.path.join(chosen_folder_path, "*.cif"))
-    total_files = len(files)
-    return total_files, chosen_folder_name, chosen_folder_path, files
+    return chosen_folder_name, chosen_folder_path, files
 
 
 def get_atom_info(CIF_loop_values, i):
