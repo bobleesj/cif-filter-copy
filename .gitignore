@@ -9,7 +9,7 @@ __pycache__/
 
 # CIF files
 binary M-X CIF/
-cif_files/
+# cif_files/
 debug/
 
 # Distribution / packaging
