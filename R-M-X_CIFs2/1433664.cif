@@ -1,0 +1,158 @@
+##############################################################################
+#                                                                            #
+# Nd-Pd-Sn         # NdPd2Sn4                                      # 1433664 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1433664
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1433664
+_database_code_PDF                       04-027-6458
+
+# Entry summary
+
+_chemical_formula_structural             'Nd Pd~2~ Sn~4~'
+_chemical_formula_sum                    'Nd Pd2 Sn4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePd~2~Sn~4~,oS28,63
+_chemical_formula_weight                 831.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Tin-rich stannides CePd~2~Sn~3~, RPd~2~Sn~4~, Pr~2~Pd~4~Sn~7~ and R~3~Pd~6~Sn~10~ - Crystal chemistry and ^119^Sn Mossbauer spectroscopy
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2021
+_journal_volume                          647
+_journal_page_first                      1685
+_journal_page_last                       1694
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Engelbert S.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Klenner S.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Reimann M.K.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.28
+_cell_length_b                           6.2998
+_cell_length_c                           6.0539
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             620.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Sn
+ Pd
+ Nd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn1 Sn 8 g 0.20158 0.34908 0.25 1
+ Sn2 Sn 8 g 0.41222 0.21891 0.25 1
+ Pd1 Pd 8 e 0.17001 0 0 1
+ Nd1 Nd 4 c 0 0.2282 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.90
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1433664
+

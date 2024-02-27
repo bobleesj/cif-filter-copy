@@ -1,0 +1,232 @@
+##############################################################################
+#                                                                            #
+# Fe-Ge-U          # U9Fe7Ge24                                     # 1227386 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1227386
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1227386
+_database_code_PDF                       04-018-0221
+
+# Entry summary
+
+_chemical_formula_structural             'U~9~ Fe~7~ Ge~24~'
+_chemical_formula_sum                    'Fe7 Ge24 U9'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~9~Fe~7~Ge~24~,tI160,139
+_chemical_formula_weight                 4275.4
+
+# Bibliographic data
+
+_publ_section_title
+'Structural and physical properties of the U~9~Fe~7~Ge~24~ uranium germanide' 
+_journal_coden_ASTM                      IERME5
+_journal_name_full                       Intermetallics
+_journal_year                            2011
+_journal_volume                          19
+_journal_page_first                      841
+_journal_page_last                       847
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Henriques M.S.C.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Carvalho P.A.'
+;
+Lisbon University (ULisboa)
+Instituto Superior Tecnico (IST)
+Lisbon
+Portugal
+;
+'Goncalves A.P.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Berthebaud D.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Pereira L.C.J.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Lopes E.B.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Branco M.B.C.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Tougait O.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Santava E.'
+;
+Czech Academy of Sciences (AVCR)
+Institute of Physics
+Prague
+Czech Republic
+;
+'Havela L.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.3789
+_cell_length_b                           12.3789
+_cell_length_c                           18.2881
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2802.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   139
+_space_group_name_H-M_alt                'I 4/m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1/2-y, 1/2-z'
+ 19 '1/2-x, 1/2-y, 1/2+z'
+ 20 '1/2-x, 1/2+y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1/2+z'
+ 22 '1/2-y, 1/2-x, 1/2-z'
+ 23 '1/2-y, 1/2-x, 1/2+z'
+ 24 '1/2-y, 1/2+x, 1/2-z'
+ 25 '1/2-y, 1/2+x, 1/2+z'
+ 26 '1/2+x, 1/2-y, 1/2-z'
+ 27 '1/2+x, 1/2-y, 1/2+z'
+ 28 '1/2+x, 1/2+y, 1/2-z'
+ 29 '1/2+y, 1/2-x, 1/2-z'
+ 30 '1/2+y, 1/2-x, 1/2+z'
+ 31 '1/2+y, 1/2+x, 1/2-z'
+ 32 '1/2+y, 1/2+x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ U
+ Fe
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge5 Ge 16 n 0 0.1691 0.26 1
+ U3 U 16 n 0 0.3305 0.117 1
+ Ge4 Ge 16 n 0 0.3404 0.3723 1
+ Ge1 Ge 16 m 0.1576 0.1576 0.0845 1
+ U2 U 16 m 0.1692 0.1692 0.3816 1
+ Fe1 Fe 16 m 0.1779 0.1779 0.2114 1
+ Ge6 Ge 16 l 0.1629 0.3362 0 1
+ Ge2 Ge 16 k 0.1418 0.6418 0.25 1
+ Ge7 Ge 8 j 0.3329 0.5 0 1
+ Fe3 Fe 8 i 0.1589 0 0 1
+ U1 U 4 e 0 0 0.1321 1
+ Ge3 Ge 4 e 0 0 0.3712 1
+ Fe2 Fe 4 d 0 0.5 0.25 1
+ Ge8 Ge 4 c 0 0.5 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.13
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    32117
+_diffrn_reflns_theta_min                 1.6
+_diffrn_reflns_theta_max                 20.75
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             68
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0554
+_refine_ls_wR_factor_gt                  0.1289
+
+# End of data set 1227386
+

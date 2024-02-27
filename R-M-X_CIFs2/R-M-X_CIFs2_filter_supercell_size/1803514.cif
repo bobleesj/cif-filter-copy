@@ -1,0 +1,162 @@
+##############################################################################
+#                                                                            #
+# Co-In-Tm         # Tm10Co9In20                                   # 1803514 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1803514
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1803514
+_database_code_PDF                       04-008-5523
+
+# Entry summary
+
+_chemical_formula_structural             'Tm~10~ Co~9~ In~20~'
+_chemical_formula_sum                    'Co9 In20 Tm10'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~10~Ni~9~In~20~,tP78,129
+_chemical_formula_weight                 4516.1
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structure of R~10~Co~9~In~20~ (R= Er, Tm, Lu) compounds'         
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1998
+_journal_volume                          280
+_journal_page_first                      199
+_journal_page_last                       203
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Dubenskyy V.P.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Goreshnik E.A.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.166
+_cell_length_b                           13.166
+_cell_length_c                           9.097
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1576.9
+_cell_formula_units_Z                    2
+_space_group_IT_number                   129
+_space_group_name_H-M_alt                'P 4/n m m (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, z'
+ 7 '1/2-y, x, z'
+ 8 '-y, -x, -z'
+ 9 '-y, 1/2+x, -z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, -z'
+ 14 '1/2+y, 1/2+x, -z'
+ 15 'y, 1/2-x, z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ Tm
+ Co
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tm4 Tm 8 j 0.0458 0.0458 0.2303 1
+ Co3 Co 8 j 0.0912 0.0912 0.601 1
+ In5 In 8 j 0.6188 0.6188 0.0902 1
+ Co2 Co 8 i 0.25 0.0235 0.0927 1
+ In3 In 8 i 0.25 0.081 0.4051 1
+ Tm3 Tm 8 i 0.25 0.5266 0.7329 1
+ In4 In 8 i 0.25 0.6364 0.2625 1
+ In2 In 8 h 0.4013 0.5987 0.5 1
+ In1 In 8 g 0.3779 0.6221 0 1
+ Tm2 Tm 2 c 0.25 0.25 0.1382 1
+ Tm1 Tm 2 c 0.25 0.25 0.661 1
+ Co1 Co 2 b 0.75 0.25 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.51
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          DARCH-1
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    451
+_exptl_absorpt_coefficient_mu            47.661
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             61
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0315
+_refine_ls_wR_factor_gt                  0.0273
+
+# End of data set 1803514
+

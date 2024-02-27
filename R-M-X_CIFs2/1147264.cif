@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# In-Pd-Sc         # Sc5Pd2In4                                     # 1147264 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1147264
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1147264
+_database_code_PDF                       04-025-2478
+
+# Entry summary
+
+_chemical_formula_structural             'Sc~5~ Pd~2~ In~4~'
+_chemical_formula_sum                    'In4 Pd2 Sc5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu~5~Ni~2~In~4~,oP22,55
+_chemical_formula_weight                 896.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and magnetic properties of the novel compound Sc~5~Pd~2~In~4~
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2018
+_journal_volume                          750
+_journal_page_first                      92
+_journal_page_last                       95
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gulay N.L.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Daszkiewicz M.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Tyvanchuk Y.B.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Kaczorowski D.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.6674
+_cell_length_b                           17.4748
+_cell_length_c                           3.3815
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             453.1
+_cell_formula_units_Z                    2
+_space_group_IT_number                   55
+_space_group_name_H-M_alt                'P b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2+x, 1/2-y, -z'
+ 7 '1/2+x, 1/2-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_type_symbol
+ Pd
+ In
+ Sc
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd Pd 4 h 0.03731 0.30516 0.5 1
+ In1 In 4 h 0.29458 0.06735 0.5 1
+ In2 In 4 h 0.42483 0.35047 0.5 1
+ Sc3 Sc 4 g 0.1241 0.4196 0 1
+ Sc2 Sc 4 g 0.2495 0.21889 0 1
+ Sc1 Sc 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    'gray silvery'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.57
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Oxford Diffraction Xcalibur'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    12026
+_diffrn_reflns_theta_min                 2.9
+_diffrn_reflns_theta_max                 27.87
+_exptl_absorpt_coefficient_mu            17.2
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             35
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0233
+_refine_ls_wR_factor_gt                  0.0687
+
+# End of data set 1147264
+

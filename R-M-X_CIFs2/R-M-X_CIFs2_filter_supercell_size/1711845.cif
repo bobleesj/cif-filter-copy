@@ -1,0 +1,155 @@
+##############################################################################
+#                                                                            #
+# In-Pd-Yb         # Yb2Pd6In13                                    # 1711845 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1711845
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1711845
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Pd~6~ In~13~'
+_chemical_formula_sum                    'In13 Pd6 Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb~2~Pd~6~In~13~,mS42,12
+_chemical_formula_weight                 2477.1
+
+# Bibliographic data
+
+_publ_section_title
+'Ternary Indides Tb~6~Pt~12~In~23~, Dy~2~Pt~7~In~16~, and Yb~2~Pd~6~In~13~'   
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2002
+_journal_volume                          628
+_journal_page_first                      2206b
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba V.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Hoffmann R.D.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.77
+_cell_length_b                           4.3817
+_cell_length_c                           13.397
+_cell_angle_alpha                        90
+_cell_angle_beta                         118.53
+_cell_angle_gamma                        90
+_cell_volume                             864.9
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ In
+ Pd
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 4 i 0.00098 0 0.17148 1
+ Pd1 Pd 4 i 0.1162 0 0.41766 1
+ Yb1 Yb 4 i 0.17731 0 0.77207 1
+ Pd2 Pd 4 i 0.18104 0 0.23631 1
+ In2 In 4 i 0.20094 0 0.03919 1
+ In3 In 4 i 0.29942 0 0.62454 1
+ In4 In 4 i 0.3471 0 0.4243 1
+ Pd3 Pd 4 i 0.38794 0 0.09516 1
+ In5 In 4 i 0.48938 0 0.32759 1
+ In6 In 4 i 0.59237 0 0.09907 1
+ In7 In 2 c 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.51
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1711845
+

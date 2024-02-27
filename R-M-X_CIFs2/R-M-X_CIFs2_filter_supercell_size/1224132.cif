@@ -1,0 +1,166 @@
+##############################################################################
+#                                                                            #
+# Eu-Os-Si         # Eu2Os3Si5                                     # 1224132 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1224132
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1224132
+_database_code_PDF                       04-017-0062
+
+# Entry summary
+
+_chemical_formula_structural             'Eu~2~ Os~3~ Si~5~'
+_chemical_formula_sum                    'Eu2 Os3 Si5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nd~2~Os~3~Si~5~,tP48,128
+_chemical_formula_weight                 1014.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+X-ray structural study of intermetallic alloys RT~2~Si and RTSi~2~ (R= rare earth, T= noble metal)
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2010
+_journal_volume                          183
+_journal_page_first                      1278
+_journal_page_last                       1289
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gribanov A.V.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Grytsiv A.V.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Giester G.'
+;
+Vienna University
+Institut fur Mineralogie und Kristallographie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.7276
+_cell_length_b                           10.7276
+_cell_length_c                           5.7615
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             663
+_cell_formula_units_Z                    4
+_space_group_IT_number                   128
+_space_group_name_H-M_alt                'P 4/m n c'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2-z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, 1/2-z'
+ 7 '1/2-y, 1/2-x, 1/2+z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, 1/2-z'
+ 11 '1/2+x, 1/2-y, 1/2+z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2+z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Si
+ Os
+ Eu
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si3 Si 16 i 0.3352 0.1805 0.2239 0.5
+ Si2 Si 8 h 0.0251 0.3203 0 1
+ Os2 Os 8 h 0.14739 0.12602 0 1
+ Eu1 Eu 8 h 0.2654 0.42662 0 1
+ Si1 Si 4 e 0 0 0.2378 1
+ Os1 Os 4 d 0 0.5 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.17
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            76.71
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 849
+_refine_ls_R_factor_gt                   0.034
+_refine_ls_wR_factor_gt                  0.078
+
+# End of data set 1224132
+

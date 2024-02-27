@@ -1,0 +1,147 @@
+##############################################################################
+#                                                                            #
+# Ga-Ru-Tb         # Tb3Ru4Ga15                                    # 1412819 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1412819
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1412819
+_database_code_PDF                       04-019-2361
+
+# Entry summary
+
+_chemical_formula_structural             'Tb~3~ Ru~4~ Ga~15~'
+_chemical_formula_sum                    'Ga15 Ru4 Tb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~3~Ru~4~Ga~15~,oP88,62
+_chemical_formula_weight                 1926.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+The ternary rare earth ruthenium gallides R~3~Ru~4~Ga~15~ (R= Y, Tb-Er) with a new structure type, a further example of a recently recognized large family of structures
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2003
+_journal_volume                          172
+_journal_page_first                      27
+_journal_page_last                       34
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schluter M.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+'Jeitschko W.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.737
+_cell_length_b                           9.6
+_cell_length_c                           17.698
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1484.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ru
+ Ga
+ Tb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ru1 Ru 8 d 0.1181 0.004 0.39028 1
+ Ga1 Ga 8 d 0.1244 0.0869 0.6719 1
+ Ga2 Ga 8 d 0.1265 0.0609 0.2528 1
+ Ru2 Ru 8 d 0.1303 0.005 0.11318 1
+ Ga3 Ga 8 d 0.3737 0.0684 0.033 1
+ Ga4 Ga 8 d 0.3744 0.5774 0.3315 1
+ Ga5 Ga 8 d 0.3775 0.0616 0.4652 1
+ Ga6 Ga 4 c 0.0075 0.25 0.1684 1
+ Tb1 Tb 4 c 0.1258 0.25 0.52487 1
+ Ga7 Ga 4 c 0.1325 0.25 0.0417 1
+ Ga8 Ga 4 c 0.2218 0.25 0.3588 1
+ Ga9 Ga 4 c 0.3044 0.25 0.9184 1
+ Tb2 Tb 4 c 0.3752 0.25 0.74828 1
+ Tb3 Tb 4 c 0.3759 0.25 0.1683 1
+ Ga10 Ga 4 c 0.4512 0.25 0.5775 1
+
+
+_exptl_crystal_colour                    'gray dark'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.62
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Gandolfi photographs'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1412819
+

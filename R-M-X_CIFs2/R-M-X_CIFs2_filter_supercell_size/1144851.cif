@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# Ce-Pt-Sn         # Ce3Pt4Sn6 mon                                 # 1144851 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1144851
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1144851
+_database_code_PDF                       04-023-1115
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~3~ Pt~4~ Sn~6~'
+_chemical_formula_sum                    'Ce2.99 Pt4 Sn6'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~3~Pt~4~Sn~6~,mP32,11
+_chemical_formula_weight                 1912.9
+_chemical_melting_point                  1017
+
+# Bibliographic data
+
+_publ_section_title
+'The crystal structures of m,/o-Ce~3~Pt~4~Sn~6~ and Ce~1-x~Pt~6~Al~13+2x~'    
+_journal_coden_ASTM                      SSSCFJ
+_journal_name_full                       'Solid State Sci.'
+_journal_year                            2016
+_journal_volume                          55
+_journal_page_first                      48
+_journal_page_last                       57
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Paschinger W.'
+;
+Vienna University
+Institut fur Materialchemie und Forschung
+Vienna
+Austria
+;
+'Yubuta K.'
+;
+Tohoku University
+Institute for Materials Research
+Sendai / Miyagi
+Japan
+;
+'Saiga Y.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Takabatake T.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Giester G.'
+;
+Vienna University
+Institut fur Mineralogie und Kristallographie
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Materialchemie und Forschung
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.3682
+_cell_length_b                           4.6145
+_cell_length_c                           14.0434
+_cell_angle_alpha                        90
+_cell_angle_beta                         99.635
+_cell_angle_gamma                        90
+_cell_volume                             598.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   11
+_space_group_name_H-M_alt                'P 1 21/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, -z'
+ 4 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Ce
+ Sn
+ Pt
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce 2 e 0.08558 0.25 0.31381 1
+ Sn9 Sn 2 e 0.1148 0.25 0.0684 0.092
+ Pt2 Pt 2 e 0.14601 0.25 0.59794 1
+ Sn4 Sn 2 e 0.19639 0.25 0.78518 1
+ Ce3 Ce 2 e 0.26472 0.25 0.05938 0.902
+ Sn1 Sn 2 e 0.37391 0.25 0.50543 1
+ Sn8 Sn 2 e 0.4194 0.25 0.0677 0.096
+ Pt4 Pt 2 e 0.47312 0.25 0.87339 1
+ Ce2 Ce 2 e 0.57117 0.25 0.31384 1
+ Sn6 Sn 2 e 0.61177 0.25 0.06785 0.908
+ Pt1 Pt 2 e 0.65041 0.25 0.5886 1
+ Sn3 Sn 2 e 0.69364 0.25 0.77578 1
+ Ce31 Ce 2 e 0.7637 0.25 0.0588 0.093
+ Sn2 Sn 2 e 0.87683 0.25 0.4978 1
+ Sn5 Sn 2 e 0.92233 0.25 0.06794 0.909
+ Pt3 Pt 2 e 0.96341 0.25 0.87334 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.61
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    5418
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 36.15
+_exptl_absorpt_coefficient_mu            69.8
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             90
+_refine_ls_number_reflns                 2366
+_refine_ls_R_factor_gt                   0.0597
+_refine_ls_wR_factor_gt                  0.1296
+
+# End of data set 1144851
+

@@ -1,0 +1,212 @@
+##############################################################################
+#                                                                            #
+# Ce-Fe-Ge         # CeFeGe3                                       # 1120134 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1120134
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1120134
+_database_code_PDF                       04-011-1967
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Fe Ge~3~'
+_chemical_formula_sum                    'Ce Fe Ge3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            BaNiSn~3~,tI10,107
+_chemical_formula_weight                 413.7
+
+# Bibliographic data
+
+_publ_section_title
+'X-ray powder difraction data and structure refinement of CeFeGe~3~'          
+_journal_coden_ASTM                      PODIE2
+_journal_name_full                       'Powder Diffr.'
+_journal_year                            1998
+_journal_volume                          13
+_journal_page_first                      241
+_journal_page_last                       243
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yan J.'
+;
+Guangxi University
+Institute of Materials Science
+Nanning / Guangxi
+China
+;
+'Wu S.'
+;
+Guangxi University
+Institute of Materials Science
+Nanning / Guangxi
+China
+;
+'Ou X.'
+;
+Guangxi University
+Institute of Materials Science
+Nanning / Guangxi
+China
+;
+'Zeng L.'
+;
+Guangxi University
+Institute of Materials Science
+Nanning / Guangxi
+China
+;
+'Hao J.'
+;
+Tianjin Electronic Materials Research Institute
+Tianjin
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.3294
+_cell_length_b                           4.3294
+_cell_length_c                           9.9444
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             186.4
+_cell_formula_units_Z                    2
+_space_group_IT_number                   107
+_space_group_name_H-M_alt                'I 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1/2-x, 1/2+z'
+ 13 '1/2-y, 1/2+x, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1/2-x, 1/2+z'
+ 16 '1/2+y, 1/2+x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Fe
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge2 Ge 4 b 0 0.5 0.321 1
+ Ge1 Ge 2 a 0 0 0.0 1
+ Fe Fe 2 a 0 0 0.232 1
+ Ce Ce 2 a 0 0 0.5644 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.37
+_cell_measurement_temperature            298(1)
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5406
+_pd_proc_wavelength                      1.5406
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298(1)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku D/MAX-rC'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_radiation_wavelength             1.5406
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 67.5
+_pd_proc_2theta_range_min                10
+_pd_proc_2theta_range_max                135
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 106
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.132
+_pd_proc_ls_proof_wR_factor              0.182
+_refine_ls_R_I_factor                    ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 0 2 4.976 2
+ 1 0 1 3.971 8
+ 1 1 0 3.062 12
+ 1 0 3 2.632 49
+ 1 1 2 2.607 100
+ 0 0 4 2.486 22
+ 2 0 0 2.165 45
+ 1 1 4 1.93 11
+ 2 1 1 1.9 3
+ 1 0 5 1.807 14
+ 2 1 3 1.672 21
+ 2 0 4 1.632 19
+ 2 2 0 1.531 16
+ 1 1 6 1.458 13
+ 2 1 5 1.387 11
+ 3 1 0 1.369 2
+ 1 0 7 1.35 4
+ 3 1 2 1.32 15
+ 2 2 4 1.303 8
+ 3 1 4 1.199 3
+ 3 0 5 1.168 3
+ 2 1 7 1.145 4
+ 3 2 3 1.129 5
+ 4 0 0 1.082 4
+ 2 0 8 1.078 3
+ 1 0 9 1.071 5
+ 3 1 6 1.055 7
+ 3 2 5 1.028 3
+ 3 0 7 1.012 2
+ 3 3 2 1 4
+ 4 0 4 0.992 5
+ 4 2 0 0.968 5
+ 1 1 10 0.946 2
+ 4 1 5 0.929 2
+
+# End of data set 1120134
+

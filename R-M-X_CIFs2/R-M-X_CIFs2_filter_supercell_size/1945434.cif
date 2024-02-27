@@ -1,0 +1,180 @@
+##############################################################################
+#                                                                            #
+# In-Ni-Tb         # Tb11Ni4In9                                    # 1945434 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1945434
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1945434
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Tb~11~ Ni~4~ In~9~'
+_chemical_formula_sum                    'In9 Ni4 Tb11'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nd~11~Pd~4~In~9~,oS48,65
+_chemical_formula_weight                 3016.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Magnetic structures of R~5~Ni~2~In~4~ and R~11~Ni~4~In~9~ (R= Tb and Ho): Strong hierarchy in the temperature dependence of the magnetic ordering in the multiple rare-earth sublattices
+;
+_journal_coden_ASTM                      JCOMEL
+_journal_name_full                       'J. Phys.: Condens. Matter'
+_journal_year                            2015
+_journal_volume                          27
+_journal_page_first                      1
+_journal_page_last                       20
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ritter C.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+'Provino A.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Manfrinetti P.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Pecharsky V.K.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Gschneidner K.A. Jr.'
+;
+Iowa State University
+Ames Laboratory
+Ames
+U.S.A. Iowa
+;
+'Dhar S.K.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.4007
+_cell_length_b                           21.6316
+_cell_length_c                           3.6294
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1130.6
+_cell_formula_units_Z                    2
+_space_group_IT_number                   65
+_space_group_name_H-M_alt                'C m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, z'
+ 12 '1/2-x, 1/2+y, -z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, z'
+ 16 '1/2+x, 1/2+y, -z'
+loop_
+ _atom_type_symbol
+ In
+ Ni
+ Tb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 8 q 0.1041 0.2612 0.5 1
+ In2 In 8 q 0.1437 0.0702 0.5 1
+ Ni Ni 8 q 0.3476 0.1021 0.5 1
+ Tb1 Tb 8 p 0.2432 0.1698 0 1
+ Tb2 Tb 4 i 0 0.16 0 1
+ Tb3 Tb 4 i 0 0.3733 0 1
+ Tb4 Tb 4 g 0.3106 0 0 1
+ In3 In 2 c 0.5 0 0.5 1
+ Tb5 Tb 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.86
+_cell_measurement_temperature            300
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.594
+_pd_proc_wavelength                      1.594
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              300
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, Institut Laue-Langevin ILL, D2B'                           
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.594
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.083
+
+# End of data set 1945434
+

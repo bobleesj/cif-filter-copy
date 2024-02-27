@@ -1,0 +1,197 @@
+##############################################################################
+#                                                                            #
+# Ge-Rh-U          # URhGe                                         # 1944579 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1944579
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1944579
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'U Rh Ge'
+_chemical_formula_sum                    'Ge Rh U'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiNiSi,oP12,62
+_chemical_formula_weight                 413.5
+
+# Bibliographic data
+
+_publ_section_title
+'Electronic properties of a URhGe single crystal'                             
+_journal_coden_ASTM                      PHYBE3
+_journal_name_full                       'Phys. B (Amsterdam)'
+_journal_year                            2002
+_journal_volume                          311
+_journal_page_first                      220
+_journal_page_last                       232
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Prokes K.'
+;
+Hahn-Meitner Institute
+Berlin
+Germany
+;
+'Divis M.'
+;
+Charles University
+Department of Electronic Structures
+Prague
+Czech Republic
+;
+'Sechovsky V.'
+;
+Charles University
+Department of Electronic Structures
+Prague
+Czech Republic
+;
+'Tahara T.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Echizen Y.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Takabatake T.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Fujita T.'
+;
+Hiroshima University
+Department of Quantum Matter
+Higashihiroshima / Hiroshima
+Japan
+;
+'Hagmusa I.H.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'Klaasse J.C.P.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'Bruck E.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'De Boer F.R.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.873
+_cell_length_b                           4.33
+_cell_length_c                           7.506
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             223.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ U
+ Ge
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ U U 4 c 0.001 0.25 0.724 1
+ Ge Ge 4 c 0.221 0.25 0.09 1
+ Rh Rh 4 c 0.279 0.25 0.409 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.30
+_cell_measurement_temperature            20
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             2.44
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              20
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BER II reactor, E4
+;
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             2.44
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 56
+_refine_ls_R_factor_gt                   0.0368
+_refine_ls_wR_factor_gt                  0.0308
+
+# End of data set 1944579
+

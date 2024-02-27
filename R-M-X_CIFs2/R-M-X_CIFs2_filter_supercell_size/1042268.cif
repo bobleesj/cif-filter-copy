@@ -1,0 +1,231 @@
+##############################################################################
+#                                                                            #
+# Ga-Pt-Yb         # Yb4Pt9Ga24                                    # 1042268 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1042268
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1042268
+_database_code_PDF                       04-023-9993
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~4~ Pt~9~ Ga~24~'
+_chemical_formula_sum                    'Ga24 Pt9 Yb4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb~4~Pt~9~Ga~24~,mS102,12
+_chemical_formula_weight                 4121.3
+
+# Bibliographic data
+
+_publ_section_title
+;
+Intermediate-valence ytterbium compound Yb~4~Ga~24~Pt~9~: Synthesis, crystal structure, and physical properties
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_name_full                       'Inorg. Chem.'
+_journal_year                            2017
+_journal_volume                          56
+_journal_page_first                      9343
+_journal_page_last                       9352
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sichevych O.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Wang Y.T.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Wu Y.H.'
+;
+National Synchrotron Radiation Research Center (NSRRC)
+Hsinchu
+Taiwan
+;
+'Tsuei K.D.'
+;
+National Synchrotron Radiation Research Center (NSRRC)
+Hsinchu
+Taiwan
+;
+'Tjeng L.H.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Utsumi Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Akselrud L.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schmidt M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Burkhardt U.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Coduri M.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Schnelle W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Bobnar M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.4809
+_cell_length_b                           12.9545
+_cell_length_c                           13.2479
+_cell_angle_alpha                        90
+_cell_angle_beta                         100.879
+_cell_angle_gamma                        90
+_cell_volume                             1260.8
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pt
+ Ga
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt4 Pt 8 j 0.11781 0.33039 0.36174 1
+ Ga9a Ga 8 j 0.12 0.055 0.181 0.016
+ Ga9c Ga 8 j 0.12 0.27 0.178 0.016
+ Ga5 Ga 8 j 0.1252 0.3976 0.1829 0.968
+ Yb1 Yb 8 j 0.2314 0.16687 0.19228 0.984
+ Ga8 Ga 8 j 0.3145 0.1668 0.4424 1
+ Ga6 Ga 8 j 0.354 0.3324 0.0577 1
+ Ga9b Ga 8 j 0.43 0.161 0.183 0.016
+ Ga7 Ga 8 j 0.4405 0.3359 0.3278 1
+ Ga1 Ga 4 i 0.0659 0 0.8161 0.968
+ Pt3 Pt 4 i 0.1271 0 0.3632 1
+ Ga2 Ga 4 i 0.187 0 0.56 1
+ Ga4 Ga 4 i 0.349 0 0.0542 1
+ Ga3 Ga 4 i 0.4465 0 0.3281 1
+ Yb2 Yb 4 i 0.724 0 0.189 0.032
+ Pt2 Pt 4 g 0 0.33094 0 1
+ Pt1 Pt 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.86
+_cell_measurement_temperature            295(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            47
+_diffrn_ambient_temperature              295(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    5471
+_diffrn_reflns_theta_min                 1.57
+_diffrn_reflns_theta_max                 34.6
+_exptl_absorpt_coefficient_mu            89.5
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             107
+_refine_ls_number_reflns                 1781
+_refine_ls_R_factor_gt                   0.039
+_refine_ls_wR_factor_gt                  0.040
+
+# End of data set 1042268
+

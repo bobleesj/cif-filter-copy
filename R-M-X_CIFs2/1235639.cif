@@ -1,0 +1,191 @@
+##############################################################################
+#                                                                            #
+# In-Nd-Rh         # Nd2RhIn8                                      # 1235639 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1235639
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1235639
+_database_code_PDF                       04-021-1224
+
+# Entry summary
+
+_chemical_formula_structural             'Nd~2~ Rh In~8~'
+_chemical_formula_sum                    'In8 Nd2 Rh'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~2~CoGa~8~,tP11,123
+_chemical_formula_weight                 1309.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Magnetic structures of non-cerium analogues of heavy-fermion Ce~2~RhIn~8~: The case of Nd~2~RhIn~8~, Dy~2~RhIn~8~, and Er~2~RhIn~8~
+;
+_journal_coden_ASTM                      PRBMDO
+_journal_name_full
+'Phys. Rev. B: Condens. Matter Mater. Phys.'                                  
+_journal_year                            2014
+_journal_volume                          89
+_journal_page_first                      1
+_journal_page_last                       9
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cermak P.'
+;
+Julich Research Center (FZJ)
+Julich Center for Neutron Science (JCNS)
+Munich-Garching
+Germany
+;
+'Javorsky P.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+'Kratochvilova M.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+'Pajskr K.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+'Klicpera M.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+'Ouladdiaf B.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+'Lemee Cailleau M.H.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+'Rodriguez Carvajal J.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+'Boehm M.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.6213
+_cell_length_b                           4.6213
+_cell_length_c                           12.113
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             258.7
+_cell_formula_units_Z                    1
+_space_group_IT_number                   123
+_space_group_name_H-M_alt                'P 4/m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ In
+ Nd
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In3 In 4 i 0 0.5 0.1212 1
+ In2 In 2 h 0.5 0.5 0.3059 1
+ Nd Nd 2 g 0 0 0.3083 1
+ In1 In 2 e 0 0.5 0.5 1
+ Rh Rh 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.41
+_cell_measurement_temperature            2
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             2.36
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              2
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, Institut Laue-Langevin ILL, D10'                           
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             2.36
+_diffrn_reflns_number                    364
+_exptl_absorpt_coefficient_mu            0.9018
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0534
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1235639
+

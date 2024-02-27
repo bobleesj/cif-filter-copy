@@ -1,0 +1,148 @@
+##############################################################################
+#                                                                            #
+# Ni-Sm-Sn         # Sm2NiSn4                                      # 1620466 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1620466
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1620466
+_database_code_PDF                       04-013-6354
+
+# Entry summary
+
+_chemical_formula_structural             'Sm~2~ Ni Sn~4~'
+_chemical_formula_sum                    'Ni Sm2 Sn4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm~2~NiSn~4~,oP28,62
+_chemical_formula_weight                 834.3
+
+# Bibliographic data
+
+_publ_section_title
+'Sm~2~NiSn~4~: The intermediate structure type between ZrSi~2~ and CeNiSi~2~' 
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2006
+_journal_volume                          179
+_journal_page_first                      3378
+_journal_page_last                       3384
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sun Z.M.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Pan D.C.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Lei X.W.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Mao J.G.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           16.878
+_cell_length_b                           4.449
+_cell_length_c                           8.915
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             669.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Ni
+ Sn
+ Sm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni 4 c 0.062 0.25 0.1438 1
+ Sn1 Sn 4 c 0.17589 0.25 0.62728 1
+ Sn2 Sn 4 c 0.20959 0.25 0.12914 1
+ Sm1 Sm 4 c 0.35193 0.25 0.8658 1
+ Sm2 Sm 4 c 0.35292 0.25 0.39035 1
+ Sn4 Sn 4 c 0.4918 0.25 0.11 1
+ Sn3 Sn 4 c 0.50816 0.25 0.62994 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.28
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku Mercury'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    4849
+_exptl_absorpt_coefficient_mu            34.544
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 781
+_refine_ls_R_factor_gt                   0.0261
+_refine_ls_wR_factor_gt                  0.0680
+
+# End of data set 1620466
+

@@ -1,0 +1,160 @@
+##############################################################################
+#                                                                            #
+# Co-Si-Yb         # YbCo0.21Si1.79                                # 1934503 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1934503
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1934503
+_database_code_PDF                       04-019-6867
+
+# Entry summary
+
+_chemical_formula_structural             'Yb Co~0.21~ Si~1.79~'
+_chemical_formula_sum                    'Co0.22 Si1.78 Yb'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ThSi~2~,tI12,141
+_chemical_formula_weight                 235.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+ThSi~2~ type ytterbium disilicide and its analogues YbT~x~Si~2-x~ (T= Cr, Fe, Co)
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2012
+_journal_volume                          638
+_journal_page_first                      287
+_journal_page_last                       293
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Peter S.C.'
+;
+Northwestern University (NU)
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+'Kanatzidis M.G.'
+;
+Northwestern University (NU)
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.0036
+_cell_length_b                           4.0036
+_cell_length_c                           13.707
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             219.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   141
+_space_group_name_H-M_alt                'I 41/a m d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, -z'
+ 5 '-x, y, z'
+ 6 '1/4-y, 1/4-x, -1/4-z'
+ 7 '1/4-y, -1/4+x, 1/4+z'
+ 8 '-1/4-y, 1/4-x, -1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 'x, 1/2-y, z'
+ 11 'x, -y, -z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '1/4+y, -1/4+x, 1/4-z'
+ 15 '-1/4+y, 1/4-x, -1/4-z'
+ 16 '-1/4+y, -1/4+x, 1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1-y, 1/2+z'
+ 19 '1/2-x, 1/2-y, 1/2-z'
+ 20 '1/2-x, 1+y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1/2+z'
+ 22 '3/4-y, 3/4-x, 1/4-z'
+ 23 '3/4-y, 1/4+x, 3/4+z'
+ 24 '1/4-y, 3/4-x, 1/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1/2+x, 1-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1/2-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '3/4+y, 1/4+x, 3/4-z'
+ 31 '1/4+y, 3/4-x, 1/4-z'
+ 32 '1/4+y, 1/4+x, 3/4+z'
+loop_
+ _atom_type_symbol
+ Si
+ Co
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si,Co1 Si 8 e 0 0.25 0.2924 0.89(4)
+ Si,Co2 Co 8 e 0 0.25 0.2924 0.11(4)
+ Yb Yb 4 a 0 0.75 0.125 1
+
+
+_exptl_crystal_colour                    'gray, light'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.13
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS 2T'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    357
+_diffrn_reflns_theta_min                 5.31
+_diffrn_reflns_theta_max                 28.97
+_exptl_absorpt_coefficient_mu            44.616
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             9
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0288
+_refine_ls_wR_factor_gt                  0.0591
+
+# End of data set 1934503
+

@@ -1,0 +1,261 @@
+##############################################################################
+#                                                                            #
+# In-Pd-Yb         # Yb2Pd2In hp                                   # 1341979 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1341979
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1341979
+_database_code_PDF                       04-027-4617
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Pd~2~ In'
+_chemical_formula_sum                    'In Pd2 Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb~2~Pd~2~In,mP10,14
+_chemical_formula_weight                 673.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Pressure-induced antiferromagnetic dome in the heavy-fermion Yb~2~Pd~2~In~1-x~Sn~x~ system
+;
+_journal_coden_ASTM                      PRBHB7
+_journal_name_full                       'Phys. Rev. B'
+_journal_year                            2020
+_journal_volume                          101
+_journal_page_first                      1
+_journal_page_last                       14
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lamura G.'
+;
+National Research Council (CNR)
+Istituto Superconduttori, Materiali Innovativi e Dispositivi (SPIN)
+Genoa
+Italy
+;
+'Giovannini M.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Curlik I.'
+;
+Presov University
+Faculty of Humanities and Natural Sciences
+Presov
+Slovakia
+;
+'Dzubinska A.'
+;
+Pavol Jozef Safarik University (UPJS)
+Center for Progressive Materials (CPM)
+Kosice
+Slovakia
+;
+'Pristas G.'
+;
+Slovak Academy of Sciences (SAS)
+Institute of Experimental Physics
+Kosice
+Slovakia
+;
+'Reiffers M.'
+;
+Presov University
+Faculty of Humanities and Natural Sciences
+Presov
+Slovakia
+;
+'Martinelli A.'
+;
+National Research Council (CNR)
+Istituto Superconduttori, Materiali Innovativi e Dispositivi (SPIN)
+Genoa
+Italy
+;
+'Ritter C.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+'Joseph B.'
+;
+Elettra-Sincrotrone Trieste S.C.p.A.
+Trieste
+Italy
+;
+'Bauer E.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Renzi R.'
+;
+Parma University (UNIPR)
+Dipartimento di Scienze Matematiche, Fisiche e Informatiche
+Parma
+Italy
+;
+'Onuorah I.J.'
+;
+Parma University (UNIPR)
+Dipartimento di Scienze Matematiche, Fisiche e Informatiche
+Parma
+Italy
+;
+'Shiroka T.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Laboratory for Muon Spin Spectroscopy (LMU)
+Villigen
+Switzerland
+;
+'Bonfa P.'
+;
+Parma University (UNIPR)
+Dipartimento di Scienze Matematiche, Fisiche e Informatiche
+Parma
+Italy
+;
+'Sanna S.'
+;
+Bologna University
+Dipartimento di Fisica e Astronomia
+Bologna
+Italy
+;
+'Shermadini Z.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Laboratory for Muon Spin Spectroscopy (LMU)
+Villigen
+Switzerland
+;
+'Khasanov R.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Laboratory for Muon Spin Spectroscopy (LMU)
+Villigen
+Switzerland
+;
+'Orain J.C.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Laboratory for Muon Spin Spectroscopy (LMU)
+Villigen
+Switzerland
+;
+'Baines C.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Laboratory for Muon Spin Spectroscopy (LMU)
+Villigen
+Switzerland
+;
+'Gastaldo F.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.6874
+_cell_length_b                           7.5276
+_cell_length_c                           7.474
+_cell_angle_alpha                        90
+_cell_angle_beta                         90.35
+_cell_angle_gamma                        90
+_cell_volume                             207.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   14
+_space_group_name_H-M_alt                'P 1 21/c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, 1/2-z'
+ 4 'x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Pd
+ Yb
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd Pd 4 e 0.0975 0.3666 0.1213 1
+ Yb Yb 4 e 0.4666 0.1679 0.321 1
+ In In 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.79
+_cell_measurement_temperature            290
+_cell_measurement_pressure               3.33e+06
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.496
+_pd_proc_wavelength                      0.496
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_pressure                 3.33e+06
+_diffrn_ambient_temperature              290
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'Italy, Trieste, Elettra Synchrotron Light Source, 11.2R-Xpress beamline'     
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.496
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.024
+
+# End of data set 1341979
+

@@ -1,0 +1,145 @@
+##############################################################################
+#                                                                            #
+# In-La-Ni         # La2Ni2In orth                                 # 1128982 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1128982
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1128982
+_database_code_PDF                       04-019-0048
+
+# Entry summary
+
+_chemical_formula_structural             'La~2~ Ni~2~ In'
+_chemical_formula_sum                    'In La2 Ni2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            La~2~Ni~2~In,oP20,55
+_chemical_formula_weight                 510.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Orthorhombic La~2~Ni~2~In form - A new intergrowth CsCl- and AlB~2~-type slabs
+;
+_journal_coden_ASTM                      IERME5
+_journal_name_full                       Intermetallics
+_journal_year                            2012
+_journal_volume                          24
+_journal_page_first                      30
+_journal_page_last                       32
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pustovoychenko M.M.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Svitlyk V.O.'
+;
+McMaster University (Mac)
+Department of Chemistry
+Hamilton
+Canada
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.584
+_cell_length_b                           15.4891
+_cell_length_c                           3.9151
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             459.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   55
+_space_group_name_H-M_alt                'P b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2+x, 1/2-y, -z'
+ 7 '1/2+x, 1/2-y, z'
+ 8 'x, y, -z'
+loop_
+ _atom_type_symbol
+ La
+ Ni
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ La1 La 4 h 0.10679 0.21618 0.5 1
+ La2 La 4 h 0.25069 0.46477 0.5 1
+ Ni1 Ni 4 g 0.0568 0.07444 0 1
+ Ni2 Ni 4 g 0.3055 0.31903 0 1
+ In In 4 g 0.42447 0.12875 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.37
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4091
+_diffrn_reflns_theta_min                 2.99
+_diffrn_reflns_theta_max                 29.14
+_exptl_absorpt_coefficient_mu            30.9
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             32
+_refine_ls_number_reflns                 501
+_refine_ls_R_factor_gt                   0.0350
+_refine_ls_wR_factor_gt                  0.0473
+
+# End of data set 1128982
+

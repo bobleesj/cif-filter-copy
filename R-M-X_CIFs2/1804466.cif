@@ -1,0 +1,157 @@
+##############################################################################
+#                                                                            #
+# Ge-Pt-Sm         # SmPt2Ge2 rt                                   # 1804466 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1804466
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1804466
+_database_code_PDF                       04-008-6154
+
+# Entry summary
+
+_chemical_formula_structural             'Sm Pt~2.01~ Ge~1.99~'
+_chemical_formula_sum                    'Ge1.98 Pt2.02 Sm'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaPt~2~Ge~2~,mP10,4
+_chemical_formula_weight                 687.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of compounds with 20 at.% Sm in the Sm-(Pd,Pt)-(Si,Ge) systems at 870 K
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1999
+_journal_volume                          285
+_journal_page_first                      137
+_journal_page_last                       142
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kurenbaeva Z.M.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Gribanov A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Bodak O.I.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Nikiforov V.N.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Physics
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.3514
+_cell_length_b                           4.382
+_cell_length_c                           9.706
+_cell_angle_alpha                        90
+_cell_angle_beta                         88.992
+_cell_angle_gamma                        90
+_cell_volume                             185.04
+_cell_formula_units_Z                    2
+_space_group_IT_number                   4
+_space_group_name_H-M_alt                'P 1 21 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2+y, -z'
+loop_
+ _atom_type_symbol
+ Pt
+ Sm
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt2 Pt 2 a 0.2564 0.0571 0.3759 1
+ Sm Sm 2 a 0.2508 0.028 0.7452 1
+ Ge1A Ge 2 a 0.2876 -0.0094 0.1253 0.979(5)
+ Pt1B Pt 2 a 0.2876 -0.0094 0.1253 0.021(5)
+ Pt1 Pt 2 a 0.215 0.4915 0.0006 1
+ Ge2 Ge 2 a 0.2477 0.5 0.5037 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.33
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          HZG-4A
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 7.5
+_diffrn_reflns_theta_max                 60
+_pd_proc_2theta_range_min                15
+_pd_proc_2theta_range_max                120
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# End of data set 1804466
+

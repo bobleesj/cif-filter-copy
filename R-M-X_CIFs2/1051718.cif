@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Ga-La-Rh         # La2Rh2Ga                                      # 1051718 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1051718
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1051718
+_database_code_PDF                       04-027-1988
+
+# Entry summary
+
+_chemical_formula_structural             'La~2~ Rh~2~ Ga'
+_chemical_formula_sum                    'Ga La2 Rh2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~2~Ru~2~Al,oS20,64
+_chemical_formula_weight                 553.3
+
+# Bibliographic data
+
+_publ_section_title
+;
+Two polymorphs of a new intermetallic Ce~2~Rh~2~Ga - Crystal structure and physical properties
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2020
+_journal_volume                          844
+_journal_page_first                      1
+_journal_page_last                       11
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nesterenko S.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Tursina A.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Pasturel M.'
+;
+Rennes University
+Rennes
+France
+;
+'Xhakaza S.'
+;
+Johannesburg University (UJ)
+Highly Correlated Matter Research Group
+Johannesburg
+South Africa
+;
+'Strydom A.'
+;
+Johannesburg University (UJ)
+Highly Correlated Matter Research Group
+Johannesburg
+South Africa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.9251
+_cell_length_b                           9.8402
+_cell_length_c                           7.5019
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             437.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ La
+ Rh
+ Ga
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ LaA1 La 8 f 0 0.33857 0.09757 1
+ RhH2 Rh 8 e 0.25 0.09407 0.25 1
+ GaA3 Ga 4 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.40
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_wavelength             0.56087
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_radiation_wavelength             0.56087
+_diffrn_reflns_number                    803
+_diffrn_reflns_theta_min                 3.268
+_diffrn_reflns_theta_max                 24.496
+_exptl_absorpt_coefficient_mu            17.046
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             17
+_refine_ls_number_reflns                 361
+_refine_ls_R_factor_gt                   0.0310
+_refine_ls_wR_factor_gt                  0.0843
+
+# End of data set 1051718
+

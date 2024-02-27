@@ -1,0 +1,187 @@
+##############################################################################
+#                                                                            #
+# In-Pt-U          # U2Pt2In                                       # 1826989 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1826989
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1826989
+_database_code_PDF                       04-019-5311
+
+# Entry summary
+
+_chemical_formula_structural             'U~2~ Pt~2~ In'
+_chemical_formula_sum                    'In Pt2 U2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Pt~2~Sn,tP20,136
+_chemical_formula_weight                 981.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural, magnetic and transport properties of single-crystallne U~2~Pt~2~In
+;
+_journal_coden_ASTM                      JCOMEL
+_journal_name_full                       'J. Phys.: Condens. Matter'
+_journal_year                            1998
+_journal_volume                          10
+_journal_page_first                      9465
+_journal_page_last                       9475
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Estrela P.'
+;
+Lisbon University (ULisboa)
+Departamento de Fisica
+Lisbon
+Portugal
+;
+'Pereira L.C.J.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'De Visser A.'
+;
+Amsterdam University
+Van der Waals-Zeeman Laboratorium
+Amsterdam
+Netherlands
+;
+'De Boer F.R.'
+;
+Amsterdam University
+Van der Waals-Zeeman Laboratorium
+Amsterdam
+Netherlands
+;
+'Almeida M.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Godinho M.'
+;
+Lisbon University (ULisboa)
+Departamento de Fisica
+Lisbon
+Portugal
+;
+'Rebizant J.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Spirlet J.C.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.6946
+_cell_length_b                           7.6946
+_cell_length_c                           7.3676
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             436.2
+_cell_formula_units_Z                    4
+_space_group_IT_number                   136
+_space_group_name_H-M_alt                'P 42/m n m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2-z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2+x, 1/2-z'
+ 7 '1/2-y, 1/2+x, 1/2+z'
+ 8 '-y, -x, -z'
+ 9 '-y, -x, z'
+ 10 '1/2+x, 1/2-y, 1/2-z'
+ 11 '1/2+x, 1/2-y, 1/2+z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2-x, 1/2-z'
+ 14 '1/2+y, 1/2-x, 1/2+z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ Pt
+ U
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt Pt 8 j 0.36989 0.36989 0.23453 1
+ U2 U 4 g 0.31965 0.68035 0 1
+ U1 U 4 f 0.16463 0.16463 0 1
+ In In 4 d 0 0.5 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            14.94
+_cell_measurement_temperature            297
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7093
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              297
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7093
+_diffrn_reflns_number                    2705
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 298
+_refine_ls_R_factor_gt                   0.0427
+_refine_ls_wR_factor_gt                  0.0655
+
+# End of data set 1826989
+

@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Dy-In-Ni         # Dy4Ni10.8In20.2                               # 1219243 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1219243
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1219243
+_database_code_PDF                       04-015-6518
+
+# Entry summary
+
+_chemical_formula_structural             'Dy~4~ Ni~10.8~ In~20.2~'
+_chemical_formula_sum                    'Dy4 In20.20 Ni10.80'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~4~Ni~11~Ga~20~,mS70,12
+_chemical_formula_weight                 3603.3
+
+# Bibliographic data
+
+_publ_section_title
+;
+Rare earth-nickel-indides Dy~5~Ni~2~In~4~ and RE~4~Ni~11~In~20~ (RE= Gd, Tb, Dy)
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2008
+_journal_volume                          181
+_journal_page_first                      878
+_journal_page_last                       883
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tyvanchuk Y.B.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           22.522
+_cell_length_b                           4.306
+_cell_length_c                           16.597
+_cell_angle_alpha                        90
+_cell_angle_beta                         124.58
+_cell_angle_gamma                        90
+_cell_volume                             1325.22
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ In
+ Ni
+ Dy
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 4 i 0.01026 0 0.09479 1
+ Ni1 Ni 4 i 0.02288 0 0.6006 1
+ In2 In 4 i 0.06356 0 0.79037 1
+ In3 In 4 i 0.11585 0 0.55211 1
+ Dy1 Dy 4 i 0.11935 0 0.3312 1
+ Ni2 Ni 4 i 0.13651 0 0.1027 1
+ In4 In 4 i 0.20198 0 0.00256 1
+ Ni3 Ni 4 i 0.25403 0 0.6173 1
+ In5 In 4 i 0.24719 0 0.29141 1
+ In6 In 4 i 0.29701 0 0.49779 1
+ Ni4 Ni 4 i 0.34735 0 0.1216 1
+ In7 In 4 i 0.38831 0 0.3085 1
+ In8 In 4 i 0.39845 0 0.00871 1
+ Ni5 Ni 4 i 0.50685 0 0.1948 1
+ In9 In 4 i 0.54096 0 0.37704 1
+ In10 In 4 i 0.62826 0 0.19532 1
+ Dy2 Dy 4 i 0.77085 0 0.17383 1
+ Ni6,In11A Ni 2 d 0 0.5 0.5 0.80(3)
+ Ni6,In11B In 2 d 0 0.5 0.5 0.20(3)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.03
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    6433
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            35.7
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             109
+_refine_ls_number_reflns                 2003
+_refine_ls_R_factor_gt                   0.0824
+_refine_ls_wR_factor_gt                  0.0550
+
+# End of data set 1219243
+

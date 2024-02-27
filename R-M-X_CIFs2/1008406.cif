@@ -1,0 +1,154 @@
+##############################################################################
+#                                                                            #
+# Ce-Rh-Si         # Ce2Rh12Si7                                    # 1008406 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1008406
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1008406
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~2~ Rh~12~ Si~7~'
+_chemical_formula_sum                    'Ce2 Rh12 Si7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~2~Rh~12~As~7~,hP24,176
+_chemical_formula_weight                 1711.7
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structures Ce~2~Rh~12~Si~7~ and Ce~6~Rh~30~Si~19~'                   
+_journal_coden_ASTM                      ICCIC8
+_journal_name_full
+'Abstr. 8th Int. Conf. Crystal Chem. Intermet. Compd.'                        
+_journal_year                            2002
+_journal_volume                          ?
+_journal_page_first                      83
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Gribanov A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Bodak O.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.706
+_cell_length_b                           9.706
+_cell_length_c                           3.8394
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             313.2
+_cell_formula_units_Z                    1
+_space_group_IT_number                   176
+_space_group_name_H-M_alt                'P 63/m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, 1/2-z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, 1/2+z'
+ 6 '-y, x-y, 1/2-z'
+ 7 '-y, x-y, z'
+ 8 'x, y, 1/2-z'
+ 9 'x-y, x, -z'
+ 10 'x-y, x, 1/2+z'
+ 11 'y, -x+y, -z'
+ 12 'y, -x+y, 1/2+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Rh
+ Si
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rh1 Rh 6 h 0.065 0.446 0.25 1
+ Rh2 Rh 6 h 0.263 0.1492 0.25 1
+ Si1 Si 6 h 0.289 0.408 0.25 1
+ Si2 Si 4 e 0 0 0.104 0.250
+ Ce1 Ce 2 d 0.666667 0.333333 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.07
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1008406
+

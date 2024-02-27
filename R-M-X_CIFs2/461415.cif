@@ -1,0 +1,189 @@
+##############################################################################
+#                                                                            #
+# Fe-Ge-Pr         # PrFeGe3                                       #  461415 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_461415
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      461415
+_database_code_PDF                       04-003-9691
+
+# Entry summary
+
+_chemical_formula_structural             'Pr Fe~0.54~ Ge~3~'
+_chemical_formula_sum                    'Fe0.54 Ge3 Pr'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            BaNiSn~3~,tI10,107
+_chemical_formula_weight                 388.8
+
+# Bibliographic data
+
+_publ_section_title                      'New ternary praseodymium germanides'
+_journal_coden_ASTM                      INOMAF
+_journal_name_full                       'Inorg. Mater.'
+_journal_year                            1987
+_journal_volume                          23
+_journal_page_first                      504
+_journal_page_last                       508
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fedyna M.F.'
+;
+Lviv Ivan Franko State University
+Lviv
+Ukraine
+;
+'Pecharskii V.K.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Bodak O.I.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.312
+_cell_length_b                           4.312
+_cell_length_c                           9.932
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             184.7
+_cell_formula_units_Z                    2
+_space_group_IT_number                   107
+_space_group_name_H-M_alt                'I 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1/2-x, 1/2+z'
+ 13 '1/2-y, 1/2+x, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1/2-x, 1/2+z'
+ 16 '1/2+y, 1/2+x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Fe
+ Pr
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge2 Ge 4 b 0 0.5 0.3165 1
+ Ge1 Ge 2 a 0 0 0.0 1
+ Fe Fe 2 a 0 0 0.197 0.535
+ Pr Pr 2 a 0 0 0.554 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.99
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          DRON-2
+_diffrn_radiation_type                   'X-rays, Fe Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.117
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 0 1 1 3.938 30
+ 1 1 0 3.035 46
+ 0 1 3 2.605 1556
+ 0 0 4 2.479 184
+ 0 2 0 2.156 434
+ 0 2 2 1.992 33
+ 1 1 4 1.923 95
+ 1 2 1 1.89 15
+ 0 1 5 1.803 95
+ 2 1 3 1.669 70
+ 0 0 6 1.658 20
+ 0 2 4 1.628 145
+ 2 2 0 1.523 150
+ 2 2 2 1.454 84
+ 0 3 1 1.425 8
+ 1 2 5 1.384 68
+ 0 1 7 1.347 34
+ 0 3 3 1.318 15
+ 1 3 2 1.315 236
+ 2 2 4 1.299 87
+ 0 0 8 1.24 7
+ 1 3 4 1.195 68
+ 0 3 5 1.164 26
+ 1 1 8 1.15 34
+ 1 2 7 1.144 57
+ 2 3 3 1.124 17
+ 2 2 6 1.121 33
+ 0 4 0 1.077 50
+ 0 2 8 1.076 34
+ 0 1 9 1.07 32
+ 0 4 2 1.053 140
+ 2 3 5 1.025 49
+ 0 3 7 1.01 24
+
+# End of data set 461415
+

@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# Eu-Ni-Si         # Eu2Ni8Si3                                     # 1434500 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1434500
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1434500
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Eu~2~ Ni~8~ Si~3~'
+_chemical_formula_sum                    'Eu2 Ni7.82 Si3.18'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Eu~2~Ni~8~Si~3~,tP52,137
+_chemical_formula_weight                 857.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural, physical, theoretical and spectroscopic investigations of mixed-valent Eu~2~Ni~8~Si~3~ and its structural anti-type Sr~2~Pt~3~Al~8~
+;
+_journal_coden_ASTM                      EJICFO
+_journal_name_full                       'Eur. J. Inorg. Chem.'
+_journal_year                            2021
+_journal_volume                          ?
+_journal_page_first                      3832
+_journal_page_last                       3845
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stegemann F.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Block T.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Klenner S.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Zhang Y.'
+;
+University of California UC Riverside
+Department of Chemistry
+Riverside
+U.S.A. California
+;
+'Fokwa B.P.T.'
+;
+University of California UC Riverside
+Department of Chemistry
+Riverside
+U.S.A. California
+;
+'Doerenkamp C.'
+;
+Sao Paulo University (USP)
+Instituto de Fisica de Sao Carlos
+Sao Carlos
+Brazil
+;
+'Eckert H.'
+;
+Sao Paulo University (USP)
+Instituto de Fisica de Sao Carlos
+Sao Carlos
+Brazil
+;
+'Janka O.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.9712
+_cell_length_b                           9.9712
+_cell_length_c                           7.4677
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             742.5
+_cell_formula_units_Z                    4
+_space_group_IT_number                   137
+_space_group_name_H-M_alt                'P 42/n m c (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, 1/2+z'
+ 7 '1/2-y, x, 1/2+z'
+ 8 '-y, -x, 1/2-z'
+ 9 '-y, 1/2+x, 1/2-z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2-z'
+ 15 'y, 1/2-x, 1/2+z'
+ 16 'y, x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ni
+ Eu
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni2 Ni 16 h 0.04305 0.12304 0.03266 1
+ Ni1 Ni 8 g 0.25 0.1131 0.25787 1
+ Eu Eu 8 g 0.25 0.54549 0.8917 1
+ Ni,Si1 Ni 8 g 0.25 0.62231 0.35324 0.91(1)
+ Ni,Si2 Si 8 g 0.25 0.62231 0.35324 0.09(1)
+ Si2 Si 8 f 0.45775 0.54225 0.25 1
+ Si1 Si 4 d 0.25 0.25 0.00304 1
+
+
+_exptl_crystal_colour                    'gray silvery'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.67
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            559
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    8658
+_diffrn_reflns_theta_min                 2.9
+_diffrn_reflns_theta_max                 33.3
+_exptl_absorpt_coefficient_mu            36.4
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'charge flipping'
+_refine_ls_number_parameters             39
+_refine_ls_number_reflns                 559
+_refine_ls_R_factor_gt                   0.0196
+_refine_ls_wR_factor_gt                  0.0383
+
+# End of data set 1434500
+

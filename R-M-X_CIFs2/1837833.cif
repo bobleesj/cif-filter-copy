@@ -1,0 +1,156 @@
+##############################################################################
+#                                                                            #
+# Co-Ga-Gd         # GdCo0.67Ga1.33                                # 1837833 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1837833
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1837833
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Gd Co~0.67~ Ga~1.33~'
+_chemical_formula_sum                    'Co0.66 Ga1.34 Gd'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            KHg~2~,oI12,74
+_chemical_formula_weight                 289.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+Gd(Co~1-x~Ga~x~)~2~: Synthesis, crystal structures, and investigation of structural transformations and magnetic properties
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2018
+_journal_volume                          264
+_journal_page_first                      68
+_journal_page_last                       76
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yuan F.'
+;
+McMaster University (Mac)
+Brockhouse Institute for Materials Research
+Hamilton
+Canada
+;
+'Toombs A.'
+;
+Iowa State University of Science and Technology (ISU)
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Miller G.J.'
+;
+Iowa State University of Science and Technology (ISU)
+Department of Chemistry
+Ames
+U.S.A. Iowa
+;
+'Mozharivskyj Y.'
+;
+McMaster University (Mac)
+Brockhouse Institute for Materials Research
+Hamilton
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.3649
+_cell_length_b                           7.09
+_cell_length_c                           7.482
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             231.5
+_cell_formula_units_Z                    4
+_space_group_IT_number                   74
+_space_group_name_H-M_alt                'I m m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, -z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, 1/2-z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, 1/2+z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, 1/2-z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Ga
+ Co
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1Ga11A Ga 8 h 0 0.0557 0.1648 0.67
+ Co1Ga11B Co 8 h 0 0.0557 0.1648 0.33
+ Gd1 Gd 4 e 0 0.25 0.5459 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.30
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1255
+_diffrn_reflns_theta_min                 3.96
+_diffrn_reflns_theta_max                 29.04
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             13
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0244
+_refine_ls_wR_factor_gt                  0.0482
+
+# End of data set 1837833
+

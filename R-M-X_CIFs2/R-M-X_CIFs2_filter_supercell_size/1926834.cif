@@ -1,0 +1,165 @@
+##############################################################################
+#                                                                            #
+# Ge-Rh-Tm         # Tm5Rh4Ge10                                    # 1926834 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1926834
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1926834
+_database_code_PDF                       04-016-5958
+
+# Entry summary
+
+_chemical_formula_structural             'Tm~5~ Rh~4~ Ge~10~'
+_chemical_formula_sum                    'Ge10 Rh4 Tm5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc~5~Co~4~Si~10~,tP38,127
+_chemical_formula_weight                 1982.2
+
+# Bibliographic data
+
+_publ_section_title
+'Magnetic structure of Tm~5~Rh~4~Ge~10~'                                      
+_journal_coden_ASTM                      JMMMDC
+_journal_name_full                       'J. Magn. Magn. Mater.'
+_journal_year                            2008
+_journal_volume                          320
+_journal_page_first                      L1
+_journal_page_last                       L4
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Penc B.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+'Wawrzynska E.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+'Keller L.'
+;
+Paul Scherrer Institute (PSI-ETHZ)
+Labor fur Neutronenstreuung
+Villigen
+Switzerland
+;
+'Szytula A.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.845
+_cell_length_b                           12.845
+_cell_length_c                           4.2095
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             694.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Ge
+ Rh
+ Tm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge3 Ge 8 j 0.157 0.008 0.5 1
+ Ge2 Ge 8 i 0.167 0.203 0 1
+ Rh Rh 8 i 0.268 0.021 0 1
+ Tm2 Tm 4 h 0.153 0.653 0.5 1
+ Tm3 Tm 4 h 0.597 0.097 0.5 1
+ Ge1 Ge 4 g 0.055 0.555 0 1
+ Tm1 Tm 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.48
+_cell_measurement_temperature            10
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             2.5676
+_pd_proc_wavelength                      2.5676
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              10
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Switzerland, Villigen, Paul Scherrer Institute, Laboratory for Neutron Scattering, SINQ, DMC
+;
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             2.5676
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.127
+
+# End of data set 1926834
+

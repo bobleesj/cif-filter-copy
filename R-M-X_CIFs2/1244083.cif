@@ -1,0 +1,165 @@
+##############################################################################
+#                                                                            #
+# Ce-In-Pt         # CePtIn4                                       # 1244083 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1244083
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1244083
+_database_code_PDF                       04-024-3270
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pt In~4~'
+_chemical_formula_sum                    'Ce In4 Pt'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            YNiAl~4~,oS24,63
+_chemical_formula_weight                 794.5
+
+# Bibliographic data
+
+_publ_section_title
+'Low-temperature physical behavior in a novel compound CePtIn~4~'             
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2017
+_journal_volume                          724
+_journal_page_first                      581
+_journal_page_last                       585
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Blawat J.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Gnida D.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Daszkiewicz M.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Wisniewski P.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Kaczorowski D.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.5071
+_cell_length_b                           16.7329
+_cell_length_c                           7.3148
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             551.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ In
+ Ce
+ Pt
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In3 In 8 f 0 0.18341 0.04922 1
+ Ce Ce 4 c 0 0.37676 0.25 1
+ In2 In 4 c 0 0.56715 0.25 1
+ Pt Pt 4 c 0 0.72494 0.25 1
+ In1 In 4 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.57
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Kuma Diffraction KM-4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    2320
+_diffrn_reflns_theta_min                 5.43
+_diffrn_reflns_theta_max                 28.04
+_exptl_absorpt_coefficient_mu            49.611
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             24
+_refine_ls_number_reflns                 352
+_refine_ls_R_factor_gt                   0.0163
+_refine_ls_wR_factor_gt                  0.0360
+
+# End of data set 1244083
+

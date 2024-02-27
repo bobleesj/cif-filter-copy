@@ -1,0 +1,145 @@
+##############################################################################
+#                                                                            #
+# Ni-Sn-Y          # YNiSn2                                        # 1818208 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1818208
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1818208
+_database_code_PDF                       04-015-3380
+
+# Entry summary
+
+_chemical_formula_structural             'Y Ni Sn~2~'
+_chemical_formula_sum                    'Ni Sn2 Y'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LuNiSn~2~,oP48,62
+_chemical_formula_weight                 385.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Stannides YNi~x~Sn~2~ (x= 0, 0.14, 0.21, 1) - Syntheses, Structure, and ^119^Sn Mossbauer Spectroscopy
+;
+_journal_coden_ASTM                      MOCMB7
+_journal_name_full                       'Monatsh. Chem.'
+_journal_year                            2007
+_journal_volume                          138
+_journal_page_first                      381
+_journal_page_last                       388
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sebastian C.P.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           15.993
+_cell_length_b                           4.4089
+_cell_length_c                           14.569
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1027.3
+_cell_formula_units_Z                    12
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Sn
+ Y
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn5 Sn 4 c 0.03395 0.25 0.25902 1
+ Sn2 Sn 4 c 0.0438 0.25 0.5488 1
+ Y2 Y 4 c 0.12569 0.25 0.76967 1
+ Y1 Y 4 c 0.15071 0.25 0.02714 1
+ Ni2 Ni 4 c 0.19714 0.25 0.25116 1
+ Ni3 Ni 4 c 0.20068 0.25 0.5434 1
+ Sn4 Sn 4 c 0.28635 0.25 0.39352 1
+ Sn1 Sn 4 c 0.31472 0.25 0.67508 1
+ Sn6 Sn 4 c 0.32752 0.25 0.1268 1
+ Y3 Y 4 c 0.35517 0.25 0.8934 1
+ Ni1 Ni 4 c 0.44848 0.25 0.39532 1
+ Sn3 Sn 4 c 0.47894 0.25 0.57924 1
+
+
+_exptl_crystal_colour                    'gray silver'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.47
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    9181
+_diffrn_reflns_theta_min                 1
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            36.3
+_exptl_absorpt_correction_type           numerical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             74
+_refine_ls_number_reflns                 1538
+_refine_ls_R_factor_gt                   0.0267
+_refine_ls_wR_factor_gt                  0.0367
+
+# End of data set 1818208
+

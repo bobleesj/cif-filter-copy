@@ -1,0 +1,198 @@
+##############################################################################
+#                                                                            #
+# Gd-Ni-Si         # GdNi7Si6                                      # 1640572 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1640572
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1640572
+_database_code_PDF                       04-021-3360
+
+# Entry summary
+
+_chemical_formula_structural             'Gd Ni~7~ Si~6~'
+_chemical_formula_sum                    'Gd Ni7 Si6'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type
+SrNi~4~(Ni~0.46~Si~0.54~)~5~Si~4~,tP56,125                                    
+_chemical_formula_weight                 736.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+The Dy-Ni-Si system as a representative of the rare earth-Ni-Si family: Its isothermal section and new rare-earth nickel silicides
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2014
+_journal_volume                          219
+_journal_page_first                      247
+_journal_page_last                       258
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yuan F.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+'Mozharivskyj Y.A.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+'Morozkin A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Knotko A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Yapaskurt V.O.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Faculty of Geology
+Moscow
+Russia
+;
+'Pani M.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Provino A.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Manfrinetti P.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.8489
+_cell_length_b                           7.8489
+_cell_length_c                           11.1945
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             689.64
+_cell_formula_units_Z                    4
+_space_group_IT_number                   125
+_space_group_name_H-M_alt                'P 4/n b m (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, -z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, x, z'
+ 8 '-y, -x, z'
+ 9 '-y, 1/2+x, -z'
+ 10 '1/2+x, -y, z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, -z'
+ 13 '1/2+y, -x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, 1/2-x, z'
+ 16 'y, x, -z'
+loop_
+ _atom_type_symbol
+ Ni
+ Si
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1A Ni 16 n 0.1912 0.0515 0.25 0.5
+ Si1B Si 16 n 0.1912 0.0515 0.25 0.5
+ Si2A Si 8 m 0.3677 0.6323 0.4232 0.75
+ Ni2B Ni 8 m 0.3677 0.6323 0.4232 0.25
+ Ni2 Ni 8 m 0.3817 0.6183 0.0684 1
+ Ni1 Ni 8 m 0.5732 0.4268 0.3775 1
+ Si Si 8 m 0.5822 0.4178 0.1335 1
+ Ni3A Ni 4 h 0.75 0.25 0.25 0.5
+ Si3B Si 4 h 0.75 0.25 0.25 0.5
+ Gd1 Gd 2 b 0.25 0.25 0.5 1
+ Gd2 Gd 2 a 0.25 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.10
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku D/MAX-2500'
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 30
+_pd_proc_2theta_range_min                10
+_pd_proc_2theta_range_max                60
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# End of data set 1640572
+

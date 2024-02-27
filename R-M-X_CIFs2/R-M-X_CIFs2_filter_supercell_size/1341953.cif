@@ -1,0 +1,217 @@
+##############################################################################
+#                                                                            #
+# Er-Ir-Si         # Er2Ir3Si5 rt                                  # 1341953 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1341953
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1341953
+_database_code_PDF                       04-027-4605
+
+# Entry summary
+
+_chemical_formula_structural             'Er~2~ Ir~3~ Si~5~'
+_chemical_formula_sum                    'Er2 Ir3 Si5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Co~3~Si~5~,oI40,72
+_chemical_formula_weight                 1051.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+Unusual charge density wave transition and absence of magnetic ordering in Er~2~Ir~3~Si~5~
+;
+_journal_coden_ASTM                      PRBHB7
+_journal_name_full                       'Phys. Rev. B'
+_journal_year                            2020
+_journal_volume                          101
+_journal_page_first                      1
+_journal_page_last                       6
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ramakrishnan S.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Thamizhavel A.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+'Pal D.'
+;
+Indian Institute of Technology Guwahati (IIT Guwahati)
+Department of Physics
+Guwahati / Assam
+India
+;
+'Ramakrishnan S.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+'Schonleber A.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Rekis T.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Well N.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Noohinejad L.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Smaalen S.'
+;
+Bayreuth University
+Laboratorium fur Kristallographie
+Bayreuth
+Germany
+;
+'Tolkiehn M.'
+;
+German Electron Synchrotron (DESY)
+Hamburg
+Germany
+;
+'Paulmann C.'
+;
+Hamburg University (UHH)
+Mineralogisch-Petrographisches Institut (MPI)
+Hamburg
+Germany
+;
+'Bag B.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.9042
+_cell_length_b                           11.3432
+_cell_length_c                           5.7612
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             647.2
+_cell_formula_units_Z                    4
+_space_group_IT_number                   72
+_space_group_name_H-M_alt                'I b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, 1/2+z'
+ 6 'x, -y, 1/2-z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1-z'
+ 13 '1/2-x, 1/2+y, 1+z'
+ 14 '1/2+x, 1/2-y, 1-z'
+ 15 '1/2+x, 1/2-y, 1+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Ir
+ Er
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ir1 Ir 8 j 0.1144 0.1402 0 1
+ Er1 Er 8 j 0.271 0.3692 0 1
+ Si3 Si 8 j 0.3427 0.1045 0 1
+ Si2 Si 8 g 0 0.2754 0.25 1
+ Ir2 Ir 4 b 0.5 0 0.25 1
+ Si1 Si 4 a 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.79
+_cell_measurement_temperature            150
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.49994
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              150
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Germany, Hamburg, Deutsches Elektronen-Synchrotron DESY, PETRA III reactor, P24 beamline
+;
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.49994
+_diffrn_reflns_number                    8423
+_exptl_absorpt_coefficient_mu            35.472
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             31
+_refine_ls_number_reflns                 403
+_refine_ls_R_factor_gt                   0.0436
+_refine_ls_wR_factor_gt                  0.0432
+
+# End of data set 1341953
+

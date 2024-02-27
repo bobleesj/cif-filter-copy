@@ -1,0 +1,216 @@
+##############################################################################
+#                                                                            #
+# Rh-Sc-Sn         # Sc5Rh6Sn18                                    # 1340655 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1340655
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1340655
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Sc~5~ Rh~6~ Sn~18~'
+_chemical_formula_sum                    'Rh6 Sc5 Sn18'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc~5~Ir~6~Sn~18~,tI368,142
+_chemical_formula_weight                 2979.0
+_chemical_melting_point                  1275
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure, chemical bonding, and electrical and thermal transport in Sc~5~Rh~6~Sn~18~
+;
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2020
+_journal_volume                          49
+_journal_page_first                      6832
+_journal_page_last                       6841
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Feig M.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Akselrud L.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schnelle W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Dyadkin V.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Chernyshov D.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Ormeci A.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Simon P.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Leithe Jasper A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Gumeniuk R.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.5529
+_cell_length_b                           13.5529
+_cell_length_c                           27.0976
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             4977.32
+_cell_formula_units_Z                    8
+_space_group_IT_number                   142
+_space_group_name_H-M_alt                'I 41/a c d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '-x, 1/2-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 1/2+z'
+ 6 '1/4-y, 1/4-x, 1/4-z'
+ 7 '1/4-y, -1/4-x, -1/4+z'
+ 8 '1/4-y, -1/4+x, 1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 '1/2+x, -y, z'
+ 11 'x, -y, 1/2-z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '-1/4+y, 1/4-x, -1/4-z'
+ 15 '-1/4+y, 1/4+x, 1/4-z'
+ 16 '-1/4+y, -1/4+x, -1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1-x, 1/2+y, 1/2-z'
+ 19 '1/2-x, 1-y, 1/2+z'
+ 20 '1/2-x, 1/2-y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1+z'
+ 22 '3/4-y, 3/4-x, 3/4-z'
+ 23 '3/4-y, 1/4-x, 1/4+z'
+ 24 '3/4-y, 1/4+x, 3/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1+x, 1/2-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '1/4+y, 3/4-x, 1/4-z'
+ 31 '1/4+y, 3/4+x, 3/4-z'
+ 32 '1/4+y, 1/4+x, 1/4+z'
+loop_
+ _atom_type_symbol
+ Rh
+ Sn
+ Sc
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rh2 Rh 32 g -0.00011 -0.00747 0.12484 1
+ Sn5b Sn 32 g 0.0052 0.07844 0.21086 0.482
+ Sc1 Sc 32 g -0.0011 0.242 0.1192 0.25
+ Sn6b Sn 32 g -0.00598 0.07556 0.03748 0.518
+ Sn6a Sn 32 g 0.02212 0.07198 0.03744 0.482
+ Sn4 Sn 32 g 0.08706 0.16295 0.41873 1
+ Sc2 Sc 32 g 0.13328 0.11535 0.30805 1
+ Sn2 Sn 32 g 0.1738 0.07379 0.11812 0.5
+ Sn3 Sn 32 g 0.17626 0.42529 0.11777 0.5
+ Sn5a Sn 32 g 0.17704 0.26565 0.03661 0.518
+ Sn1 Sn 32 g 0.28079 0.00746 0.24628 0.5
+ Rh1 Rh 16 d 0 0.25 -0.00356 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.95
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_wavelength             0.73331
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              100
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, European Synchrotron Radiation Facility ESRF, SNBL, BM01'  
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.73331
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  0.022
+
+# End of data set 1340655
+

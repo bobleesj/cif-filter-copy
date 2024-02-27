@@ -6,6 +6,22 @@ from click import style
 import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import util.folder as folder
+import matplotlib.pyplot as plt
+
+
+def plot_supercell_size_histogram(supercell_atom_count_list, save_path, num_of_files, folder_info):
+    plot_directory = os.path.join(folder_info, "plot")
+    if not os.path.exists(plot_directory):
+        os.makedirs(plot_directory)
+        
+    plt.figure(figsize=(10,6))
+    plt.hist(supercell_atom_count_list, bins=50, color='blue', edgecolor='black')
+    plt.title(f"Histogram of supercel atom count of {num_of_files} files")
+    plt.xlabel('Number of atoms')
+    plt.ylabel('Number of CIF Files')
+    plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+    plt.savefig(save_path, dpi=300)
+    print(f"Supercell size histogram has been also saved in {save_path}.")
 
 
 def get_user_input():
@@ -34,7 +50,6 @@ def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
 
     CIF_block = cif_parser.get_CIF_block(file_path)
     cell_lengths, cell_angles_rad = cif_parser.get_cell_lenghts_angles_rad(CIF_block)
-    print("cell_angles_rad cell_lengths", cell_angles_rad, cell_lengths)
     CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
     all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
     all_points, _, _ = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
@@ -64,17 +79,16 @@ def get_cif_folder_info(script_directory, is_interactive_mode=True):
         max_atoms_count = 10000
         is_dist_computed = True
 
-    # folder_info = "/Users/imac/Documents/GitHub/cif-filter-copy/20240226_big_cif_files"
-
     files_lst = [os.path.join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]
     overall_start_time = time.time()
-
+    supercell_atom_count_list = []
     for idx, file_path in enumerate(files_lst, start=1):
         start_time = time.time()
         filename_base = os.path.basename(file_path)
         num_of_atoms, min_distance = get_num_of_atoms_shortest_dist(file_path, is_dist_computed)
         click.echo(style(f"Processing {filename_base} with {num_of_atoms} atoms...", fg="blue"))
-        
+        supercell_atom_count_list.append(num_of_atoms)
+
         if num_of_atoms > max_atoms_count:
             click.echo(style(f"Skipped - {filename_base} has {num_of_atoms} atoms", fg="yellow"))
             continue
@@ -92,6 +106,14 @@ def get_cif_folder_info(script_directory, is_interactive_mode=True):
 
         print(f"Processed {filename_base} with {num_of_atoms} atoms ({idx}/{len(files_lst)})")
 
+    # Save histogram on size
+    supercell_size_histogram_save_path = os.path.join(folder_info, "plot", "histogram-supercell-size.png")
+    plot_supercell_size_histogram(supercell_atom_count_list,
+                                  supercell_size_histogram_save_path,
+                                  len(files_lst),
+                                  folder_info)
+
+    # Save csv
     save_results_to_csv(results, folder_info)
     total_elapsed_time = time.time() - overall_start_time
     print(f"Total processing time for all files: {total_elapsed_time:.2f} seconds")

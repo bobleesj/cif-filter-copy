@@ -1,0 +1,174 @@
+##############################################################################
+#                                                                            #
+# Ga-Pd-Yb         # Yb2Pd3Ga9                                     # 1604888 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1604888
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1604888
+_database_code_PDF                       04-019-2711
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Pd~3~ Ga~9~'
+_chemical_formula_sum                    'Ga9 Pd3 Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb~2~Pd~3~Ga~9~,hP84,178
+_chemical_formula_weight                 1292.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Adventures in crystal growth: Synthesis and characterization of single crystals of complex intermetallic compounds
+;
+_journal_coden_ASTM                      CMATEX
+_journal_name_full                       'Chem. Mater.'
+_journal_year                            2012
+_journal_volume                          24
+_journal_page_first                      409
+_journal_page_last                       420
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Phelan W.A.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Menard M.C.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Kangas M.J.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'McCandless G.T.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Drake B.L.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Chan J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.608
+_cell_length_b                           7.608
+_cell_length_c                           28.508
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1429.02
+_cell_formula_units_Z                    6
+_space_group_IT_number                   178
+_space_group_name_H-M_alt                'P 61 2 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -1/3+z'
+ 3 '-x+y, y, 1/2-z'
+ 4 '-x, -x+y, -1/3-z'
+ 5 '-x, -y, 1/2+z'
+ 6 '-y, -x, -1/6-z'
+ 7 '-y, x-y, 1/3+z'
+ 8 'x, x-y, 1/6-z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, 1/6+z'
+ 11 'y, -x+y, -1/6+z'
+ 12 'y, x, 1/3-z'
+loop_
+ _atom_type_symbol
+ Ga
+ Yb
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga4 Ga 12 c 0.0033 0.3367 0.05677 1
+ Ga3 Ga 12 c 0.33 0.3318 0.10975 1
+ Yb1 Yb 12 c 0.33504 0.33447 0.33349 1
+ Ga5 Ga 12 c 0.3351 0.001 0.3936 1
+ Ga2 Ga 12 c 0.5387 0.2068 0.50043 1
+ Pd1 Pd 6 b 0.0019 0.0038 0.25 1
+ Pd3 Pd 6 b 0.3328 0.6656 0.25 1
+ Pd2 Pd 6 b 0.6648 0.3296 0.25 1
+ Ga1 Ga 6 a 0.8786 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.01
+_cell_measurement_temperature            298(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            7482
+_diffrn_ambient_temperature              298(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    13976
+_diffrn_reflns_theta_min                 3.09
+_diffrn_reflns_theta_max                 30.29
+_exptl_absorpt_coefficient_mu            49.835
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             67
+_refine_ls_number_reflns                 654
+_refine_ls_R_factor_gt                   0.0725
+_refine_ls_wR_factor_gt                  0.1085
+
+# End of data set 1604888
+

@@ -1,0 +1,241 @@
+##############################################################################
+#                                                                            #
+# Co-Ge-Yb         # Yb3Co4Ge13                                    # 1434589 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1434589
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1434589
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~3~ Co~4~ Ge~13~'
+_chemical_formula_sum                    'Co4 Ge13 Yb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            La~3~Rh~4~Sn~13~,cI320,214
+_chemical_formula_weight                 1699.1
+
+# Bibliographic data
+
+_publ_section_title
+'Valence fluctuations in the 3D+3 modulated Yb~3~Co~4~Ge~13~ Remeika phase'   
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2021
+_journal_volume                          50
+_journal_page_first                      13580
+_journal_page_last                       13590
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Feig M.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Gumeniuk R.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Akselrud L.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Motylenko M.'
+;
+Freiberg TU Bergakademie
+Institut fur Werkstoffwissenschaft (IWW)
+Freiberg
+Germany
+;
+'Bobnar M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Wagler J.'
+;
+Freiberg TU Bergakademie
+Institut fur Anorganische Chemie
+Freiberg
+Germany
+;
+'Kvashnina K.O.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Rossendorf Beamline
+Grenoble
+France
+;
+'Levytskyi V.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Rafaja D.'
+;
+Freiberg TU Bergakademie
+Institut fur Werkstoffwissenschaft (IWW)
+Freiberg
+Germany
+;
+'Leithe Jasper A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.445
+_cell_length_b                           17.445
+_cell_length_c                           17.445
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5309
+_cell_formula_units_Z                    16
+_space_group_IT_number                   214
+_space_group_name_H-M_alt                'I 41 3 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '1/4-x, 1/4-z, 1/4-y'
+ 4 '1/4-x, -1/4+z, 1/4+y'
+ 5 '-x, 1/2-y, z'
+ 6 '1/2-y, z, -x'
+ 7 '1/4-y, 1/4-x, 1/4-z'
+ 8 '1/4-y, -1/4+x, 1/4+z'
+ 9 '-y, 1/2-z, x'
+ 10 '1/2-z, x, -y'
+ 11 '1/4-z, 1/4-y, 1/4-x'
+ 12 '1/4-z, -1/4+y, 1/4+x'
+ 13 '-z, 1/2-x, y'
+ 14 '1/4+x, 1/4-z, -1/4+y'
+ 15 'x, -y, 1/2-z'
+ 16 '-1/4+x, 1/4+z, 1/4-y'
+ 17 '1/4+y, 1/4-x, -1/4+z'
+ 18 'y, -z, 1/2-x'
+ 19 'y, z, x'
+ 20 '-1/4+y, 1/4+x, 1/4-z'
+ 21 '1/4+z, 1/4-y, -1/4+x'
+ 22 'z, -x, 1/2-y'
+ 23 'z, x, y'
+ 24 '-1/4+z, 1/4+y, 1/4-x'
+ 25 '1/2+x, 1/2+y, 1/2+z'
+ 26 '1-x, 1/2+y, 1/2-z'
+ 27 '3/4-x, 3/4-z, 3/4-y'
+ 28 '3/4-x, 1/4+z, 3/4+y'
+ 29 '1/2-x, 1-y, 1/2+z'
+ 30 '1-y, 1/2+z, 1/2-x'
+ 31 '3/4-y, 3/4-x, 3/4-z'
+ 32 '3/4-y, 1/4+x, 3/4+z'
+ 33 '1/2-y, 1-z, 1/2+x'
+ 34 '1-z, 1/2+x, 1/2-y'
+ 35 '3/4-z, 3/4-y, 3/4-x'
+ 36 '3/4-z, 1/4+y, 3/4+x'
+ 37 '1/2-z, 1-x, 1/2+y'
+ 38 '3/4+x, 3/4-z, 1/4+y'
+ 39 '1/2+x, 1/2-y, 1-z'
+ 40 '1/4+x, 3/4+z, 3/4-y'
+ 41 '3/4+y, 3/4-x, 1/4+z'
+ 42 '1/2+y, 1/2-z, 1-x'
+ 43 '1/2+y, 1/2+z, 1/2+x'
+ 44 '1/4+y, 3/4+x, 3/4-z'
+ 45 '3/4+z, 3/4-y, 1/4+x'
+ 46 '1/2+z, 1/2-x, 1-y'
+ 47 '1/2+z, 1/2+x, 1/2+y'
+ 48 '1/4+z, 3/4+y, 3/4-x'
+loop_
+ _atom_type_symbol
+ Ge
+ Yb
+ Co
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge5 Ge 48 i -0.001 0.139 0.427 1
+ Ge4 Ge 48 i 0.001 0.157 0.079 1
+ Ge2 Ge 48 i 0.0881 0.25 0.332 1
+ Ge3 Ge 48 i 0.251 0.327 0.407 1
+ Yb2 Yb 24 h 0.125 0.2495 0.0005 1
+ Co4 Co 24 h 0.125 0.622 0.628 1
+ Co3 Co 24 g 0.125 0.124 0.374 1
+ Yb1 Yb 24 g 0.125 0.2495 0.4995 1
+ Ge1 Ge 16 e 0.001 0.001 0.001 1
+ Co2 Co 8 b 0.875 0.875 0.875 1
+ Co1 Co 8 a 0.125 0.125 0.125 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.50
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka1'
+_cell_measurement_wavelength             1.78897
+_pd_proc_wavelength                      1.78897
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Huber G670'
+_diffrn_radiation_type                   'X-rays, Co Ka1'
+_diffrn_radiation_wavelength             1.78897
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             34
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.102
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.054
+
+# End of data set 1434589
+

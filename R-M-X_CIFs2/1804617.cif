@@ -1,0 +1,182 @@
+##############################################################################
+#                                                                            #
+# Ni-Sn-Tb         # TbNiSn4                                       # 1804617 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1804617
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1804617
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Tb Ni Sn~4~'
+_chemical_formula_sum                    'Ni Sn4 Tb'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LuNiSn~4~,oS24,65
+_chemical_formula_weight                 692.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+New RNiSn~4~ compounds (R= rare earth): crystal structure of new LuNiSn~4~ type, magnetic and transport properties
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2000
+_journal_volume                          296
+_journal_page_first                      303
+_journal_page_last                       311
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Skolozdra R.V.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Mudryk Y.S.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Akselrud L.G.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Gignoux D.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+'Pierre J.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire Louis Neel (LLN)
+Grenoble
+France
+;
+'Romaka L.P.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Schmitt D.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire Louis Neel (LLN)
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.363
+_cell_length_b                           28.179
+_cell_length_c                           4.403
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             541.3
+_cell_formula_units_Z                    4
+_space_group_IT_number                   65
+_space_group_name_H-M_alt                'C m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, z'
+ 12 '1/2-x, 1/2+y, -z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, z'
+ 16 '1/2+x, 1/2+y, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Tb
+ Sn
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Tb1 Tb 4 j 0 0.19271 0.5 1
+ Sn1 Sn 4 j 0 0.39293 0.5 1
+ Sn2 Sn 4 i 0 0.10766 0 1
+ Sn3 Sn 4 i 0 0.28636 0 1
+ Ni1 Ni 4 i 0 0.45149 0 1
+ Sn4 Sn 2 c 0.5 0 0.5 1
+ Sn5 Sn 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.50
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1804617
+

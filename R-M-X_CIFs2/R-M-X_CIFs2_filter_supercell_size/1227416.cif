@@ -1,0 +1,204 @@
+##############################################################################
+#                                                                            #
+# Ce-In-Pd         # CePd2In4                                      # 1227416 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1227416
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1227416
+_database_code_PDF                       04-018-0245
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pd~2~ In~4~'
+_chemical_formula_sum                    'Ce In4 Pd2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaPd~2~In~4~,oP70,26
+_chemical_formula_weight                 812.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis, crystal structure and magnetic properties of the new ternary indides REPd~2~In~4~ (RE= La, Ce, Pr, Nd)
+;
+_journal_coden_ASTM                      IERME5
+_journal_name_full                       Intermetallics
+_journal_year                            2011
+_journal_volume                          19
+_journal_page_first                      1864
+_journal_page_last                       1872
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Nesterenko S.N.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Murashova E.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Kurenbaeva Z.M.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Roisnel T.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Kaczorowski D.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.572
+_cell_length_b                           9.92
+_cell_length_c                           33.017
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1497.46
+_cell_formula_units_Z                    10
+_space_group_IT_number                   26
+_space_group_name_H-M_alt                'P m c 21'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, 1/2+z'
+ 3 '-x, y, z'
+ 4 'x, -y, 1/2+z'
+loop_
+ _atom_type_symbol
+ In
+ Ce
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 2 b 0.5 0.0337 0.2498 1
+ Ce1 Ce 2 b 0.5 0.0415 0.13893 1
+ Pd1 Pd 2 b 0.5 0.0595 0.01981 1
+ In2 In 2 b 0.5 0.1227 0.93979 1
+ Ce2 Ce 2 b 0.5 0.176 0.8375 1
+ In3 In 2 b 0.5 0.1744 0.33238 1
+ In4 In 2 b 0.5 0.1927 0.55203 1
+ Ce3 Ce 2 b 0.5 0.2149 0.43827 1
+ Pd2 Pd 2 b 0.5 0.2221 0.72034 1
+ In5 In 2 b 0.5 0.2868 0.06763 1
+ Pd3 Pd 2 b 0.5 0.3015 0.23072 1
+ In6 In 2 b 0.5 0.3832 0.15103 1
+ In7 In 2 b 0.5 0.4708 0.36168 1
+ In8 In 2 b 0.5 0.5306 0.00873 1
+ In9 In 2 b 0.5 0.5513 0.27075 1
+ Pd4 Pd 2 b 0.5 0.6039 0.43404 1
+ In10 In 2 b 0.5 0.6903 0.13992 1
+ In11 In 2 a 0 0.0185 0.39049 1
+ In12 In 2 a 0 0.0475 0.07019 1
+ Pd5 Pd 2 a 0 0.046 0.30594 1
+ In13 In 2 a 0 0.0518 0.48646 1
+ In14 In 2 a 0 0.1224 0.6838 1
+ In15 In 2 a 0 0.191 0.19541 1
+ In16 In 2 a 0 0.2027 0.76867 1
+ Pd6 Pd 2 a 0 0.204 0.60442 1
+ Pd7 Pd 2 a 0 0.2832 0.11523 1
+ Pd8 Pd 2 a 0 0.292 0.36479 1
+ Ce4 Ce 2 a 0 0.297 0.0 1
+ Pd9 Pd 2 a 0 0.3164 0.51314 1
+ In17 In 2 a 0 0.3248 0.28009 1
+ In18 In 2 a 0 0.4387 0.43631 1
+ In19 In 2 a 0 0.5325 0.0833 1
+ Ce5 Ce 2 a 0 0.5427 0.19839 1
+ Pd10 Pd 2 a 0 0.5753 0.32011 1
+ In20 In 2 a 0 0.7009 0.39557 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.01
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    14181
+_diffrn_reflns_theta_min                 3.7
+_diffrn_reflns_theta_max                 27.5
+_exptl_absorpt_coefficient_mu            28.275
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             211
+_refine_ls_number_reflns                 2908
+_refine_ls_R_factor_gt                   0.0506
+_refine_ls_wR_factor_gt                  0.1012
+
+# End of data set 1227416
+

@@ -1,0 +1,196 @@
+##############################################################################
+#                                                                            #
+# Ho-In-Ni         # Ho13.35Ni3.17In3.48                           # 1210394 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1210394
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1210394
+_database_code_PDF                       04-011-8293
+
+# Entry summary
+
+_chemical_formula_structural             'Ho~13.35~ Ni~3.17~ In~3.48~'
+_chemical_formula_sum                    'Ho13.35 In3.48 Ni3.17'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~14~Co~3~In~2.7~,tP80,137
+_chemical_formula_weight                 2787.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+New rare earth metal-rich indides RE~14~Ni~3~In~3~ (RE= Sc, Y, Gd-Tm, Lu) - synthesis and crystal chemistry
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2005
+_journal_volume                          178
+_journal_page_first                      2724
+_journal_page_last                       2733
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lukachuk M.O.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+'Galadzhun Y.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba R.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Dzevenko M.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.4853
+_cell_length_b                           9.4853
+_cell_length_c                           22.706
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2042.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   137
+_space_group_name_H-M_alt                'P 42/n m c (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, 1/2+z'
+ 7 '1/2-y, x, 1/2+z'
+ 8 '-y, -x, 1/2-z'
+ 9 '-y, 1/2+x, 1/2-z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2-z'
+ 15 'y, 1/2-x, 1/2+z'
+ 16 'y, x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ho
+ In
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ho7 Ho 16 h 0.06177 0.06654 0.3948 1
+ Ho6 Ho 8 g 0.25 0.0626 0.03453 1
+ In2 In 8 g 0.25 0.0879 0.64562 1
+ Ni1 Ni 8 g 0.25 0.5348 0.3117 1
+ Ho3 Ho 8 g 0.25 0.5442 0.19443 1
+ Ho4 Ho 8 g 0.25 0.5649 0.51787 1
+ Ho5 Ho 8 f 0.56877 0.43123 0.25 1
+ Ho2 Ho 4 d 0.25 0.25 0.28446 1
+ Ni2 Ni 4 d 0.25 0.25 0.447 1
+ In1A In 4 c 0.75 0.25 0.14431 0.65
+ Ho1B Ho 4 c 0.75 0.25 0.14431 0.35
+ In2A In 4 c 0.75 0.25 0.59273 0.83
+ Ni2B Ni 4 c 0.75 0.25 0.59273 0.17
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.06
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    5091
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            57.2
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             64
+_refine_ls_number_reflns                 658
+_refine_ls_R_factor_gt                   0.0451
+_refine_ls_wR_factor_gt                  0.0839
+
+# End of data set 1210394
+

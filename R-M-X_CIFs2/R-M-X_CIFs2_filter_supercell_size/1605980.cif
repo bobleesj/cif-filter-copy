@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Gd-In-Ni         # GdNi9In2                                      # 1605980 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1605980
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1605980
+_database_code_PDF                       04-027-7583
+
+# Entry summary
+
+_chemical_formula_structural             'Gd Ni~9~ In~2~'
+_chemical_formula_sum                    'Gd In2 Ni9'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            YNi~9~In~2~,tP24,127
+_chemical_formula_weight                 915.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+RNi~9~In~2~ (R= rare-earth metal): Crystal chemistry, hydrogen absorption, and magnetic properties
+;
+_journal_coden_ASTM                      EJICFO
+_journal_name_full                       'Eur. J. Inorg. Chem.'
+_journal_year                            2014
+_journal_volume                          ?
+_journal_page_first                      2631
+_journal_page_last                       2642
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bigun I.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Dzevenko M.D.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Havela L.'
+;
+Charles University
+Department of Condensed Matter Physics
+Prague
+Czech Republic
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.241
+_cell_length_b                           8.241
+_cell_length_c                           4.846
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             329.1
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Ni
+ In
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni 8 k 0.172 0.672 0.245 1
+ Ni2 Ni 8 j 0.067 0.211 0.5 1
+ In In 4 g 0.624 0.124 0 1
+ Ni3 Ni 2 c 0 0.5 0.5 1
+ Gd Gd 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.23
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS D8 ADVANCE'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 10
+_diffrn_reflns_theta_max                 50
+_pd_proc_2theta_range_min                20
+_pd_proc_2theta_range_max                100
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0415
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.0392
+_pd_proc_ls_proof_wR_factor              0.0507
+_refine_ls_R_I_factor                    0.0451
+
+# End of data set 1605980
+

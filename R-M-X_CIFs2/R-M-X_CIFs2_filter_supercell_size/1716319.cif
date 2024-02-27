@@ -1,0 +1,161 @@
+##############################################################################
+#                                                                            #
+# Ge-Lu-Pd         # LuPdGe                                        # 1716319 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1716319
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1716319
+_database_code_PDF                       04-017-3470
+
+# Entry summary
+
+_chemical_formula_structural             'Lu Pd Ge'
+_chemical_formula_sum                    'Ge Lu Pd'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            AuYbSn,oI36,44
+_chemical_formula_weight                 354.0
+
+# Bibliographic data
+
+_publ_section_title
+'Polymorphysm in the germanides REPdGe with the heavy rare earth elements'    
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2009
+_journal_volume                          64
+_journal_page_first                      595
+_journal_page_last                       602
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Heying B.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Hoffmann R.D.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Niepmann D.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.3205
+_cell_length_b                           20.442
+_cell_length_c                           7.525
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             664.61
+_cell_formula_units_Z                    12
+_space_group_IT_number                   44
+_space_group_name_H-M_alt                'I m m 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, 1/2+z'
+ 6 '1/2-x, 1/2-y, 1/2+z'
+ 7 '1/2-x, 1/2+y, 1/2+z'
+ 8 '1/2+x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Pd
+ Lu
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge 4 d 0 0.0661 0.3817 1
+ Pd1 Pd 4 d 0 0.10462 0.7066 1
+ Lu4 Lu 4 d 0 0.1664 0.07522 1
+ Ge2 Ge 4 d 0 0.237 0.6952 1
+ Pd2 Pd 4 d 0 0.26862 0.3647 1
+ Lu2 Lu 4 d 0 0.33281 -0.00224 1
+ Ge3 Ge 4 d 0 0.4074 0.3814 1
+ Pd3 Pd 4 d 0 0.4277 0.7118 1
+ Lu3 Lu 2 b 0 0.5 0.0818 1
+ Lu1 Lu 2 a 0 0 0.0 1
+
+
+_exptl_crystal_colour                    'gray light'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.61
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    3981
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 32
+_exptl_absorpt_coefficient_mu            65.3
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             59
+_refine_ls_number_reflns                 779
+_refine_ls_R_factor_gt                   0.035
+_refine_ls_wR_factor_gt                  0.087
+
+# End of data set 1716319
+

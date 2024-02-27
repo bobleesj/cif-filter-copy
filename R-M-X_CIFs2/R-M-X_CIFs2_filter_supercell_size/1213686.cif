@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Dy-Fe-Sn         # DyFe6Sn6 rt-orth1                             # 1213686 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1213686
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1213686
+_database_code_PDF                       04-013-2504
+
+# Entry summary
+
+_chemical_formula_structural             'Dy Fe~6~ Sn~6~'
+_chemical_formula_sum                    'Dy Fe6 Sn6'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TbFe~6~Sn~6~,oS52,63
+_chemical_formula_weight                 1209.7
+
+# Bibliographic data
+
+_publ_section_title                      'Magnetic ordering in DyFe~6~Sn~6~'
+_journal_coden_ASTM                      PHYBE3
+_journal_name_full                       'Phys. B (Amsterdam)'
+_journal_year                            2006
+_journal_volume                          385/386
+_journal_page_first                      317
+_journal_page_last                       319
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Cadogan J.M.'
+;
+New South Wales University (UNSW)
+School of Physics
+Sydney
+Australia
+;
+'Moze O.'
+;
+Modena and Reggio Emilia University (UNIMORE)
+Dipartimento di Fisica
+Modena
+Italy
+;
+'Ryan D.H.'
+;
+McGill University
+Department of Physics
+Montreal
+Canada
+;
+'Suharyana'
+;
+New South Wales University (UNSW)
+School of Physics
+Sydney
+Australia
+;
+'Hofmann M.'
+;
+Munich Technical University (TUM)
+Munich-Garching
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.9384
+_cell_length_b                           18.7625
+_cell_length_c                           5.4368
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             911.8
+_cell_formula_units_Z                    4
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Fe
+ Sn
+ Dy
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Fe3 Fe 8 g 0.2533 0.124 0.25 1
+ Sn5 Sn 8 g 0.3301 0.377 0.25 1
+ Fe2 Fe 8 e 0.2536 0 0 1
+ Fe1 Fe 8 d 0.25 0.25 0 1
+ Sn2 Sn 4 c 0 0.0412 0.25 1
+ Sn4 Sn 4 c 0 0.2087 0.25 1
+ Dy Dy 4 c 0 0.3713 0.25 1
+ Sn1 Sn 4 c 0 0.5435 0.25 1
+ Sn3 Sn 4 c 0 0.7102 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.81
+_cell_measurement_temperature            600
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.3278
+_pd_proc_wavelength                      1.3278
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              600
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'Canada, Ontario, Chalk River Laboratories, NRU reactor, DUALSPEC C2'         
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.3278
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              0.069
+_refine_ls_R_I_factor                    0.045
+
+# End of data set 1213686
+

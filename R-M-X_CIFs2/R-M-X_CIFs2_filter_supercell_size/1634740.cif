@@ -1,0 +1,189 @@
+##############################################################################
+#                                                                            #
+# Ni-Sm-Sn         # Sm12Ni6Sn                                     # 1634740 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1634740
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1634740
+_database_code_PDF                       04-019-3720
+
+# Entry summary
+
+_chemical_formula_structural             'Sm~12~ Ni~6~ Sn'
+_chemical_formula_sum                    'Ni6 Sm12 Sn'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm~12~Ni~6~In,cI38,204
+_chemical_formula_weight                 2275.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and magnetic properties of new rare earth R~12~Ni~6~Sn compounds
+;
+_journal_coden_ASTM                      JMMMDC
+_journal_name_full                       'J. Magn. Magn. Mater.'
+_journal_year                            2002
+_journal_volume                          242/245
+_journal_page_first                      854
+_journal_page_last                       857
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Romaka L.P.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Senkovska O.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Fruchart D.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+'Gignoux D.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire Louis Neel (LLN)
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.893
+_cell_length_b                           9.893
+_cell_length_c                           9.893
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             968.2
+_cell_formula_units_Z                    2
+_space_group_IT_number                   204
+_space_group_name_H-M_alt                'I m -3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+ 25 '1/2+x, 1/2+y, 1/2+z'
+ 26 '1/2-x, 1/2-y, 1/2-z'
+ 27 '1/2-x, 1/2-y, 1/2+z'
+ 28 '1/2-x, 1/2+y, 1/2-z'
+ 29 '1/2-x, 1/2+y, 1/2+z'
+ 30 '1/2-y, 1/2-z, 1/2-x'
+ 31 '1/2-y, 1/2-z, 1/2+x'
+ 32 '1/2-y, 1/2+z, 1/2-x'
+ 33 '1/2-y, 1/2+z, 1/2+x'
+ 34 '1/2-z, 1/2-x, 1/2-y'
+ 35 '1/2-z, 1/2-x, 1/2+y'
+ 36 '1/2-z, 1/2+x, 1/2-y'
+ 37 '1/2-z, 1/2+x, 1/2+y'
+ 38 '1/2+x, 1/2-y, 1/2-z'
+ 39 '1/2+x, 1/2-y, 1/2+z'
+ 40 '1/2+x, 1/2+y, 1/2-z'
+ 41 '1/2+y, 1/2-z, 1/2-x'
+ 42 '1/2+y, 1/2-z, 1/2+x'
+ 43 '1/2+y, 1/2+z, 1/2-x'
+ 44 '1/2+y, 1/2+z, 1/2+x'
+ 45 '1/2+z, 1/2-x, 1/2-y'
+ 46 '1/2+z, 1/2-x, 1/2+y'
+ 47 '1/2+z, 1/2+x, 1/2-y'
+ 48 '1/2+z, 1/2+x, 1/2+y'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Sm
+ Ni
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sm1 Sm 24 g 0 0.1966 0.3219 1
+ Ni1 Ni 12 e 0.1256 0 0.5 1
+ Sn1 Sn 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.81
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1634740
+

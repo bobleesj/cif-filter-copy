@@ -1,0 +1,136 @@
+##############################################################################
+#                                                                            #
+# Rh-Si-U          # URhSi                                         # 1223456 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1223456
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1223456
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'U Rh Si'
+_chemical_formula_sum                    'Rh Si0.96 U'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiNiSi,oP12,62
+_chemical_formula_weight                 369.0
+
+# Bibliographic data
+
+_publ_section_title
+'Magnetization densities in URhSi studied by polarized neutron diffraction'   
+_journal_coden_ASTM                      PRBMDO
+_journal_name_full
+'Phys. Rev. B: Condens. Matter Mater. Phys.'                                  
+_journal_year                            2009
+_journal_volume                          79
+_journal_page_first                      1
+_journal_page_last                       7
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Prokes K.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Gukasov A.G.'
+;
+Centre d'Etudes Nucleaire de Saclay
+Laboratoire Leon Brillouin (LLB)
+Gif-sur-Yvette
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.97
+_cell_length_b                           4.08
+_cell_length_c                           7.43
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             211.3
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ U
+ Rh
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ U U 4 c 0.0015 0.25 0.6941 1
+ Rh Rh 4 c 0.1425 0.25 0.0793 1
+ Si Si 4 c 0.2807 0.25 0.3985 0.96
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.60
+_cell_measurement_temperature            20
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.21
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              20
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BER II reactor, E2
+;
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.21
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.056
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1223456
+

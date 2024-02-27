@@ -1,0 +1,157 @@
+##############################################################################
+#                                                                            #
+# Fe-Sn-U          # U2Fe2Sn                                       # 1634872 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1634872
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1634872
+_database_code_PDF                       04-019-3788
+
+# Entry summary
+
+_chemical_formula_structural             'U~2.1~ Fe~2~ Sn~0.9~'
+_chemical_formula_sum                    'Fe1.98 Sn0.91 U2.05'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mo~2~FeB~2~,tP10,127
+_chemical_formula_weight                 718.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystallographic and magnetic properties of the U~2.1~Fe~2~Sn~0.9~ ternary stannide
+;
+_journal_coden_ASTM                      JMMMDC
+_journal_name_full                       'J. Magn. Magn. Mater.'
+_journal_year                            2002
+_journal_volume                          251
+_journal_page_first                      1
+_journal_page_last                       8
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Goncalves A.P.'
+;
+Technological and Nuclear Institute (ITN)
+Departamento de Quimica
+Lisbon
+Portugal
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie des Materiaux Inorganiques et de Cristallographie
+Rennes
+France
+;
+'Waerenborgh J.C.'
+;
+Technological and Nuclear Institute (ITN)
+Lisbon
+Portugal
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.2975
+_cell_length_b                           7.2975
+_cell_length_c                           3.4479
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             183.6
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ U
+ Fe
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ U1 U 4 h 0.1706 0.6706 0.5 0.98
+ Fe Fe 4 g 0.6365 0.1365 0 0.99
+ Sn,U1 Sn 2 a 0 0 0 0.91(1)
+ Sn,U2 U 2 a 0 0 0 0.09(1)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.99
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.54056
+_pd_proc_wavelength                      1.54056
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1710'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_wavelength             1.54056
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 50
+_pd_proc_2theta_range_min                10
+_pd_proc_2theta_range_max                100
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.0868
+
+# End of data set 1634872
+

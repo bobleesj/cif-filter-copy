@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# Co-Ge-Pr         # Pr7Co2Ge4                                     # 1041148 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1041148
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1041148
+_database_code_PDF                       04-022-9955
+
+# Entry summary
+
+_chemical_formula_structural             'Pr~7~ Co~2~ Ge~4~'
+_chemical_formula_sum                    'Co2 Ge4 Pr7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~7~Pd~4~Ge~2~,mP52,14
+_chemical_formula_weight                 1394.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+Exo-bonded six-membered heterocycle in the crystal structures of RE~7~Co~2~Ge~4~ (RE= La-Nd)
+;
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2016
+_journal_volume                          45
+_journal_page_first                      18522
+_journal_page_last                       18531
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ponou S.'
+;
+Lund University
+Department of Chemistry
+Lund
+Sweden
+;
+'Lidin S.'
+;
+Lund University
+Department of Chemistry
+Lund
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.2373
+_cell_length_b                           12.2352
+_cell_length_c                           12.2392
+_cell_angle_alpha                        90
+_cell_angle_beta                         109.51
+_cell_angle_gamma                        90
+_cell_volume                             1303.85
+_cell_formula_units_Z                    4
+_space_group_IT_number                   14
+_space_group_name_H-M_alt                'P 1 21/c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, 1/2-z'
+ 4 'x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Pr
+ Co
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pr3 Pr 4 e 0.00023 0.65972 0.38051 1
+ Pr2 Pr 4 e 0.00213 0.60115 0.10105 1
+ Pr1 Pr 4 e 0.00214 0.3811 0.34144 1
+ Co1 Co 4 e 0.1366 0.37979 0.15668 1
+ Ge1 Ge 4 e 0.25103 0.00013 0.06261 1
+ Ge3 Ge 4 e 0.27663 0.24967 0.3205 1
+ Ge2 Ge 4 e 0.29821 0.49932 0.07541 1
+ Pr4 Pr 4 e 0.35515 0.0021 0.33716 1
+ Pr6 Pr 4 e 0.36263 0.24806 0.08884 1
+ Pr7 Pr 4 e 0.63261 0.00157 0.15455 1
+ Pr5 Pr 4 e 0.63805 0.25328 0.40827 1
+ Ge4 Ge 4 e 0.72535 0.24777 0.18411 1
+ Co2 Co 4 e 0.8652 0.37769 0.08687 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.10
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            3894
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Oxford Diffraction Xcalibur'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    15137
+_diffrn_reflns_theta_min                 2.43
+_diffrn_reflns_theta_max                 29.05
+_exptl_absorpt_coefficient_mu            37.07
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'charge flipping'
+_refine_ls_number_parameters             120
+_refine_ls_number_reflns                 2283
+_refine_ls_R_factor_gt                   0.0307
+_refine_ls_wR_factor_gt                  0.0839
+
+# End of data set 1041148
+

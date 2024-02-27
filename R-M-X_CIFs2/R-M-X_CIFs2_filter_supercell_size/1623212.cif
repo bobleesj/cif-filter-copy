@@ -1,0 +1,168 @@
+##############################################################################
+#                                                                            #
+# Dy-In-Rh         # Dy42Rh18.34In9                                # 1623212 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1623212
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1623212
+_database_code_PDF                       04-014-9256
+
+# Entry summary
+
+_chemical_formula_structural             'Dy~42~ Rh~18.34~ In~9~'
+_chemical_formula_sum                    'Dy42 In9 Rh18.27'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~42~Rh~18.2~In~9~,tI140,87
+_chemical_formula_weight                 9745.7
+
+# Bibliographic data
+
+_publ_section_title
+'Transition Metal-Indium Substitution in Y~3~Rh~2~-type Compounds'            
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2007
+_journal_volume                          62
+_journal_page_first                      1397
+_journal_page_last                       1406
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba R.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.566
+_cell_length_b                           11.566
+_cell_length_c                           24.853
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3324.64
+_cell_formula_units_Z                    2
+_space_group_IT_number                   87
+_space_group_name_H-M_alt                'I 4/m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-y, x, -z'
+ 5 '-y, x, z'
+ 6 'x, y, -z'
+ 7 'y, -x, -z'
+ 8 'y, -x, z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-y, 1/2+x, 1/2-z'
+ 13 '1/2-y, 1/2+x, 1/2+z'
+ 14 '1/2+x, 1/2+y, 1/2-z'
+ 15 '1/2+y, 1/2-x, 1/2-z'
+ 16 '1/2+y, 1/2-x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Dy
+ In
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Dy1a Dy 16 i 0.07754 0.20555 0.07187 1
+ Dy2 Dy 16 i 0.07667 0.20613 0.3079 1
+ In1 In 16 i 0.15716 0.34382 0.18504 1
+ Dy1 Dy 16 i 0.20423 0.07658 0.42868 1
+ Dy2a Dy 16 i 0.20433 0.08011 0.19197 1
+ Rh1 Rh 16 i 0.31499 0.18289 0.10725 0.909
+ Rh2 Rh 8 h 0.09649 0.40413 0 1
+ Dy3 Dy 8 h 0.34772 0.15187 0 1
+ Dy4 Dy 8 g 0 0.5 0.10391 1
+ Rh3a Rh 4 e 0 0 0.13063 1
+ Rh4 Rh 4 e 0 0 0.24705 1
+ Rh3 Rh 4 e 0 0 0.36834 1
+ Dy5 Dy 4 d 0 0.5 0.25 1
+ In2 In 2 b 0 0 0.5 1
+ Rh5 Rh 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.74
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    19264
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 32
+_exptl_absorpt_coefficient_mu            53.9
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             90
+_refine_ls_number_reflns                 2804
+_refine_ls_R_factor_gt                   0.024
+_refine_ls_wR_factor_gt                  0.043
+
+# End of data set 1623212
+

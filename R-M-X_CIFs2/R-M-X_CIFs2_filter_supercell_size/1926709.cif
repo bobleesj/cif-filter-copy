@@ -1,0 +1,163 @@
+##############################################################################
+#                                                                            #
+# Ge-Pd-Yb         # YbPdGe                                        # 1926709 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1926709
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1926709
+_database_code_PDF                       04-016-5894
+
+# Entry summary
+
+_chemical_formula_structural             'Yb Pd Ge'
+_chemical_formula_sum                    'Ge Pd Yb'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            AuYbSn,oI36,44
+_chemical_formula_weight                 352.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Bridgman crystal growth and structure refinement of YbPdGe and YbPtGe - two different superstructures of the KHg~2~ Type
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2008
+_journal_volume                          634
+_journal_page_first                      1296
+_journal_page_last                       1300
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Katoh K.'
+;
+Japan National Defense Academy (NDA)
+Department of Applied Physics
+Yokosuka / Kanagawa
+Japan
+;
+'Heying B.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Hoffmann R.B.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.334
+_cell_length_b                           20.506
+_cell_length_c                           7.526
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             668.86
+_cell_formula_units_Z                    12
+_space_group_IT_number                   44
+_space_group_name_H-M_alt                'I m m 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, 1/2+z'
+ 6 '1/2-x, 1/2-y, 1/2+z'
+ 7 '1/2-x, 1/2+y, 1/2+z'
+ 8 '1/2+x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Pd
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge 4 d 0 0.067 0.38 1
+ Pd1 Pd 4 d 0 0.1048 0.7055 1
+ Yb4 Yb 4 d 0 0.16655 0.0759 1
+ Ge2 Ge 4 d 0 0.2355 0.6935 1
+ Pd2 Pd 4 d 0 0.2684 0.3656 1
+ Yb2 Yb 4 d 0 0.33301 -0.0029 1
+ Ge3 Ge 4 d 0 0.4073 0.3786 1
+ Pd3 Pd 4 d 0 0.4277 0.7115 1
+ Yb3 Yb 2 b 0 0.5 0.0816 1
+ Yb1 Yb 2 a 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.49
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    5014
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            62.5
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             58
+_refine_ls_number_reflns                 524
+_refine_ls_R_factor_gt                   0.0313
+_refine_ls_wR_factor_gt                  0.0640
+
+# End of data set 1926709
+

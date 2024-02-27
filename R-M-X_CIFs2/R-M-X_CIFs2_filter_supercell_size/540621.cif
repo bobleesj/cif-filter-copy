@@ -1,0 +1,180 @@
+##############################################################################
+#                                                                            #
+# Fe-Sn-Y          # YFe6Sn6                                       #  540621 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_540621
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      540621
+_database_code_PDF                       04-009-0355
+
+# Entry summary
+
+_chemical_formula_structural             'Y Fe~6~ Sn~6~'
+_chemical_formula_sum                    'Fe6 Sn6 Y'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            YFe~6~Sn~6~,oS208,63
+_chemical_formula_weight                 1136.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structures of RFe~6~Sn~5~ (R= Sc, Y, Gd-Tm, Lu) rare-earth iron stannides
+;
+_journal_coden_ASTM                      MRBUAC
+_journal_name_full                       'Mater. Res. Bull.'
+_journal_year                            1991
+_journal_volume                          26
+_journal_page_first                      1331
+_journal_page_last                       1338
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Idrissi B.C.'
+;
+Nancy I Henri Poincare University
+Laboratoire de Chimie du Solide Mineral (LCSM)
+Vandoeuvre-les-Nancy
+France
+;
+'Venturini G.'
+;
+Nancy I Henri Poincare University
+Laboratoire de Chimie du Solide Mineral (LCSM)
+Vandoeuvre-les-Nancy
+France
+;
+'Malaman B.'
+;
+Nancy I Henri Poincare University
+Laboratoire de Chimie du Solide Mineral (LCSM)
+Vandoeuvre-les-Nancy
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.889
+_cell_length_b                           74.4
+_cell_length_c                           5.394
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3567.3
+_cell_formula_units_Z                    16
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Fe
+ Sn
+ Y
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Fe1 Fe 16 h 0.268 0.063 0.0 1
+ Fe2 Fe 16 h 0.268 0.125 0.0 1
+ Fe3 Fe 16 h 0.268 0.188 0.0 1
+ Sn19 Sn 8 g 0.162 0.344 0.25 1
+ Fe8 Fe 8 g 0.232 0.281 0.25 1
+ Fe6 Fe 8 g 0.232 0.406 0.25 1
+ Fe5 Fe 8 g 0.268 0.031 0.25 1
+ Fe7 Fe 8 g 0.268 0.156 0.25 1
+ Sn18 Sn 8 g 0.338 0.094 0.25 1
+ Sn20 Sn 8 g 0.338 0.219 0.25 1
+ Sn17 Sn 8 g 0.338 0.469 0.25 1
+ Fe4 Fe 8 e 0.268 0 0 1
+ Fe9 Fe 8 d 0.25 0.25 0 1
+ Sn2 Sn 4 c 0 0.01 0.25 1
+ Sn4 Sn 4 c 0 0.052 0.25 1
+ Y2 Y 4 c 0 0.094 0.25 1
+ Sn10 Sn 4 c 0 0.135 0.25 1
+ Sn12 Sn 4 c 0 0.177 0.25 1
+ Y4 Y 4 c 0 0.219 0.25 1
+ Sn15 Sn 4 c 0 0.26 0.25 1
+ Sn13 Sn 4 c 0 0.302 0.25 1
+ Sn7 Sn 4 c 0 0.385 0.25 1
+ Sn5 Sn 4 c 0 0.427 0.25 1
+ Y1 Y 4 c 0 0.469 0.25 1
+ Sn1 Sn 4 c 0 0.51 0.25 1
+ Sn3 Sn 4 c 0 0.552 0.25 1
+ Sn9 Sn 4 c 0 0.635 0.25 1
+ Sn11 Sn 4 c 0 0.677 0.25 1
+ Sn16 Sn 4 c 0 0.76 0.25 1
+ Sn14 Sn 4 c 0 0.802 0.25 1
+ Y3 Y 4 c 0 0.844 0.25 1
+ Sn8 Sn 4 c 0 0.885 0.25 1
+ Sn6 Sn 4 c 0 0.927 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.46
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.107
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# End of data set 540621
+

@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# Ga-La-Ru         # LaRu2Ga8                                      # 1603620 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1603620
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1603620
+_database_code_PDF                       04-019-2684
+
+# Entry summary
+
+_chemical_formula_structural             'La Ru~2~ Ga~8~'
+_chemical_formula_sum                    'Ga8 La Ru2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CeFe~2~Al~8~,oP44,55
+_chemical_formula_weight                 898.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ternary lanthanoid ruthenium gallides with a high gallium content: Ln~2~Ru~3~Ga~10~ (Ln= Yb, Lu) with a new structure type and LnRu~2~Ga~8~ (Ln= La-Nd) with CaCo~2~Al~8~-type structure
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_name_full                       'Inorg. Chem.'
+_journal_year                            2001
+_journal_volume                          40
+_journal_page_first                      6362
+_journal_page_last                       6368
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schluter M.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+'Jeitschko W.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.647
+_cell_length_b                           14.733
+_cell_length_c                           4.117
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             767.1
+_cell_formula_units_Z                    4
+_space_group_IT_number                   55
+_space_group_name_H-M_alt                'P b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2+x, 1/2-y, -z'
+ 7 '1/2+x, 1/2-y, z'
+ 8 'x, y, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ Ru
+ La
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 4 h 0.017 0.128 0.5 1
+ Ga2 Ga 4 h 0.163 0.0 0.5 1
+ Ga3 Ga 4 h 0.164 0.37 0.5 1
+ Ga4 Ga 4 h 0.233 0.182 0.5 1
+ Ga5 Ga 4 h 0.45 0.18 0.5 1
+ Ru1 Ru 4 g 0.042 0.413 0 1
+ Ga6 Ga 4 g 0.105 0.252 0 1
+ Ru2 Ru 4 g 0.152 0.092 0 1
+ La1 La 4 g 0.341 0.318 0 1
+ Ga7 Ga 4 g 0.342 0.046 0 1
+ Ga8 Ga 2 d 0 0.5 0.5 1
+ Ga9 Ga 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    'gray dark, luster metallic crystal'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.78
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1603620
+

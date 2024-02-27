@@ -1,0 +1,175 @@
+##############################################################################
+#                                                                            #
+# Co-Ge-Ho         # HoCoGe                                        # 1835977 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1835977
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1835977
+_database_code_PDF                       04-027-8885
+
+# Entry summary
+
+_chemical_formula_structural             'Ho Co Ge'
+_chemical_formula_sum                    'Co Ge Ho'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            TiNiSi,oP12,62
+_chemical_formula_weight                 296.5
+
+# Bibliographic data
+
+_publ_section_title
+'Giant low-field reversible magnetocaloric effect in HoCoGe compound'         
+_journal_coden_ASTM                      RSCACL
+_journal_name_full                       'RSC Adv.'
+_journal_year                            2016
+_journal_volume                          6
+_journal_page_first                      106171
+_journal_page_last                       106176
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zhang Y.'
+;
+Capital Normal University
+Department of Physics
+Beijing
+China
+;
+'Dong Q.Y.'
+;
+Capital Normal University
+Department of Physics
+Beijing
+China
+;
+'Wang L.C.'
+;
+Chinese Academy of Sciences
+Institute of Physics
+Beijing
+China
+;
+'Zhang M.'
+;
+Chinese Academy of Sciences
+Institute of Physics
+Beijing
+China
+;
+'Yan H.T.'
+;
+Capital Normal University
+Department of Physics
+Beijing
+China
+;
+'Sun J.R.'
+;
+Chinese Academy of Sciences
+Institute of Physics
+Beijing
+China
+;
+'Hu F.X.'
+;
+Chinese Academy of Sciences
+Institute of Physics
+Beijing
+China
+;
+'Shen B.G.'
+;
+Chinese Academy of Sciences
+Institute of Physics
+Beijing
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.863
+_cell_length_b                           4.208
+_cell_length_c                           7.259
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             209.6
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Ho
+ Co
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ho Ho 4 c 0.0018 0.25 0.7005 1
+ Co Co 4 c 0.1691 0.25 0.0889 1
+ Ge Ge 4 c 0.2989 0.25 0.3943 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.39
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.197
+_pd_proc_ls_proof_wR_factor              0.255
+_refine_ls_R_I_factor                    ?
+
+# End of data set 1835977
+

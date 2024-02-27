@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# Ga-La-Os         # LaOsGa4                                       # 1810826 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1810826
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810826
+_database_code_PDF                       04-019-4752
+
+# Entry summary
+
+_chemical_formula_structural             'La Os Ga~4~'
+_chemical_formula_sum                    'Ga4 La Os'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CeOsGa~4~,oP36,51
+_chemical_formula_weight                 608.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Preparation and Crystal Structures of Ternary Rare Earth Osmium Gallides LnOsGa~3~ (Ln= Gd-Tm) and LnOsGa~4~ (Ln= La-Nd)
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2002
+_journal_volume                          628
+_journal_page_first                      1505
+_journal_page_last                       1510
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schluter M.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+'Jeitschko W.'
+;
+Munster University (WWU)
+Institut fur Anorganische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.684
+_cell_length_b                           8.843
+_cell_length_c                           7.711
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             660.3
+_cell_formula_units_Z                    6
+_space_group_IT_number                   51
+_space_group_name_H-M_alt                'P m m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, -z'
+ 6 '1/2+x, -y, -z'
+ 7 '1/2+x, y, -z'
+ 8 'x, -y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ La
+ Os
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 8 l 0.0753 0.2361 0.179 1
+ Ga2 Ga 4 k 0.25 0.1565 0.4525 1
+ La1 La 4 k 0.25 0.2489 0.8384 1
+ Ga3 Ga 4 j 0.0849 0.5 0.6559 1
+ Ga4 Ga 4 i 0.5608 0 0.3386 1
+ Os1 Os 4 h 0 0.25843 0.5 1
+ La2 La 2 f 0.25 0.5 0.3215 1
+ Ga5 Ga 2 e 0.25 0 0.13023 1
+ Ga6 Ga 2 b 0 0.5 0 1
+ Os2 Os 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.17
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1810826
+

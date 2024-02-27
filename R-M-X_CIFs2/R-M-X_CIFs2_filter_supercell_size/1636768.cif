@@ -1,0 +1,171 @@
+##############################################################################
+#                                                                            #
+# La-Pd-Sn         # LaPd4Sn                                       # 1636768 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1636768
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1636768
+_database_code_PDF                       04-021-2924
+
+# Entry summary
+
+_chemical_formula_structural             'La Pd~4~ Sn'
+_chemical_formula_sum                    'La Pd4 Sn'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePd~4~Sn,oS96,64
+_chemical_formula_weight                 683.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and physical properties of CePd~4~Sn: A new magnetically ordered Kondo lattice
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2013
+_journal_volume                          577
+_journal_page_first                      677
+_journal_page_last                       682
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Nesterenko S.N.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Strydom A.M.'
+;
+Johannesburg University (UJ)
+Department of Physics
+Johannesburg
+South Africa
+;
+'Snyman J.L.'
+;
+Johannesburg University (UJ)
+Department of Physics
+Johannesburg
+South Africa
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.06
+_cell_length_b                           23.74
+_cell_length_c                           8.274
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1779.6
+_cell_formula_units_Z                    16
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Pd
+ La
+ Sn
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd1 Pd 16 g 0.27189 0.38903 0.08713 1
+ Pd2 Pd 16 g 0.34182 0.19887 0.09293 1
+ Pd3 Pd 8 f 0 0.06263 0.0805 1
+ Pd4 Pd 8 f 0 0.0925 0.4149 1
+ La1 La 8 f 0 0.19279 0.07505 1
+ Pd5 Pd 8 f 0 0.33842 0.1916 1
+ La2 La 8 f 0 0.46244 0.22771 1
+ Sn1 Sn 8 e 0.25 0.08813 0.25 1
+ Sn2 Sn 8 e 0.25 0.28832 0.25 1
+ Pd6 Pd 8 d 0.2576 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.20
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1636768
+

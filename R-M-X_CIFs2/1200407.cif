@@ -1,0 +1,162 @@
+##############################################################################
+#                                                                            #
+# Ce-Pt-Si         # CePt3Si                                       # 1200407 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1200407
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1200407
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pt~3~ Si'
+_chemical_formula_sum                    'Ce Pt3 Si'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePt~3~B,tP5,99
+_chemical_formula_weight                 753.5
+_chemical_melting_point                  1663
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of the new ternary silicide CePt~3~Si'                     
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2004
+_journal_volume                          383
+_journal_page_first                      239
+_journal_page_last                       241
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Gribanov A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moleculaire (LCSIM)
+Rennes
+France
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Bodak O.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.072
+_cell_length_b                           4.072
+_cell_length_c                           5.442
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             90.23
+_cell_formula_units_Z                    1
+_space_group_IT_number                   99
+_space_group_name_H-M_alt                'P 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+loop_
+ _atom_type_symbol
+ Pt
+ Ce
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt2 Pt 2 c 0.5 0 0.2386 1
+ Ce Ce 1 b 0.5 0.5 0.735 1
+ Si Si 1 a 0 0 0.0 1
+ Pt1 Pt 1 a 0 0 0.5882 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            13.87
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1426
+_diffrn_reflns_theta_min                 3.74
+_diffrn_reflns_theta_max                 36.36
+_exptl_absorpt_coefficient_mu            128
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             14
+_refine_ls_number_reflns                 153
+_refine_ls_R_factor_gt                   0.044
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1200407
+

@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# Ge-Pd-Yb         # Yb2PdGe6 orth2                                # 1904200 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1904200
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1904200
+_database_code_PDF                       04-010-9331
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Pd Ge~6~'
+_chemical_formula_sum                    'Ge6 Pd Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn~0.94~La~2~Ge~6~,oS72,64
+_chemical_formula_weight                 888.0
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of diytterbium palladium hexagermanide, Yb~2~PdGe~6~'      
+_journal_coden_ASTM                      ZKNSFT
+_journal_name_full
+'Z. Kristallogr. - New Cryst. Struct.'                                        
+_journal_year                            2002
+_journal_volume                          217
+_journal_page_first                      173
+_journal_page_last                       174
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Fornasini M.L.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Manfrinetti P.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Palenzona A.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.142
+_cell_length_b                           7.98
+_cell_length_c                           21.829
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1418.3
+_cell_formula_units_Z                    8
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Yb
+ Ge
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Yb Yb 16 g 0.24954 0.3754 0.08257 1
+ Ge1 Ge 16 g 0.2758 0.1262 0.19377 1
+ Ge2 Ge 8 f 0 0.1205 0.46047 1
+ Pd Pd 8 f 0 0.1264 0.1414 1
+ Ge3 Ge 8 f 0 0.1308 0.02925 1
+ Ge4 Ge 8 f 0 0.3478 0.30681 1
+ Ge5 Ge 8 f 0 0.4044 0.19408 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.32
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius MACH3'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    1091
+_exptl_absorpt_coefficient_mu            53.495
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             50
+_refine_ls_number_reflns                 674
+_refine_ls_R_factor_gt                   0.027
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1904200
+

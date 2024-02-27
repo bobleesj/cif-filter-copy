@@ -1,0 +1,194 @@
+##############################################################################
+#                                                                            #
+# Ge-Pd-Yb         # Yb2Pd3Ge5                                     # 1048965 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1048965
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1048965
+_database_code_PDF                       04-026-1433
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Pd~3~ Ge~5~'
+_chemical_formula_sum                    'Ge5 Pd3 Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Co~3~Si~5~,oI40,72
+_chemical_formula_weight                 1028.5
+
+# Bibliographic data
+
+_publ_section_title
+'Synthesis, crystal structure and physical properties of Yb~2~Pd~3~Ge~5~'     
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2019
+_journal_volume                          783
+_journal_page_first                      601
+_journal_page_last                       607
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Freccero R.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Choi S.H.'
+;
+Toyota Technological Institute (TTI)
+Nagoya / Aichi
+Japan
+;
+'Solokha P.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'De Negri S.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Takeuchi T.'
+;
+Toyota Technological Institute (TTI)
+Nagoya / Aichi
+Japan
+;
+'Hirai S.'
+;
+Muroran Institute of Technology
+Research Center for Environmentally Friendly Materials Engineering
+Muroran / Hokkaido
+Japan
+;
+'Mele P.'
+;
+Muroran Institute of Technology
+Research Center for Environmentally Friendly Materials Engineering
+Muroran / Hokkaido
+Japan
+;
+'Saccone A.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.2628
+_cell_length_b                           12.058
+_cell_length_c                           5.9825
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             740.3
+_cell_formula_units_Z                    4
+_space_group_IT_number                   72
+_space_group_name_H-M_alt                'I b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, 1/2+z'
+ 6 'x, -y, 1/2-z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1-z'
+ 13 '1/2-x, 1/2+y, 1+z'
+ 14 '1/2+x, 1/2-y, 1-z'
+ 15 '1/2+x, 1/2-y, 1+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Pd
+ Yb
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd1 Pd 8 j 0.1094 0.1405 0 1
+ Yb Yb 8 j 0.2675 0.3675 0 1
+ Ge2 Ge 8 j 0.3408 0.1023 0 1
+ Ge3 Ge 8 g 0 0.2784 0.25 1
+ Pd2 Pd 4 b 0.5 0 0.25 1
+ Ge1 Ge 4 a 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.23
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5406
+_pd_proc_wavelength                      1.5406
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Philips X'Pert MPD
+;
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_wavelength             1.5406
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 60
+_pd_proc_2theta_range_min                5
+_pd_proc_2theta_range_max                120
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             36
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.1000
+_pd_proc_ls_proof_wR_factor              0.0984
+_refine_ls_R_I_factor                    0.0215
+
+# End of data set 1048965
+

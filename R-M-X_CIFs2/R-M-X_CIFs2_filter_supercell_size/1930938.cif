@@ -1,0 +1,144 @@
+##############################################################################
+#                                                                            #
+# Ga-Ru-Sm         # Sm2Ru2.73Ga5.27                               # 1930938 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1930938
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1930938
+_database_code_PDF                       04-018-6180
+
+# Entry summary
+
+_chemical_formula_structural             'Sm~2~ Ru~2.73~ Ga~5.27~'
+_chemical_formula_sum                    'Ga5.27 Ru2.73 Sm2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Mn~3~Si~5~,tP40,128
+_chemical_formula_weight                 944.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Rare earth ruthenium gallides with the ideal composition Ln~2~Ru~3~Ga~5~ (Ln= La - Nd, Sm) crystallizing with U~2~Mn~3~Si~5~ (Sc~2~Fe~3~Si~5~) type structure
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2010
+_journal_volume                          636
+_journal_page_first                      1100
+_journal_page_last                       1105
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Jeitschko W.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Schluter M.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.321
+_cell_length_b                           11.321
+_cell_length_c                           5.616
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             719.8
+_cell_formula_units_Z                    4
+_space_group_IT_number                   128
+_space_group_name_H-M_alt                'P 4/m n c'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2-z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, 1/2-z'
+ 7 '1/2-y, 1/2-x, 1/2+z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, 1/2-z'
+ 11 '1/2+x, 1/2-y, 1/2+z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2+z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ru
+ Sm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 8 h 0.02657 0.31165 0 1
+ Ru1 Ru 8 h 0.13977 0.12162 0 1
+ Sm Sm 8 h 0.2639 0.42484 0 1
+ Ga2 Ga 8 g 0.18061 0.68061 0.25 1
+ Ga3 Ga 4 e 0 0 0.2549 1
+ Ru2,Ga4A Ru 4 d 0 0.5 0.25 0.73(2)
+ Ru2,Ga4B Ga 4 d 0 0.5 0.25 0.27(2)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.71
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    10863
+_exptl_absorpt_coefficient_mu            40.7
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             32
+_refine_ls_number_reflns                 566
+_refine_ls_R_factor_gt                   0.026
+_refine_ls_wR_factor_gt                  0.056
+
+# End of data set 1930938
+

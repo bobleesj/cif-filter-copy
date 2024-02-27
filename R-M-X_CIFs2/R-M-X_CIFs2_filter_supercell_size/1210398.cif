@@ -1,0 +1,194 @@
+##############################################################################
+#                                                                            #
+# In-Lu-Ni         # Lu14Ni3In3                                    # 1210398 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1210398
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1210398
+_database_code_PDF                       04-011-8297
+
+# Entry summary
+
+_chemical_formula_structural             'Lu~13.94~ Ni~3.07~ In~2.99~'
+_chemical_formula_sum                    'In2.99 Lu13.94 Ni3.07'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~14~Co~3~In~2.7~,tP80,137
+_chemical_formula_weight                 2962.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+New rare earth metal-rich indides RE~14~Ni~3~In~3~ (RE= Sc, Y, Gd-Tm, Lu) - synthesis and crystal chemistry
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2005
+_journal_volume                          178
+_journal_page_first                      2724
+_journal_page_last                       2733
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lukachuk M.O.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Festkorperforschung
+Stuttgart
+Germany
+;
+'Galadzhun Y.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba R.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Dzevenko M.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.334
+_cell_length_b                           9.334
+_cell_length_c                           22.63
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1971.6
+_cell_formula_units_Z                    4
+_space_group_IT_number                   137
+_space_group_name_H-M_alt                'P 42/n m c (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, 1/2+z'
+ 7 '1/2-y, x, 1/2+z'
+ 8 '-y, -x, 1/2-z'
+ 9 '-y, 1/2+x, 1/2-z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2-z'
+ 15 'y, 1/2-x, 1/2+z'
+ 16 'y, x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Lu
+ In
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Lu7 Lu 16 h 0.06379 0.06538 0.39503 1
+ Lu6 Lu 8 g 0.25 0.06207 0.01623 1
+ In2 In 8 g 0.25 0.08923 0.64499 1
+ Ni1 Ni 8 g 0.25 0.5377 0.31097 1
+ Lu3 Lu 8 g 0.25 0.54383 0.19505 1
+ Lu4 Lu 8 g 0.25 0.55982 0.53207 1
+ Lu5 Lu 8 f 0.5635 0.4365 0.25 1
+ Lu2 Lu 4 d 0.25 0.25 0.28798 1
+ Ni2 Ni 4 d 0.25 0.25 0.44623 1
+ Lu1A Lu 4 c 0.75 0.25 0.14532 0.94(2)
+ In1B In 4 c 0.75 0.25 0.14532 0.06(2)
+ In2A In 4 c 0.75 0.25 0.59349 0.93(2)
+ Ni2B Ni 4 c 0.75 0.25 0.59349 0.07(2)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.98
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   X-rays
+_diffrn_reflns_number                    19200
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            75.3
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             64
+_refine_ls_number_reflns                 1420
+_refine_ls_R_factor_gt                   0.0304
+_refine_ls_wR_factor_gt                  0.0672
+
+# End of data set 1210398
+

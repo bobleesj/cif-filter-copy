@@ -1,0 +1,148 @@
+##############################################################################
+#                                                                            #
+# Ni-Pr-Si         # Pr15Ni7Si10                                   # 1901378 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1901378
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1901378
+_database_code_PDF                       04-010-1567
+
+# Entry summary
+
+_chemical_formula_structural             'Pr~15~ Ni~7~ Si~10~'
+_chemical_formula_sum                    'Ni7 Pr15 Si10'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pr~15~Ni~7~Si~10~,hP64,176
+_chemical_formula_weight                 2805.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Pr~15~Ni~7~Si~10~ with an Atom Ordering on the Trigonal-Prism-Centre Sites in Agreement with the Waist-Contact Restriction Rule
+;
+_journal_coden_ASTM                      ACSCEE
+_journal_name_full                       'Acta Crystallogr. C'
+_journal_year                            1985
+_journal_volume                          41
+_journal_page_first                      310
+_journal_page_last                       313
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hovestreydt E.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Parthe E.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.881
+_cell_length_b                           19.881
+_cell_length_c                           4.2554
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1456.6
+_cell_formula_units_Z                    2
+_space_group_IT_number                   176
+_space_group_name_H-M_alt                'P 63/m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, 1/2-z'
+ 3 '-x+y, -x, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, 1/2+z'
+ 6 '-y, x-y, 1/2-z'
+ 7 '-y, x-y, z'
+ 8 'x, y, 1/2-z'
+ 9 'x-y, x, -z'
+ 10 'x-y, x, 1/2+z'
+ 11 'y, -x+y, -z'
+ 12 'y, -x+y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Si
+ Pr
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si1 Si 6 h 0.0609 0.2559 0.25 1
+ Si2 Si 6 h 0.1081 0.4843 0.25 1
+ Pr1 Pr 6 h 0.1303 0.1474 0.25 1
+ Ni1 Ni 6 h 0.1529 0.3935 0.25 1
+ Ni2 Ni 6 h 0.1989 0.6205 0.25 1
+ Si3 Si 6 h 0.2899 0.4424 0.25 1
+ Pr2 Pr 6 h 0.3204 0.1242 0.25 1
+ Pr3 Pr 6 h 0.3549 0.3212 0.25 1
+ Pr4 Pr 6 h 0.5017 0.0818 0.25 1
+ Pr5 Pr 6 h 0.5332 0.2886 0.25 1
+ Si4 Si 2 c 0.333333 0.666667 0.25 1
+ Ni3 Ni 2 b 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.40
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            21
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            29.2
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             56
+_refine_ls_number_reflns                 876
+_refine_ls_R_factor_gt                   0.054
+_refine_ls_wR_factor_gt                  0.063
+
+# End of data set 1901378
+

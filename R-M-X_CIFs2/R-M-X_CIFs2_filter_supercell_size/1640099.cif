@@ -1,0 +1,196 @@
+##############################################################################
+#                                                                            #
+# Er-Ni-Si         # ErNi6Si6                                      # 1640099 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1640099
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1640099
+_database_code_PDF                       04-022-3323
+
+# Entry summary
+
+_chemical_formula_structural             'Er Ni~6~ Si~6~'
+_chemical_formula_sum                    'Er Ni6 Si6'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            YNi~6~Si~6~,tP52,117
+_chemical_formula_weight                 688.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+New tetragonal derivatives of cubic NaZn~13~-type structure: RNi~6~Si~6~ compounds, crystal structure and magnetic ordering (R= Y, La, Ce, Sm, Gd-Yb)
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2014
+_journal_volume                          210
+_journal_page_first                      45
+_journal_page_last                       52
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pani M.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Isnard O.'
+;
+National Center for Scientific Research (CNRS)
+Institut NEEL
+Grenoble
+France
+;
+'Manfrinetti P.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Provino A.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Yuan F.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+'Mozharivskyj Y.A.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+'Morozkin A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Knotko A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Garshev A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Yapaskurt V.O.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Petrology
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.7249
+_cell_length_b                           7.7249
+_cell_length_c                           11.122
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             663.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   117
+_space_group_name_H-M_alt                'P -4 b 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, z'
+ 3 '-x, -y, z'
+ 4 '1/2-y, 1/2-x, -z'
+ 5 '-y, x, -z'
+ 6 '1/2+x, 1/2-y, z'
+ 7 '1/2+y, 1/2+x, -z'
+ 8 'y, -x, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ni
+ Si
+ Er
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni1 Ni 8 i 0.0586 0.3163 0.2468 1
+ Ni2 Ni 8 i 0.1233 0.1385 0.429 1
+ Si1 Si 8 i 0.1369 0.1161 0.0782 1
+ Si2 Si 8 i 0.2817 0.0618 0.2534 1
+ Si3 Si 8 i 0.3152 0.3597 0.3667 1
+ Ni3 Ni 8 i 0.3354 0.321 0.1235 1
+ Er1 Er 2 d 0 0.5 0.5 1
+ Er2 Er 2 c 0 0.5 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.89
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1640099
+

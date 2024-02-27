@@ -1,0 +1,151 @@
+##############################################################################
+#                                                                            #
+# Ge-Pt-Sm         # Sm3Pt4Ge6                                     # 1711644 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1711644
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1711644
+_database_code_PDF                       04-013-8369
+
+# Entry summary
+
+_chemical_formula_structural             'Sm~3~ Pt~4~ Ge~6~'
+_chemical_formula_sum                    'Ge6 Pt4 Sm3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Pr~3~Pt~4~Ge~6~,oP52,62
+_chemical_formula_weight                 1667.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+New Germanides with an Ordered Variant of the Ce~3~Pt~4~Ge~6~ Type of Structure - The Compounds Ln~3~Pt~4~Ge~6~ (Ln: Pr-Dy)
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2006
+_journal_volume                          632
+_journal_page_first                      1145
+_journal_page_last                       1149
+_journal_language                        German
+loop_
+ _publ_author_name
+ _publ_author_address
+'Imre A.'
+;
+Dusseldorf Heinrich Heine University
+Institut fur Anorganische Chemie und Strukturchemie
+Dusseldorf
+Germany
+;
+'Hellmann A.'
+;
+Dusseldorf Heinrich Heine University
+Institut fur Anorganische Chemie und Strukturchemie
+Dusseldorf
+Germany
+;
+'Mewis A.'
+;
+Dusseldorf Heinrich Heine University
+Institut fur Anorganische Chemie und Strukturchemie
+Dusseldorf
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           25.974
+_cell_length_b                           4.356
+_cell_length_c                           8.748
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             989.77
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Ge
+ Pt
+ Sm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge3 Ge 4 c 0.0026 0.25 0.1273 1
+ Pt1 Pt 4 c 0.0489 0.25 0.378 1
+ Ge1 Ge 4 c 0.1385 0.25 0.8738 1
+ Ge2 Ge 4 c 0.1424 0.25 0.3733 1
+ Pt3 Pt 4 c 0.1874 0.25 0.6231 1
+ Pt4 Pt 4 c 0.1873 0.25 0.1218 1
+ Sm3 Sm 4 c 0.2797 0.25 0.3754 1
+ Ge6 Ge 4 c 0.2846 0.25 0.0229 1
+ Ge5 Ge 4 c 0.2849 0.25 0.7272 1
+ Sm1 Sm 4 c 0.4072 0.25 0.1336 1
+ Sm2 Sm 4 c 0.4076 0.25 0.6166 1
+ Ge4 Ge 4 c 0.4985 0.25 0.8787 1
+ Pt2 Pt 4 c 0.5439 0.25 0.6282 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.19
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE AED2'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    10680
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 37
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 1543
+_refine_ls_R_factor_gt                   0.043
+_refine_ls_wR_factor_gt                  0.141
+
+# End of data set 1711644
+

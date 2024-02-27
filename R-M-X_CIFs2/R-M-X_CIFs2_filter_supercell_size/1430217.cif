@@ -1,0 +1,211 @@
+##############################################################################
+#                                                                            #
+# Ce-Fe-Ga         # Ce2Fe15Ga2                                    # 1430217 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1430217
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1430217
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~2~ Fe~16.3~ Ga~0.7~'
+_chemical_formula_sum                    'Ce2 Fe16.09 Ga0.91'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Zn~17~Th~2~,hR57,166
+_chemical_formula_weight                 1239.3
+
+# Bibliographic data
+
+_publ_section_title
+'Neutron diffraction structural study of Ce~2~Fe~17-x~Ga~x~'                  
+_journal_coden_ASTM                      JAPIAU
+_journal_name_full                       'J. Appl. Phys.'
+_journal_year                            1996
+_journal_volume                          79
+_journal_page_first                      6318
+_journal_page_last                       6320
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Luo H.'
+;
+University of Missouri Research Reactor Center (MURR)
+Columbia
+U.S.A. Missouri
+;
+'Hu Z.'
+;
+University of Missouri Research Reactor Center (MURR)
+Columbia
+U.S.A. Missouri
+;
+'Yelon W.B.'
+;
+University of Missouri Research Reactor Center (MURR)
+Columbia
+U.S.A. Missouri
+;
+'Mishra S.R.'
+;
+Missouri University of Science and Technology (Missouri S&T)
+Department of Physics and Chemistry
+Rolla
+U.S.A. Missouri
+;
+'Long G.J.'
+;
+Missouri University of Science and Technology (Missouri S&T)
+Department of Physics and Chemistry
+Rolla
+U.S.A. Missouri
+;
+'Pringle O.A.'
+;
+Missouri University of Science and Technology (Missouri S&T)
+Department of Physics and Chemistry
+Rolla
+U.S.A. Missouri
+;
+'Middleton D.P.'
+;
+Philips Research Laboratories
+Eindhoven
+Netherlands
+;
+'Buschow K.H.J.'
+;
+Amsterdam University
+Van der Waals-Zeeman Laboratorium
+Amsterdam
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.5284
+_cell_length_b                           8.5284
+_cell_length_c                           12.4641
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             785.1
+_cell_formula_units_Z                    3
+_space_group_IT_number                   166
+_space_group_name_H-M_alt                'R -3 m h'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+ 13 '2/3+x, 1/3+y, 1/3+z'
+ 14 '2/3-x+y, 1/3-x, 1/3+z'
+ 15 '2/3-x+y, 1/3+y, 1/3+z'
+ 16 '2/3-x, 1/3-x+y, 1/3-z'
+ 17 '2/3-x, 1/3-y, 1/3-z'
+ 18 '2/3-y, 1/3-x, 1/3+z'
+ 19 '2/3-y, 1/3+x-y, 1/3+z'
+ 20 '2/3+x, 1/3+x-y, 1/3+z'
+ 21 '2/3+x-y, 1/3-y, 1/3-z'
+ 22 '2/3+x-y, 1/3+x, 1/3-z'
+ 23 '2/3+y, 1/3-x+y, 1/3-z'
+ 24 '2/3+y, 1/3+x, 1/3-z'
+ 25 '1/3+x, 2/3+y, 2/3+z'
+ 26 '1/3-x+y, 2/3-x, 2/3+z'
+ 27 '1/3-x+y, 2/3+y, 2/3+z'
+ 28 '1/3-x, 2/3-x+y, 2/3-z'
+ 29 '1/3-x, 2/3-y, 2/3-z'
+ 30 '1/3-y, 2/3-x, 2/3+z'
+ 31 '1/3-y, 2/3+x-y, 2/3+z'
+ 32 '1/3+x, 2/3+x-y, 2/3+z'
+ 33 '1/3+x-y, 2/3-y, 2/3-z'
+ 34 '1/3+x-y, 2/3+x, 2/3-z'
+ 35 '1/3+y, 2/3-x+y, 2/3-z'
+ 36 '1/3+y, 2/3+x, 2/3-z'
+loop_
+ _atom_type_symbol
+ Fe
+ Ga
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Fe,Ga3A Fe 18 h 0.50143 0.49857 0.15497 0.872
+ Fe,Ga3B Ga 18 h 0.50143 0.49857 0.15497 0.128
+ Fe2 Fe 18 f 0.2907 0 0 1
+ Fe4 Fe 9 d 0.5 0 0.5 1
+ Fe,Ga1A Fe 6 c 0 0 0.0956 0.928
+ Fe,Ga1B Ga 6 c 0 0 0.0956 0.072
+ Ce Ce 6 c 0 0 0.3418 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.86
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+U.S.A. Missouri, Columbia, University of Missouri Research Reactor Center, MURR reactor
+;
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.4783
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 52.5
+_pd_proc_2theta_range_min                5
+_pd_proc_2theta_range_max                105
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.0579
+_pd_proc_ls_proof_wR_factor              0.0771
+_refine_ls_R_I_factor                    ?
+
+# End of data set 1430217
+

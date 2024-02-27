@@ -1,0 +1,166 @@
+##############################################################################
+#                                                                            #
+# Ce-Ni-Si         # CeNiSi                                        # 1907849 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1907849
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1907849
+_database_code_PDF                       04-012-7622
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Ni Si'
+_chemical_formula_sum                    'Ce Ni Si'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaPtSi,tI12,109
+_chemical_formula_weight                 226.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Hydrogenation of the ternary silicides RENiSi (RE= Ce, Nd) crystallizing in the tetragonal LaPtSi-type structure
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2005
+_journal_volume                          397
+_journal_page_first                      17
+_journal_page_last                       22
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pasturel M.'
+;
+Bordeaux I University
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Weill F.'
+;
+Bordeaux I University
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Bouree Vigneron F.'
+;
+Bordeaux I University
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Bobet J.L.'
+;
+Centre d'Etudes Nucleaire de Saclay
+Laboratoire Leon Brillouin (LLB)
+Gif-sur-Yvette
+France
+;
+'Chevalier B.'
+;
+Bordeaux I University
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.0709
+_cell_length_b                           4.0709
+_cell_length_c                           14.0158
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             232.3
+_cell_formula_units_Z                    4
+_space_group_IT_number                   109
+_space_group_name_H-M_alt                'I 41 m d'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, 1/2-x, 1/4+z'
+ 5 '-y, 1/2+x, 1/4+z'
+ 6 'x, -y, z'
+ 7 'y, 1/2-x, 1/4+z'
+ 8 'y, 1/2+x, 1/4+z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1-x, 3/4+z'
+ 13 '1/2-y, 1+x, 3/4+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1-x, 3/4+z'
+ 16 '1/2+y, 1+x, 3/4+z'
+loop_
+ _atom_type_symbol
+ Si
+ Ni
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si Si 4 a 0 0 0.0 1
+ Ni Ni 4 a 0 0 0.1684 1
+ Ce Ce 4 a 0 0 0.5822 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.49
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              320
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Saclay, Laboratoire Leon Brillouin LLB, ORPHEE reactor, 3T2'         
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.225
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             13
+_refine_ls_number_reflns                 129
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.101
+_pd_proc_ls_proof_wR_factor              0.100
+_refine_ls_R_I_factor                    0.0363
+
+# End of data set 1907849
+

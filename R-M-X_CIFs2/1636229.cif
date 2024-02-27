@@ -1,0 +1,185 @@
+##############################################################################
+#                                                                            #
+# Ce-Ru-Sn         # CeRuSn rt                                     # 1636229 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1636229
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1636229
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Ru Sn'
+_chemical_formula_sum                    'Ce0.99 Ru Sn0.99'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CeRuSn,mS24,12
+_chemical_formula_weight                 359.9
+
+# Bibliographic data
+
+_publ_section_title
+'Antiferromagnetic ordering in a mixed-valent cerium compound CeRuSn'         
+_journal_coden_ASTM                      PRBMDO
+_journal_name_full
+'Phys. Rev. B: Condens. Matter Mater. Phys.'                                  
+_journal_year                            2013
+_journal_volume                          87
+_journal_page_first                      1
+_journal_page_last                       9
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Prokes K.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Mydosh J.A.'
+;
+Leiden University
+Kamerlingh Onnes Laboratory
+Leiden
+Netherlands
+;
+'Prokhnenko O.I.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Stein W.D.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Landsgesell S.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Hermes W.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Feyerherm R.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.5527
+_cell_length_b                           4.7493
+_cell_length_c                           10.213
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.975
+_cell_angle_gamma                        90
+_cell_volume                             546.1
+_cell_formula_units_Z                    8
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Sn
+ Ru
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn1 Sn 4 i 0.0725 0 0.1525 1
+ Sn2 Sn 4 i 0.0991 0 0.6513 0.98
+ Ru2 Ru 4 i 0.3016 0 0.3049 1
+ Ce1 Ce 4 i 0.3601 0 0.0856 1
+ Ce2 Ce 4 i 0.375 0 0.5928 0.97
+ Ru1 Ru 4 i 0.6803 0 0.148 0.99
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.76
+_cell_measurement_temperature            310
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.79
+_pd_proc_wavelength                      1.79
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              310
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BER II reactor, E9, FIREPOD
+;
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.79
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.0622
+
+# End of data set 1636229
+

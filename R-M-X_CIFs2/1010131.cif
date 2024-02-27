@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# Nd-Os-Si         # NdOsSi3                                       # 1010131 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1010131
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1010131
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Nd Os Si~3~'
+_chemical_formula_sum                    'Nd Os Si3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            BaNiSn~3~,tI10,107
+_chemical_formula_weight                 418.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Aspects cristallochimiques et existence des siliciures ternaires MTSi~3~ de structure type BaNiSn~3~ (M= Th, Y, Ln et T= Ru, Os, Co, Rh, Ir)
+;
+_journal_coden_ASTM                      RVCMA8
+_journal_name_full                       'Rev. Chim. Miner.'
+_journal_year                            1985
+_journal_volume                          22
+_journal_page_first                      711
+_journal_page_last                       721
+_journal_language                        French
+loop_
+ _publ_author_name
+ _publ_author_address
+'Wang X.Z.'
+;
+Bordeaux I University
+Laboratoire de Chimie du Solide (LCS)
+Talence
+France
+;
+'Lloret B.'
+;
+Bordeaux I University
+Laboratoire de Chimie du Solide (LCS)
+Talence
+France
+;
+'Wee Lam Ng'
+;
+Malaya University (UM)
+Department of Chemistry
+Kuala Lumpur
+Malaysia
+;
+'Chevalier B.'
+;
+Bordeaux I University
+Laboratoire de Chimie du Solide (LCS)
+Talence
+France
+;
+'Etourneau J.R.'
+;
+Bordeaux I University
+Laboratoire de Chimie du Solide (LCS)
+Talence
+France
+;
+'Hagenmuller P.'
+;
+Bordeaux I University
+Laboratoire de Chimie du Solide (LCS)
+Talence
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.218
+_cell_length_b                           4.218
+_cell_length_c                           9.917
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             176.4
+_cell_formula_units_Z                    2
+_space_group_IT_number                   107
+_space_group_name_H-M_alt                'I 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1/2-x, 1/2+z'
+ 13 '1/2-y, 1/2+x, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1/2-x, 1/2+z'
+ 16 '1/2+y, 1/2+x, 1/2+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Si
+ Os
+ Nd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si1 Si 4 b 0 0.5 0.3253 1
+ Si2 Si 2 a 0 0 0.0 1
+ Os1 Os 2 a 0 0 0.2313 1
+ Nd1 Nd 2 a 0 0 0.5759 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.88
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'Guinier film'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1010131
+

@@ -1,0 +1,169 @@
+##############################################################################
+#                                                                            #
+# Ce-Ir-Si         # Ce5Ir0.5Si2.5                                 # 1042758 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1042758
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1042758
+_database_code_PDF                       04-024-0311
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~5~ Ir~0.5~ Si~2.5~'
+_chemical_formula_sum                    'Ce5 Ir0.5 Si2.5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cr~5~B~3~,tI32,140
+_chemical_formula_weight                 866.9
+
+# Bibliographic data
+
+_publ_section_title
+'The ternary system cerium-iridium-silicon'                                   
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2017
+_journal_volume                          696
+_journal_page_first                      1019
+_journal_page_last                       1030
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lipatov A.'
+;
+University of Nebraska-Lincoln (UNL)
+Department of Chemistry
+Lincoln
+U.S.A. Nebraska
+;
+'Gribanov A.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Dunaev S.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.8727
+_cell_length_b                           7.8727
+_cell_length_c                           13.7935
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             854.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   140
+_space_group_name_H-M_alt                'I 4/m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, 1/2+z'
+ 6 '-y, -x, 1/2-z'
+ 7 '-y, -x, 1/2+z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, 1/2-z'
+ 11 'x, -y, 1/2+z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, 1/2-z'
+ 16 'y, x, 1/2+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1/2-y, 1/2-z'
+ 19 '1/2-x, 1/2-y, 1/2+z'
+ 20 '1/2-x, 1/2+y, 1-z'
+ 21 '1/2-x, 1/2+y, 1+z'
+ 22 '1/2-y, 1/2-x, 1-z'
+ 23 '1/2-y, 1/2-x, 1+z'
+ 24 '1/2-y, 1/2+x, 1/2-z'
+ 25 '1/2-y, 1/2+x, 1/2+z'
+ 26 '1/2+x, 1/2-y, 1-z'
+ 27 '1/2+x, 1/2-y, 1+z'
+ 28 '1/2+x, 1/2+y, 1/2-z'
+ 29 '1/2+y, 1/2-x, 1/2-z'
+ 30 '1/2+y, 1/2-x, 1/2+z'
+ 31 '1/2+y, 1/2+x, 1-z'
+ 32 '1/2+y, 1/2+x, 1+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ce
+ Si
+ Ir
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce 16 l 0.166 0.666 0.15 1
+ Si1A Si 8 h 0.625 0.125 0 0.833
+ Ir1B Ir 8 h 0.625 0.125 0 0.167
+ Ce2 Ce 4 c 0 0 0 1
+ Si2A Si 4 a 0 0 0.25 0.833
+ Ir2B Ir 4 a 0 0 0.25 0.167
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.74
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.5406
+_pd_proc_wavelength                      1.5406
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1042758
+

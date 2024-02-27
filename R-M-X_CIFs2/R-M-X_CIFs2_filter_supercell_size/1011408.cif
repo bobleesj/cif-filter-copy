@@ -1,0 +1,184 @@
+##############################################################################
+#                                                                            #
+# Gd-Ir-Si         # Gd4Ir13Si9                                    # 1011408 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1011408
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1011408
+_database_code_PDF                       04-020-8755
+
+# Entry summary
+
+_chemical_formula_structural             'Gd~4~ Ir~13~ Si~9~'
+_chemical_formula_sum                    'Gd4 Ir13 Si9'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~4~Ir~13~Ge~9~,oP52,59
+_chemical_formula_weight                 3380.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and physical properties of new ternary silicides R~4~T~13~X~9~ (R, rare earth or uranium; T, rhodium or iridium; X, silicon or germanium)
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1995
+_journal_volume                          218
+_journal_page_first                      197
+_journal_page_last                       203
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Verniere A.'
+;
+National Center for Scientific Research (CNRS)
+Centre de Recherche sur les Tres Basses Temperatures (CRTBT)
+Grenoble
+France
+;
+'Lejay P.'
+;
+National Center for Scientific Research (CNRS)
+Centre de Recherche sur les Tres Basses Temperatures (CRTBT)
+Grenoble
+France
+;
+'Bordet P.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+'Chenavas J.'
+;
+National Center for Scientific Research (CNRS)
+Laboratoire de Cristallographie
+Grenoble
+France
+;
+'Tholence J.L.'
+;
+National Center for Scientific Research (CNRS)
+Centre de Recherche sur les Tres Basses Temperatures (CRTBT)
+Grenoble
+France
+;
+'Boucherle J.X.'
+;
+Atomic Energy Commission (CEA)
+Departement de Recherche Fondamentale sur la Matiere Condensee (DRFMC)
+Grenoble
+France
+;
+'Keller N.'
+;
+National Center for Scientific Research (CNRS)
+Centre de Recherche sur les Tres Basses Temperatures (CRTBT)
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           3.947
+_cell_length_b                           10.985
+_cell_length_c                           18.939
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             821.2
+_cell_formula_units_Z                    2
+_space_group_IT_number                   59
+_space_group_name_H-M_alt                'P m m n (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, -y, -z'
+ 7 '1/2+x, 1/2+y, -z'
+ 8 'x, 1/2-y, z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ir
+ Si
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ir1 Ir 4 e 0.25 0.0497 0.54578 1
+ Si1 Si 4 e 0.25 0.0646 0.4183 1
+ Ir2 Ir 4 e 0.25 0.0673 0.16441 1
+ Ir3 Ir 4 e 0.25 0.1227 0.8546 1
+ Ir4 Ir 4 e 0.25 0.5589 0.04021 1
+ Gd1 Gd 4 e 0.25 0.5591 0.70745 1
+ Si2 Si 4 e 0.25 0.5705 0.916 1
+ Si3 Si 4 e 0.25 0.6195 0.2314 1
+ Ir5 Ir 4 e 0.25 0.6265 0.35825 1
+ Si4 Si 2 b 0.25 0.75 0.1012 1
+ Gd2 Gd 2 b 0.25 0.75 0.5216 1
+ Ir6 Ir 2 b 0.25 0.75 0.8425 1
+ Gd3 Gd 2 a 0.25 0.25 0.0194 1
+ Si5 Si 2 a 0.25 0.25 0.2352 1
+ Ir7 Ir 2 a 0.25 0.25 0.3585 1
+ Si6 Si 2 a 0.25 0.25 0.5998 1
+ Ir8 Ir 2 a 0.25 0.25 0.72724 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            13.67
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              X-rays
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1011408
+

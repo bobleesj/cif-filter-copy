@@ -1,0 +1,178 @@
+##############################################################################
+#                                                                            #
+# Co-Ho-Sn         # Ho5Co6Sn18                                    # 1928302 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1928302
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1928302
+_database_code_PDF                       04-017-6175
+
+# Entry summary
+
+_chemical_formula_structural             'Ho~5~ Co~6~ Sn~18~'
+_chemical_formula_sum                    'Co6 Ho5 Sn18'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type
+Er~4~(Er~0.33~Sn~0.67~)Rh~6~Sn~18~,tI232,142                                  
+_chemical_formula_weight                 3314.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Syntheses and crystal structures of Y~7~Co~6~Sn~23~ and RE~5~Co~6~Sn~18~ (RE= Sc, Ho)
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2009
+_journal_volume                          485
+_journal_page_first                      124
+_journal_page_last                       131
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lei X.W.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Zhong G.H.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Hu C.L.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+'Mao J.G.'
+;
+Chinese Academy of Sciences
+Institute of Research on the Structure of Matter
+Fuzhou / Fujian
+China
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.5681
+_cell_length_b                           13.5681
+_cell_length_c                           27.072
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             4983.8
+_cell_formula_units_Z                    8
+_space_group_IT_number                   142
+_space_group_name_H-M_alt                'I 41/a c d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '-x, 1/2-y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, y, 1/2+z'
+ 6 '1/4-y, 1/4-x, 1/4-z'
+ 7 '1/4-y, -1/4-x, -1/4+z'
+ 8 '1/4-y, -1/4+x, 1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 '1/2+x, -y, z'
+ 11 'x, -y, 1/2-z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '-1/4+y, 1/4-x, -1/4-z'
+ 15 '-1/4+y, 1/4+x, 1/4-z'
+ 16 '-1/4+y, -1/4+x, -1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1-x, 1/2+y, 1/2-z'
+ 19 '1/2-x, 1-y, 1/2+z'
+ 20 '1/2-x, 1/2-y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1+z'
+ 22 '3/4-y, 3/4-x, 3/4-z'
+ 23 '3/4-y, 1/4-x, 1/4+z'
+ 24 '3/4-y, 1/4+x, 3/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1+x, 1/2-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '1/4+y, 3/4-x, 1/4-z'
+ 31 '1/4+y, 3/4+x, 3/4-z'
+ 32 '1/4+y, 1/4+x, 1/4+z'
+loop_
+ _atom_type_symbol
+ Sn
+ Ho
+ Co
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn3 Sn 32 g 0.0041 0.076 0.0388 1
+ Sn5 Sn 32 g 0.0886 0.1599 0.4198 1
+ Ho2 Ho 32 g 0.1327 0.1133 0.3069 1
+ Sn2 Sn 32 g 0.1721 0.2577 0.039 1
+ Co1 Co 32 g 0.2549 0.2507 0.1252 1
+ Sn1 Sn 16 f 0.1743 0.4243 0.125 1
+ Sn4 Sn 16 f 0.3282 0.5782 0.125 1
+ Sn6 Sn 16 e 0.2906 0 0.25 1
+ Co2 Co 16 d 0 0.25 0.2519 1
+ Ho1 Ho 8 b 0 0.25 0.125 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.84
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          Rigaku
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    17723
+_exptl_absorpt_coefficient_mu            37.2
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             70
+_refine_ls_number_reflns                 1254
+_refine_ls_R_factor_gt                   0.0397
+_refine_ls_wR_factor_gt                  0.0943
+
+# End of data set 1928302
+

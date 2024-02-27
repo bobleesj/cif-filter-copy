@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# Ce-Rh-Sn         # CeRh2Sn4                                      # 1716908 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1716908
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1716908
+_database_code_PDF                       04-017-3751
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Rh~2~ Sn~4~'
+_chemical_formula_sum                    'Ce Rh2 Sn4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            NdRh~2~Sn~4~,oP28,62
+_chemical_formula_weight                 820.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Electronic structure and thermodynamic properties of CeRh~2~Sn~4~ and LaRh~2~Sn~4~
+;
+_journal_coden_ASTM                      JCOMEL
+_journal_name_full                       'J. Phys.: Condens. Matter'
+_journal_year                            2009
+_journal_volume                          21
+_journal_page_first                      1
+_journal_page_last                       16
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gamza M.B.'
+;
+Silesian University of Technology (SUT)
+Institute of Physics
+Katowice
+Poland
+;
+'Schnelle W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Gumeniuk R.V.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Prots Y.M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Slebarski A.'
+;
+Silesian University of Technology (SUT)
+Institute of Physics
+Katowice
+Poland
+;
+'Rosner H.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.4371
+_cell_length_b                           4.5035
+_cell_length_c                           7.1308
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             592.1
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Sn
+ Rh
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn1 Sn 4 c 0.03147 0.25 0.3635 1
+ Rh1 Rh 4 c 0.03495 0.25 0.7501 1
+ Sn2 Sn 4 c 0.18228 0.25 0.8024 1
+ Sn3 Sn 4 c 0.19454 0.25 0.2196 1
+ Rh2 Rh 4 c 0.28615 0.25 0.5158 1
+ Ce Ce 4 c 0.35851 0.25 0.0005 1
+ Sn4 Sn 4 c 0.43171 0.25 0.483 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.21
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4259
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             57
+_refine_ls_number_reflns                 817
+_refine_ls_R_factor_gt                   0.029
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1716908
+

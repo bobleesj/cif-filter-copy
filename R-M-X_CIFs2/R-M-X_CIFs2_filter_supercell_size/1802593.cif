@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Fe-Sn-Th         # Th4Fe13Sn5                                    # 1802593 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1802593
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1802593
+_database_code_PDF                       04-010-0909
+
+# Entry summary
+
+_chemical_formula_structural             'Th~4~ Fe~13~ Sn~5~'
+_chemical_formula_sum                    'Fe13 Sn5 Th4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Th~4~Fe~13~Sn~5~,tP44,127
+_chemical_formula_weight                 2247.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+New phases in the thorium-iron-tin system: ThFe~0.22~Sn~2~ and Th~4~Fe~13~Sn~5~
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1997
+_journal_volume                          247
+_journal_page_first                      109
+_journal_page_last                       114
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Manfrinetti P.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Canepa F.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Palenzona A.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Fornasini M.L.'
+;
+Genoa University (UniGe)
+Dipartimento di Chimica e Chimica Industriale
+Genoa
+Italy
+;
+'Giannini E.'
+;
+Genoa University (UniGe)
+Dipartimento di Fisica
+Genoa
+Italy
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.29
+_cell_length_b                           8.29
+_cell_length_c                           11.946
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             821
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Sn
+ Fe
+ Th
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sn1 Sn 8 k 0.1466 0.6466 0.3198 1
+ Fe1 Fe 8 k 0.1757 0.6757 0.1074 1
+ Fe2 Fe 8 k 0.6236 0.1236 0.1844 1
+ Fe3 Fe 8 i 0.067 0.2083 0 1
+ Th1 Th 4 h 0.6561 0.1561 0.5 1
+ Th2 Th 4 e 0 0 0.2222 1
+ Fe4 Fe 2 d 0 0.5 0 1
+ Sn2 Sn 2 b 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.09
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.7107
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.7107
+_diffrn_reflns_number                    2076
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 35
+_exptl_absorpt_coefficient_mu            54.5
+_exptl_absorpt_correction_type           spherical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             38
+_refine_ls_number_reflns                 760
+_refine_ls_R_factor_gt                   0.061
+_refine_ls_wR_factor_gt                  0.182
+
+# End of data set 1802593
+

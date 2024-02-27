@@ -1,0 +1,181 @@
+##############################################################################
+#                                                                            #
+# Ce-Rh-Si         # Ce2Rh15Si7                                    # 1408628 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1408628
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1408628
+_database_code_PDF                       04-009-5074
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~2~ Rh~15~ Si~7~'
+_chemical_formula_sum                    'Ce2 Rh15 Si7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~2~Rh~15~Si~7~,cP48,221
+_chemical_formula_weight                 2020.4
+
+# Bibliographic data
+
+_publ_section_title
+'The new ternary compound Ce~2~Rh~15~Si~7~'                                   
+_journal_coden_ASTM                      ACSEBH
+_journal_name_full                       'Acta Crystallogr. E'
+_journal_year                            2001
+_journal_volume                          57
+_journal_page_first                      i55
+_journal_page_last                       i56
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Gribanov A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.818
+_cell_length_b                           8.818
+_cell_length_c                           8.818
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             685.7
+_cell_formula_units_Z                    2
+_space_group_IT_number                   221
+_space_group_name_H-M_alt                'P m -3 m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+loop_
+ _atom_type_symbol
+ Rh
+ Si
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Rh5 Rh 12 j 0.5 0.17661 0.17661 1
+ Rh4 Rh 12 i 0 0.23789 0.23789 1
+ Si7 Si 8 g 0.287 0.287 0.287 1
+ Rh3 Rh 6 f 0.2759 0.5 0.5 1
+ Si6 Si 6 e 0.3655 0 0 1
+ Ce2 Ce 3 c 0 0.5 0.5 1
+ Ce1 Ce 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    'red dark'
+_exptl_crystal_density_meas              9.186
+_exptl_crystal_density_diffrn            9.79
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1756
+_exptl_absorpt_coefficient_mu            24.57
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             22
+_refine_ls_number_reflns                 251
+_refine_ls_R_factor_gt                   0.047
+_refine_ls_wR_factor_gt                  0.148
+
+# End of data set 1408628
+

@@ -1,0 +1,248 @@
+##############################################################################
+#                                                                            #
+# Ce-Rh-Sn         # Ce3Rh4Sn13                                    # 1045751 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1045751
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1045751
+_database_code_PDF                       04-025-0985
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~3~ Rh~4~ Sn~13~'
+_chemical_formula_sum                    'Ce3 Rh4 Sn13'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca~3~Pt~4.1~Ge~12.6~,cI320,199
+_chemical_formula_weight                 2375.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Chiral-crystal-structure transformations and magnetic states of R~3~Rh~4~Sn~13~ (R= La and Ce)
+;
+_journal_coden_ASTM                      PRBHB7
+_journal_name_full                       'Phys. Rev. B'
+_journal_year                            2018
+_journal_volume                          97
+_journal_page_first                      1
+_journal_page_last                       9
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Suyama K.'
+;
+Tohoku University
+Department of Physics
+Sendai / Miyagi
+Japan
+;
+'Damay F.'
+;
+Alternative Energies and Atomic Energy Commission (CEA)
+Laboratoire Leon Brillouin (LLB)
+Gif-sur-Yvette
+France
+;
+'Mignot J.M.'
+;
+Alternative Energies and Atomic Energy Commission (CEA)
+Laboratoire Leon Brillouin (LLB)
+Gif-sur-Yvette
+France
+;
+'Yamada A.'
+;
+Tokyo Metropolitan University
+Department of Physics
+Hachioji / Tokyo
+Japan
+;
+'Matsuda T.D.'
+;
+Tokyo Metropolitan University
+Department of Physics
+Hachioji / Tokyo
+Japan
+;
+'Aoki Y.'
+;
+Tokyo Metropolitan University
+Department of Physics
+Hachioji / Tokyo
+Japan
+;
+'Iwasa K.'
+;
+Ibaraki University
+Frontier Research Center for Applied Atomic Science
+Tokai / Ibaraki
+Japan
+;
+'Otomo Y.'
+;
+Tohoku University
+Department of Physics
+Sendai / Miyagi
+Japan
+;
+'Tomiyasu K.'
+;
+Tohoku University
+Department of Physics
+Sendai / Miyagi
+Japan
+;
+'Sagayama H.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+'Sagayama R.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+'Nakao H.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+'Kumai R.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+'Kitajima Y.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.3963
+_cell_length_b                           19.3963
+_cell_length_c                           19.3963
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             7297.21
+_cell_formula_units_Z                    16
+_space_group_IT_number                   199
+_space_group_name_H-M_alt                'I 21 3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '-x, 1/2-y, z'
+ 4 '1/2-y, z, -x'
+ 5 '-y, 1/2-z, x'
+ 6 '1/2-z, x, -y'
+ 7 '-z, 1/2-x, y'
+ 8 'x, -y, 1/2-z'
+ 9 'y, -z, 1/2-x'
+ 10 'y, z, x'
+ 11 'z, -x, 1/2-y'
+ 12 'z, x, y'
+ 13 '1/2+x, 1/2+y, 1/2+z'
+ 14 '1-x, 1/2+y, 1/2-z'
+ 15 '1/2-x, 1-y, 1/2+z'
+ 16 '1-y, 1/2+z, 1/2-x'
+ 17 '1/2-y, 1-z, 1/2+x'
+ 18 '1-z, 1/2+x, 1/2-y'
+ 19 '1/2-z, 1-x, 1/2+y'
+ 20 '1/2+x, 1/2-y, 1-z'
+ 21 '1/2+y, 1/2-z, 1-x'
+ 22 '1/2+y, 1/2+z, 1/2+x'
+ 23 '1/2+z, 1/2-x, 1-y'
+ 24 '1/2+z, 1/2+x, 1/2+y'
+loop_
+ _atom_type_symbol
+ Ce
+ Sn
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce 24 c 0.00115 0.3751 0.25097 1
+ Sn2 Sn 24 c -0.0007 0.1525 0.57571 1
+ Sn6 Sn 24 c -0.00057 0.33549 0.41913 1
+ Sn9 Sn 24 c 0.00014 0.15399 0.07697 1
+ Sn8 Sn 24 c 0.07285 0.50007 0.1393 1
+ Sn7 Sn 24 c 0.09637 0.25062 0.17302 1
+ Sn10 Sn 24 c 0.11033 0.24946 0.3228 1
+ Ce2 Ce 24 c 0.12509 0.25023 0.50006 1
+ Rh4 Rh 24 c 0.12462 0.12454 0.37511 1
+ Rh2 Rh 24 c 0.12512 0.37471 0.37448 1
+ Sn1 Sn 24 c 0.16918 0.41458 0.24935 1
+ Sn5 Sn 24 c 0.25096 0.32617 0.40301 1
+ Sn4 Sn 8 a 0.00043 0.00043 0.00043 1
+ Rh1 Rh 8 a 0.12533 0.12533 0.12533 1
+ Sn3 Sn 8 a 0.24919 0.24919 0.24919 1
+ Rh3 Rh 8 a 0.37531 0.37531 0.37531 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.65
+_cell_measurement_temperature            110.8
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              110.8
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Japan, Tsukuba, High Energy Accelerator Research Organization (KEK), Photon Factory, BL-8A
+;
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    25640
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.069
+_refine_ls_wR_factor_gt                  0.1376
+
+# End of data set 1045751
+

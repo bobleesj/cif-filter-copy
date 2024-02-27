@@ -1,0 +1,145 @@
+##############################################################################
+#                                                                            #
+# Ge-Pd-Tm         # Tm5Pd4Ge8                                     # 1043944 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1043944
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1043944
+_database_code_PDF                       04-024-0986
+
+# Entry summary
+
+_chemical_formula_structural             'Tm~5~ Pd~4~ Ge~8~'
+_chemical_formula_sum                    'Ge8 Pd4 Tm5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tm~5~Pd~4~Ge~8~,mP34,11
+_chemical_formula_weight                 1851.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+The germanides Er~5~Pd~4~Ge~8~ and Tm~5~Pd~4~Ge~8~ - 3D [Pd~4~Ge~8~] polyanions with Ge~2~ dumb-bells and Ge~4~ chains in cis-conformation
+;
+_journal_coden_ASTM                      ZKCMAJ
+_journal_name_full                       'Z. Kristallogr. - Cryst. Mater.'
+_journal_year                            2017
+_journal_volume                          232
+_journal_page_first                      435
+_journal_page_last                       440
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Heying B.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.743
+_cell_length_b                           13.804
+_cell_length_c                           8.364
+_cell_angle_alpha                        90
+_cell_angle_beta                         107.57
+_cell_angle_gamma                        90
+_cell_volume                             632.1
+_cell_formula_units_Z                    2
+_space_group_IT_number                   11
+_space_group_name_H-M_alt                'P 1 21/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, -z'
+ 4 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Pd
+ Tm
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pd2 Pd 4 f 0.07395 0.08544 0.14231 1
+ Tm2 Tm 4 f 0.13578 0.11347 0.78928 1
+ Ge2 Ge 4 f 0.15606 0.0415 0.44722 1
+ Ge1 Ge 4 f 0.34501 0.54364 0.05094 1
+ Pd1 Pd 4 f 0.42661 0.58305 0.35873 1
+ Tm1 Tm 4 f 0.62116 0.11915 0.29077 1
+ Ge4 Ge 2 e 0.0533 0.25 0.28999 1
+ Ge5 Ge 2 e 0.2791 0.25 0.06146 1
+ Ge6 Ge 2 e 0.3352 0.25 0.58127 1
+ Tm3 Tm 2 e 0.71788 0.25 0.93045 1
+ Ge3 Ge 2 e 0.781 0.25 0.58335 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.72
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              300
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    21027
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 33.6
+_exptl_absorpt_coefficient_mu            59.7
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'charge flipping, Fourier synthesis'
+_refine_ls_number_parameters             86
+_refine_ls_number_reflns                 1831
+_refine_ls_R_factor_gt                   0.0284
+_refine_ls_wR_factor_gt                  0.0532
+
+# End of data set 1043944
+

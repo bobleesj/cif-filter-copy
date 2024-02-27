@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# In-Pr-Rh         # Pr16Rh9.55In1.45                              # 1934363 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1934363
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1934363
+_database_code_PDF                       04-019-6768
+
+# Entry summary
+
+_chemical_formula_structural             'Pr~16~ Rh~9.55~ In~1.45~'
+_chemical_formula_sum                    'In1.42 Pr16 Rh9.58'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type
+Ce~16~Ru~8~(Ru~0.29~In~0.71~)In~2~,tP54,127                                   
+_chemical_formula_weight                 3403.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Solid solutions RE~16~Rh~11-x~Z~x~ (RE= La, Ce, Pr, Nd, Sm; Z= Ga, Zn, Cd, In, Sn, Sb, Pb, Bi) - Centrosymmetric n= 2 variants of Parthe's homologous series A~5n+6~B~3n+5~
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2012
+_journal_volume                          67
+_journal_page_first                      594
+_journal_page_last                       604
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tappe F.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Schappacher F.M.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Langer T.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Schellenberg I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.857
+_cell_length_b                           11.857
+_cell_length_c                           9.855
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1385.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Pr
+ Rh
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pr1 Pr 16 l 0.20431 0.08013 0.19018 1
+ Rh1 Rh 8 k 0.67813 0.17813 0.2758 1
+ Pr2 Pr 8 j 0.07466 0.20888 0.5 1
+ Rh4,In1A Rh 4 h 0.158 0.658 0.5 0.54(8)
+ Rh4,In1B In 4 h 0.158 0.658 0.5 0.46(8)
+ Rh2 Rh 4 g 0.10239 0.60239 0 1
+ Pr3 Pr 4 g 0.6455 0.1455 0 1
+ Pr4 Pr 4 f 0 0.5 0.28891 1
+ Rh3 Rh 4 e 0 0 0.34312 1
+ In2,Rh5A In 2 a 0 0 0 0.50(10)
+ In2,Rh5B Rh 2 a 0 0 0 0.50(10)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.16
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    9947
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            34.2
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             46
+_refine_ls_number_reflns                 869
+_refine_ls_R_factor_gt                   0.043
+_refine_ls_wR_factor_gt                  0.052
+
+# End of data set 1934363
+

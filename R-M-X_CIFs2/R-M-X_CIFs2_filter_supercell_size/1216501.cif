@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Ce-In-Ru         # Ce3Ru2In2                                     # 1216501 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1216501
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1216501
+_database_code_PDF                       04-014-4346
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~3~ Ru~2~ In~2~'
+_chemical_formula_sum                    'Ce3 In2 Ru2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~3~Ru~2~In~2~,oP28,62
+_chemical_formula_weight                 852.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ce~2~Ru~2~In~3~ and Ce~3~Ru~2~In~2~: Site exchange in ternary indides of a new structure type
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2007
+_journal_volume                          442
+_journal_page_first                      100
+_journal_page_last                       103
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.I.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Kurenbaeva Z.M.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Gribanov A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Materiaux
+Rennes
+France
+;
+'Roisnel T.'
+;
+Rennes I University
+Laboratoire de Diffractometrie
+Rennes
+France
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.394
+_cell_length_b                           4.9073
+_cell_length_c                           7.669
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             654.6
+_cell_formula_units_Z                    4
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ In
+ Ru
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 4 c 0.02976 0.25 0.83774 1
+ Ru1 Ru 4 c 0.04699 0.25 0.22098 1
+ Ce1 Ce 4 c 0.17333 0.25 0.27372 1
+ In2 In 4 c 0.1983 0.25 0.70893 1
+ Ru2 Ru 4 c 0.2933 0.25 0.01893 1
+ Ce2 Ce 4 c 0.36213 0.25 0.46771 1
+ Ce3 Ce 4 c 0.42436 0.25 0.00803 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.65
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             44
+_refine_ls_number_reflns                 1322
+_refine_ls_R_factor_gt                   0.031
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1216501
+

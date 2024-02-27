@@ -1,0 +1,143 @@
+##############################################################################
+#                                                                            #
+# Rh-Si-Y          # Y3RhSi3                                       #  539744 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_539744
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      539744
+_database_code_PDF                       04-009-0304
+
+# Entry summary
+
+_chemical_formula_structural             'Y~3~ Rh Si~3~'
+_chemical_formula_sum                    'Rh Si3 Y3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sc~3~NiSi~3~,mS28,12
+_chemical_formula_weight                 453.9
+
+# Bibliographic data
+
+_publ_section_title
+'Y~3~RhSi~3~: Member of the structural series with formula R~n+2~T~2~Si~n+2~' 
+_journal_coden_ASTM                      JCOMAH
+_journal_name_full                       'J. Less-Common Met.'
+_journal_year                            1985
+_journal_volume                          106
+_journal_page_first                      103
+_journal_page_last                       107
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Paccard L.'
+;
+Savoie University
+Laboratoire de Structure de la Matiere (LSM)
+Annecy
+France
+;
+'Paccard D.'
+;
+Savoie University
+Laboratoire de Structure de la Matiere (LSM)
+Annecy
+France
+;
+'Moreau J.M.'
+;
+Savoie University
+Laboratoire de Structure de la Matiere (LSM)
+Annecy
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           10.52
+_cell_length_b                           4.206
+_cell_length_c                           13.5128
+_cell_angle_alpha                        90
+_cell_angle_beta                         110.665
+_cell_angle_gamma                        90
+_cell_volume                             559.4
+_cell_formula_units_Z                    4
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ Si
+ Rh
+ Y
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si(3) Si 4 i 0.0457 0 0.2367 1
+ Si(2) Si 4 i 0.1127 0 0.0751 1
+ Si(1) Si 4 i 0.1314 0 0.5438 1
+ Rh Rh 4 i 0.2471 0 0.4149 1
+ Y(3) Y 4 i 0.397 0 0.079 1
+ Y(1) Y 4 i 0.5228 0 0.3762 1
+ Y(2) Y 4 i 0.7434 0 0.2281 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            5.39
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 700
+_refine_ls_R_factor_gt                   0.059
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 539744
+

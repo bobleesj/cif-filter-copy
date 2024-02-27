@@ -1,0 +1,167 @@
+##############################################################################
+#                                                                            #
+# Co-Ga-Ho         # Ho5Co0.4Ga2.6                                 # 1142187 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1142187
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1142187
+_database_code_PDF                       04-021-0098
+
+# Entry summary
+
+_chemical_formula_structural             'Ho~5~ Co~0.4~ Ga~2.6~'
+_chemical_formula_sum                    'Co0.36 Ga2.64 Ho5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cr~5~B~3~,tI32,140
+_chemical_formula_weight                 1029.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+Targeted structural changes and magnetic properties study in (Ho/Er)~5~Ga~3-x~(Co/Fe)~x~
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2015
+_journal_volume                          620
+_journal_page_first                      376
+_journal_page_last                       382
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Yuan F.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+'Morozkin A.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Mozharivskyj Y.A.'
+;
+McMaster University (Mac)
+Department of Chemistry and Chemical Biology
+Hamilton
+Canada
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.5971
+_cell_length_b                           7.5971
+_cell_length_c                           13.882
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             801.2
+_cell_formula_units_Z                    4
+_space_group_IT_number                   140
+_space_group_name_H-M_alt                'I 4/m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, 1/2+z'
+ 6 '-y, -x, 1/2-z'
+ 7 '-y, -x, 1/2+z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, 1/2-z'
+ 11 'x, -y, 1/2+z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, 1/2-z'
+ 16 'y, x, 1/2+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1/2-y, 1/2-z'
+ 19 '1/2-x, 1/2-y, 1/2+z'
+ 20 '1/2-x, 1/2+y, 1-z'
+ 21 '1/2-x, 1/2+y, 1+z'
+ 22 '1/2-y, 1/2-x, 1-z'
+ 23 '1/2-y, 1/2-x, 1+z'
+ 24 '1/2-y, 1/2+x, 1/2-z'
+ 25 '1/2-y, 1/2+x, 1/2+z'
+ 26 '1/2+x, 1/2-y, 1-z'
+ 27 '1/2+x, 1/2-y, 1+z'
+ 28 '1/2+x, 1/2+y, 1/2-z'
+ 29 '1/2+y, 1/2-x, 1/2-z'
+ 30 '1/2+y, 1/2-x, 1/2+z'
+ 31 '1/2+y, 1/2+x, 1-z'
+ 32 '1/2+y, 1/2+x, 1+z'
+loop_
+ _atom_type_symbol
+ Ho
+ Ga
+ Co
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ho1 Ho 16 l 0.1645 0.6645 0.1478 1
+ Ga2,Co22A Ga 8 h 0.6237 0.1237 0 0.82(6)
+ Ga2,Co22B Co 8 h 0.6237 0.1237 0 0.18(6)
+ Ho2 Ho 4 c 0 0 0 1
+ Ga1 Ga 4 a 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.53
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    4113
+_diffrn_reflns_theta_min                 2.93
+_diffrn_reflns_theta_max                 29.16
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             17
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0250
+_refine_ls_wR_factor_gt                  0.0542
+
+# End of data set 1142187
+

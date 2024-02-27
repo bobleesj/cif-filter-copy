@@ -1,0 +1,230 @@
+##############################################################################
+#                                                                            #
+# Ge-Pt-Sm         # Sm3Pt4Ge13                                    # 1530063 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1530063
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1530063
+_database_code_PDF                       04-022-2629
+
+# Entry summary
+
+_chemical_formula_structural             'Sm~3~ Pt~4~ Ge~13~'
+_chemical_formula_sum                    'Ge13 Pt4 Sm3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y~3~Pt~4~Ge~13~,mS80,9
+_chemical_formula_weight                 2175.2
+_chemical_melting_point                  1009
+
+# Bibliographic data
+
+_publ_section_title
+;
+Intermetallic germanides with noncentrosymmetric structures derived from the Yb~3~Rh~4~Sn~13~ type
+;
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2015
+_journal_volume                          44
+_journal_page_first                      5638
+_journal_page_last                       5651
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gumeniuk R.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Curfs C.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Burkhardt U.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schwarz U.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Leithe Jasper A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schoneich M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Kvashnina K.O.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Akselrud L.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Tsirlin A.A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Nicklas M.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schnelle W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Janson O.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Zheng Q.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.8253
+_cell_length_b                           12.7848
+_cell_length_c                           9.0688
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1487
+_cell_formula_units_Z                    4
+_space_group_IT_number                   9
+_space_group_name_H-M_alt                'C 1 c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 'x, -y, 1/2+z'
+ 3 '1/2+x, 1/2+y, z'
+ 4 '1/2+x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Pt
+ Sm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge 4 a 0.0 0.2493 0.0 1
+ Pt4 Pt 4 a -0.0006 0.4999 0.2584 1
+ Pt3 Pt 4 a 0.001 0.0002 0.2597 1
+ Ge12 Ge 4 a 0.0655 0.0682 0.012 1
+ Ge8 Ge 4 a 0.0815 0.1677 0.3563 1
+ Ge6 Ge 4 a 0.0788 0.1692 0.6606 1
+ Ge7 Ge 4 a 0.1289 0.3753 0.1227 1
+ Ge13 Ge 4 a 0.1736 0.5709 0.3318 1
+ Sm1 Sm 4 a 0.2487 0.0005 0.263 1
+ Pt1 Pt 4 a 0.2502 0.7492 0.2601 1
+ Pt2 Pt 4 a 0.2503 0.251 0.2581 1
+ Ge3 Ge 4 a 0.2584 0.1579 0.012 1
+ Ge9 Ge 4 a 0.2921 0.1677 0.513 1
+ Ge11 Ge 4 a 0.3407 0.4038 0.3633 1
+ Ge4 Ge 4 a 0.3359 0.5821 0.16 1
+ Sm2 Sm 4 a 0.3706 0.377 0.0094 1
+ Ge2 Ge 4 a 0.4082 0.0078 0.005 1
+ Ge10 Ge 4 a 0.439 0.1908 0.7866 1
+ Ge5 Ge 4 a 0.4415 0.1925 0.2508 1
+ Sm3 Sm 4 a 0.6237 0.1257 0.0102 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.72
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              480
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, European Synchrotron Radiation Facility ESRF, ID31'        
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.39987
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 0.5
+_diffrn_reflns_theta_max                 16.5
+_pd_proc_2theta_range_min                1
+_pd_proc_2theta_range_max                33
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.133
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# End of data set 1530063
+

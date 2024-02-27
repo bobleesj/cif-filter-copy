@@ -1,0 +1,169 @@
+##############################################################################
+#                                                                            #
+# Co-In-Sc         # Sc6Co2.18In0.82                               # 1814878 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1814878
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1814878
+_database_code_PDF                       04-013-9232
+
+# Entry summary
+
+_chemical_formula_structural             'Sc~6~ Co~2.18~ In~0.82~'
+_chemical_formula_sum                    'Co2.18 In0.82 Sc6'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~6~Co~2~Ga,oI36,71
+_chemical_formula_weight                 492.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+New indides Sc~6~Co~2.18~In~0.82~, Sc~10~Ni~9~In~19.44~ and ScCu~4~In - synthesis, structure, and crystal chemistry
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2006
+_journal_volume                          61
+_journal_page_first                      942
+_journal_page_last                       948
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba R.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.867
+_cell_length_b                           8.78
+_cell_length_c                           9.321
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             725.66
+_cell_formula_units_Z                    4
+_space_group_IT_number                   71
+_space_group_name_H-M_alt                'I m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2-z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Sc
+ Co
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sc1 Sc 8 n 0.28155 0.18896 0 1
+ Sc2 Sc 8 m 0.29565 0 0.31347 1
+ Sc3 Sc 8 l 0 0.21044 0.23331 1
+ Co1 Co 4 j 0.5 0 0.1186 1
+ Co2 Co 4 g 0 0.36913 0 1
+ In2 In 2 c 0.5 0.5 0 1
+ In1,Co3A In 2 a 0 0 0 0.64(1)
+ In1,Co3B Co 2 a 0 0 0 0.36(1)
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            4.51
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4561
+_diffrn_reflns_theta_min                 3
+_diffrn_reflns_theta_max                 32
+_exptl_absorpt_coefficient_mu            12.5
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             35
+_refine_ls_number_reflns                 711
+_refine_ls_R_factor_gt                   0.0284
+_refine_ls_wR_factor_gt                  0.0468
+
+# End of data set 1814878
+

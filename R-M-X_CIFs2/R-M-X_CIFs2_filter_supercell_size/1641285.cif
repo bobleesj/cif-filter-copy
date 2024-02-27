@@ -1,0 +1,174 @@
+##############################################################################
+#                                                                            #
+# Co-Gd-Si         # Gd2Co2.53Si0.47                               # 1641285 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1641285
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1641285
+_database_code_PDF                       04-021-3851
+
+# Entry summary
+
+_chemical_formula_structural             'Gd~2~ Co~2.53~ Si~0.47~'
+_chemical_formula_sum                    'Co2.53 Gd2 Si0.47'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            La~2~Ni~3~,oS20,64
+_chemical_formula_weight                 476.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Stabilization by si substitution of the pseudobinary compound Gd~2~(Co~3-x~Si~x~) with magnetocaloric properties around room temperature
+;
+_journal_coden_ASTM                      INOCAJ
+_journal_name_full                       'Inorg. Chem.'
+_journal_year                            2014
+_journal_volume                          53
+_journal_page_first                      6728
+_journal_page_last                       6736
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tence S.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Flores R.C.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Chable J.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Gorsse S.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Chevalier B.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+'Gaudin E.'
+;
+National Center for Scientific Research (CNRS)
+Institut de Chimie de la Matiere Condensee de Bordeaux (ICMCB)
+Pessac
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.3833
+_cell_length_b                           9.5535
+_cell_length_c                           7.1233
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             366.3
+_cell_formula_units_Z                    4
+_space_group_IT_number                   64
+_space_group_name_H-M_alt                'C m c e'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, 1/2+z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, 1/2-y, 1/2+z'
+ 7 'x, -y, -z'
+ 8 'x, 1/2+y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1-y, 1/2+z'
+ 11 '1/2-x, 1/2-y, -z'
+ 12 '1/2-x, 1+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1-y, 1/2+z'
+ 15 '1/2+x, 1/2-y, -z'
+ 16 '1/2+x, 1+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Gd
+ Co
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Gd1 Gd 8 f 0 0.33623 0.09712 1
+ Co,Si2A Co 8 e 0.25 0.08438 0.25 0.968(8)
+ Co,Si2B Si 8 e 0.25 0.08438 0.25 0.032(8)
+ Co,Si1A Co 4 a 0 0 0 0.594(10)
+ Co,Si1B Si 4 a 0 0 0 0.406(10)
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.65
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4F'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    4450
+_diffrn_reflns_theta_min                 5.14
+_diffrn_reflns_theta_max                 34.79
+_exptl_absorpt_coefficient_mu            46.831
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'charge flipping'
+_refine_ls_number_parameters             19
+_refine_ls_number_reflns                 405
+_refine_ls_R_factor_gt                   0.0260
+_refine_ls_wR_factor_gt                  0.0507
+
+# End of data set 1641285
+

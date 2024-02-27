@@ -1,0 +1,219 @@
+##############################################################################
+#                                                                            #
+# Co-Ga-Sc         # ScCo1.2Ga1.8                                  # 1000520 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1000520
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1000520
+_database_code_PDF                       04-009-1489
+
+# Entry summary
+
+_chemical_formula_structural             'Sc Co~1.2~ Ga~1.8~'
+_chemical_formula_sum                    'Co1.18 Ga1.73 Sc0.98'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            ScCo~1.2~Ga~1.8~,tP80,99
+_chemical_formula_weight                 241.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of the ScCo~1.2~Ga~1.8~ compound, its analogs and a new representative of the Sc~3~Mn~2~Ga~6~ structure type
+;
+_journal_coden_ASTM                      DNUNDU
+_journal_name_full                       'Dopov. Akad. Nauk Ukr. RSR, Ser. A'
+_journal_year                            1989
+_journal_volume                          ?
+_journal_issue                           9
+_journal_page_first                      76
+_journal_page_last                       79
+_journal_language                        Ukrainian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Belyavina N.N.'
+;
+Kyiv Taras Shevchenko State University
+Kiev
+Ukraine
+;
+'Markiv V.Y.'
+;
+Kyiv Taras Shevchenko State University
+Kiev
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.255
+_cell_length_b                           12.255
+_cell_length_c                           8.223
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1235
+_cell_formula_units_Z                    20
+_space_group_IT_number                   99
+_space_group_name_H-M_alt                'P 4 m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, -x, z'
+ 5 '-y, x, z'
+ 6 'x, -y, z'
+ 7 'y, -x, z'
+ 8 'y, x, z'
+loop_
+ _atom_type_symbol
+ Ga
+ Co
+ Sc
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 8 g 0.137 0.356 0.633 1
+ Co,Ga1A Ga 8 g 0.142 0.367 0.158 0.63
+ Co,Ga1B Co 8 g 0.142 0.367 0.158 0.37
+ Ga4 Ga 4 f 0.118 0.5 0.897 1
+ Sc4 Sc 4 f 0.238 0.5 0.368 1
+ Co4 Co 4 f 0.269 0.5 0.7 1
+ Ga3 Ga 4 f 0.326 0.5 0.01 1
+ Ga5 Ga 4 e 0.166 0 0.224 1
+ Co,Ga2A Co 4 e 0.219 0 0.562 0.67
+ Co,Ga2B Ga 4 e 0.219 0 0.562 0.33
+ Sc3 Sc 4 e 0.29 0 0.911 1
+ Co3 Co 4 e 0.394 0 0.361 1
+ Co,Ga3A Co 4 d 0.136 0.136 0.751 0.50
+ Co,Ga3B Ga 4 d 0.136 0.136 0.751 0.50
+ Co1 Co 4 d 0.169 0.169 0.018 1
+ Sc2 Sc 4 d 0.199 0.199 0.401 1
+ Sc1 Sc 4 d 0.3 0.3 0.875 1
+ Co2 Co 4 d 0.344 0.344 0.19 1
+ Ga2 Ga 4 d 0.371 0.371 0.539 1
+ Ga7 Ga 2 c 0.5 0 0.121 0.55
+ Ga6 Ga 2 c 0.5 0 0.639 0.55
+ Sc8 Sc 1 b 0.5 0.5 0.057 0.68
+ Sc6 Sc 1 b 0.5 0.5 0.316 1
+ Sc5 Sc 1 a 0 0 0.0 1
+ Sc7 Sc 1 a 0 0 0.486 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            6.49
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               diffractometer
+_diffrn_measurement_device_type          DRON-3.0M
+_diffrn_radiation_type                   'X-rays, Fe Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 230
+_refine_ls_R_factor_gt                   0.067
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 1 1 0 8.67 58
+ 0 1 1 6.83 7
+ 1 1 1 5.97 17
+ 0 2 1 4.9 14
+ 1 2 1 4.57 20
+ 2 2 0 4.33 74
+ 0 0 2 4.1 173
+ 0 1 2 3.87 91
+ 2 2 1 3.83 69
+ 1 1 2 3.65 167
+ 1 3 1 3.5 7
+ 0 2 2 3.41 14
+ 1 2 2 3.29 17
+ 2 3 1 3.14 11
+ 0 4 0 3.06 61
+ 2 2 2 2.985 8
+ 0 3 2 2.895 38
+ 1 3 2 2.816 52
+ 1 4 1 2.795 19
+ 0 0 3 2.74 79
+ 3 3 1 2.725 79
+ 0 1 3 2.675 10
+ 2 3 2 2.618 154
+ 0 2 3 2.5 26
+ 0 4 2 2.457 520
+ 1 4 2 2.407 351
+ 1 5 0 2.402 351
+ 3 3 2 2.364 733
+ 0 5 1 2.348 1000
+ 2 2 3 2.31 90
+ 2 4 2 2.278 440
+ 2 5 1 2.19 33
+ 4 4 0 2.165 379
+ 2 3 3 2.134 722
+ 0 5 2 2.104 135
+ 4 4 1 2.095 129
+ 1 5 2 2.076 129
+ 0 0 4 2.054 ?
+ 0 4 3 2.042 685
+ 1 4 3 2.016 443
+ 2 5 2 2 355
+ 1 1 4 1.982 108
+ 1 6 1 1.955 30
+ 2 4 3 1.935 83
+ 4 4 2 1.917 366
+ 2 6 1 1.87 80
+ 4 5 1 1.858 24
+ 0 3 4 1.829 112
+ 1 3 4 1.813 124
+ 2 3 4 1.759 10
+ 2 6 2 1.752 19
+ 4 5 2 1.733 92
+ 0 7 1 1.71 38
+ 4 4 3 1.7 36
+
+# End of data set 1000520
+

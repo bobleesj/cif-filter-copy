@@ -1,0 +1,185 @@
+##############################################################################
+#                                                                            #
+# In-Nd-Pd         # Nd4Pd10In21                                   # 1810879 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1810879
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810879
+_database_code_PDF                       04-012-4338
+
+# Entry summary
+
+_chemical_formula_structural             'Nd~4~ Pd~10~ In~21~'
+_chemical_formula_sum                    'In21 Nd4 Pd10'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~4~Ni~10~Ga~21~,mS70,12
+_chemical_formula_weight                 4052.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ternary Indides RE~4~Pd~10~In~21~ (RE= La, Ce, Pr, Nd, Sm) - Synthesis, Structure, and Physical Properties
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2003
+_journal_volume                          629
+_journal_page_first                      434
+_journal_page_last                       442
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba V.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Galadzhun Y.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Kaczorowski D.'
+;
+Polish Academy of Sciences (PAN)
+Trzebiatowski W. Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Hoffmann R.D.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           23.002
+_cell_length_b                           4.4975
+_cell_length_c                           17.1169
+_cell_angle_alpha                        90
+_cell_angle_beta                         124.549
+_cell_angle_gamma                        90
+_cell_volume                             1458.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   12
+_space_group_name_H-M_alt                'C 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, -z'
+ 8 '1/2+x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ In
+ Pd
+ Nd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In6 In 4 i 0.0102 0 0.0939 1
+ Pd2 Pd 4 i 0.0254 0 0.6138 1
+ In4 In 4 i 0.06423 0 0.79722 1
+ In2 In 4 i 0.11203 0 0.54966 1
+ Nd2 Nd 4 i 0.12174 0 0.33338 1
+ Pd4 Pd 4 i 0.1373 0 0.10675 1
+ In10 In 4 i 0.20119 0 0.00438 1
+ Pd1 Pd 4 i 0.24868 0 0.61367 1
+ In7 In 4 i 0.25211 0 0.29556 1
+ In11 In 4 i 0.2993 0 0.49986 1
+ Pd3 Pd 4 i 0.34661 0 0.11424 1
+ In8 In 4 i 0.3864 0 0.3005 1
+ In9 In 4 i 0.39848 0 0.00303 1
+ Pd5 Pd 4 i 0.50576 0 0.18819 1
+ In3 In 4 i 0.54177 0 0.37098 1
+ In5 In 4 i 0.63078 0 0.1997 1
+ Nd1 Nd 4 i 0.77178 0 0.17612 1
+ In1 In 2 d 0 0.5 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.23
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4860
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 34
+_exptl_absorpt_coefficient_mu            29.2
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             108
+_refine_ls_number_reflns                 1506
+_refine_ls_R_factor_gt                   0.0344
+_refine_ls_wR_factor_gt                  0.0945
+
+# End of data set 1810879
+

@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# Eu-Ga-Pt         # Eu2Pt2Ga                                      # 1726398 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1726398
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1726398
+_database_code_PDF                       04-024-6566
+
+# Entry summary
+
+_chemical_formula_structural             'Eu~2~ Pt~2~ Ga'
+_chemical_formula_sum                    'Eu2 Ga Pt2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca~2~Ir~2~Si,mS20,15
+_chemical_formula_weight                 763.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Multi-center vs. two-center bonding within the hetero-polyanion in Eu~2~GaPt~2~ and its prototype Ca~2~SiIr~2~
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2017
+_journal_volume                          643
+_journal_page_first                      1338
+_journal_page_last                       1343
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Borrmann H.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.8775
+_cell_length_b                           5.8621
+_cell_length_c                           7.9677
+_cell_angle_alpha                        90
+_cell_angle_beta                         102.257
+_cell_angle_gamma                        90
+_cell_volume                             450.8
+_cell_formula_units_Z                    4
+_space_group_IT_number                   15
+_space_group_name_H-M_alt                'C 1 2/c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, 1/2-z'
+ 4 'x, -y, 1/2+z'
+ 5 '1/2+x, 1/2+y, z'
+ 6 '1/2-x, 1/2-y, -z'
+ 7 '1/2-x, 1/2+y, 1/2-z'
+ 8 '1/2+x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Pt
+ Eu
+ Ga
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt Pt 8 f 0.12974 0.13162 0.00344 1
+ Eu Eu 8 f 0.35102 0.13354 0.35137 1
+ Ga Ga 4 e 0 0.1214 0.25 1
+
+
+_exptl_crystal_colour                    'gray light'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.25
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_wavelength             1.54056
+_pd_proc_wavelength                      1.54056
+_cell_measurement_reflns_used            67
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Rigaku AFC7 Saturn 724+'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    6010
+_exptl_absorpt_coefficient_mu            98.7
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             25
+_refine_ls_number_reflns                 1344
+_refine_ls_R_factor_gt                   0.039
+_refine_ls_wR_factor_gt                  0.046
+
+# End of data set 1726398
+

@@ -1,0 +1,143 @@
+##############################################################################
+#                                                                            #
+# Ru-Si-Tb         # Tb2Ru3Si5                                     #  539215 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_539215
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      539215
+_database_code_PDF                       04-005-2762
+
+# Entry summary
+
+_chemical_formula_structural             'Tb~2~ Ru~3~ Si~5~'
+_chemical_formula_sum                    'Ru3 Si5 Tb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Co~3~Si~5~,oI40,72
+_chemical_formula_weight                 761.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+R~2~Ru~3~Si~5~ (R= Er, Tb) with the orthorhombic U~2~Co~3~Si~5~-type structure and R~2~Ru~3~Si~4.6~ (R= Gd, Tb, Dy, Ho, Er) and R~2~Os~3~Si~4.6~ (R= Tb, Er) with the tetragonal Sc~2~Fe~3~Si~5~-type structure
+;
+_journal_coden_ASTM                      JCOMAH
+_journal_name_full                       'J. Less-Common Met.'
+_journal_year                            1990
+_journal_volume                          163
+_journal_page_first                      L13
+_journal_page_last                       L17
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Paccard D.'
+;
+Savoie University
+Laboratoire de Structure de la Matiere (LSM)
+Annecy
+France
+;
+'Paccard L.'
+;
+Savoie University
+Laboratoire de Structure de la Matiere (LSM)
+Annecy
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.5984
+_cell_length_b                           12.0894
+_cell_length_c                           5.5889
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             648.5
+_cell_formula_units_Z                    4
+_space_group_IT_number                   72
+_space_group_name_H-M_alt                'I b a m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, 1/2+z'
+ 6 'x, -y, 1/2-z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1-z'
+ 13 '1/2-x, 1/2+y, 1+z'
+ 14 '1/2+x, 1/2-y, 1-z'
+ 15 '1/2+x, 1/2-y, 1+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Ru
+ Tb
+ Si
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ru1 Ru 8 j 0.0902 0.1479 0 1
+ Tb Tb 8 j 0.2681 0.3634 0 1
+ Si1 Si 8 j 0.3298 0.0938 0 1
+ Si2 Si 8 g 0 0.2936 0.25 1
+ Ru2 Ru 4 b 0.5 0 0.25 1
+ Si3 Si 4 a 0 0 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.80
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    519
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             14
+_refine_ls_number_reflns                 462
+_refine_ls_R_factor_gt                   0.06
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 539215
+

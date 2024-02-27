@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# Ho-In-Ir         # Ho3Ir1.69In4.31                               # 1148313 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1148313
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1148313
+_database_code_PDF                       04-025-3036
+
+# Entry summary
+
+_chemical_formula_structural             'Ho~3~ Ir~1.69~ In~4.31~'
+_chemical_formula_sum                    'Ho3 In4.31 Ir1.69'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu~3~Co~2~In~4~,hP9,174
+_chemical_formula_weight                 1314.5
+
+# Bibliographic data
+
+_publ_section_title
+'Ternary indides RE~3~T~2~In~4~ (RE= Dy-Tm; T= Pd, Ir)'                       
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2018
+_journal_volume                          73
+_journal_page_first                      765
+_journal_page_last                       772
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Stein S.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Heletta L.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.7498
+_cell_length_b                           7.7498
+_cell_length_c                           3.7851
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             196.9
+_cell_formula_units_Z                    1
+_space_group_IT_number                   174
+_space_group_name_H-M_alt                'P -6'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-y, x-y, -z'
+ 5 '-y, x-y, z'
+ 6 'x, y, -z'
+loop_
+ _atom_type_symbol
+ Ho
+ In
+ Ir
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ho Ho 3 k 0.30163 0.25336 0.5 1
+ In2 In 3 j 0.0786 0.4118 0 1
+ In1 In 1 e 0.666667 0.333333 0 1
+ Ir2A Ir 1 d 0.333333 0.666667 0.5 0.69(2)
+ In2B In 1 d 0.333333 0.666667 0.5 0.31(2)
+ Ir1 Ir 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            11.09
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    10437
+_diffrn_reflns_theta_min                 3.1
+_diffrn_reflns_theta_max                 33.4
+_exptl_absorpt_coefficient_mu            71.4
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'charge flipping, Fourier synthesis'
+_refine_ls_number_parameters             23
+_refine_ls_number_reflns                 575
+_refine_ls_R_factor_gt                   0.0264
+_refine_ls_wR_factor_gt                  0.0742
+
+# End of data set 1148313
+

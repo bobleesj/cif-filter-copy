@@ -1,0 +1,150 @@
+##############################################################################
+#                                                                            #
+# Ce-Pt-Si         # CePtSi                                        # 1009137 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1009137
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1009137
+_database_code_PDF                       04-019-8435
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pt~0.85~ Si'
+_chemical_formula_sum                    'Ce Pt0.85 Si'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaPtSi,tI12,109
+_chemical_formula_weight                 334.0
+
+# Bibliographic data
+
+_publ_section_title
+;
+Collective Interactions in Pseudoternary Compounds Based on The Heavy Fermion CePtSi
+;
+_journal_coden_ASTM                      CJOPAW
+_journal_name_full                       'Chin. J. Phys. (Taipei)'
+_journal_year                            1988
+_journal_volume                          26
+_journal_page_first                      S46
+_journal_page_last                       S53
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Lee W.H.'
+;
+Iowa State University of Science and Technology (ISU)
+Ames National Laboratory - Department of Physics
+Ames
+U.S.A. Iowa
+;
+'Ku H.C.'
+;
+National Tsing Hua University (NTHU)
+Department of Physics
+Hsinchu
+Taiwan
+;
+'Shelton R.N.'
+;
+University of California UC Davis
+Department of Physics
+Davis
+U.S.A. California
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.192
+_cell_length_b                           4.192
+_cell_length_c                           14.495
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             254.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   109
+_space_group_name_H-M_alt                'I 41 m d'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, z'
+ 4 '-y, 1/2-x, 1/4+z'
+ 5 '-y, 1/2+x, 1/4+z'
+ 6 'x, -y, z'
+ 7 'y, 1/2-x, 1/4+z'
+ 8 'y, 1/2+x, 1/4+z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2+z'
+ 11 '1/2-x, 1/2+y, 1/2+z'
+ 12 '1/2-y, 1-x, 3/4+z'
+ 13 '1/2-y, 1+x, 3/4+z'
+ 14 '1/2+x, 1/2-y, 1/2+z'
+ 15 '1/2+y, 1-x, 3/4+z'
+ 16 '1/2+y, 1+x, 3/4+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Si
+ Pt
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si1 Si 4 a 0 0 0.0 1
+ Pt1 Pt 4 a 0 0 0.166 0.850
+ Ce1 Ce 4 a 0 0 0.581 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.71
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            8
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1009137
+

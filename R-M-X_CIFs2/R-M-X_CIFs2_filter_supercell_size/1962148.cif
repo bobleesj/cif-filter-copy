@@ -1,0 +1,184 @@
+##############################################################################
+#                                                                            #
+# Gd-In-Pd         # Gd11Pd4In9                                    # 1962148 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1962148
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1962148
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Gd~11~ Pd~4~ In~9~'
+_chemical_formula_sum                    'Gd11 In9 Pd4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nd~11~Pd~4~In~9~,oS48,65
+_chemical_formula_weight                 3188.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure and complex magnetic properties of R~11~Pd~4~In~9~ compounds (R= Y, Gd-Er)
+;
+_journal_coden_ASTM                      IERME5
+_journal_name_full                       Intermetallics
+_journal_year                            2020
+_journal_volume                          123
+_journal_page_first                      1
+_journal_page_last                       12
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Baran S.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+'Tyvanchuk Y.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Tyvanchuk B.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+'Kalychak Y.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Hoser A.'
+;
+Helmholtz Association of German Research Centers
+Helmholtz-Zentrum Berlin fur Materialien und Energie (HZB)
+Berlin
+Germany
+;
+'Szytula A.'
+;
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.606
+_cell_length_b                           21.985
+_cell_length_c                           3.6997
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1188
+_cell_formula_units_Z                    2
+_space_group_IT_number                   65
+_space_group_name_H-M_alt                'C m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, z'
+ 12 '1/2-x, 1/2+y, -z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, z'
+ 16 '1/2+x, 1/2+y, -z'
+loop_
+ _atom_type_symbol
+ In
+ Pd
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 8 q 0.1027 0.2619 0.5 1
+ In2 In 8 q 0.146 0.0731 0.5 1
+ Pd Pd 8 q 0.3441 0.0987 0.5 1
+ Gd1 Gd 8 p 0.2387 0.1726 0 1
+ Gd2 Gd 4 i 0 0.1603 0 1
+ Gd3 Gd 4 i 0 0.373 0 1
+ Gd4 Gd 4 g 0.3098 0 0 1
+ In3 In 2 c 0.5 0 0.5 1
+ Gd5 Gd 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.91
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+PANalytical X'Pert PRO MPD
+;
+_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 5
+_diffrn_reflns_theta_max                 65
+_pd_proc_2theta_range_min                10
+_pd_proc_2theta_range_max                130
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.0779
+
+# End of data set 1962148
+

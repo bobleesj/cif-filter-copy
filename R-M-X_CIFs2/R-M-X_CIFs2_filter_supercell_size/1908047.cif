@@ -1,0 +1,187 @@
+##############################################################################
+#                                                                            #
+# Ni-Pr-Sb         # PrNiSb3                                       # 1908047 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1908047
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1908047
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Pr Ni Sb~3~'
+_chemical_formula_sum                    'Ni Pr Sb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CeNiSb~3~,oP60,57
+_chemical_formula_weight                 564.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Phase equilibria and crystal structures of the compounds in the Pr-Ni-Sb system at 870 K
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2005
+_journal_volume                          400
+_journal_page_first                      100
+_journal_page_last                       105
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Chykhrij S.I.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+'Smetana V.B.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.579
+_cell_length_b                           6.2051
+_cell_length_c                           18.371
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1433.9
+_cell_formula_units_Z                    12
+_space_group_IT_number                   57
+_space_group_name_H-M_alt                'P b c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, 1/2+y, z'
+ 6 'x, 1/2-y, -z'
+ 7 'x, 1/2-y, 1/2+z'
+ 8 'x, y, 1/2-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Sb
+ Ni
+ Pr
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb1 Sb 8 e 0.02613 0.54305 0.08659 1
+ Ni1 Ni 8 e 0.09777 0.82836 0.17593 1
+ Sb2 Sb 8 e 0.22356 0.02537 0.08423 1
+ Pr1 Pr 8 e 0.29911 0.52616 0.08342 1
+ Sb3 Sb 8 e 0.50352 0.29299 0.16595 1
+ Sb4 Sb 4 d 0.05847 0.18846 0.25 1
+ Sb5 Sb 4 d 0.21934 0.55279 0.25 1
+ Pr2 Pr 4 d 0.30554 0.057 0.25 1
+ Ni2 Ni 4 c 0.10166 0.25 0 1
+ Sb6 Sb 4 c 0.49595 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.85
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# Published diffraction lines
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_d_spacing
+ _refln_intensity_meas
+ 2 1 3 3.57 188
+ 4 0 0 3.137 670
+ 0 2 0 3.095 122
+ 0 0 6 3.058 272
+ 1 2 0 3.011 135
+ 1 0 6 2.968 375
+ 2 2 0 2.773 672
+ 2 0 6 2.745 643
+ 4 1 2 2.678 74
+ 4 1 3 2.544 1000
+ 5 0 0 2.511 124
+ 3 2 0 2.488 278
+ 3 0 6 2.467 542
+ 4 1 4 2.388 108
+ 0 2 5 2.366 156
+ 4 0 6 2.189 76
+ 0 2 6 2.175 757
+ 0 2 7 2.001 128
+ 6 1 3 1.887 153
+ 4 2 6 1.789 331
+ 4 3 1 1.718 46
+ 7 1 3 1.659 159
+ 4 1 9 1.648 247
+ 0 4 1 1.544 68
+ 0 0 12 1.529 233
+ 6 2 6 1.509 35
+ 8 1 2 1.502 33
+ 8 1 3 1.477 210
+ 6 3 3 1.43 64
+ 8 0 6 1.397 46
+ 2 4 5 1.387 72
+ 4 0 12 1.375 80
+ 2 4 6 1.35 66
+ 2 2 12 1.34 141
+ 8 1 9 1.221 106
+ 0 4 12 1.089 39
+
+# End of data set 1908047
+

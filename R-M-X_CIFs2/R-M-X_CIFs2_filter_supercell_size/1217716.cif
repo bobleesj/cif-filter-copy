@@ -1,0 +1,180 @@
+##############################################################################
+#                                                                            #
+# In-Nd-Pd         # Nd11Pd4In9                                    # 1217716 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1217716
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1217716
+_database_code_PDF                       04-014-5342
+
+# Entry summary
+
+_chemical_formula_structural             'Nd~11~ Pd~4~ In~9~'
+_chemical_formula_sum                    'In9 Nd11 Pd4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Nd~11~Pd~4~In~9~,oS48,65
+_chemical_formula_weight                 3045.6
+
+# Bibliographic data
+
+_publ_section_title
+'The new structure type Nd~11~Pd~4~In~9~'                                     
+_journal_coden_ASTM                      ICCI10
+_journal_name_full
+'Abstr. 10th Int. Conf. Crystal Chem. Intermet. Compd.'                       
+_journal_year                            2007
+_journal_volume                          ?
+_journal_page_first                      118
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Belan B.D.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Sojka L.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Manyako M.B.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Ivanyk M.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Cerny R.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Gladyshevskii R.E.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko National University
+Department of Analytical Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           14.843
+_cell_length_b                           22.284
+_cell_length_c                           3.7857
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1252.2
+_cell_formula_units_Z                    2
+_space_group_IT_number                   65
+_space_group_name_H-M_alt                'C m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, z'
+ 12 '1/2-x, 1/2+y, -z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, z'
+ 16 '1/2+x, 1/2+y, -z'
+loop_
+ _atom_type_symbol
+ In
+ Pd
+ Nd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In1 In 8 q 0.10262 0.26486 0.5 1
+ In2 In 8 q 0.14713 0.07025 0.5 1
+ Pd Pd 8 q 0.34731 0.1012 0.5 1
+ Nd1 Nd 8 p 0.2405 0.17214 0 1
+ Nd2 Nd 4 i 0 0.16091 0 1
+ Nd3 Nd 4 i 0 0.37218 0 1
+ Nd4 Nd 4 g 0.30755 0 0 1
+ In3 In 2 c 0.5 0 0.5 1
+ Nd5 Nd 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.08
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.0584
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1217716
+

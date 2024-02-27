@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Ce-In-Ni         # CeNi9In2                                      #  381093 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_381093
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      381093
+_database_code_PDF                       04-002-7488
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Ni~9~ In~2~'
+_chemical_formula_sum                    'Ce In1.98 Ni9.02'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            YNi~9~In~2~,tP24,127
+_chemical_formula_weight                 898.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Note on the crystal structure and the magnetic properties of the compound CeNi~9~In~2~
+;
+_journal_coden_ASTM                      JMMMDC
+_journal_name_full                       'J. Magn. Magn. Mater.'
+_journal_year                            1995
+_journal_volume                          150
+_journal_page_first                      345
+_journal_page_last                       348
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Moze O.'
+;
+Parma University (UNIPR)
+Dipartimento di Fisica
+Parma
+Italy
+;
+'Mentink S.A.M.'
+;
+Leiden University
+Kamerlingh Onnes Laboratory
+Leiden
+Netherlands
+;
+'Nieuwenhuys G.H.'
+;
+Leiden University
+Kamerlingh Onnes Laboratory
+Leiden
+Netherlands
+;
+'Buschow K.H.J.'
+;
+Amsterdam University
+Van der Waals-Zeeman Laboratorium
+Amsterdam
+Netherlands
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.2597
+_cell_length_b                           8.2597
+_cell_length_c                           4.8466
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             330.6
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Ni
+ In
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ni4A Ni 8 k 0.17638 0.67638 0.25 0.994
+ In4B In 8 k 0.17638 0.67638 0.25 0.006
+ Ni3A Ni 8 j 0.06475 0.20686 0.5 0.985
+ In3B In 8 j 0.06475 0.20686 0.5 0.015
+ In2A In 4 g 0.62286 0.12286 0 0.945
+ Ni2B Ni 4 g 0.62286 0.12286 0 0.055
+ Ni1A Ni 2 c 0 0.5 0.5 0.995
+ In1B In 2 c 0 0.5 0.5 0.005
+ Ce Ce 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.02
+_cell_measurement_temperature            295
+_cell_measurement_radiation              'neutrons, time-of-flight'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              295
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+United Kingdom, Chilton-Didcot, Rutherford Appleton Laboratory, ISIS Facility, POLARIS
+;
+_diffrn_radiation_type                   'neutrons, time-of-flight'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 0
+_diffrn_reflns_theta_max                 72.5
+_pd_proc_2theta_range_min                0
+_pd_proc_2theta_range_max                145
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.0131
+_pd_proc_ls_proof_wR_factor              0.023
+_refine_ls_R_I_factor                    ?
+
+# End of data set 381093
+

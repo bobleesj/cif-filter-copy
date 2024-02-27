@@ -1,0 +1,268 @@
+##############################################################################
+#                                                                            #
+# Ge-Ir-Sc         # Sc4Ir7Ge6                                     # 1351207 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1351207
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1351207
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Sc~4~ Ir~7~ Ge~6~'
+_chemical_formula_sum                    'Ge6 Ir7 Sc4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~4~Re~7~Si~6~,cI34,229
+_chemical_formula_weight                 1961.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Sc~3~Ir~4~Si~13+x~ and Sc~4~Ir~7~Ge~6~ - The perovskite-related crystal structures
+;
+_journal_coden_ASTM                      ZKCMAJ
+_journal_name_full                       'Z. Kristallogr. - Cryst. Mater.'
+_journal_year                            2021
+_journal_volume                          236
+_journal_page_first                      313
+_journal_page_last                       323
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Levytskyi V.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Wagler J.'
+;
+Freiberg TU Bergakademie
+Institut fur Anorganische Chemie
+Freiberg
+Germany
+;
+'Hennig C.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Institute of Resource Ecology
+Grenoble
+France
+;
+'Feig M.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Weigel T.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Leithe Jasper A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Meyer D.C.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+'Gumeniuk R.'
+;
+Freiberg TU Bergakademie
+Institut fur Experimentelle Physik
+Freiberg
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.1397
+_cell_length_b                           8.1397
+_cell_length_c                           8.1397
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             539.3
+_cell_formula_units_Z                    2
+_space_group_IT_number                   229
+_space_group_name_H-M_alt                'I m -3 m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, -z, -y'
+ 5 '-x, -z, y'
+ 6 '-x, y, -z'
+ 7 '-x, y, z'
+ 8 '-x, z, -y'
+ 9 '-x, z, y'
+ 10 '-y, -x, -z'
+ 11 '-y, -x, z'
+ 12 '-y, -z, -x'
+ 13 '-y, -z, x'
+ 14 '-y, x, -z'
+ 15 '-y, x, z'
+ 16 '-y, z, -x'
+ 17 '-y, z, x'
+ 18 '-z, -x, -y'
+ 19 '-z, -x, y'
+ 20 '-z, -y, -x'
+ 21 '-z, -y, x'
+ 22 '-z, x, -y'
+ 23 '-z, x, y'
+ 24 '-z, y, -x'
+ 25 '-z, y, x'
+ 26 'x, -y, -z'
+ 27 'x, -y, z'
+ 28 'x, -z, -y'
+ 29 'x, -z, y'
+ 30 'x, y, -z'
+ 31 'x, z, -y'
+ 32 'x, z, y'
+ 33 'y, -x, -z'
+ 34 'y, -x, z'
+ 35 'y, -z, -x'
+ 36 'y, -z, x'
+ 37 'y, x, -z'
+ 38 'y, x, z'
+ 39 'y, z, -x'
+ 40 'y, z, x'
+ 41 'z, -x, -y'
+ 42 'z, -x, y'
+ 43 'z, -y, -x'
+ 44 'z, -y, x'
+ 45 'z, x, -y'
+ 46 'z, x, y'
+ 47 'z, y, -x'
+ 48 'z, y, x'
+ 49 '1/2+x, 1/2+y, 1/2+z'
+ 50 '1/2-x, 1/2-y, 1/2-z'
+ 51 '1/2-x, 1/2-y, 1/2+z'
+ 52 '1/2-x, 1/2-z, 1/2-y'
+ 53 '1/2-x, 1/2-z, 1/2+y'
+ 54 '1/2-x, 1/2+y, 1/2-z'
+ 55 '1/2-x, 1/2+y, 1/2+z'
+ 56 '1/2-x, 1/2+z, 1/2-y'
+ 57 '1/2-x, 1/2+z, 1/2+y'
+ 58 '1/2-y, 1/2-x, 1/2-z'
+ 59 '1/2-y, 1/2-x, 1/2+z'
+ 60 '1/2-y, 1/2-z, 1/2-x'
+ 61 '1/2-y, 1/2-z, 1/2+x'
+ 62 '1/2-y, 1/2+x, 1/2-z'
+ 63 '1/2-y, 1/2+x, 1/2+z'
+ 64 '1/2-y, 1/2+z, 1/2-x'
+ 65 '1/2-y, 1/2+z, 1/2+x'
+ 66 '1/2-z, 1/2-x, 1/2-y'
+ 67 '1/2-z, 1/2-x, 1/2+y'
+ 68 '1/2-z, 1/2-y, 1/2-x'
+ 69 '1/2-z, 1/2-y, 1/2+x'
+ 70 '1/2-z, 1/2+x, 1/2-y'
+ 71 '1/2-z, 1/2+x, 1/2+y'
+ 72 '1/2-z, 1/2+y, 1/2-x'
+ 73 '1/2-z, 1/2+y, 1/2+x'
+ 74 '1/2+x, 1/2-y, 1/2-z'
+ 75 '1/2+x, 1/2-y, 1/2+z'
+ 76 '1/2+x, 1/2-z, 1/2-y'
+ 77 '1/2+x, 1/2-z, 1/2+y'
+ 78 '1/2+x, 1/2+y, 1/2-z'
+ 79 '1/2+x, 1/2+z, 1/2-y'
+ 80 '1/2+x, 1/2+z, 1/2+y'
+ 81 '1/2+y, 1/2-x, 1/2-z'
+ 82 '1/2+y, 1/2-x, 1/2+z'
+ 83 '1/2+y, 1/2-z, 1/2-x'
+ 84 '1/2+y, 1/2-z, 1/2+x'
+ 85 '1/2+y, 1/2+x, 1/2-z'
+ 86 '1/2+y, 1/2+x, 1/2+z'
+ 87 '1/2+y, 1/2+z, 1/2-x'
+ 88 '1/2+y, 1/2+z, 1/2+x'
+ 89 '1/2+z, 1/2-x, 1/2-y'
+ 90 '1/2+z, 1/2-x, 1/2+y'
+ 91 '1/2+z, 1/2-y, 1/2-x'
+ 92 '1/2+z, 1/2-y, 1/2+x'
+ 93 '1/2+z, 1/2+x, 1/2-y'
+ 94 '1/2+z, 1/2+x, 1/2+y'
+ 95 '1/2+z, 1/2+y, 1/2-x'
+ 96 '1/2+z, 1/2+y, 1/2+x'
+loop_
+ _atom_type_symbol
+ Ge
+ Ir
+ Sc
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge1 Ge 12 e 0.3118 0 0 1
+ Ir1 Ir 12 d 0.25 0 0.5 1
+ Sc1 Sc 8 c 0.25 0.25 0.25 1
+ Ir2 Ir 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            12.08
+_cell_measurement_temperature            200
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            4832
+_diffrn_ambient_temperature              200
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS 2T'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4480
+_diffrn_reflns_theta_min                 3.54
+_diffrn_reflns_theta_max                 34.93
+_exptl_absorpt_coefficient_mu            104.663
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution
+'starting values derived from related structure'                              
+_refine_ls_number_parameters             10
+_refine_ls_number_reflns                 134
+_refine_ls_R_factor_gt                   0.0296
+_refine_ls_wR_factor_gt                  0.0575
+
+# End of data set 1351207
+

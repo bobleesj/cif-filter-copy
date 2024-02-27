@@ -1,0 +1,176 @@
+##############################################################################
+#                                                                            #
+# Er-Ga-Ni         # Er15Ni42Ga54                                  #  303883 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_303883
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      303883
+_database_code_PDF                       04-001-6788
+
+# Entry summary
+
+_chemical_formula_structural             'Er~15~ Ni~42~ Ga~54~'
+_chemical_formula_sum                    'Er15 Ga54 Ni42'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm~15~Ni~52~Ga~44~,hP111,187
+_chemical_formula_weight                 8739.2
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of R~15~Ni~96-x~Ga~x~ (R= Sm, Y, Tb, Dy, Er, Tm, Yb, Lu)'  
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            1992
+_journal_volume                          185
+_journal_page_first                      19
+_journal_page_last                       24
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Wasylechko L.O.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Sichevich O.M.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Grin Y.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           8.901
+_cell_length_b                           8.901
+_cell_length_c                           24.82
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1703
+_cell_formula_units_Z                    1
+_space_group_IT_number                   187
+_space_group_name_H-M_alt                'P -6 m 2'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, -z'
+ 3 '-x+y, -x, z'
+ 4 '-x+y, y, -z'
+ 5 '-x+y, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x-y, -z'
+ 9 '-y, x-y, z'
+ 10 'x, x-y, -z'
+ 11 'x, x-y, z'
+ 12 'x, y, -z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ Ni
+ Er
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 12 o 0.00233 0.28567 0.0837 1
+ Ni1A Ni 12 o 0.02333 0.36567 0.2504 0.810
+ Ga1B Ga 12 o 0.02333 0.36567 0.2504 0.190
+ Ni2A Ni 12 o 0.03133 0.37167 0.4168 0.810
+ Ga2B Ga 12 o 0.03133 0.37167 0.4168 0.190
+ Ni3A Ni 6 n 0.15833 0.84167 0.343 0.810
+ Ga3B Ga 6 n 0.15833 0.84167 0.343 0.190
+ Ga2 Ga 6 n 0.17233 0.82767 0.154 1
+ Ga3 Ga 6 n 0.50333 0.49667 0.1516 1
+ Ni4A Ni 6 n 0.52533 0.47467 0.329 0.810
+ Ga4B Ga 6 n 0.52533 0.47467 0.329 0.190
+ Ga4 Ga 6 n 0.83333 0.16667 0.1729 1
+ Ni5A Ni 6 n 0.84033 0.15967 0.327 0.810
+ Ga5B Ga 6 n 0.84033 0.15967 0.327 0.190
+ Ni6A Ni 3 k 0.16333 0.83667 0.5 0.810
+ Ga6B Ga 3 k 0.16333 0.83667 0.5 0.190
+ Ga5 Ga 3 k 0.48333 0.51667 0.5 1
+ Ga6 Ga 3 k 0.83533 0.16467 0.5 1
+ Ga7 Ga 3 j 0.19133 0.80867 0 1
+ Ni7A Ni 3 j 0.49333 0.50667 0 0.810
+ Ga7B Ga 3 j 0.49333 0.50667 0 0.190
+ Ga8 Ga 3 j 0.81833 0.18167 0 1
+ Er1 Er 2 i 0.666667 0.333333 0.079 1
+ Er2 Er 2 i 0.666667 0.333333 0.241 1
+ Er3 Er 2 i 0.666667 0.333333 0.414 1
+ Er4 Er 2 h 0.333333 0.666667 0.0835 1
+ Ni8A Ni 2 h 0.333333 0.666667 0.204 0.810
+ Ga8B Ga 2 h 0.333333 0.666667 0.204 0.190
+ Er5 Er 2 h 0.333333 0.666667 0.335 1
+ Ni9A Ni 2 h 0.333333 0.666667 0.453 0.810
+ Ga9B Ga 2 h 0.333333 0.666667 0.453 0.190
+ Ga9 Ga 2 g 0 0 0.137 1
+ Er6 Er 2 g 0 0 0.2549 1
+ Er7 Er 2 g 0 0 0.4227 1
+ Er8 Er 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.52
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               film
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 303883
+

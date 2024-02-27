@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# Ce-Ni-Sb         # CeNiSb3 orth1                                 # 1200517 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1200517
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1200517
+_database_code_PDF                       04-011-2157
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Ni Sb~3~'
+_chemical_formula_sum                    'Ce Ni Sb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CeNiSb~3~,oP60,57
+_chemical_formula_weight                 564.1
+
+# Bibliographic data
+
+_publ_section_title
+'Structure and Electrical Resistivity of CeNiSb~3~'                           
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2004
+_journal_volume                          177
+_journal_page_first                      293
+_journal_page_last                       298
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Macaluso R.T.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Wells D.M.'
+;
+Auburn University (AU)
+Department of Chemistry
+Auburn
+U.S.A. Alabama
+;
+'Sykora R.E.'
+;
+Auburn University (AU)
+Department of Chemistry
+Auburn
+U.S.A. Alabama
+;
+'Albrecht Schmitt T.E.'
+;
+Auburn University (AU)
+Department of Chemistry
+Auburn
+U.S.A. Alabama
+;
+'Mar A.'
+;
+Alberta University (U of A)
+Department of Chemistry
+Edmonton
+Canada
+;
+'Nakatsuji S.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Lee H.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Fisk Z.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Chan J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.634
+_cell_length_b                           6.2037
+_cell_length_c                           18.3698
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1439.8
+_cell_formula_units_Z                    12
+_space_group_IT_number                   57
+_space_group_name_H-M_alt                'P b c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, 1/2+y, 1/2-z'
+ 5 '-x, 1/2+y, z'
+ 6 'x, 1/2-y, -z'
+ 7 'x, 1/2-y, 1/2+z'
+ 8 'x, y, 1/2-z'
+loop_
+ _atom_type_symbol
+ Sb
+ Ni
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb5 Sb 8 e 0.02613 0.54305 0.08659 1
+ Ni2 Ni 8 e 0.09777 0.82836 0.17593 1
+ Sb4 Sb 8 e 0.22356 0.02537 0.08423 1
+ Ce2 Ce 8 e 0.29911 0.52616 0.08342 1
+ Sb1 Sb 8 e 0.50352 0.29299 0.16595 1
+ Sb6 Sb 4 d 0.05847 0.18846 0.25 1
+ Sb2 Sb 4 d 0.21934 0.55279 0.25 1
+ Ce1 Ce 4 d 0.30554 0.057 0.25 1
+ Ni1 Ni 4 c 0.10166 0.25 0 1
+ Sb3 Sb 4 c 0.49595 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.81
+_cell_measurement_temperature            193
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              193
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS SMART APEX'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    13873
+_diffrn_reflns_theta_min                 1.61
+_diffrn_reflns_theta_max                 28.27
+_exptl_absorpt_coefficient_mu            29.61
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'Patterson and Fourier synthesis'
+_refine_ls_number_parameters             75
+_refine_ls_number_reflns                 1730
+_refine_ls_R_factor_gt                   0.0188
+_refine_ls_wR_factor_gt                  0.0433
+
+# End of data set 1200517
+

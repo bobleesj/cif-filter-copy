@@ -1,0 +1,180 @@
+##############################################################################
+#                                                                            #
+# Ce-Ga-Pd         # CePdGa6                                       # 1412625 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1412625
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1412625
+_database_code_PDF                       04-010-6336
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pd Ga~6~'
+_chemical_formula_sum                    'Ce Ga6 Pd'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePdGa~6~,tP8,123
+_chemical_formula_weight                 664.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Synthesis, structure, and magnetism of a new heavy-fermion antiferromagnet, CePdGa~6~
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2003
+_journal_volume                          174
+_journal_page_first                      296
+_journal_page_last                       301
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Macaluso R.T.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Nakatsuji S.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Lee H.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Fisk Z.'
+;
+Florida State University (FSU)
+U.S. National High Magnetic Field Laboratory
+Tallahassee
+U.S.A. Florida
+;
+'Moldovan M.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Young D.P.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Chan J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.35
+_cell_length_b                           4.35
+_cell_length_c                           7.922
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             149.9
+_cell_formula_units_Z                    1
+_space_group_IT_number                   123
+_space_group_name_H-M_alt                'P 4/m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -x, -z'
+ 7 '-y, -x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 'x, -y, -z'
+ 11 'x, -y, z'
+ 12 'x, y, -z'
+ 13 'y, -x, -z'
+ 14 'y, -x, z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ce
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga2 Ga 4 i 0 0.5 0.17065 1
+ Ga1 Ga 2 h 0.5 0.5 0.34851 1
+ Ce Ce 1 b 0 0 0.5 1
+ Pd Pd 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    'gray silver'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.36
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    937
+_diffrn_reflns_theta_min                 2.5
+_diffrn_reflns_theta_max                 40.3
+_exptl_absorpt_coefficient_mu            36.73
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             13
+_refine_ls_number_reflns                 317
+_refine_ls_R_factor_gt                   0.036
+_refine_ls_wR_factor_gt                  0.089
+
+# End of data set 1412625
+

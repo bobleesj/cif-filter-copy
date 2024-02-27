@@ -1,0 +1,216 @@
+##############################################################################
+#                                                                            #
+# Ge-Pt-Yb         # Yb3Pt4Ge13                                    # 1021560 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1021560
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1021560
+_database_code_PDF                       04-018-8766
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~3~ Pt~4~ Ge~13~'
+_chemical_formula_sum                    'Ge13 Pt4 Yb3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Yb~3~Pt~4~Ge~13~,tP80,101
+_chemical_formula_weight                 2243.1
+
+# Bibliographic data
+
+_publ_section_title
+;
+Ca~3~Pt~4+x~Ge~13-y~ and Yb~3~Pt~4~Ge~13~: New derivatives of the Pr~3~Rh~4~Sn~13~ structure type
+;
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2012
+_journal_volume                          41
+_journal_page_first                      6299
+_journal_page_last                       6309
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gumeniuk R.V.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schwarz U.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Grin Y.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Leithe Jasper A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Akselrud L.G.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Kvashnina K.O.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Schnelle W.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Tsirlin A.A.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Curfs C.'
+;
+European Synchrotron Radiation Facility (ESRF)
+Grenoble
+France
+;
+'Rosner H.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+'Schoneich M.'
+;
+Dresden University of Technology (TU Dresden)
+Institut fur Anorganische Chemie
+Dresden
+Germany
+;
+'Burkhardt U.'
+;
+Max Planck Society (MPG)
+Max Planck Institut (MPI) fur Chemische Physik Fester Stoffe
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.7479
+_cell_length_b                           12.7479
+_cell_length_c                           9.0009
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1462.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   101
+_space_group_name_H-M_alt                'P 42 c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, 1/2+z'
+ 4 '-y, -x, z'
+ 5 '-y, x, 1/2+z'
+ 6 'x, -y, 1/2+z'
+ 7 'y, -x, 1/2+z'
+ 8 'y, x, z'
+loop_
+ _atom_type_symbol
+ Pt
+ Ge
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt2 Pt 8 e 0.0015 0.2519 0.0042 1
+ Ge9 Ge 8 e 0.0422 0.1763 0.7512 1
+ Ge8 Ge 8 e 0.0756 0.5747 0.0925 1
+ Ge6 Ge 8 e 0.1207 0.6172 0.3693 1
+ Yb3 Yb 8 e 0.1275 0.378 0.2578 1
+ Pt1 Pt 8 e 0.2504 0.5011 0.00591 1
+ Ge7 Ge 8 e 0.3443 0.4987 0.2553 1
+ Ge1 Ge 4 d 0.1718 0.1718 0.1035 1
+ Ge3 Ge 4 d 0.1727 0.1727 0.4131 1
+ Ge2 Ge 4 d 0.2471 0.2471 0.7577 1
+ Ge5 Ge 4 d 0.3108 0.3108 0.5111 1
+ Ge4 Ge 4 d 0.314 0.314 0.0364 1
+ Yb2 Yb 2 b 0.5 0.5 0.0008 1
+ Yb1 Yb 2 a 0 0 0.0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.19
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, European Synchrotron Radiation Facility ESRF, ID31'        
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_radiation_wavelength             0.39987
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.117
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.061
+
+# End of data set 1021560
+

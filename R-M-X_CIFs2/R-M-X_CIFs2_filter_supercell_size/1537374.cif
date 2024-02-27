@@ -1,0 +1,221 @@
+##############################################################################
+#                                                                            #
+# Ce-Ge-Ir         # Ce3Ir4Ge13                                    # 1537374 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1537374
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1537374
+_database_code_PDF                       04-026-7339
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~3~ Ir~4~ Ge~13~'
+_chemical_formula_sum                    'Ce3 Ge13 Ir4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu~3~Ir~4~Ge~13~,tI336,141
+_chemical_formula_weight                 2133.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Complex transport and magnetism in inhomogeneous mixed valence Ce~3~Ir~4~Ge~13~
+;
+_journal_coden_ASTM                      PRMHBS
+_journal_name_full                       'Phys. Rev. Mater.'
+_journal_year                            2019
+_journal_volume                          3
+_journal_page_first                      1
+_journal_page_last                       7
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Hallas A.M.'
+;
+Rice University (William Marsh Rice University)
+Department of Physics and Astronomy
+Houston
+U.S.A. Texas
+;
+'Huang C.L.'
+;
+Rice University (William Marsh Rice University)
+Department of Physics and Astronomy
+Houston
+U.S.A. Texas
+;
+'Rai B.K.'
+;
+Rice University (William Marsh Rice University)
+Department of Physics and Astronomy
+Houston
+U.S.A. Texas
+;
+'Weiland A.'
+;
+University of Texas UT Dallas
+Department of Chemistry and Biochemistry
+Richardson
+U.S.A. Texas
+;
+'McCandless G.T.'
+;
+University of Texas UT Dallas
+Department of Chemistry and Biochemistry
+Richardson
+U.S.A. Texas
+;
+'Chan J.Y.'
+;
+University of Texas UT Dallas
+Department of Chemistry and Biochemistry
+Richardson
+U.S.A. Texas
+;
+'Beare J.'
+;
+McMaster University (Mac)
+Department of Physics and Astronomy
+Hamilton
+Canada
+;
+'Luke G.M.'
+;
+McMaster University (Mac)
+Department of Physics and Astronomy
+Hamilton
+Canada
+;
+'Morosan E.'
+;
+Rice University (William Marsh Rice University)
+Department of Physics and Astronomy
+Houston
+U.S.A. Texas
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.069
+_cell_length_b                           18.069
+_cell_length_c                           18.132
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5919.89
+_cell_formula_units_Z                    16
+_space_group_IT_number                   141
+_space_group_name_H-M_alt                'I 41/a m d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, -z'
+ 5 '-x, y, z'
+ 6 '1/4-y, 1/4-x, -1/4-z'
+ 7 '1/4-y, -1/4+x, 1/4+z'
+ 8 '-1/4-y, 1/4-x, -1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 'x, 1/2-y, z'
+ 11 'x, -y, -z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '1/4+y, -1/4+x, 1/4-z'
+ 15 '-1/4+y, 1/4-x, -1/4-z'
+ 16 '-1/4+y, -1/4+x, 1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1-y, 1/2+z'
+ 19 '1/2-x, 1/2-y, 1/2-z'
+ 20 '1/2-x, 1+y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1/2+z'
+ 22 '3/4-y, 3/4-x, 1/4-z'
+ 23 '3/4-y, 1/4+x, 3/4+z'
+ 24 '1/4-y, 3/4-x, 1/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1/2+x, 1-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1/2-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '3/4+y, 1/4+x, 3/4-z'
+ 31 '1/4+y, 3/4-x, 1/4-z'
+ 32 '1/4+y, 1/4+x, 3/4+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Ir
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge8 Ge 32 i 0.06938 0.50011 0.11122 1
+ Ir1 Ir 32 i 0.12515 0.12555 0.12632 1
+ Ge7 Ge 32 i 0.12803 0.06375 0.25137 1
+ Ge4 Ge 32 i 0.17145 0.08271 0.00068 1
+ Ge3 Ge 32 i 0.25065 0.17137 0.16882 1
+ Ge1 Ge 16 h 0 -0.00022 0.24566 1
+ Ge9B Ge 16 h 0 0.1424 0.3178 0.35
+ Ge6 Ge 16 h 0 0.12161 0.68454 1
+ Ce1 Ce 16 h 0 0.12441 0.49999 1
+ Ce3 Ce 16 h 0 0.12618 0.00155 1
+ Ge9A Ge 16 h 0 0.1638 0.3262 0.65
+ Ge2 Ge 16 h 0 0.17108 0.1697 1
+ Ge5 Ge 16 h 0 0.6571 0.17497 1
+ Ir3 Ir 16 g 0.12558 0.37558 0.875 1
+ Ce2 Ce 16 g 0.2512 0.5012 0.875 1
+ Ir2 Ir 16 g 0.37574 0.62574 0.875 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.58
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS D8 QUEST'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    107397
+_diffrn_reflns_theta_min                 3.2
+_diffrn_reflns_theta_max                 30.3
+_exptl_absorpt_coefficient_mu            70.71
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 2563
+_refine_ls_R_factor_gt                   0.032
+_refine_ls_wR_factor_gt                  0.061
+
+# End of data set 1537374
+

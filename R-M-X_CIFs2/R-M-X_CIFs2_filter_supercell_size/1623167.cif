@@ -1,0 +1,158 @@
+##############################################################################
+#                                                                            #
+# Ho-In-Pd         # Ho14Pd3In3                                    # 1623167 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1623167
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1623167
+_database_code_PDF                       04-014-9231
+
+# Entry summary
+
+_chemical_formula_structural             'Ho~14~ Pd~3~ In~3~'
+_chemical_formula_sum                    'Ho14 In3 Pd2.95'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~14~Co~3~In~2.7~,tP80,137
+_chemical_formula_weight                 2972.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Transition Metal-centered Trigonal Prisms as BuildingUnits in RE~14~T~3~In~3~ (RE= Y, Ho, Er, Tm, Lu; T= Pd, Ir, Pt) and Y~4~IrIn
+;
+_journal_coden_ASTM                      ZNBSEN
+_journal_name_full                       'Z. Naturforsch., B: J. Chem. Sci.'
+_journal_year                            2007
+_journal_volume                          62
+_journal_page_first                      1574
+_journal_page_last                       1580
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba R.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.597
+_cell_length_b                           9.597
+_cell_length_c                           23.09
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2126.6
+_cell_formula_units_Z                    4
+_space_group_IT_number                   137
+_space_group_name_H-M_alt                'P 42/n m c (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, 1/2+z'
+ 7 '1/2-y, x, 1/2+z'
+ 8 '-y, -x, 1/2-z'
+ 9 '-y, 1/2+x, 1/2-z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, 1/2-z'
+ 14 '1/2+y, 1/2+x, 1/2-z'
+ 15 'y, 1/2-x, 1/2+z'
+ 16 'y, x, 1/2+z'
+loop_
+ _atom_type_symbol
+ Ho
+ In
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ho7 Ho 16 h 0.05638 0.06448 0.39603 1
+ Ho6 Ho 8 g 0.25 0.05489 0.0348 1
+ In2 In 8 g 0.25 0.08855 0.6448 1
+ Pd1 Pd 8 g 0.25 0.53642 0.3102 0.974
+ Ho3 Ho 8 g 0.25 0.54112 0.19005 1
+ Ho4 Ho 8 g 0.25 0.56484 0.51475 1
+ Ho5 Ho 8 f 0.56593 0.43407 0.25 1
+ Ho2 Ho 4 d 0.25 0.25 0.28583 1
+ Pd2 Pd 4 d 0.25 0.25 0.4462 1
+ Ho1 Ho 4 c 0.75 0.25 0.14513 1
+ In1 In 4 c 0.75 0.25 0.59087 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.28
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    19555
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            56.9
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             63
+_refine_ls_number_reflns                 1606
+_refine_ls_R_factor_gt                   0.024
+_refine_ls_wR_factor_gt                  0.042
+
+# End of data set 1623167
+

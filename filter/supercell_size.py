@@ -1,20 +1,12 @@
 import click
 import os
 import pandas as pd
-import time
 from click import style
 import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import util.folder as folder
 import filter.info as info
 import shutil
-from util.folder import (
-    remove_directories,
-    remove_file,
-    get_cif_file_count_from_directory,
-    move_files,
-    get_cif_file_path_list_from_directory
-)
 from os.path import join, exists
 
 
@@ -45,7 +37,6 @@ def move_files_based_on_supercell_size(script_directory, is_interactive_mode = T
     filtered_folder = join(folder_info, filtered_folder_name)
 
     files_lst = [join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]
-
     for idx, file_path in enumerate(files_lst, start=1):
         filtered_flag = False
 
@@ -78,5 +69,5 @@ def move_files_based_on_supercell_size(script_directory, is_interactive_mode = T
              
         results.append(data)
         print(f"Processed {filename_base} with {num_of_atoms} atoms ({idx}/{len(files_lst)})")
-
+    
     folder.save_to_csv_directory(folder_info, pd.DataFrame(results), "supercell_size")

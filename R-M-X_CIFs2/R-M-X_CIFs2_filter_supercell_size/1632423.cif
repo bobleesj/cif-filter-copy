@@ -1,0 +1,217 @@
+##############################################################################
+#                                                                            #
+# Ce-Pt-Sb         # CePt5Sb rt                                    # 1632423 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1632423
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1632423
+_database_code_PDF                       04-018-2396
+
+# Entry summary
+
+_chemical_formula_structural             'Ce Pt~5~ Sb'
+_chemical_formula_sum                    'Ce Pt5 Sb'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePt~5~Sb,hR42,148
+_chemical_formula_weight                 1237.3
+
+# Bibliographic data
+
+_publ_section_title
+'First-order phase transition in a new CaCu~5~-related antimonide, CePt~5~Sb' 
+_journal_coden_ASTM                      CMATEX
+_journal_name_full                       'Chem. Mater.'
+_journal_year                            2011
+_journal_volume                          23
+_journal_page_first                      4016
+_journal_page_last                       4024
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Salamakha L.P.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Roisnel T.'
+;
+Rennes I University
+Sciences Chimiques de Rennes
+Rennes
+France
+;
+'Giester G.'
+;
+Vienna University of Technology
+Institute of Mineralogy and Crystallography
+Vienna
+Austria
+;
+'Mudryi S.I.'
+;
+Lviv Ivan Franko National University
+Department of Physics of Metals
+Lviv
+Ukraine
+;
+'Bauer E.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Michor H.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Hilscher G.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Muller H.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Svagera R.'
+;
+Vienna University of Technology
+Institut fur Festkorperphysik
+Vienna
+Austria
+;
+'Sologub O.L.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Hester J.R.'
+;
+Australian Nuclear Science and Technology Organisation (ANSTO)
+Bragg Institute
+Sydney-Menai
+Australia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           5.3535
+_cell_length_b                           5.3535
+_cell_length_c                           31.0814
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             771.4
+_cell_formula_units_Z                    6
+_space_group_IT_number                   148
+_space_group_name_H-M_alt                'R -3 h'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x, -y, -z'
+ 4 '-y, x-y, z'
+ 5 'x-y, x, -z'
+ 6 'y, -x+y, -z'
+ 7 '2/3+x, 1/3+y, 1/3+z'
+ 8 '2/3-x+y, 1/3-x, 1/3+z'
+ 9 '2/3-x, 1/3-y, 1/3-z'
+ 10 '2/3-y, 1/3+x-y, 1/3+z'
+ 11 '2/3+x-y, 1/3+x, 1/3-z'
+ 12 '2/3+y, 1/3-x+y, 1/3-z'
+ 13 '1/3+x, 2/3+y, 2/3+z'
+ 14 '1/3-x+y, 2/3-x, 2/3+z'
+ 15 '1/3-x, 2/3-y, 2/3-z'
+ 16 '1/3-y, 2/3+x-y, 2/3+z'
+ 17 '1/3+x-y, 2/3+x, 2/3-z'
+ 18 '1/3+y, 2/3-x+y, 2/3-z'
+loop_
+ _atom_type_symbol
+ Pt
+ Sb
+ Ce
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt1 Pt 18 f 0.11926 0.33485 0.25999 1
+ Sb1 Sb 6 c 0 0 0.10556 1
+ Pt2 Pt 6 c 0 0 0.18665 1
+ Pt3 Pt 6 c 0 0 0.33402 1
+ Ce1 Ce 3 b 0 0 0.5 1
+ Ce2 Ce 3 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            15.98
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1518
+_diffrn_reflns_theta_min                 1.97
+_diffrn_reflns_theta_max                 34.94
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             24
+_refine_ls_number_reflns                 650
+_refine_ls_R_factor_gt                   0.0242
+_refine_ls_wR_factor_gt                  0.0544
+
+# End of data set 1632423
+

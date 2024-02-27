@@ -1,0 +1,186 @@
+##############################################################################
+#                                                                            #
+# In-Pt-U          # U2Pt2In                                       # 1638915 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1638915
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1638915
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'U~2~ Pt~2~ In'
+_chemical_formula_sum                    'In Pt2 U2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            U~2~Pt~2~Sn,tP20,136
+_chemical_formula_weight                 981.1
+
+# Bibliographic data
+
+_publ_section_title
+'Neutron-diffraction studies of single crystals of U~2~T~2~In (T= Ni, Pd, Pt)'
+_journal_coden_ASTM                      PRBMDO
+_journal_name_full
+'Phys. Rev. B: Condens. Matter Mater. Phys.'                                  
+_journal_year                            1999
+_journal_volume                          59
+_journal_page_first                      11818
+_journal_page_last                       11825
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Martin Martin A.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Pereira L.C.J.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Lander G.H.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Rebizant J.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Wastin F.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Spirlet J.C.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
+;
+'Dervenagas P.'
+;
+Atomic Energy Commission (CEA)
+Departement de Recherche Fondamentale sur la Matiere Condensee (DRFMC)
+Grenoble
+France
+;
+'Brown P.J.'
+;
+Institut Laue-Langevin (ILL)
+Grenoble
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           7.708
+_cell_length_b                           7.708
+_cell_length_c                           7.371
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             437.9
+_cell_formula_units_Z                    4
+_space_group_IT_number                   136
+_space_group_name_H-M_alt                'P 42/m n m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2-z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2+x, 1/2-z'
+ 7 '1/2-y, 1/2+x, 1/2+z'
+ 8 '-y, -x, -z'
+ 9 '-y, -x, z'
+ 10 '1/2+x, 1/2-y, 1/2-z'
+ 11 '1/2+x, 1/2-y, 1/2+z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2-x, 1/2-z'
+ 14 '1/2+y, 1/2-x, 1/2+z'
+ 15 'y, x, -z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ Pt
+ U
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt Pt 8 j 0.3695 0.3695 0.2286 1
+ U1 U 4 g 0.3171 0.6829 0 1
+ U2 U 4 f 0.1613 0.1613 0 1
+ In In 4 d 0 0.5 0.25 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            14.88
+_cell_measurement_temperature            75
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.174
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              75
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, Institut Laue-Langevin ILL, D15'                           
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.174
+_diffrn_reflns_number                    215
+_diffrn_reflns_theta_min                 4
+_diffrn_reflns_theta_max                 45
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             10
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   0.036
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1638915
+

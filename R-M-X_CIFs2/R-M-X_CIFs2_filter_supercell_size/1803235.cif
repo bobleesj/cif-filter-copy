@@ -1,0 +1,172 @@
+##############################################################################
+#                                                                            #
+# Co-Ga-Yb         # Yb2Co3Ga9                                     # 1803235 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1803235
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1803235
+_database_code_PDF                       04-008-5373
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~2~ Co~3~ Ga~9~'
+_chemical_formula_sum                    'Co3 Ga9 Yb2'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y~2~Co~3~Ga~9~,oS56,63
+_chemical_formula_weight                 1150.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of R~2~Ga~9~Co~3~ compounds (R= Nd, Sm, Gd, Y, Tb, Dy, Ho, Er, Tm, Yb, Lu)
+;
+_journal_coden_ASTM                      SPHCA6
+_journal_name_full                       'Sov. Phys. Crystallogr.'
+_journal_year                            1984
+_journal_volume                          29
+_journal_page_first                      528
+_journal_page_last                       530
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Grin Y.'
+;
+Lviv Ivan Franko State University
+Lviv
+Ukraine
+;
+'Gladyshevskii R.E.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Sichevich O.M.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zavodnik V.E.'
+;
+Karpov Institute of Physical Chemistry
+Moscow
+Russia
+;
+'Yarmolyuk Y.P.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rozhdestvenskaya I.V.'
+;
+Research and Production Enterprise "Bourevestnik"
+Saint Petersburg
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.691
+_cell_length_b                           7.327
+_cell_length_c                           9.353
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             869.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   63
+_space_group_name_H-M_alt                'C m c m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, 1/2+z'
+ 4 '-x, y, 1/2-z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, 1/2+z'
+ 8 'x, y, 1/2-z'
+ 9 '1/2+x, 1/2+y, z'
+ 10 '1/2-x, 1/2-y, -z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, z'
+ 14 '1/2+x, 1/2-y, -z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ Yb
+ Co
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 16 h 0.1665 0.1677 0.0715 1
+ Ga2 Ga 8 g 0.1066 0.4422 0.25 1
+ Yb1 Yb 8 g 0.3356 0.3324 0.25 1
+ Ga3 Ga 8 f 0 0.3345 0.5572 1
+ Co1 Co 8 e 0.3286 0 0 1
+ Ga4 Ga 4 c 0 0.1216 0.25 1
+ Co2 Co 4 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.79
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Fe Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1803235
+

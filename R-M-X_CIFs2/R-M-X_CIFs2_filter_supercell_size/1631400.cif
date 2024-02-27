@@ -1,0 +1,190 @@
+##############################################################################
+#                                                                            #
+# Ga-Nd-Ni         # Nd2NiGa12                                     # 1631400 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1631400
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1631400
+_database_code_PDF                       04-018-1996
+
+# Entry summary
+
+_chemical_formula_structural             'Nd~2~ Ni Ga~12~'
+_chemical_formula_sum                    'Ga12 Nd2 Ni'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm~2~NiGa~12~,tP30,125
+_chemical_formula_weight                 1183.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal growth and physical properties of Ln~2~MGa~12~ (Ln= Pr, Nd, and Sm; M= Ni, Cu)
+;
+_journal_coden_ASTM                      JCRGAE
+_journal_name_full                       'J. Cryst. Growth'
+_journal_year                            2010
+_journal_volume                          312
+_journal_page_first                      1098
+_journal_page_last                       1103
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Thomas K.R.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Cho J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Millican J.N.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Hembree R.D.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Moldovan M.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Karki A.B.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Young D.P.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Chan J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.01
+_cell_length_b                           6.01
+_cell_length_c                           15.445
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             557.9
+_cell_formula_units_Z                    2
+_space_group_IT_number                   125
+_space_group_name_H-M_alt                'P 4/n b m (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, -z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, x, z'
+ 8 '-y, -x, z'
+ 9 '-y, 1/2+x, -z'
+ 10 '1/2+x, -y, z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, -z'
+ 13 '1/2+y, -x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, 1/2-x, z'
+ 16 'y, x, -z'
+loop_
+ _atom_type_symbol
+ Ga
+ Nd
+ Ni
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga4 Ga 8 m 0.42677 0.57323 0.4284 1
+ Ga3 Ga 8 m 0.50032 0.49968 0.08391 1
+ Nd Nd 4 h 0.75 0.25 0.24438 1
+ Ga1 Ga 4 g 0.25 0.25 0.18242 1
+ Ga2 Ga 4 g 0.25 0.25 0.34007 1
+ Ni Ni 2 c 0.75 0.25 0 1
+
+
+_exptl_crystal_colour                    'gray silvery'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.05
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    1250
+_diffrn_reflns_theta_min                 3.96
+_diffrn_reflns_theta_max                 29.98
+_exptl_absorpt_coefficient_mu            39.138
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             26
+_refine_ls_number_reflns                 466
+_refine_ls_R_factor_gt                   0.0442
+_refine_ls_wR_factor_gt                  0.1153
+
+# End of data set 1631400
+

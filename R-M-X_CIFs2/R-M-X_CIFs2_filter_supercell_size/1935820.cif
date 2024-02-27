@@ -1,0 +1,233 @@
+##############################################################################
+#                                                                            #
+# Ga-Pd-Sm         # SmPd3Ga8                                      # 1935820 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1935820
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1935820
+_database_code_PDF                       04-020-7434
+
+# Entry summary
+
+_chemical_formula_structural             'Sm Pd~3.0~ Ga~8.0~'
+_chemical_formula_sum                    'Ga8 Pd3 Sm'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            CePd~3~Ga~8~,hR108,166
+_chemical_formula_weight                 1027.4
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structures and phase transitions of CePd~3+x~Ga~8-x~: New variants of the BaHg~11~ structure type
+;
+_journal_coden_ASTM                      JACSAT
+_journal_name_full                       'J. Am. Chem. Soc.'
+_journal_year                            2012
+_journal_volume                          134
+_journal_page_first                      12998
+_journal_page_last                       13009
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Francisco M.C.'
+;
+Northwestern University (NU)
+Department of Chemistry
+Evanston
+U.S.A. Illinois
+;
+'Gray K.E.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+'Kanatzidis M.G.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+'Malliakas C.D.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+'Macaluso R.T.'
+;
+Northern Colorado University (UNC)
+Department of Chemistry and Biochemistry
+Greeley
+U.S.A. Colorado
+;
+'Prestigiacomo J.C.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Haldolaarachchige N.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Adams P.W.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Young D.P.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Jia Y.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+'Claus H.'
+;
+Argonne National Laboratory
+Materials Science and Technology Division
+Argonne
+U.S.A. Illinois
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.8938
+_cell_length_b                           11.8938
+_cell_length_c                           14.5821
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1786.5
+_cell_formula_units_Z                    9
+_space_group_IT_number                   166
+_space_group_name_H-M_alt                'R -3 m h'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+ 13 '2/3+x, 1/3+y, 1/3+z'
+ 14 '2/3-x+y, 1/3-x, 1/3+z'
+ 15 '2/3-x+y, 1/3+y, 1/3+z'
+ 16 '2/3-x, 1/3-x+y, 1/3-z'
+ 17 '2/3-x, 1/3-y, 1/3-z'
+ 18 '2/3-y, 1/3-x, 1/3+z'
+ 19 '2/3-y, 1/3+x-y, 1/3+z'
+ 20 '2/3+x, 1/3+x-y, 1/3+z'
+ 21 '2/3+x-y, 1/3-y, 1/3-z'
+ 22 '2/3+x-y, 1/3+x, 1/3-z'
+ 23 '2/3+y, 1/3-x+y, 1/3-z'
+ 24 '2/3+y, 1/3+x, 1/3-z'
+ 25 '1/3+x, 2/3+y, 2/3+z'
+ 26 '1/3-x+y, 2/3-x, 2/3+z'
+ 27 '1/3-x+y, 2/3+y, 2/3+z'
+ 28 '1/3-x, 2/3-x+y, 2/3-z'
+ 29 '1/3-x, 2/3-y, 2/3-z'
+ 30 '1/3-y, 2/3-x, 2/3+z'
+ 31 '1/3-y, 2/3+x-y, 2/3+z'
+ 32 '1/3+x, 2/3+x-y, 2/3+z'
+ 33 '1/3+x-y, 2/3-y, 2/3-z'
+ 34 '1/3+x-y, 2/3+x, 2/3-z'
+ 35 '1/3+y, 2/3-x+y, 2/3-z'
+ 36 '1/3+y, 2/3+x, 2/3-z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ Pd
+ Sm
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 18 h 0.43448 0.56552 0.22654 1
+ Ga2 Ga 18 h 0.5846 0.4154 0.18372 1
+ Ga3 Ga 18 h 0.78259 0.21741 0.07592 1
+ Pd1 Pd 18 g 0.33669 0 0.5 1
+ Ga4 Ga 18 f 0.23793 0 0 1
+ Sm1 Sm 9 e 0.5 0 0 1
+ Pd2 Pd 6 c 0 0 0.336 1
+ Pd3 Pd 3 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.59
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_wavelength             1.5406
+_pd_proc_wavelength                      1.5406
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1935820
+

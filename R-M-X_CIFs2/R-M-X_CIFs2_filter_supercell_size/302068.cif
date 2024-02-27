@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Os-Si-Y          # Y9Os4Si20                                     #  302068 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_302068
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      302068
+_database_code_PDF                       04-008-8810
+
+# Entry summary
+
+_chemical_formula_structural             'Y~9~ Os~4~ Si~20~'
+_chemical_formula_sum                    'Os4 Si20 Y9'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y~9~Os~4~Si~20~,mP70,14
+_chemical_formula_weight                 2122.7
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structures of orthorhombic Y~3~Os~4~Si~12~ and monoclinic Y~5~Os~4~Si~14~ and Y~9~Os~4~Si~20~
+;
+_journal_coden_ASTM                      JCOMAH
+_journal_name_full                       'J. Less-Common Met.'
+_journal_year                            1988
+_journal_volume                          142
+_journal_page_first                      169
+_journal_page_last                       176
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gueramian M.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Chabot B.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Yvon K.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie aux Rayons X
+Geneva
+Switzerland
+;
+'Schellenberg I.'
+;
+Geneva University (UNIGE)
+Departement de Physique de la Matiere Condensee (DPMC)
+Geneva
+Switzerland
+;
+'Braun H.F.'
+;
+Bayreuth University
+Institut fur Physik
+Bayreuth
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.417
+_cell_length_b                           7.949
+_cell_length_c                           8.005
+_cell_angle_alpha                        90
+_cell_angle_beta                         95.92
+_cell_angle_gamma                        90
+_cell_volume                             1228.9
+_cell_formula_units_Z                    2
+_space_group_IT_number                   14
+_space_group_name_H-M_alt                'P 1 21/c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, 1/2-z'
+ 4 'x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Os
+ Si
+ Y
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Os(1) Os 4 e 0.00002 0.1281 0.1267 1
+ Si(1) Si 4 e 0.0007 0.33 0.329 1
+ Si(2) Si 4 e 0.1161 0.779 0.023 1
+ Si(3) Si 4 e 0.1173 0.007 0.249 1
+ Si(4) Si 4 e 0.1176 0.506 0.308 1
+ Si(5) Si 4 e 0.1182 0.2191 0.033 1
+ Os(2) Os 4 e 0.16528 0.4998 0.0415 1
+ Y(1) Y 4 e 0.2368 0.252 0.3123 1
+ Si(6) Si 4 e 0.287 0.5 0.071 1
+ Si(7) Si 4 e 0.2889 0.0 0.071 1
+ Si(8) Si 4 e 0.3589 0.253 0.09 1
+ Y(2) Y 4 e 0.4114 0.0002 0.3521 1
+ Si(9) Si 4 e 0.4791 0.251 0.1041 0.5
+ Si(10) Si 4 e 0.5213 0.248 0.402 0.5
+ Y(3) Y 4 e 0.5883 0.0002 0.1461 1
+ Si(11) Si 4 e 0.6416 0.248 0.411 1
+ Y(4) Y 4 e 0.7628 0.2528 0.1933 1
+ Y(5) Y 2 c 0 0 0.5 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            5.74
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    1840
+_exptl_absorpt_coefficient_mu            44.53
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             71
+_refine_ls_number_reflns                 1384
+_refine_ls_R_factor_gt                   0.069
+_refine_ls_wR_factor_gt                  0.070
+
+# End of data set 302068
+

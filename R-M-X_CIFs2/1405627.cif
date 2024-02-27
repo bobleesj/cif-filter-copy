@@ -1,0 +1,155 @@
+##############################################################################
+#                                                                            #
+# In-La-Ni         # LaNi3In6                                      # 1405627 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1405627
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1405627
+_database_code_PDF                       04-009-4306
+
+# Entry summary
+
+_chemical_formula_structural             'La Ni~3~ In~6~'
+_chemical_formula_sum                    'In6 La Ni3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaNi~3~In~6~,oP20,59
+_chemical_formula_weight                 1003.9
+
+# Bibliographic data
+
+_publ_section_title
+'Crystal structure of LaNi~3~In~6~, CeNi~3~In~6~, and PrNi~3~In~6~'           
+_journal_coden_ASTM                      SPHCA6
+_journal_name_full                       'Sov. Phys. Crystallogr.'
+_journal_year                            1985
+_journal_volume                          30
+_journal_page_first                      344
+_journal_page_last                       345
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Kalychak Y.M.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Gladyshevskii E.I.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Bodak O.I.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Dmytrakh O.V.'
+;
+Lviv Ivan Franko State University
+Lviv
+Ukraine
+;
+'Kotur B.Y.'
+;
+Lviv Ivan Franko State University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.388
+_cell_length_b                           7.574
+_cell_length_c                           12.11
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             402.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   59
+_space_group_name_H-M_alt                'P m m n (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, -y, -z'
+ 7 '1/2+x, 1/2+y, -z'
+ 8 'x, 1/2-y, z'
+loop_
+ _atom_type_symbol
+ In
+ Ni
+ La
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ In4 In 4 e 0.25 0.04299 0.83908 1
+ Ni2 Ni 4 e 0.25 0.07642 0.0656 1
+ In3 In 4 e 0.25 0.55209 0.58362 1
+ In2 In 2 b 0.25 0.75 0.01173 1
+ La La 2 b 0.25 0.75 0.32187 1
+ In1 In 2 a 0.25 0.25 0.25114 1
+ Ni1 Ni 2 a 0.25 0.25 0.46579 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.28
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Philips PW1100'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            30.16
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 614
+_refine_ls_R_factor_gt                   0.034
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1405627
+

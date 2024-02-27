@@ -1,0 +1,174 @@
+##############################################################################
+#                                                                            #
+# Dy-In-Ni         # Dy10Ni9.32In20                                # 1708984 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1708984
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1708984
+_database_code_PDF                       04-010-8853
+
+# Entry summary
+
+_chemical_formula_structural             'Dy~10~ Ni~9.32~ In~20~'
+_chemical_formula_sum                    'Dy10 In20 Ni9.32'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Y~10~Rh~9.19~In~20~,tP80,129
+_chemical_formula_weight                 4468.5
+
+# Bibliographic data
+
+_publ_section_title
+'Syntheses and Structures of RE~10~Ni~9+x~In~20~ (RE= Tb, Dy) and YbNiIn~2~'  
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2004
+_journal_volume                          630
+_journal_page_first                      1903
+_journal_page_last                       1907
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Zaremba V.I.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Muts I.R.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Hlukhyy V.H.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.3363
+_cell_length_b                           13.3363
+_cell_length_c                           9.072
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1613.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   129
+_space_group_name_H-M_alt                'P 4/n m m (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2-y, 1/2-x, z'
+ 7 '1/2-y, x, z'
+ 8 '-y, -x, -z'
+ 9 '-y, 1/2+x, -z'
+ 10 '1/2+x, -y, -z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, z'
+ 13 '1/2+y, -x, -z'
+ 14 '1/2+y, 1/2+x, -z'
+ 15 'y, 1/2-x, z'
+ 16 'y, x, z'
+loop_
+ _atom_type_symbol
+ Dy
+ Ni
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Dy4 Dy 8 j 0.04637 0.04637 0.23429 1
+ Ni3 Ni 8 j 0.09342 0.09342 0.6005 1
+ In5 In 8 j 0.6175 0.6175 0.0906 1
+ Ni2 Ni 8 i 0.25 0.0274 0.0908 1
+ In3 In 8 i 0.25 0.08236 0.4069 1
+ Dy3 Dy 8 i 0.25 0.52852 0.73431 1
+ In4 In 8 i 0.25 0.63437 0.26274 1
+ In1 In 8 h 0.40244 0.59756 0.5 1
+ In2 In 8 g 0.38185 0.61815 0 1
+ Dy1 Dy 2 c 0.25 0.25 0.13726 1
+ Dy2 Dy 2 c 0.25 0.25 0.66481 1
+ Ni1 Ni 2 b 0.75 0.25 0.5 1
+ Ni4 Ni 2 a 0.75 0.25 0 0.32
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.20
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    8363
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            42.0
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution
+'starting values from the literature, Fourier synthesis'                      
+_refine_ls_number_parameters             65
+_refine_ls_number_reflns                 1124
+_refine_ls_R_factor_gt                   0.0259
+_refine_ls_wR_factor_gt                  0.0556
+
+# End of data set 1708984
+

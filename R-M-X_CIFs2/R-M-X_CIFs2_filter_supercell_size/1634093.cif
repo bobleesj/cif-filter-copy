@@ -1,0 +1,188 @@
+##############################################################################
+#                                                                            #
+# Ce-Ga-Rh         # Ce2RhGa12                                     # 1634093 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1634093
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1634093
+_database_code_PDF                       04-018-3520
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~2~ Rh Ga~12~'
+_chemical_formula_sum                    'Ce2 Ga12 Rh'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Sm~2~NiGa~12~,tP30,125
+_chemical_formula_weight                 1219.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal growth and structure determination of the novel tetragonal compound Ce~2~RhGa~12~
+;
+_journal_coden_ASTM                      CMAHAR
+_journal_name_full                       'Chem. Met. Alloys'
+_journal_year                            2011
+_journal_volume                          4
+_journal_page_first                      229
+_journal_page_last                       233
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Nagalashmi R.'
+;
+National Institute of Technology NIT Tiruchirappalli (NITT)
+Department of Physics
+Tiruchirappalli / Tamil Nadu
+India
+;
+'Kulkarni R.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+'Dhar S.K.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+'Thamizhavel A.'
+;
+Tata Institute of Fundamental Research (TIFR)
+Department of Condensed Matter Physics and Materials Science
+Mumbai / Maharashtra
+India
+;
+'Krishnakumar V.'
+;
+Periyar University
+Department of Physics
+Salem / Tamil Nadu
+India
+;
+'Besnard C.'
+;
+Geneva University (UNIGE)
+Laboratoire de Cristallographie
+Geneva
+Switzerland
+;
+'Hagemann H.'
+;
+Geneva University (UNIGE)
+Departement de Chimie Physique
+Geneva
+Switzerland
+;
+'Reiffers M.'
+;
+Slovak Academy of Sciences (SAS)
+Institute of Experimental Physics
+Kosice
+Slovakia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           6.0405
+_cell_length_b                           6.0405
+_cell_length_c                           15.706
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             573.1
+_cell_formula_units_Z                    2
+_space_group_IT_number                   125
+_space_group_name_H-M_alt                'P 4/n b m (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2-y, z'
+ 3 '1/2-x, y, -z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, x, z'
+ 8 '-y, -x, z'
+ 9 '-y, 1/2+x, -z'
+ 10 '1/2+x, -y, z'
+ 11 '1/2+x, 1/2+y, -z'
+ 12 'x, 1/2-y, -z'
+ 13 '1/2+y, -x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, 1/2-x, z'
+ 16 'y, x, -z'
+loop_
+ _atom_type_symbol
+ Ga
+ Ce
+ Rh
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1 Ga 8 m 0.43031 0.56969 0.42887 1
+ Ga4 Ga 8 m 0.50019 0.49981 0.08594 1
+ Ce Ce 4 h 0.75 0.25 0.24416 1
+ Ga3 Ga 4 g 0.25 0.25 0.18543 1
+ Ga2 Ga 4 g 0.25 0.25 0.34153 1
+ Rh Rh 2 c 0.75 0.25 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.07
+_cell_measurement_temperature            200
+_cell_measurement_radiation              'X-rays, synchrotron'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              200
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, European Synchrotron Radiation Facility ESRF, SNBL'        
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    3988
+_diffrn_reflns_theta_min                 2.55
+_diffrn_reflns_theta_max                 54.74
+_exptl_absorpt_coefficient_mu            36.781
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             25
+_refine_ls_number_reflns                 391
+_refine_ls_R_factor_gt                   0.0348
+_refine_ls_wR_factor_gt                  0.0927
+
+# End of data set 1634093
+

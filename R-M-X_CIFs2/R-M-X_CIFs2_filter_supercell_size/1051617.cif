@@ -1,0 +1,207 @@
+##############################################################################
+#                                                                            #
+# La-Pd-Sb         # La6Pd2.28Sb15                                 # 1051617 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1051617
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1051617
+_database_code_PDF                       04-027-1929
+
+# Entry summary
+
+_chemical_formula_structural             'La~6~ Pd~2.28~ Sb~15~'
+_chemical_formula_sum                    'La6 Pd2.27 Sb15'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            La~6~Pd~2.28~Sb~15~,oI50,71
+_chemical_formula_weight                 2902.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+La~6~Pd~2+x~Sb~15~ (x= 0.28): A rare-earth palladium intermetallic compound with extended pnictogen ribbons
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2020
+_journal_volume                          291
+_journal_page_first                      1
+_journal_page_last                       10
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Sturza M.I.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Buchner B.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Amigo M.L.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Facio J.I.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Caglieris F.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Aswartham S.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Seiro S.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Hess C.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Van Den Brink J.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+'Wurmehl S.'
+;
+Leibniz Association
+Leibniz-Institut fur Festkorper- und Werkstofforschung (IFW Dresden)
+Dresden
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           4.3082
+_cell_length_b                           15.399
+_cell_length_c                           19.689
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1306.2
+_cell_formula_units_Z                    2
+_space_group_IT_number                   71
+_space_group_name_H-M_alt                'I m m m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2-z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
+loop_
+ _atom_type_symbol
+ La
+ Sb
+ Pd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ La1 La 8 l 0 0.13886 0.13482 1
+ Sb1 Sb 8 l 0 0.21517 0.29796 1
+ Sb2 Sb 8 l 0 0.35636 0.11385 1
+ Pd1 Pd 4 j 0.5 0 0.06431 0.349
+ Sb3 Sb 4 j 0.5 0 0.20072 1
+ La2 La 4 i 0 0 0.32452 1
+ Sb6 Sb 4 h 0 0.10122 0.5 1
+ Sb4 Sb 4 h 0 0.34133 0.5 1
+ Pd2 Pd 4 g 0 0.27548 0 0.785
+ Sb5 Sb 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.38
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            8401
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'STOE IPDS II'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    4268
+_diffrn_reflns_theta_min                 1.679
+_diffrn_reflns_theta_max                 24.992
+_exptl_absorpt_coefficient_mu            25.426
+_exptl_absorpt_correction_type           analytical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             49
+_refine_ls_number_reflns                 662
+_refine_ls_R_factor_gt                   0.0184
+_refine_ls_wR_factor_gt                  0.0405
+
+# End of data set 1051617
+

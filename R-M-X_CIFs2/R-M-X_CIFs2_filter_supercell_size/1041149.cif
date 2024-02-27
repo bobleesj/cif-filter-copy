@@ -1,0 +1,142 @@
+##############################################################################
+#                                                                            #
+# Co-Ge-Nd         # Nd7Co2Ge4                                     # 1041149 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1041149
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1041149
+_database_code_PDF                       04-022-9956
+
+# Entry summary
+
+_chemical_formula_structural             'Nd~7~ Co~2~ Ge~4~'
+_chemical_formula_sum                    'Co2 Ge4 Nd7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~7~Pd~4~Ge~2~,mP52,14
+_chemical_formula_weight                 1417.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Exo-bonded six-membered heterocycle in the crystal structures of RE~7~Co~2~Ge~4~ (RE= La-Nd)
+;
+_journal_coden_ASTM                      DTARAF
+_journal_name_full                       'Dalton Trans.'
+_journal_year                            2016
+_journal_volume                          45
+_journal_page_first                      18522
+_journal_page_last                       18531
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Ponou S.'
+;
+Lund University
+Department of Chemistry
+Lund
+Sweden
+;
+'Lidin S.'
+;
+Lund University
+Department of Chemistry
+Lund
+Sweden
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.1859
+_cell_length_b                           12.2022
+_cell_length_c                           12.2
+_cell_angle_alpha                        90
+_cell_angle_beta                         109.48
+_cell_angle_gamma                        90
+_cell_volume                             1289.2
+_cell_formula_units_Z                    4
+_space_group_IT_number                   14
+_space_group_name_H-M_alt                'P 1 21/c 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, 1/2+y, 1/2-z'
+ 4 'x, 1/2-y, 1/2+z'
+loop_
+ _atom_type_symbol
+ Nd
+ Co
+ Ge
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Nd3 Nd 4 e -0.00005 0.65957 0.37934 1
+ Nd2 Nd 4 e 0.00196 0.60062 0.10064 1
+ Nd1 Nd 4 e 0.00194 0.38021 0.34163 1
+ Co1 Co 4 e 0.1373 0.37944 0.15735 1
+ Ge1 Ge 4 e 0.25176 0.00004 0.06263 1
+ Ge3 Ge 4 e 0.2773 0.2494 0.32123 1
+ Ge2 Ge 4 e 0.29872 0.49929 0.07508 1
+ Nd4 Nd 4 e 0.35526 0.00218 0.33718 1
+ Nd6 Nd 4 e 0.36243 0.2482 0.08898 1
+ Nd7 Nd 4 e 0.63321 0.00173 0.15504 1
+ Nd5 Nd 4 e 0.63846 0.25303 0.40828 1
+ Ge4 Ge 4 e 0.724 0.24731 0.1844 1
+ Co2 Co 4 e 0.8652 0.37755 0.08726 1
+
+
+_exptl_crystal_colour                    gray
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.31
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71069
+_cell_measurement_reflns_used            4320
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Oxford Diffraction Xcalibur'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71069
+_diffrn_reflns_number                    23501
+_diffrn_reflns_theta_min                 2.88
+_diffrn_reflns_theta_max                 28.89
+_exptl_absorpt_coefficient_mu            39.23
+_exptl_absorpt_correction_type           yes
+_computing_structure_solution            'charge flipping'
+_refine_ls_number_parameters             122
+_refine_ls_number_reflns                 3901
+_refine_ls_R_factor_gt                   0.0360
+_refine_ls_wR_factor_gt                  0.0902
+
+# End of data set 1041149
+

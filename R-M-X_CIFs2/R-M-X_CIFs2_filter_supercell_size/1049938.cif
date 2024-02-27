@@ -1,0 +1,168 @@
+##############################################################################
+#                                                                            #
+# Dy-In-Ru         # Dy16Ru5In14                                   # 1049938 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1049938
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1049938
+_database_code_PDF                       04-026-2006
+
+# Entry summary
+
+_chemical_formula_structural             'Dy~16~ Ru~5~ In~14~'
+_chemical_formula_sum                    'Dy16 In14 Ru5'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ho~16~Ru~5~In~14~,mP35,10
+_chemical_formula_weight                 4712.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+R~8-x~Ru~3~In~7+x~, R~3~Ru~1-x~In~3~, R~39~Ru~12-x~In~35~, and R~16~Ru~5~In~14~ (R= La-Nd, Sm, Gd-Er, Lu) - New ternary indides with 2D intergrowth of CsCl- and AlB~2~-related slabs
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2019
+_journal_volume                          791
+_journal_page_first                      641
+_journal_page_last                       647
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Tursina A.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Chernyshev V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Nesterenko S.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Noel H.'
+;
+National Center for Scientific Research (CNRS)
+Institut des Sciences Chimiques de Rennes (ISCR)
+Rennes
+France
+;
+'Pasturel M.'
+;
+National Center for Scientific Research (CNRS)
+Institut des Sciences Chimiques de Rennes (ISCR)
+Rennes
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           12.902
+_cell_length_b                           3.5571
+_cell_length_c                           18.959
+_cell_angle_alpha                        90
+_cell_angle_beta                         105.58
+_cell_angle_gamma                        90
+_cell_volume                             838.1
+_cell_formula_units_Z                    1
+_space_group_IT_number                   10
+_space_group_name_H-M_alt                'P 1 2/m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, y, -z'
+ 4 'x, -y, z'
+loop_
+ _atom_type_symbol
+ Dy
+ In
+ Ru
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Dy1 Dy 2 n 0.0203 0.5 0.13173 1
+ Dy2 Dy 2 n 0.0462 0.5 0.41954 1
+ Dy3 Dy 2 n 0.1901 0.5 0.01537 1
+ Dy4 Dy 2 n 0.2165 0.5 0.72338 1
+ Dy5 Dy 2 n 0.2278 0.5 0.30377 1
+ Dy6 Dy 2 n 0.3508 0.5 0.51123 1
+ Dy7 Dy 2 n 0.4631 0.5 0.22639 1
+ Dy8 Dy 2 n 0.6099 0.5 0.07761 1
+ In1 In 2 m 0.0101 0 0.2754 1
+ In2 In 2 m 0.161 0 0.5572 1
+ Ru1 Ru 2 m 0.2129 0 0.4145 1
+ In3 In 2 m 0.239 0 0.1627 1
+ In4 In 2 m 0.4079 0 0.0772 1
+ In5 In 2 m 0.4299 0 0.3897 1
+ Ru2 Ru 2 m 0.6189 0 0.1937 1
+ In6 In 2 m 0.6263 0 0.3414 1
+ In7 In 2 m 0.8148 0 0.1391 1
+ Ru3 Ru 1 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.34
+_cell_measurement_temperature            293(2)
+_cell_measurement_radiation              'X-rays, Ag Ka'
+_cell_measurement_wavelength             0.56087
+_cell_measurement_reflns_used            25
+_diffrn_ambient_temperature              293(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Ag Ka'
+_diffrn_radiation_wavelength             0.56087
+_diffrn_reflns_number                    1894
+_diffrn_reflns_theta_min                 0.88
+_diffrn_reflns_theta_max                 19.97
+_exptl_absorpt_coefficient_mu            24.910
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             107
+_refine_ls_number_reflns                 965
+_refine_ls_R_factor_gt                   0.0633
+_refine_ls_wR_factor_gt                  0.1500
+
+# End of data set 1049938
+

@@ -1,0 +1,170 @@
+##############################################################################
+#                                                                            #
+# Gd-In-Pt         # Gd3Pt4In12                                    # 1810780 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1810780
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1810780
+_database_code_PDF                       04-012-4306
+
+# Entry summary
+
+_chemical_formula_structural             'Gd~3~ Pt~4~ In~12~'
+_chemical_formula_sum                    'Gd3 In12 Pt4'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~3~Pt~4~In~12~,hP57,164
+_chemical_formula_weight                 2629.9
+
+# Bibliographic data
+
+_publ_section_title
+;
+Gd~3~Pt~4~In~12~ and Tb~3~Pt~4~In~12~ - New Ternary Indides with Condensed Distorted [PtIn~6~] Trigonal Prisms
+;
+_journal_coden_ASTM                      ZAACAB
+_journal_name_full                       'Z. Anorg. Allg. Chem.'
+_journal_year                            2002
+_journal_volume                          628
+_journal_page_first                      2293
+_journal_page_last                       2298
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Rodewald U.C.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Galadzhun Y.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Hoffmann R.D.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+'Pottgen R.'
+;
+Munster University (WWU)
+Institut fur Anorganische und Analytische Chemie
+Munster
+Germany
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.905
+_cell_length_b                           9.905
+_cell_length_c                           15.295
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1299.5
+_cell_formula_units_Z                    3
+_space_group_IT_number                   164
+_space_group_name_H-M_alt                'P -3 m 1'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, -z'
+ 5 '-x, -y, -z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, -z'
+ 10 'x-y, x, -z'
+ 11 'y, -x+y, -z'
+ 12 'y, x, -z'
+loop_
+ _atom_type_symbol
+ Pt
+ In
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Pt1 Pt 6 i 0.17174 0.82826 0.36209 1
+ In6 In 6 i 0.21243 0.78757 0.18605 1
+ Pt2 Pt 6 i 0.49489 0.50511 0.11018 1
+ Gd3 Gd 6 i 0.50848 0.49152 0.30518 1
+ In4 In 6 i 0.7789 0.2211 0.16659 1
+ In5 In 6 i 0.88174 0.11826 0.32186 1
+ In3 In 6 h 0.34967 0 0.5 1
+ In8 In 6 g 0.28704 0 0 1
+ Gd2 Gd 2 d 0.333333 0.666667 0.01246 1
+ In2 In 2 d 0.333333 0.666667 0.3795 1
+ In7 In 2 d 0.333333 0.666667 0.5819 1
+ In1 In 2 c 0 0 0.1259 1
+ Gd1 Gd 1 b 0 0 0.5 1
+
+
+_exptl_crystal_colour                    'gray light'
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.08
+_cell_measurement_temperature            293
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Enraf-Nonius CAD4'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    15088
+_diffrn_reflns_theta_min                 2
+_diffrn_reflns_theta_max                 30
+_exptl_absorpt_coefficient_mu            59.0
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             62
+_refine_ls_number_reflns                 1469
+_refine_ls_R_factor_gt                   0.0209
+_refine_ls_wR_factor_gt                  0.0394
+
+# End of data set 1810780
+

@@ -1,0 +1,218 @@
+##############################################################################
+#                                                                            #
+# Ce-Ir-Sn         # Ce3Ir4Sn13                                    # 1539773 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1539773
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1539773
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~3~ Ir~4~ Sn~13~'
+_chemical_formula_sum                    'Ce3 Ir4 Sn13'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ca~3~Pt~4.1~Ge~12.6~,cI320,199
+_chemical_formula_weight                 2732.4
+
+# Bibliographic data
+
+_publ_section_title
+'Magnetic excitations in chiral-structure phase of Ce~3~Ir~4~Sn~13~'          
+_journal_coden_ASTM                      JUPSAU
+_journal_name_full                       'J. Phys. Soc. Jpn.'
+_journal_year                            2021
+_journal_volume                          90
+_journal_page_first                      1
+_journal_page_last                       9
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Iwasa K.'
+;
+Ibaraki University
+Frontier Research Center for Applied Atomic Science
+Tokai / Ibaraki
+Japan
+;
+'Strydom A.M.'
+;
+Johannesburg University (UJ)
+Highly Correlated Matter Research Group
+Johannesburg
+South Africa
+;
+'Nakazato S.'
+;
+Ibaraki University
+Graduate School of Science and Engineering
+Mito / Ibaraki
+Japan
+;
+'Hashimoto D.'
+;
+Ibaraki University
+Graduate School of Science and Engineering
+Mito / Ibaraki
+Japan
+;
+'Shiozawa M.'
+;
+Ibaraki University
+Graduate School of Science and Engineering
+Mito / Ibaraki
+Japan
+;
+'Kuwahara K.'
+;
+Ibaraki University
+Graduate School of Science and Engineering
+Mito / Ibaraki
+Japan
+;
+'Sagayama H.'
+;
+High Energy Accelerator Research Organization (KEK)
+Institute of Materials Structure Science (IMSS)
+Tsukuba / Ibaraki
+Japan
+;
+'Ohira Kawamura S.'
+;
+Japan Atomic Energy Agency (JAEA)
+Materials and Life Science Division
+Tokai / Ibaraki
+Japan
+;
+'Murai N.'
+;
+Japan Atomic Energy Agency (JAEA)
+Materials and Life Science Division
+Tokai / Ibaraki
+Japan
+;
+'Adroja D.T.'
+;
+Rutherford Appleton Laboratory (RAL)
+ISIS Facility
+Chilton-Didcot
+United Kingdom
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           19.4417
+_cell_length_b                           19.4417
+_cell_length_c                           19.4417
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             7348.57
+_cell_formula_units_Z                    16
+_space_group_IT_number                   199
+_space_group_name_H-M_alt                'I 21 3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, y, -z'
+ 3 '-x, 1/2-y, z'
+ 4 '1/2-y, z, -x'
+ 5 '-y, 1/2-z, x'
+ 6 '1/2-z, x, -y'
+ 7 '-z, 1/2-x, y'
+ 8 'x, -y, 1/2-z'
+ 9 'y, -z, 1/2-x'
+ 10 'y, z, x'
+ 11 'z, -x, 1/2-y'
+ 12 'z, x, y'
+ 13 '1/2+x, 1/2+y, 1/2+z'
+ 14 '1-x, 1/2+y, 1/2-z'
+ 15 '1/2-x, 1-y, 1/2+z'
+ 16 '1-y, 1/2+z, 1/2-x'
+ 17 '1/2-y, 1-z, 1/2+x'
+ 18 '1-z, 1/2+x, 1/2-y'
+ 19 '1/2-z, 1-x, 1/2+y'
+ 20 '1/2+x, 1/2-y, 1-z'
+ 21 '1/2+y, 1/2-z, 1-x'
+ 22 '1/2+y, 1/2+z, 1/2+x'
+ 23 '1/2+z, 1/2-x, 1-y'
+ 24 '1/2+z, 1/2+x, 1/2+y'
+loop_
+ _atom_type_symbol
+ Ce
+ Sn
+ Ir
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce 24 c 0.0004 0.37501 0.25035 1
+ Sn6 Sn 24 c -0.00034 0.15217 0.57564 1
+ Sn5 Sn 24 c -0.0002 0.33574 0.41997 1
+ Sn4 Sn 24 c -0.00006 0.1544 0.07658 1
+ Sn10 Sn 24 c 0.07225 0.49997 0.13888 1
+ Sn8 Sn 24 c 0.09556 0.25092 0.17357 1
+ Sn9 Sn 24 c 0.11112 0.24947 0.32222 1
+ Ce2 Ce 24 c 0.12503 0.25041 0.50043 1
+ Ir4 Ir 24 c 0.12493 0.12478 0.375 1
+ Ir2 Ir 24 c 0.12485 0.37493 0.37471 1
+ Sn3 Sn 24 c 0.17002 0.41412 0.24906 1
+ Sn7 Sn 24 c 0.25117 0.32565 0.4022 1
+ Sn1 Sn 8 a -0.0001 -0.0001 -0.0001 1
+ Ir3 Ir 8 a 0.12508 0.12508 0.12508 1
+ Sn2 Sn 8 a 0.25005 0.25005 0.25005 1
+ Ir1 Ir 8 a 0.37508 0.37508 0.37508 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            9.88
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              ?
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              250
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+;
+Japan, Tsukuba, High Energy Accelerator Research Organization (KEK), Photon Factory, BL-8A
+;
+_diffrn_radiation_type                   'X-rays, synchrotron'
+_diffrn_reflns_number                    43364
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'direct methods, Fourier synthesis'
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 9453
+_refine_ls_R_factor_gt                   0.0482
+_refine_ls_wR_factor_gt                  0.0991
+
+# End of data set 1539773
+

@@ -1,0 +1,187 @@
+##############################################################################
+#                                                                            #
+# Ge-Ir-Lu         # Lu3Ir4Ge13 tet                                # 1533480 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1533480
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1533480
+_database_code_PDF                       04-024-4606
+
+# Entry summary
+
+_chemical_formula_structural             'Lu~3~ Ir~4~ Ge~13~'
+_chemical_formula_sum                    'Ge13 Ir4 Lu3'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Lu~3~Ir~4~Ge~13~,tI336,141
+_chemical_formula_weight                 2237.5
+
+# Bibliographic data
+
+_publ_section_title
+;
+The proof is in the powder: Revealing structural peculiarities in the Yb~3~Rh~4~Sn~13~ structure type
+;
+_journal_coden_ASTM                      CRECF4
+_journal_name_full                       CrystEngComm
+_journal_year                            2017
+_journal_volume                          19
+_journal_page_first                      3381
+_journal_page_last                       3391
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Oswald I.W.H.'
+;
+University of Texas UT Dallas
+Dallas
+U.S.A. Texas
+;
+'Rai B.K.'
+;
+University of Texas UT Dallas
+Dallas
+U.S.A. Texas
+;
+'McCandless G.T.'
+;
+University of Texas UT Dallas
+Dallas
+U.S.A. Texas
+;
+'Morosan E.'
+;
+University of Texas UT Dallas
+Dallas
+U.S.A. Texas
+;
+'Chan J.Y.'
+;
+University of Texas UT Dallas
+Dallas
+U.S.A. Texas
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           17.764
+_cell_length_b                           17.764
+_cell_length_c                           17.822
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             5623.9
+_cell_formula_units_Z                    16
+_space_group_IT_number                   141
+_space_group_name_H-M_alt                'I 41/a m d (origin choice 2)'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, 1/2-y, z'
+ 3 '-x, -y, -z'
+ 4 '-x, 1/2+y, -z'
+ 5 '-x, y, z'
+ 6 '1/4-y, 1/4-x, -1/4-z'
+ 7 '1/4-y, -1/4+x, 1/4+z'
+ 8 '-1/4-y, 1/4-x, -1/4+z'
+ 9 '-1/4-y, -1/4+x, 1/4-z'
+ 10 'x, 1/2-y, z'
+ 11 'x, -y, -z'
+ 12 'x, 1/2+y, -z'
+ 13 '1/4+y, 1/4-x, -1/4+z'
+ 14 '1/4+y, -1/4+x, 1/4-z'
+ 15 '-1/4+y, 1/4-x, -1/4-z'
+ 16 '-1/4+y, -1/4+x, 1/4+z'
+ 17 '1/2+x, 1/2+y, 1/2+z'
+ 18 '1/2-x, 1-y, 1/2+z'
+ 19 '1/2-x, 1/2-y, 1/2-z'
+ 20 '1/2-x, 1+y, 1/2-z'
+ 21 '1/2-x, 1/2+y, 1/2+z'
+ 22 '3/4-y, 3/4-x, 1/4-z'
+ 23 '3/4-y, 1/4+x, 3/4+z'
+ 24 '1/4-y, 3/4-x, 1/4+z'
+ 25 '1/4-y, 1/4+x, 3/4-z'
+ 26 '1/2+x, 1-y, 1/2+z'
+ 27 '1/2+x, 1/2-y, 1/2-z'
+ 28 '1/2+x, 1+y, 1/2-z'
+ 29 '3/4+y, 3/4-x, 1/4+z'
+ 30 '3/4+y, 1/4+x, 3/4-z'
+ 31 '1/4+y, 3/4-x, 1/4-z'
+ 32 '1/4+y, 1/4+x, 3/4+z'
+loop_
+ _atom_type_symbol
+ Ge
+ Ir
+ Lu
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ge8 Ge 32 i 0.0691 0.50008 0.10763 1
+ Ir1 Ir 32 i 0.12521 0.12511 0.1251 1
+ Ge7 Ge 32 i 0.1348 0.06496 0.25042 1
+ Ge4 Ge 32 i 0.17331 0.08299 0.00032 1
+ Ge3 Ge 32 i 0.25016 0.17079 0.17106 1
+ Ge1A Ge 16 h 0 0.00101 0.24428 0.921
+ Ge1B Ge 16 h 0 0.006 0.3012 0.079
+ Ge6 Ge 16 h 0 0.12317 0.68483 1
+ Lu1 Lu 16 h 0 0.12488 0.4991 1
+ Lu3 Lu 16 h 0 0.12521 0.00139 1
+ Ge9 Ge 16 h 0 0.14763 0.31809 1
+ Ge2 Ge 16 h 0 0.17317 0.16875 1
+ Ge5 Ge 16 h 0 0.6607 0.17652 1
+ Ir3 Ir 16 g 0.12524 0.37524 0.875 1
+ Lu2 Lu 16 g 0.25127 0.50127 0.875 1
+ Ir2 Ir 16 g 0.37493 0.62493 0.875 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            10.57
+_cell_measurement_temperature            298(2)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            9897
+_diffrn_ambient_temperature              298(2)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Bruker AXS D8 QUEST KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_reflns_number                    75394
+_diffrn_reflns_theta_min                 2.29
+_diffrn_reflns_theta_max                 30.6
+_exptl_absorpt_coefficient_mu            85.79
+_exptl_absorpt_correction_type           empirical
+_computing_structure_solution            'intrinsic phasing'
+_refine_ls_number_parameters             107
+_refine_ls_number_reflns                 2294
+_refine_ls_R_factor_gt                   0.039
+_refine_ls_wR_factor_gt                  0.109
+
+# End of data set 1533480
+

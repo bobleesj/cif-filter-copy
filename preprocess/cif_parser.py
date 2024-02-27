@@ -202,30 +202,6 @@ def get_loop_values(block, loop_tags):
     return loop_values
 
 
-def print_loop_values(loop_values, i):
-    """
-    Prints the loop values for a specific index with a descriptive format.
-    """
-    descriptions = [
-        "Atom Site Label:",
-        "Atom Site Type Symbol:",
-        "Atom Site Symmetry Multiplicity:",
-        "Atom Site Wyckoff Symbol:",
-        "Atom Site Fract X:",
-        "Atom Site Fract Y:",
-        "Atom Site Fract Z:",
-        "Atom Site Occupancy:"
-    ]
-    
-    for idx, desc in enumerate(descriptions):
-        value = loop_values[idx][i]
-        if "Fract" in desc:
-            value = float(value)
-        elif "Symmetry Multiplicity" in desc:
-            value = int(value)
-        print(f"{desc} {value}")
-    print()
-
 def get_cell_lenghts_angles_rad(CIF_block):
     """
     Processes the CIF block data to retrieve cell dimensions and angles.

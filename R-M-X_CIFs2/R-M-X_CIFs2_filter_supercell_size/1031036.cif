@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Ce-In-Ru         # Ce23Ru7In4                                    # 1031036 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1031036
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1031036
+_database_code_PDF                       ?
+
+# Entry summary
+
+_chemical_formula_structural             'Ce~23~ Ru~7~ In~4~'
+_chemical_formula_sum                    'Ce23 In4 Ru7'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Mg~4~Pr~23~Ir~7~,hP68,186
+_chemical_formula_weight                 4389.5
+
+# Bibliographic data
+
+_publ_section_title
+'Ternary intermetallic compound LaRu~2~Ga~3~ of a new structure type'         
+_journal_coden_ASTM                      ICCI12
+_journal_name_full
+'Abstr. 12th Int. Conf. Crystal Chem. Intermet. Compd.'                       
+_journal_year                            2013
+_journal_volume                          ?
+_journal_page_first                      106
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Shablinskaya K.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Murashova E.V.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Kurenbaeva Z.M.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.861
+_cell_length_b                           9.861
+_cell_length_c                           22.52
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        120
+_cell_volume                             1896.4
+_cell_formula_units_Z                    2
+_space_group_IT_number                   186
+_space_group_name_H-M_alt                'P 63 m c'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x+y, -x, z'
+ 3 '-x+y, y, z'
+ 4 '-x, -x+y, 1/2+z'
+ 5 '-x, -y, 1/2+z'
+ 6 '-y, -x, z'
+ 7 '-y, x-y, z'
+ 8 'x, x-y, z'
+ 9 'x-y, -y, 1/2+z'
+ 10 'x-y, x, 1/2+z'
+ 11 'y, -x+y, 1/2+z'
+ 12 'y, x, 1/2+z'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ce
+ Ru
+ In
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ce1 Ce 6 c 0.12927 0.87073 0.36457 1
+ Ce2 Ce 6 c 0.20536 0.79464 0.21822 1
+ Ce3 Ce 6 c 0.20802 0.79198 0.05184 1
+ Ru1 Ru 6 c 0.47924 0.52076 0.29056 1
+ Ce4 Ce 6 c 0.54024 0.45976 0.41495 1
+ Ce5 Ce 6 c 0.5419 0.4581 0.14382 1
+ Ce6 Ce 6 c 0.78981 0.21019 0.00882 1
+ Ce7 Ce 6 c 0.7923 0.2077 0.28139 1
+ Ru2 Ru 6 c 0.85655 0.14345 0.43596 1
+ In1 In 6 c 0.8945 0.1055 0.1375 1
+ Ru3 Ru 2 b 0.333333 0.666667 0.13572 1
+ Ce8 Ce 2 b 0.333333 0.666667 0.35507 1
+ Ce9 Ce 2 a 0 0 0.0 1
+ In2 In 2 a 0 0 0.2496 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.69
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1031036
+

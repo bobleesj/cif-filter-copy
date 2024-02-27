@@ -1,0 +1,164 @@
+##############################################################################
+#                                                                            #
+# Ga-Ni-Sc         # ScNi7Ga10                                     # 1006559 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1006559
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1006559
+_database_code_PDF                       04-019-8165
+
+# Entry summary
+
+_chemical_formula_structural             'Sc Ni~2.36~ Ga~3.64~'
+_chemical_formula_sum                    'Ga3.64 Ni2.36 Sc'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Cd~6~Yb,cI168,197
+_chemical_formula_weight                 437.3
+
+# Bibliographic data
+
+_publ_section_title
+'New representatives of YbCd~6~ and MgCuAl~2~ structure types'                
+_journal_coden_ASTM                      DANND6
+_journal_name_full                       'Dopov. Akad. Nauk Ukr. RSR, Ser. B'
+_journal_year                            1983
+_journal_volume                          ?
+_journal_issue                           12
+_journal_page_first                      30
+_journal_page_last                       33
+_journal_language                        Ukrainian
+loop_
+ _publ_author_name
+ _publ_author_address
+'Markiv V.Y.'
+;
+Kyiv Taras Shevchenko State University
+Kiev
+Ukraine
+;
+'Belyavina N.N.'
+;
+Kyiv Taras Shevchenko State University
+Kiev
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           13.44
+_cell_length_b                           13.44
+_cell_length_c                           13.44
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             2427.7
+_cell_formula_units_Z                    24
+_space_group_IT_number                   197
+_space_group_name_H-M_alt                'I 2 3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, y, -z'
+ 4 '-y, -z, x'
+ 5 '-y, z, -x'
+ 6 '-z, -x, y'
+ 7 '-z, x, -y'
+ 8 'x, -y, -z'
+ 9 'y, -z, -x'
+ 10 'y, z, x'
+ 11 'z, -x, -y'
+ 12 'z, x, y'
+ 13 '1/2+x, 1/2+y, 1/2+z'
+ 14 '1/2-x, 1/2-y, 1/2+z'
+ 15 '1/2-x, 1/2+y, 1/2-z'
+ 16 '1/2-y, 1/2-z, 1/2+x'
+ 17 '1/2-y, 1/2+z, 1/2-x'
+ 18 '1/2-z, 1/2-x, 1/2+y'
+ 19 '1/2-z, 1/2+x, 1/2-y'
+ 20 '1/2+x, 1/2-y, 1/2-z'
+ 21 '1/2+y, 1/2-z, 1/2-x'
+ 22 '1/2+y, 1/2+z, 1/2+x'
+ 23 '1/2+z, 1/2-x, 1/2-y'
+ 24 '1/2+z, 1/2+x, 1/2+y'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Ga
+ Ni
+ Sc
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ga1A Ga 24 f 0.0 0.0914 0.2305 0.610
+ Ni1B Ni 24 f 0.0 0.0914 0.2305 0.390
+ Sc1 Sc 24 f 0.0 0.3014 0.1879 1
+ Ga2A Ga 24 f 0.0945 0.5000 0.1512 0.610
+ Ni2B Ni 24 f 0.0945 0.5000 0.1512 0.390
+ Ga3A Ga 24 f 0.1140 0.2010 0.3434 0.610
+ Ni3B Ni 24 f 0.1140 0.2010 0.3434 0.390
+ Ga4A Ga 24 f 0.1566 0.3860 0.2990 0.610
+ Ni4B Ni 24 f 0.1566 0.3860 0.2990 0.390
+ Ga5A Ga 12 e 0.1956 0.5 0 0.610
+ Ni5B Ni 12 e 0.1956 0.5 0 0.390
+ Ga6A Ga 12 d 0.4065 0 0 0.610
+ Ni6B Ni 12 d 0.4065 0 0 0.390
+ Ga7A Ga 8 c 0.0700 0.0700 0.0700 0.610
+ Ni7B Ni 8 c 0.0700 0.0700 0.0700 0.390
+ Ga8A Ga 8 c 0.1645 0.1645 0.1645 0.610
+ Ni8B Ni 8 c 0.1645 0.1645 0.1645 0.390
+ Ga9A Ga 8 c 0.3355 0.3355 0.3355 0.610
+ Ni9B Ni 8 c 0.3355 0.3355 0.3355 0.390
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.18
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Co Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1006559
+
