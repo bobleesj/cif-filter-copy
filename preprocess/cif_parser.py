@@ -221,6 +221,9 @@ def get_cell_lenghts_angles_rad(CIF_block):
 
 # Index is one lower than the actual line number
 def get_atom_site_loop_end_start_line_indexes(file_path, start_keyword):
+    """
+    Finds the starting and ending indexes of the lines in atom_site_loop
+    """
 
     with open(file_path, 'r') as f:
         lines = f.readlines()
@@ -244,6 +247,7 @@ def get_atom_site_loop_end_start_line_indexes(file_path, start_keyword):
             break
 
     return start_index, end_index
+
 
 def get_atom_site_loop_content(file_path, start_keyword):
     start_index, end_index = get_atom_site_loop_end_start_line_indexes(file_path, start_keyword)
