@@ -280,8 +280,8 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Th1 Th 4 a 0 0 0 0.99
- Ir2 Ir 4 a 0 0 0 0.01
+ M1 Th 4 a 0 0 0 0.99
+ M2 Ir 4 a 0 0 0 0.01
 
 
 _exptl_crystal_colour                    ?

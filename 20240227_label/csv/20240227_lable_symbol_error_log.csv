@@ -1,0 +1,6 @@
+filename,error_message
+/Users/imac/Documents/GitHub/cif-filter-copy/20240227_lable_symbol/1020251.cif,"find(): incompatible function arguments. The following argument types are supported:
+    1. (self: gemmi.cif.Block, prefix: str, tags: List[str]) -> gemmi.cif.Table
+    2. (self: gemmi.cif.Block, tags: List[str]) -> gemmi.cif.Table
+
+Invoked with: <gemmi.cif.Block 1020251>, '_atom_site.label'"

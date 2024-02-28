@@ -1,12 +1,10 @@
 import os
-import glob
 import pytest
 import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import filter.format as format
 from util.folder import get_cif_file_path_list_from_directory
 import shutil
-import util.folder as folder
 import tempfile
 
 def preprocess_supercell_operation(file_path):
@@ -84,9 +82,8 @@ def test_good_cif_files():
             assert False, f"An unexpected error occurred for {cif_file_path}: {str(e)}"
 
 
-def test_preprocess_cif_file_on_label_element():
-    print("let's try")
-    cif_directory = "test/format_label_cif_files/symbolic_atom_label"
+def test_preprocess_cif_file_on_label_element_on_type_1():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_1"
 
     # Create a temporary directory to store the copied folder
     temp_dir = tempfile.mkdtemp()
@@ -109,10 +106,98 @@ def test_preprocess_cif_file_on_label_element():
             parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
             error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
             assert atom_type_symbol == parsed_atom_type_symbol, error_msg
+            
+
+def run_preprocess_test_on_cif_files(cif_directory):
+    # Create a temporary directory to store the copied folder
+    temp_dir = tempfile.mkdtemp()
+    temp_cif_directory = os.path.join(temp_dir, os.path.basename(cif_directory))
+    shutil.copytree(cif_directory, temp_cif_directory)
+
+    cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
+    for temp_cif_file_path in cif_file_path_list:
+        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        
+        # Perform tests on the modified temporary file
+        CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
+        CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
+        num_element_labels = len(CIF_loop_values[0])
+
+        for i in range(num_element_labels):
+            atom_type_label = CIF_loop_values[0][i]
+            atom_type_symbol = CIF_loop_values[1][i]
+            parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
+            assert atom_type_symbol == parsed_atom_type_symbol, \
+                   "atom_type_symbol and atom_type_label do not match after preprocessing."
     
-'''
-    # Place your test code here, operating on 'copied_cif_directory' and its files
-    
-    # Cleanup: Remove the copied directory after the test
+    # Clean up the temporary directory after tests
     shutil.rmtree(temp_dir)
-    '''
+
+def test_preprocess_cif_file_on_label_element_type_1():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_1"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_2():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_3():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_3"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_4():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_4"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_5():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_5"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_6():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_6"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+
+# Manual testing from each CIF File
+def test_preprocess_cif_file_on_label_element_type_mixed():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_mixed"
+    
+    temp_dir = tempfile.mkdtemp()
+    temp_cif_directory = os.path.join(temp_dir, os.path.basename(cif_directory))
+    shutil.copytree(cif_directory, temp_cif_directory)
+
+    cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
+
+    for temp_cif_file_path in cif_file_path_list:
+        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        content_lines = cif_parser.get_atom_site_loop_content(temp_cif_file_path,
+                                                              "_atom_site_occupancy")
+
+        filename = os.path.basename(temp_cif_file_path)
+        if filename == "1020250.cif":
+            assert len(content_lines) == 3
+            assert content_lines[1].strip() == "Co Co 8 c 0.25 0.25 0.25 1"
+
+        if filename == "312084.cif":
+            assert len(content_lines) == 3
+            assert content_lines[0].strip() == "Ge1A Ge 8 h 0 0.06 0.163 0.500"
+            assert content_lines[1].strip() == "Pd1B Pd 8 h 0 0.06 0.163 0.500"
+
+        if filename == "1020251.cif":
+            assert len(content_lines) == 3
+            assert content_lines[1].strip() == "Rh Rh 8 c 0.25 0.25 0.25 1"
+
+        if filename == "1633288.cif":
+            assert len(content_lines) == 7
+            assert content_lines[2].strip() == "Dy Dy 4 i 0 0.5 0.1935 1"
+
+        if filename == "1049941.cif":
+            assert len(content_lines) == 11
+            assert content_lines[0].strip() == "Pr1 Pr 4 j 0.02076 0.5 0.30929 1"
+            assert content_lines[-1].strip() == "In4 In 2 a 0 0 0 1"
+
+        if filename == "381111.cif":
+            assert len(content_lines) == 6
+            assert content_lines[0].strip() == "Ni1A Ni 4 j 0 0.172 0.5 0.88(1)"
+            assert content_lines[1].strip() == "Ga1B Ga 4 j 0 0.172 0.5 0.12(1)"
+    shutil.rmtree(temp_dir)

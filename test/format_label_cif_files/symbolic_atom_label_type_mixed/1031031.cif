@@ -1,0 +1,271 @@
+##############################################################################
+#                                                                            #
+# In-La-Pd         # La20Pd43.55In59                               # 1031031 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1031031
+_audit_creation_date                     2024-02-25
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1031031
+_database_code_PDF                       04-020-9293
+
+# Entry summary
+
+_chemical_formula_structural             'La~20~ Pd~43.55~ In~59~'
+_chemical_formula_sum                    'In59 La20 Pd43.55'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Ce~20~Pd~36~In~67~,cF636,216
+_chemical_formula_weight                 14186.2
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structure of the La~20~Pd~43.55~In~59~ and Pr~20~Pd~42.85~ln~59~ compounds
+;
+_journal_coden_ASTM                      ICCI12
+_journal_name_full
+'Abstr. 12th Int. Conf. Crystal Chem. Intermet. Compd.'                       
+_journal_year                            2013
+_journal_volume                          ?
+_journal_page_first                      129
+_journal_page_last                       ?
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Galadzhun Y.V.'
+;
+Lviv Ivan Franko National University
+Department of Life Safety
+Lviv
+Ukraine
+;
+'Muts I.R.'
+;
+Lviv Ivan Franko National University
+Department of Life Safety
+Lviv
+Ukraine
+;
+'Kinzhibalo V.V.'
+;
+Polish Academy of Sciences (PAN)
+W. Trzebiatowski Institute of Low Temperature and Structure Research
+Wroclaw
+Poland
+;
+'Pavlyuk V.V.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+'Zaremba V.I.'
+;
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           21.905
+_cell_length_b                           21.905
+_cell_length_c                           21.905
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             10510.7
+_cell_formula_units_Z                    4
+_space_group_IT_number                   216
+_space_group_name_H-M_alt                'F -4 3 m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, z'
+ 3 '-x, -z, y'
+ 4 '-x, y, -z'
+ 5 '-x, z, -y'
+ 6 '-y, -x, z'
+ 7 '-y, -z, x'
+ 8 '-y, x, -z'
+ 9 '-y, z, -x'
+ 10 '-z, -x, y'
+ 11 '-z, -y, x'
+ 12 '-z, x, -y'
+ 13 '-z, y, -x'
+ 14 'x, -y, -z'
+ 15 'x, -z, -y'
+ 16 'x, z, y'
+ 17 'y, -x, -z'
+ 18 'y, -z, -x'
+ 19 'y, x, z'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -y, -x'
+ 23 'z, x, y'
+ 24 'z, y, x'
+ 25 'x, 1/2+y, 1/2+z'
+ 26 '-x, 1/2-y, 1/2+z'
+ 27 '-x, 1/2-z, 1/2+y'
+ 28 '-x, 1/2+y, 1/2-z'
+ 29 '-x, 1/2+z, 1/2-y'
+ 30 '-y, 1/2-x, 1/2+z'
+ 31 '-y, 1/2-z, 1/2+x'
+ 32 '-y, 1/2+x, 1/2-z'
+ 33 '-y, 1/2+z, 1/2-x'
+ 34 '-z, 1/2-x, 1/2+y'
+ 35 '-z, 1/2-y, 1/2+x'
+ 36 '-z, 1/2+x, 1/2-y'
+ 37 '-z, 1/2+y, 1/2-x'
+ 38 'x, 1/2-y, 1/2-z'
+ 39 'x, 1/2-z, 1/2-y'
+ 40 'x, 1/2+z, 1/2+y'
+ 41 'y, 1/2-x, 1/2-z'
+ 42 'y, 1/2-z, 1/2-x'
+ 43 'y, 1/2+x, 1/2+z'
+ 44 'y, 1/2+z, 1/2+x'
+ 45 'z, 1/2-x, 1/2-y'
+ 46 'z, 1/2-y, 1/2-x'
+ 47 'z, 1/2+x, 1/2+y'
+ 48 'z, 1/2+y, 1/2+x'
+ 49 '1/2+x, y, 1/2+z'
+ 50 '1/2-x, -y, 1/2+z'
+ 51 '1/2-x, -z, 1/2+y'
+ 52 '1/2-x, y, 1/2-z'
+ 53 '1/2-x, z, 1/2-y'
+ 54 '1/2-y, -x, 1/2+z'
+ 55 '1/2-y, -z, 1/2+x'
+ 56 '1/2-y, x, 1/2-z'
+ 57 '1/2-y, z, 1/2-x'
+ 58 '1/2-z, -x, 1/2+y'
+ 59 '1/2-z, -y, 1/2+x'
+ 60 '1/2-z, x, 1/2-y'
+ 61 '1/2-z, y, 1/2-x'
+ 62 '1/2+x, -y, 1/2-z'
+ 63 '1/2+x, -z, 1/2-y'
+ 64 '1/2+x, z, 1/2+y'
+ 65 '1/2+y, -x, 1/2-z'
+ 66 '1/2+y, -z, 1/2-x'
+ 67 '1/2+y, x, 1/2+z'
+ 68 '1/2+y, z, 1/2+x'
+ 69 '1/2+z, -x, 1/2-y'
+ 70 '1/2+z, -y, 1/2-x'
+ 71 '1/2+z, x, 1/2+y'
+ 72 '1/2+z, y, 1/2+x'
+ 73 '1/2+x, 1/2+y, z'
+ 74 '1/2-x, 1/2-y, z'
+ 75 '1/2-x, 1/2-z, y'
+ 76 '1/2-x, 1/2+y, -z'
+ 77 '1/2-x, 1/2+z, -y'
+ 78 '1/2-y, 1/2-x, z'
+ 79 '1/2-y, 1/2-z, x'
+ 80 '1/2-y, 1/2+x, -z'
+ 81 '1/2-y, 1/2+z, -x'
+ 82 '1/2-z, 1/2-x, y'
+ 83 '1/2-z, 1/2-y, x'
+ 84 '1/2-z, 1/2+x, -y'
+ 85 '1/2-z, 1/2+y, -x'
+ 86 '1/2+x, 1/2-y, -z'
+ 87 '1/2+x, 1/2-z, -y'
+ 88 '1/2+x, 1/2+z, y'
+ 89 '1/2+y, 1/2-x, -z'
+ 90 '1/2+y, 1/2-z, -x'
+ 91 '1/2+y, 1/2+x, z'
+ 92 '1/2+y, 1/2+z, x'
+ 93 '1/2+z, 1/2-x, -y'
+ 94 '1/2+z, 1/2-y, -x'
+ 95 '1/2+z, 1/2+x, y'
+ 96 '1/2+z, 1/2+y, x'
+
+# Atomic positions taken from type-defining entry
+
+loop_
+ _atom_type_symbol
+ Pd
+ In
+ La
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Pd1 Pd 96 i 0.01816 0.1369 0.2266 0.652
+Pd2 Pd 96 i 0.01855 0.1222 0.2045 0.336
+In1A In 48 h 0.04297 0.04297 0.15087 0.596437
+Pd1B Pd 48 h 0.04297 0.04297 0.15087 0.080563
+In2A In 48 h 0.04397 0.04397 0.11 0.284563
+Pd2B Pd 48 h 0.04397 0.04397 0.11 0.038437
+In3A In 48 h 0.10226 0.10226 0.75266 0.881
+Pd3B Pd 48 h 0.10226 0.10226 0.75266 0.119
+In4A In 48 h 0.11123 0.11123 0.2968 0.881
+Pd4B Pd 48 h 0.11123 0.11123 0.2968 0.119
+In5A In 48 h 0.14783 0.14783 0.50678 0.881
+Pd5B Pd 48 h 0.14783 0.14783 0.50678 0.119
+In6A In 24 g 0.08498 0.25 0.25 0.881
+Pd6B Pd 24 g 0.08498 0.25 0.25 0.119
+La1 La 24 g 0.56596 0.25 0.25 1
+La2 La 24 f 0.30135 0 0 1
+La3 La 16 e 0.15468 0.15468 0.15468 1
+In7A In 16 e 0.29605 0.29605 0.29605 0.881
+Pd7B Pd 16 e 0.29605 0.29605 0.29605 0.119
+Pd3 Pd 16 e 0.42548 0.42548 0.42548 0.988
+In8A In 16 e 0.55139 0.55139 0.55139 0.881
+Pd8B Pd 16 e 0.55139 0.55139 0.55139 0.119
+Pd4 Pd 16 e 0.62624 0.62624 0.62624 0.988
+In9A In 16 e 0.6979 0.6979 0.6979 0.881
+Pd9B Pd 16 e 0.6979 0.6979 0.6979 0.119
+Pd5 Pd 16 e 0.82149 0.82149 0.82149 0.988
+La4 La 16 e 0.90456 0.90456 0.90456 1
+M10A In 4 a 0 0 0 0.881
+M10B Pd 4 a 0 0 0 0.119
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.97
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   ?
+_diffrn_reflns_number                    ?
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            ?
+_refine_ls_number_parameters             ?
+_refine_ls_number_reflns                 ?
+_refine_ls_R_factor_gt                   ?
+_refine_ls_wR_factor_gt                  ?
+
+# End of data set 1031031
+

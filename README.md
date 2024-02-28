@@ -55,4 +55,3 @@ python -m pytest
 ```
 
 README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue. If you have any questions, please feel free to send me an email at sl5400@columbia.edu
-# cif-bond-analyzer
