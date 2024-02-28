@@ -12,6 +12,7 @@ binary M-X CIF/
 R-M_CIFs2/
 R-M-X_CIFs2/
 # cif_files/
+cif_files_test/
 debug/
 
 # Distribution / packaging

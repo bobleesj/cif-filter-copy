@@ -75,6 +75,7 @@ def move_files_based_on_tags(script_directory, is_interactive_mode=True):
                 shutil.move(file_path, subfolder_path)
                 print(f"{os.path.basename(file_path)} has been moved to {subfolder_path}")
 
+            f.close()
             print()
 
     folder.save_to_csv_directory(folder_info, df, "tags_log")
