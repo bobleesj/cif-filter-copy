@@ -25,11 +25,13 @@ def preprocess_cif_file_on_label_element(file_path):
         atom_type_symbol = CIF_loop_values[1][i]
         atom_type_from_label = cif_parser.get_atom_type(atom_type_label)
 
-        if atom_type_label != atom_type_from_label:
-            print(f"label {atom_type_label} does not match with symbol {atom_type_symbol}")
+        if atom_type_symbol != atom_type_from_label:
+            print("atom_type_label:", atom_type_label)
+            print("atom_type_symbol:", atom_type_symbol)
+            print("atom_type_from_label:", atom_type_from_label)
 
             '''
-            Case 1. Atom type label in symbolic format
+            Type 1.
 
 
             M1 Th 4 a 0 0 0 0.99
@@ -42,15 +44,15 @@ def preprocess_cif_file_on_label_element(file_path):
             '''
         
             # Check if the last character is a number
-            if atom_type_label[-1].isdigit() and atom_type_label[-2].isalpha():
-                # Replace only the atom type in the label while keeping the rest of the label unchanged
-                # M1 -> Th1
+            if (len(atom_type_label) == 2 and
+                atom_type_label[-1].isdigit() and
+                atom_type_label[-2].isalpha()):
                 new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
                 content = content.replace(atom_type_label, new_label)
                 is_cif_file_updated = True
 
             '''
-            Case 2. Atom type label has a commma
+            Type 2.
             312084.cif
 
             M1A Ge 8 h 0 0.06 0.163 0.500
@@ -63,12 +65,35 @@ def preprocess_cif_file_on_label_element(file_path):
             Pd1B Pd 8 h 0 0.06 0.163 0.500
             Ce1 Ce 4 e 0 0.25 0.547 1
             '''
-
-            if atom_type_label[-1].isalpha() and atom_type_label[-2].isdigit() and atom_type_label[-3].isalpha():
-                print(atom_type_label)
+            
+            if (len(atom_type_label) == 3 and
+                atom_type_label[-1].isalpha() and
+                atom_type_label[-2].isdigit() and
+                atom_type_label[-3].isalpha()):
                 new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
                 content = content.replace(atom_type_label, new_label)
                 is_cif_file_updated = True
+
+        
+            '''
+            Type 3.
+            1603834
+            Sb Sb 24 g 0 0.15596 0.34021 1
+            Os Os 8 c 0.25 0.25 0.25 1
+            R Nd 2 a 0 0 0 1
+
+            to 
+            Sb Sb 24 g 0 0.15596 0.34021 1
+            Os Os 8 c 0.25 0.25 0.25 1
+            Nd Nd 2 a 0 0 0 1
+            '''
+
+            if len(atom_type_label) == 1 and atom_type_label[-1].isalpha():
+                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+                content = content.replace(atom_type_label, new_label)
+                is_cif_file_updated = True
+
+
 
 
     if is_cif_file_updated:
@@ -112,10 +137,10 @@ def move_files_based_on_format_error(script_directory):
     for idx, file_path in enumerate(files, start=1):  # Use enumerate to get the index
         filename = os.path.basename(file_path)
 
-
         try:
             result = cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
             _, compound_formula, _, _ = result
+
             preprocess_cif_file_on_label_element(file_path)
             print(f"Processing {filename} ({idx} out of {total_files})")
 

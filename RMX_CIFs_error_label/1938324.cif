@@ -1,0 +1,203 @@
+##############################################################################
+#                                                                            #
+# Gd-Ru-Sn         # Gd30Ru4.9Sn30.5                               # 1938324 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1938324
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1938324
+_database_code_PDF                       04-020-7590
+
+# Entry summary
+
+_chemical_formula_structural             'Gd~30~ Ru~4.9~ Sn~30.5~'
+_chemical_formula_sum                    'Gd30 Ru4.92 Sn30.54'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Gd~30~Ru~4.9~Sn~30.5~,oP150,58
+_chemical_formula_weight                 8832.8
+
+# Bibliographic data
+
+_publ_section_title
+;
+Structural complexity meets transport and magnetic anisotropy in single crystalline Ln~30~Ru~4~Sn~31~ (Ln= Gd, Dy)
+;
+_journal_coden_ASTM                      JACSAT
+_journal_name_full                       'J. Am. Chem. Soc.'
+_journal_year                            2013
+_journal_volume                          135
+_journal_page_first                      2748
+_journal_page_last                       2758
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Schmitt D.C.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+'Haldolaarachchige N.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Prestigiacomo J.C.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Karki A.B.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Young D.P.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Stadler S.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Jin R.'
+;
+Louisiana State University (LSU)
+Department of Physics and Astronomy
+Baton Rouge
+U.S.A. Louisiana
+;
+'Chan J.Y.'
+;
+Louisiana State University (LSU)
+Department of Chemistry
+Baton Rouge
+U.S.A. Louisiana
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           11.784
+_cell_length_b                           24.717
+_cell_length_c                           11.651
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             3393.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   58
+_space_group_name_H-M_alt                'P n n m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, 1/2-z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, 1/2-y, 1/2+z'
+ 8 'x, y, -z'
+loop_
+ _atom_type_symbol
+ Ru
+ Sn
+ Gd
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Ru01 Ru 8 h 0.01113 0.28813 0.37452 1
+ Sn09 Sn 8 h 0.17358 0.09207 0.23607 1
+ Sn10 Sn 8 h 0.17739 0.34521 0.26436 1
+ Gd08 Gd 8 h 0.1793 0.47369 0.17546 1
+ Gd09 Gd 8 h 0.23377 0.22043 0.23949 1
+ Sn04 Sn 8 h 0.33726 0.42164 0.37453 1
+ Gd10 Gd 8 h 0.42987 0.11553 0.25974 1
+ Gd07 Gd 8 h 0.43894 0.34757 0.18097 1
+ S11' Sn 8 h 0.476 0.2442 0.34 0.23
+ Sn11 Sn 8 h 0.4851 0.2487 0.3451 0.77
+ Sn08 Sn 4 g 0.04035 0.55678 0 1
+ Gd11 Gd 4 g 0.0634 0.1408 0 0.77
+ G11' Gd 4 g 0.0672 0.1252 0 0.23
+ R02' Ru 4 g 0.1317 0.22607 0 0.23
+ Gd01 Gd 4 g 0.14 0.34101 0 1
+ R12' Ru 4 g 0.141 0.6833 0 0.23
+ Sn12 Sn 4 g 0.1451 0.67532 0 0.77
+ Gd03 Gd 4 g 0.26447 0.03065 0 1
+ Gd06 Gd 4 g 0.3279 0.58107 0 1
+ Sn05 Sn 4 g 0.34431 0.26385 0 1
+ Sn03 Sn 4 g 0.35287 0.15066 0 1
+ Sn07 Sn 4 g 0.3797 0.44466 0 1
+ Gd02 Gd 4 g 0.59006 0.1005 0 1
+ Sn06 Sn 4 g 0.60752 0.29273 0 1
+ Gd04 Gd 4 g 0.78306 0.19701 0 1
+ Sn01 Sn 4 f 0 0.5 0.36253 1
+ Gd05 Gd 4 e 0 0 0.26566 1
+ Sn02 Sn 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    black
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            8.64
+_cell_measurement_temperature            296(1)
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            5976
+_diffrn_ambient_temperature              296(1)
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    76592
+_diffrn_reflns_theta_min                 4.11
+_diffrn_reflns_theta_max                 31
+_exptl_absorpt_coefficient_mu            40.872
+_exptl_absorpt_correction_type           semi-empirical
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             183
+_refine_ls_number_reflns                 4762
+_refine_ls_R_factor_gt                   0.0288
+_refine_ls_wR_factor_gt                  0.0605
+
+# End of data set 1938324
+

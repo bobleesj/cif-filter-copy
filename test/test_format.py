@@ -108,21 +108,19 @@ def test_preprocess_cif_file_on_label_element_on_type_1():
             parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
             error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
             assert atom_type_symbol == parsed_atom_type_symbol, error_msg
+            
 
-def test_preprocess_cif_file_on_label_element_on_type_2():
-    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
-
+def run_preprocess_test_on_cif_files(cif_directory):
     # Create a temporary directory to store the copied folder
     temp_dir = tempfile.mkdtemp()
     temp_cif_directory = os.path.join(temp_dir, os.path.basename(cif_directory))
     shutil.copytree(cif_directory, temp_cif_directory)
 
     cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
-    for temp_cif_file_path in cif_file_path_list:   
+    for temp_cif_file_path in cif_file_path_list:
         format.preprocess_cif_file_on_label_element(temp_cif_file_path)
         
-        # Perform your tests on the modified temporary file
-        filename = os.path.basename(temp_cif_file_path)
+        # Perform tests on the modified temporary file
         CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
         CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
         num_element_labels = len(CIF_loop_values[0])
@@ -131,5 +129,20 @@ def test_preprocess_cif_file_on_label_element_on_type_2():
             atom_type_label = CIF_loop_values[0][i]
             atom_type_symbol = CIF_loop_values[1][i]
             parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
-            error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
-            assert atom_type_symbol == parsed_atom_type_symbol, error_msg
+            assert atom_type_symbol == parsed_atom_type_symbol, \
+                   "atom_type_symbol and atom_type_label do not match after preprocessing."
+    
+    # Clean up the temporary directory after tests
+    shutil.rmtree(temp_dir)
+
+def test_preprocess_cif_file_on_label_element_type_1():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_1"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_2():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
+    run_preprocess_test_on_cif_files(cif_directory)
+
+def test_preprocess_cif_file_on_label_element_type_3():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_3"
+    run_preprocess_test_on_cif_files(cif_directory)

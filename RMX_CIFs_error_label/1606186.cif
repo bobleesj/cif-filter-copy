@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Pt-Si-U          # U3Pt12Si4                                     # 1043022 #
+# Pd-Sn-U          # U2Pd2Sn                                       # 1606186 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,120 +18,161 @@
 #                                                                            #
 ##############################################################################
 
-data_1043022
+data_1606186
 _audit_creation_date                     2024-02-25
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      1043022
-_database_code_PDF                       04-024-0468
+#_database_code_PCD                      1606186
+_database_code_PDF                       ?
 
 # Entry summary
 
-_chemical_formula_structural             'U~3~ Pt~12~ Si~4~'
-_chemical_formula_sum                    'Pt11.92 Si3.69 U3'
+_chemical_formula_structural             'U~2~ Pd~2~ Sn'
+_chemical_formula_sum                    'Pd2 Sn U2'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
-_chemical_name_structure_type            U~3~Co~11.66~Ge~4~,hP40,194
-_chemical_formula_weight                 3167.5
+_chemical_name_structure_type            Mo~2~FeB~2~,tP10,127
+_chemical_formula_weight                 807.5
 
 # Bibliographic data
 
 _publ_section_title
 ;
-U~3~Pt~12~Si~4~: Structural and physical properties of a new uranium-platinum-silicon ternary compound
+High-field magnetization of U~2~T~2~X compounds (T= Co, Ni, Rh, Pd, Ir, Pt and X= In, Sn)
 ;
-_journal_coden_ASTM                      SSPOC3
-_journal_name_full                       'Solid State Phenom.'
-_journal_year                            2017
-_journal_volume                          257
-_journal_page_first                      86
-_journal_page_last                       91
+_journal_coden_ASTM                      PHYBE3
+_journal_name_full                       'Phys. B (Amsterdam)'
+_journal_year                            1994
+_journal_volume                          201
+_journal_page_first                      247
+_journal_page_last                       250
 _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Brisset N.'
+'Nakotte H.'
 ;
-National Center for Scientific Research (CNRS)
-Institut des Sciences Chimiques de Rennes (ISCR)
-Rennes
-France
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
 ;
-'Chajewski G.'
+'Seret A.'
 ;
-Polish Academy of Sciences (PAN)
-W. Trzebiatowski Institute of Low Temperature and Structure Research
-Wroclaw
-Poland
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
 ;
-'Pikul A.'
+'Rebizant J.'
 ;
-Polish Academy of Sciences (PAN)
-W. Trzebiatowski Institute of Low Temperature and Structure Research
-Wroclaw
-Poland
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
 ;
-'Tougait O.'
+'Spirlet J.C.'
 ;
-Lille University of Science and Technology (USTL)
-Laboratoire de Catalyse et de Chimie du Solide
-Villeneuve d'Ascq
-France
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
 ;
-'Pasturel M.'
+'Prokes K.'
 ;
-National Center for Scientific Research (CNRS)
-Institut des Sciences Chimiques de Rennes (ISCR)
-Rennes
-France
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'Bruck E.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'Tang N.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'De Boer F.R.'
+;
+Amsterdam University
+Van der Waals-Zeeman Institute (WZI)
+Amsterdam
+Netherlands
+;
+'Svoboda P.'
+;
+Charles University
+Department of Metal Physics
+Prague
+Czech Republic
+;
+'Sechovsky V.'
+;
+Charles University
+Department of Metal Physics
+Prague
+Czech Republic
+;
+'Havela L.'
+;
+Charles University
+Department of Metal Physics
+Prague
+Czech Republic
+;
+'Winand J.M.'
+;
+European Commission Joint Research Center (JRC)
+Institute for Transuranium Elements
+Karlsruhe
+Germany
 ;
 
 # Standardized crystallographic data
 
-_cell_length_a                           8.7267
-_cell_length_b                           8.7267
-_cell_length_c                           9.3385
+_cell_length_a                           7.603
+_cell_length_b                           7.603
+_cell_length_c                           3.785
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
-_cell_angle_gamma                        120
-_cell_volume                             615.9
+_cell_angle_gamma                        90
+_cell_volume                             218.8
 _cell_formula_units_Z                    2
-_space_group_IT_number                   194
-_space_group_name_H-M_alt                'P 63/m m c'
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
  1 'x, y, z'
- 2 '-x+y, -x, 1/2-z'
- 3 '-x+y, -x, z'
- 4 '-x+y, y, 1/2-z'
- 5 '-x+y, y, z'
- 6 '-x, -x+y, -z'
- 7 '-x, -x+y, 1/2+z'
- 8 '-x, -y, -z'
- 9 '-x, -y, 1/2+z'
- 10 '-y, -x, 1/2-z'
- 11 '-y, -x, z'
- 12 '-y, x-y, 1/2-z'
- 13 '-y, x-y, z'
- 14 'x, x-y, 1/2-z'
- 15 'x, x-y, z'
- 16 'x, y, 1/2-z'
- 17 'x-y, -y, -z'
- 18 'x-y, -y, 1/2+z'
- 19 'x-y, x, -z'
- 20 'x-y, x, 1/2+z'
- 21 'y, -x+y, -z'
- 22 'y, -x+y, 1/2+z'
- 23 'y, x, -z'
- 24 'y, x, 1/2+z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
 loop_
  _atom_type_symbol
- Pt
  U
- Si
+ Pd
+ Sn
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -141,37 +182,29 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Pt5 Pt 12 k 0.1597 0.3194 0.5805 1
- U1 U 6 h 0.1929 0.3858 0.25 1
- Pt4 Pt 6 h 0.5544 0.1088 0.25 1
- Si,Pt6A Si 6 g 0.5 0 0 0.95(1)
- Si,Pt6B Pt 6 g 0.5 0 0 0.05(1)
- Pt3 Pt 4 f 0.333333 0.666667 0.0265 1
- Si7 Si 4 e 0 0 0.01 0.42
- Pt2 Pt 2 b 0 0 0.25 0.77
+ U U 4 h 0.1757 0.6757 0.5 1
+ T Pd 4 g 0.6274 0.1274 0 1
+ X Sn 2 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            17.08
+_exptl_crystal_density_diffrn            12.26
 _cell_measurement_temperature            ?
 _cell_measurement_radiation              X-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
-_diffrn_measurement_device_type          ?
+_diffrn_measurement_device_type          Enraf-Nonius
 _diffrn_radiation_type                   X-rays
 _diffrn_reflns_number                    ?
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
-_refine_ls_number_parameters             23
+_refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.171
-_pd_proc_ls_proof_wR_factor              0.199
-_refine_ls_R_I_factor                    0.0377
 
-# End of data set 1043022
+# End of data set 1606186
 

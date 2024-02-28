@@ -1,0 +1,185 @@
+##############################################################################
+#                                                                            #
+# Er-Pt-Si         # Er9Pt25.38Si7.65                              # 1222550 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1222550
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1222550
+_database_code_PDF                       04-016-9157
+
+# Entry summary
+
+_chemical_formula_structural             'Er~9~ Pt~25.38~ Si~7.65~'
+_chemical_formula_sum                    'Er9 Pt25.33 Si7.66'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            Tb~9~Pt~25.38~Si~7.65~,tP130,127
+_chemical_formula_weight                 6671.6
+
+# Bibliographic data
+
+_publ_section_title
+;
+Crystal structures of RPt~3-x~Si~1-y~ (R= Y, Tb, Dy, Ho, Er, Tm, Yb) studied by single crystal X-ray diffraction
+;
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2009
+_journal_volume                          182
+_journal_page_first                      1921
+_journal_page_last                       1928
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Gribanov A.V.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Grytsiv A.V.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Seropegin Y.D.'
+;
+Moscow M.V. Lomonosov State University (MSU)
+Department of Chemistry
+Moscow
+Russia
+;
+'Giester G.'
+;
+Vienna University
+Institut fur Mineralogie und Kristallographie
+Vienna
+Austria
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           18.7209
+_cell_length_b                           18.7209
+_cell_length_c                           4.0701
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1426.5
+_cell_formula_units_Z                    2
+_space_group_IT_number                   127
+_space_group_name_H-M_alt                'P 4/m b m'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '1/2-x, 1/2+y, -z'
+ 3 '1/2-x, 1/2+y, z'
+ 4 '-x, -y, -z'
+ 5 '-x, -y, z'
+ 6 '1/2-y, 1/2-x, -z'
+ 7 '1/2-y, 1/2-x, z'
+ 8 '-y, x, -z'
+ 9 '-y, x, z'
+ 10 '1/2+x, 1/2-y, -z'
+ 11 '1/2+x, 1/2-y, z'
+ 12 'x, y, -z'
+ 13 '1/2+y, 1/2+x, -z'
+ 14 '1/2+y, 1/2+x, z'
+ 15 'y, -x, -z'
+ 16 'y, -x, z'
+loop_
+ _atom_type_symbol
+ Si
+ Pt
+ Er
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Si21 Si 8 k 0.0609 0.5609 0.396 0.24
+ Si1 Si 8 j 0.0033 0.2037 0.5 0.96
+ Pt7 Pt 8 j 0.06589 0.42002 0.5 0.5
+ Pt1 Pt 8 j 0.0953 0.05925 0.5 1
+ Pt2 Pt 8 j 0.13072 0.21411 0.5 1
+ SI11 Si 8 j 0.2286 0.0144 0.5 0.04
+ Pt3 Pt 8 j 0.3031 0.06798 0.5 1
+ Er11 Er 8 i 0.03 0.3376 0 0.08
+ Er1 Er 8 i 0.04269 0.31822 0 0.92
+ Pt4 Pt 8 i 0.04317 0.14987 0 1
+ Er2 Er 8 i 0.20321 0.12523 0 1
+ SiT5A Si 4 h 0.06226 0.56226 0.5 0.34996
+ PtT5B Pt 4 h 0.06226 0.56226 0.5 0.17004
+ Pt6 Pt 4 h 0.21425 0.71425 0.5 1
+ Si3 Si 4 h 0.66189 0.16189 0.5 1
+ Pt8 Pt 4 g 0.01096 0.51096 0 0.33
+ Pt81 Pt 4 g 0.0286 0.5286 0 0.17
+ Pt9 Pt 4 g 0.0618 0.5618 0 0.212
+ PtX Pt 4 g 0.1239 0.6239 0 0.28
+ Pt10 Pt 4 g 0.1345 0.6345 0 0.45
+ PtX1 Pt 4 g 0.148 0.648 0 0.052
+ Pt11 Pt 4 g 0.71122 0.21122 0 1
+ Er3 Er 2 a 0 0 0 1
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            15.53
+_cell_measurement_temperature            298
+_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_wavelength             0.71073
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              298
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          'Nonius KAPPA'
+_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_wavelength             0.71073
+_diffrn_reflns_number                    6577
+_diffrn_reflns_theta_min                 2.18
+_diffrn_reflns_theta_max                 36.24
+_exptl_absorpt_coefficient_mu            148.449
+_exptl_absorpt_correction_type           no
+_computing_structure_solution            'direct methods'
+_refine_ls_number_parameters             99
+_refine_ls_number_reflns                 1602
+_refine_ls_R_factor_gt                   0.031
+_refine_ls_wR_factor_gt                  0.067
+
+# End of data set 1222550
+

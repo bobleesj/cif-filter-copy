@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Ce-Ge-Pd         # CePdGe                                        #  312084 #
+# Co-Sb-Tb         # Tb5CoSb2                                      # 1324482 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,106 +18,83 @@
 #                                                                            #
 ##############################################################################
 
-data_312084
+data_1324482
 _audit_creation_date                     2024-02-24
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      312084
-_database_code_PDF                       04-002-1529
+#_database_code_PCD                      1324482
+_database_code_PDF                       04-015-9445
 
 # Entry summary
 
-_chemical_formula_structural             'Ce Pd Ge'
-_chemical_formula_sum                    'Ce Ge Pd'
+_chemical_formula_structural             'Tb~5~ Co Sb~2~'
+_chemical_formula_sum                    'Co Sb2 Tb5'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
-_chemical_name_structure_type            KHg~2~,oI12,74
-_chemical_formula_weight                 319.1
+_chemical_name_structure_type            Y~2~HfS~5~,oP32,62
+_chemical_formula_weight                 1097.1
 
 # Bibliographic data
 
 _publ_section_title
-'Magnetic properties of RPdGe ternary compounds'                              
-_journal_coden_ASTM                      JMMMDC
-_journal_name_full                       'J. Magn. Magn. Mater.'
-_journal_year                            1994
-_journal_volume                          131
-_journal_page_first                      139
-_journal_page_last                       147
+;
+On crystal structures of the R~5~CoSb~2~ ternary phases (R= Gd, Tb, Dy, Ho, Er)
+;
+_journal_coden_ASTM                      JALCEU
+_journal_name_full                       'J. Alloys Compd.'
+_journal_year                            2008
+_journal_volume                          450
+_journal_page_first                      272
+_journal_page_last                       275
 _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Kotsanidis P.A.'
+'Verbovytsky Y.V.'
 ;
-Thrace Democritus University
-Department of Electrical Engineering
-Xanthi
-Greece
+Lviv Ivan Franko National University
+Department of Inorganic Chemistry
+Lviv
+Ukraine
 ;
-'Yakinthos J.K.'
+'Latka K.'
 ;
-Thrace Democritus University
-Department of Electrical Engineering
-Xanthi
-Greece
-;
-'Roudaut E.'
-;
-Atomic Energy Commission (CEA)
-Departement de Recherche Fondamentale sur la Matiere Condensee (DRFMC)
-Grenoble
-France
-;
-'Gamari Seale H.'
-;
-National Center of Scientific Research "Demokritos" (NRCPS)
-Institute of Materials Science (IMS)
-Athens-Agia Paraskevi
-Greece
+Jagiellonian University
+M. Smoluchowski Institute of Physics
+Cracow
+Poland
 ;
 
 # Standardized crystallographic data
 
-_cell_length_a                           4.487
-_cell_length_b                           7.305
-_cell_length_c                           7.679
+_cell_length_a                           12.0465
+_cell_length_b                           8.9137
+_cell_length_c                           7.8683
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             251.7
+_cell_volume                             844.89
 _cell_formula_units_Z                    4
-_space_group_IT_number                   74
-_space_group_name_H-M_alt                'I m m a'
+_space_group_IT_number                   62
+_space_group_name_H-M_alt                'P n m a'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
  1 'x, y, z'
- 2 '-x, 1/2-y, z'
- 3 '-x, -y, -z'
- 4 '-x, 1/2+y, -z'
- 5 '-x, y, z'
- 6 'x, 1/2-y, z'
- 7 'x, -y, -z'
- 8 'x, 1/2+y, -z'
- 9 '1/2+x, 1/2+y, 1/2+z'
- 10 '1/2-x, 1-y, 1/2+z'
- 11 '1/2-x, 1/2-y, 1/2-z'
- 12 '1/2-x, 1+y, 1/2-z'
- 13 '1/2-x, 1/2+y, 1/2+z'
- 14 '1/2+x, 1-y, 1/2+z'
- 15 '1/2+x, 1/2-y, 1/2-z'
- 16 '1/2+x, 1+y, 1/2-z'
-
-# Atomic positions taken from type-defining entry
-
+ 2 '1/2-x, -y, 1/2+z'
+ 3 '1/2-x, 1/2+y, 1/2+z'
+ 4 '-x, -y, -z'
+ 5 '-x, 1/2+y, -z'
+ 6 '1/2+x, 1/2-y, 1/2-z'
+ 7 '1/2+x, y, 1/2-z'
+ 8 'x, 1/2-y, z'
 loop_
  _atom_type_symbol
- Ge
- Pd
- Ce
+ Tb
+ Sb
+ Co
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -127,29 +104,39 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- M1A Ge 8 h 0 0.06 0.163 0.500
- M1B Pd 8 h 0 0.06 0.163 0.500
- Ce1 Ce 4 e 0 0.25 0.547 1
+ Tb4 Tb 8 d 0.066 0.5416 0.1815 1
+ X Sb 8 d 0.3283 -0.0072 0.0732 1
+ Tb2 Tb 4 c 0.0006 0.25 0.4622 1
+ T Co 4 c 0.013 0.25 0.0825 1
+ Tb3 Tb 4 c 0.2017 0.25 0.8693 1
+ Tb1 Tb 4 c 0.2882 0.25 0.3419 1
 
 
-_exptl_crystal_colour                    ?
+_exptl_crystal_colour                    gray
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            8.42
+_exptl_crystal_density_diffrn            8.62
 _cell_measurement_temperature            ?
 _cell_measurement_radiation              'X-rays, Cu Ka'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
-_diffrn_measurement_device_type          ?
-_diffrn_radiation_type                   ?
+_diffrn_measurement_device_type          'Siemens D500'
+_diffrn_radiation_type                   'X-rays, Cu Ka'
 _diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 7.5
+_diffrn_reflns_theta_max                 60
+_pd_proc_2theta_range_min                15
+_pd_proc_2theta_range_max                120
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?
-_computing_structure_solution            ?
+_computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    0.0604
 
-# End of data set 312084
+# End of data set 1324482
 

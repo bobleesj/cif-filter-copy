@@ -1,0 +1,212 @@
+##############################################################################
+#                                                                            #
+# Co-Sb-Yb         # Yb0.1Co4Sb12                                  # 1020250 #
+#                                                                            #
+##############################################################################
+#                                                                            #
+#                           Pearson's Crystal Data                           #
+#      Crystal Structure Database for Inorganic Compounds (on DVD)           #
+#                              Release 2023/24                               #
+#                  Editors: Pierre Villars and Karin Cenzual                 #
+#                                                                            #
+#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
+# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#                   All rights reserved. Version 2023.07                     #
+#                                                                            #
+#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Hunter College - City University of New York                             #
+#                                                                            #
+##############################################################################
+
+data_1020250
+_audit_creation_date                     2024-02-24
+_audit_creation_method
+;
+Pearson's Crystal Data browser
+;
+#_database_code_PCD                      1020250
+_database_code_PDF                       04-018-8252
+
+# Entry summary
+
+_chemical_formula_structural             'Yb~0.2~ Co~4~ Sb~12~'
+_chemical_formula_sum                    'Co4 Sb12 Yb0.19'
+_chemical_name_mineral                   ?
+_chemical_compound_source                ?
+_chemical_name_structure_type            LaFe~4~P~12~,cI34,204
+_chemical_formula_weight                 1731.3
+
+# Bibliographic data
+
+_publ_section_title
+'Physical properties of skutterudites Yb~x~M~4~Sb~12~, M= Fe, Co, Rh, Ir'     
+_journal_coden_ASTM                      EPJBFY
+_journal_name_full                       'Eur. Phys. J. B'
+_journal_year                            2000
+_journal_volume                          14
+_journal_page_first                      483
+_journal_page_last                       493
+_journal_language                        English
+loop_
+ _publ_author_name
+ _publ_author_address
+'Bauer E.'
+;
+Vienna University of Technology
+Institut fur Experimentalphysik
+Vienna
+Austria
+;
+'Galatanu A.'
+;
+Vienna University of Technology
+Institut fur Experimentalphysik
+Vienna
+Austria
+;
+'Michor H.'
+;
+Vienna University of Technology
+Institut fur Experimentalphysik
+Vienna
+Austria
+;
+'Hilscher G.'
+;
+Vienna University of Technology
+Institut fur Experimentalphysik
+Vienna
+Austria
+;
+'Rogl P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Boulet P.'
+;
+Vienna University
+Institut fur Physikalische Chemie
+Vienna
+Austria
+;
+'Noel H.'
+;
+Rennes I University
+Laboratoire de Chimie du Solide et Inorganique Moleculaire (LCSIM)
+Rennes
+France
+;
+
+# Standardized crystallographic data
+
+_cell_length_a                           9.0488
+_cell_length_b                           9.0488
+_cell_length_c                           9.0488
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             740.9
+_cell_formula_units_Z                    2
+_space_group_IT_number                   204
+_space_group_name_H-M_alt                'I m -3'
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1 'x, y, z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 '-y, -z, -x'
+ 7 '-y, -z, x'
+ 8 '-y, z, -x'
+ 9 '-y, z, x'
+ 10 '-z, -x, -y'
+ 11 '-z, -x, y'
+ 12 '-z, x, -y'
+ 13 '-z, x, y'
+ 14 'x, -y, -z'
+ 15 'x, -y, z'
+ 16 'x, y, -z'
+ 17 'y, -z, -x'
+ 18 'y, -z, x'
+ 19 'y, z, -x'
+ 20 'y, z, x'
+ 21 'z, -x, -y'
+ 22 'z, -x, y'
+ 23 'z, x, -y'
+ 24 'z, x, y'
+ 25 '1/2+x, 1/2+y, 1/2+z'
+ 26 '1/2-x, 1/2-y, 1/2-z'
+ 27 '1/2-x, 1/2-y, 1/2+z'
+ 28 '1/2-x, 1/2+y, 1/2-z'
+ 29 '1/2-x, 1/2+y, 1/2+z'
+ 30 '1/2-y, 1/2-z, 1/2-x'
+ 31 '1/2-y, 1/2-z, 1/2+x'
+ 32 '1/2-y, 1/2+z, 1/2-x'
+ 33 '1/2-y, 1/2+z, 1/2+x'
+ 34 '1/2-z, 1/2-x, 1/2-y'
+ 35 '1/2-z, 1/2-x, 1/2+y'
+ 36 '1/2-z, 1/2+x, 1/2-y'
+ 37 '1/2-z, 1/2+x, 1/2+y'
+ 38 '1/2+x, 1/2-y, 1/2-z'
+ 39 '1/2+x, 1/2-y, 1/2+z'
+ 40 '1/2+x, 1/2+y, 1/2-z'
+ 41 '1/2+y, 1/2-z, 1/2-x'
+ 42 '1/2+y, 1/2-z, 1/2+x'
+ 43 '1/2+y, 1/2+z, 1/2-x'
+ 44 '1/2+y, 1/2+z, 1/2+x'
+ 45 '1/2+z, 1/2-x, 1/2-y'
+ 46 '1/2+z, 1/2-x, 1/2+y'
+ 47 '1/2+z, 1/2+x, 1/2-y'
+ 48 '1/2+z, 1/2+x, 1/2+y'
+loop_
+ _atom_type_symbol
+ Sb
+ Co
+ Yb
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+ Sb Sb 24 g 0 0.15729 0.33509 1
+ M Co 8 c 0.25 0.25 0.25 1
+ Yb Yb 2 a 0 0 0 0.193
+
+
+_exptl_crystal_colour                    ?
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_diffrn            7.76
+_cell_measurement_temperature            ?
+_cell_measurement_radiation              'X-rays, Cu Ka1'
+_cell_measurement_reflns_used            ?
+_diffrn_ambient_temperature              ?
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type          ?
+_diffrn_radiation_type                   'X-rays, Cu Ka1'
+_diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 4
+_diffrn_reflns_theta_max                 50
+_pd_proc_2theta_range_min                8
+_pd_proc_2theta_range_max                100
+_exptl_absorpt_coefficient_mu            ?
+_exptl_absorpt_correction_type           ?
+_computing_structure_solution            'starting values from the literature'
+_refine_ls_number_parameters             30
+_refine_ls_number_reflns                 81
+_refine_ls_R_factor_gt                   0.088
+_refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               0.265
+_pd_proc_ls_proof_wR_factor              0.207
+_refine_ls_R_I_factor                    0.106
+
+# End of data set 1020250
+
