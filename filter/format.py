@@ -24,29 +24,52 @@ def preprocess_cif_file_on_label_element(file_path):
         atom_type_label = CIF_loop_values[0][i]
         atom_type_symbol = CIF_loop_values[1][i]
         atom_type_from_label = cif_parser.get_atom_type(atom_type_label)
-        '''
-        Case 1. Atom type label in symbolic format
 
-
-        M1 Th 4 a 0 0 0 0.99
-        M2 Ir 4 a 0 0 0 0.01
-
-        to
-         
-        Th1 Th 4 a 0 0 0 0.99
-        Ir2 Ir 4 a 0 0 0 0.01
-        '''
-        
         if atom_type_label != atom_type_from_label:
-            print(f"label {atom_type_label} does not match with symobl {atom_type_symbol}")
+            print(f"label {atom_type_label} does not match with symbol {atom_type_symbol}")
+
+            '''
+            Case 1. Atom type label in symbolic format
+
+
+            M1 Th 4 a 0 0 0 0.99
+            M2 Ir 4 a 0 0 0 0.01
+
+            to
             
+            Th1 Th 4 a 0 0 0 0.99
+            Ir2 Ir 4 a 0 0 0 0.01
+            '''
+        
             # Check if the last character is a number
-            if atom_type_label[-1].isdigit():
+            if atom_type_label[-1].isdigit() and atom_type_label[-2].isalpha():
                 # Replace only the atom type in the label while keeping the rest of the label unchanged
                 # M1 -> Th1
                 new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
                 content = content.replace(atom_type_label, new_label)
                 is_cif_file_updated = True
+
+            '''
+            Case 2. Atom type label has a commma
+            312084.cif
+
+            M1A Ge 8 h 0 0.06 0.163 0.500
+            M1B Pd 8 h 0 0.06 0.163 0.500
+            Ce1 Ce 4 e 0 0.25 0.547 1
+
+            to 
+            
+            Ge1A Ge 8 h 0 0.06 0.163 0.500
+            Pd1B Pd 8 h 0 0.06 0.163 0.500
+            Ce1 Ce 4 e 0 0.25 0.547 1
+            '''
+
+            if atom_type_label[-1].isalpha() and atom_type_label[-2].isdigit() and atom_type_label[-3].isalpha():
+                print(atom_type_label)
+                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+                content = content.replace(atom_type_label, new_label)
+                is_cif_file_updated = True
+
 
     if is_cif_file_updated:
         with open(file_path, 'w') as f:

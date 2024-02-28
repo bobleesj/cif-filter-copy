@@ -84,9 +84,8 @@ def test_good_cif_files():
             assert False, f"An unexpected error occurred for {cif_file_path}: {str(e)}"
 
 
-def test_preprocess_cif_file_on_label_element():
-    print("let's try")
-    cif_directory = "test/format_label_cif_files/symbolic_atom_label"
+def test_preprocess_cif_file_on_label_element_on_type_1():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_1"
 
     # Create a temporary directory to store the copied folder
     temp_dir = tempfile.mkdtemp()
@@ -109,10 +108,28 @@ def test_preprocess_cif_file_on_label_element():
             parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
             error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
             assert atom_type_symbol == parsed_atom_type_symbol, error_msg
-    
-'''
-    # Place your test code here, operating on 'copied_cif_directory' and its files
-    
-    # Cleanup: Remove the copied directory after the test
-    shutil.rmtree(temp_dir)
-    '''
+
+def test_preprocess_cif_file_on_label_element_on_type_2():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
+
+    # Create a temporary directory to store the copied folder
+    temp_dir = tempfile.mkdtemp()
+    temp_cif_directory = os.path.join(temp_dir, os.path.basename(cif_directory))
+    shutil.copytree(cif_directory, temp_cif_directory)
+
+    cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
+    for temp_cif_file_path in cif_file_path_list:   
+        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        
+        # Perform your tests on the modified temporary file
+        filename = os.path.basename(temp_cif_file_path)
+        CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
+        CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
+        num_element_labels = len(CIF_loop_values[0])
+
+        for i in range(num_element_labels):
+            atom_type_label = CIF_loop_values[0][i]
+            atom_type_symbol = CIF_loop_values[1][i]
+            parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
+            error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
+            assert atom_type_symbol == parsed_atom_type_symbol, error_msg
