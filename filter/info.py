@@ -62,6 +62,9 @@ def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
         sorted_atomic_pairs = sorted(atomic_pair_list, key=lambda x: x['distance'])
         min_distance = sorted_atomic_pairs[0]['distance']
 
+        print(sorted_atomic_pairs)
+
+
     return num_of_atoms, min_distance
     
 
