@@ -47,35 +47,39 @@ def move_files_based_on_tags(script_directory, is_interactive_mode=True):
         filename = os.path.basename(file_path)
         print(f"Processing {filename}, ({idx}/{total_files})")
 
-        # Extracts the compound name and tag from the provided CIF file path.
+        # Initialize variables outside of the with statement
+        compound_formula = None
+        tags = None
+        subfolder_path = None
+
+        # Open and read the file
         with open(file_path, 'r') as f:
             f.readline()  # First line
             f.readline()  # Second line
             third_line = f.readline().strip()  # Third line
             third_line = third_line.replace(",", "")
-
             third_line_parts = [part.strip() for part in third_line.split("#") if part.strip()]
 
+        # File is now closed after the with block
+        if third_line_parts:
             compound_formula, tags = extract_formula_and_tag(third_line_parts[1])
             print("Formula:", compound_formula, "Tags:", tags)
 
-            if tags:
-                subfolder_path = os.path.join(folder_info, f"{folder_name}_{tags}")
-                new_file_path = os.path.join(subfolder_path, filename)
-                new_row_df = pd.DataFrame({'Filename': [filename], 'Formula': [compound_formula], 'Tag(s)': [tags]})
-                df = pd.concat([df, new_row_df], ignore_index=True)
+        if tags:
+            subfolder_path = os.path.join(folder_info, f"{folder_name}_{tags}")
+            new_file_path = os.path.join(subfolder_path, filename)
+            new_row_df = pd.DataFrame({'Filename': [filename], 'Formula': [compound_formula], 'Tag(s)': [tags]})
+            df = pd.concat([df, new_row_df], ignore_index=True)
+            
+            if not os.path.exists(subfolder_path):
+                os.makedirs(subfolder_path)
 
-                if not os.path.exists(subfolder_path):
-                    os.makedirs(subfolder_path)
+            # Check if the file exists and delete it to avoid the PermissionError
+            if os.path.exists(new_file_path):
+                os.remove(new_file_path)
 
-                # Delete if file already exists at destination
-                if os.path.exists(new_file_path):
-                    os.remove(new_file_path)
-
-                shutil.move(file_path, subfolder_path)
-                print(f"{os.path.basename(file_path)} has been moved to {subfolder_path}")
-
-            f.close()
-            print()
+            # Now move the file after it's been closed
+            shutil.move(file_path, subfolder_path)
+            print(f"{os.path.basename(file_path)} has been moved to {subfolder_path}")
 
     folder.save_to_csv_directory(folder_info, df, "tags_log")
