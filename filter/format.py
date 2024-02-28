@@ -6,8 +6,9 @@ import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 
 
-def preprocess_cif_file(file_path, compound_formula):
-    update_cif_file = False
+
+def preprocess_cif_file_on_label_element(file_path):
+    is_cif_file_updated = False
 
     with open(file_path, 'r') as f:
         content = f.read()
@@ -19,34 +20,35 @@ def preprocess_cif_file(file_path, compound_formula):
     if num_element_labels < 2:
         raise RuntimeError("Wrong number of values in the loop")
 
-
     for i in range(num_element_labels):
-        label = CIF_loop_values[0][i]
-        element = CIF_loop_values[1][i]
-        original_label = label
+        atom_type_label = CIF_loop_values[0][i]
+        atom_type_symbol = CIF_loop_values[1][i]
+        atom_type_from_label = cif_parser.get_atom_type(atom_type_label)
+        '''
+        Case 1. Atom type label in symbolic format
 
-        # Skip if label contains a comma
-        if "," in label:
-            continue
+
+        M1 Th 4 a 0 0 0 0.99
+        M2 Ir 4 a 0 0 0 0.01
+
+        to
+         
+        Th1 Th 4 a 0 0 0 0.99
+        Ir2 Ir 4 a 0 0 0 0.01
+        '''
         
-        # Check whether get_atom_type gives error
-        atom_type_from_label = cif_parser.get_atom_type(label)
+        if atom_type_label != atom_type_from_label:
+            print(f"label {atom_type_label} does not match with symobl {atom_type_symbol}")
+            
+            # Check if the last character is a number
+            if atom_type_label[-1].isdigit():
+                # Replace only the atom type in the label while keeping the rest of the label unchanged
+                # M1 -> Th1
+                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+                content = content.replace(atom_type_label, new_label)
+                is_cif_file_updated = True
 
-        if label[0].isdigit():
-            label = label[1:]
-            continue
-
-        if atom_type_from_label != element:
-            print("Atom in the label and the element do not match")
-            if label[0].isdigit():
-                label = label[1:]
-
-            # Replace only the atom type in the label while keeping the rest of the label unchanged
-            new_label = label.replace(atom_type_from_label, element)
-            content = content.replace(original_label, new_label)
-            update_cif_file = True
-
-    if update_cif_file:
+    if is_cif_file_updated:
         with open(file_path, 'w') as f:
             f.write(content)
             
@@ -91,7 +93,7 @@ def move_files_based_on_format_error(script_directory):
         try:
             result = cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
             _, compound_formula, _, _ = result
-            preprocess_cif_file(file_path, compound_formula)
+            preprocess_cif_file_on_label_element(file_path)
             print(f"Processing {filename} ({idx} out of {total_files})")
 
             CIF_block = cif_parser.get_CIF_block(file_path)

@@ -5,7 +5,9 @@ import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import filter.format as format
 from util.folder import get_cif_file_path_list_from_directory
-
+import shutil
+import util.folder as folder
+import tempfile
 
 def preprocess_supercell_operation(file_path):
     """
@@ -15,9 +17,10 @@ def preprocess_supercell_operation(file_path):
     """
     result = cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
     _, compound_formula, _, _ = result
-    format.preprocess_cif_file(file_path, compound_formula)
+    format.preprocess_cif_file_on_label_element(file_path)
     CIF_block = cif_parser.get_CIF_block(file_path)
     CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
+    print(CIF_loop_values)
     all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
     _, _, _, = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
 
@@ -72,7 +75,7 @@ def test_good_cif_files():
     This function ensures the preprocessing operation can handle valid CIF files as expected.
     """
 
-    good_files_dir = "test/good_cif_files"
+    good_files_dir = "test/good_cif_files_test"
     cif_file_path_list = get_cif_file_path_list_from_directory(good_files_dir)
     for cif_file_path in cif_file_path_list:
         try:
@@ -80,3 +83,36 @@ def test_good_cif_files():
         except Exception as e:
             assert False, f"An unexpected error occurred for {cif_file_path}: {str(e)}"
 
+
+def test_preprocess_cif_file_on_label_element():
+    print("let's try")
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label"
+
+    # Create a temporary directory to store the copied folder
+    temp_dir = tempfile.mkdtemp()
+    temp_cif_directory = os.path.join(temp_dir, os.path.basename(cif_directory))
+    shutil.copytree(cif_directory, temp_cif_directory)
+
+    cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
+    for temp_cif_file_path in cif_file_path_list:   
+        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        
+        # Perform your tests on the modified temporary file
+        filename = os.path.basename(temp_cif_file_path)
+        CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
+        CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
+        num_element_labels = len(CIF_loop_values[0])
+
+        for i in range(num_element_labels):
+            atom_type_label = CIF_loop_values[0][i]
+            atom_type_symbol = CIF_loop_values[1][i]
+            parsed_atom_type_symbol = cif_parser.get_atom_type(atom_type_label)
+            error_msg = "atom_type_symbol and atom_type_label do not match after preprocessing."
+            assert atom_type_symbol == parsed_atom_type_symbol, error_msg
+    
+'''
+    # Place your test code here, operating on 'copied_cif_directory' and its files
+    
+    # Cleanup: Remove the copied directory after the test
+    shutil.rmtree(temp_dir)
+    '''

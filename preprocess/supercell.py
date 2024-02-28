@@ -87,6 +87,7 @@ def get_points_and_labels(all_coords_list, loop_values):
     all_points = []
     unique_labels = []
     unique_atoms_tuple = []
+    
     for i, all_coords in enumerate(all_coords_list):
         points = np.array([list(map(float, coord[:-1])) for coord in all_coords])
         atom_site_label = loop_values[0][i]
