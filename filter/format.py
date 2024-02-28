@@ -34,18 +34,14 @@ def preprocess_cif_file_on_label_element(file_path):
         atom_type_from_label = cif_parser.get_atom_type(atom_type_label)
 
         if atom_type_symbol != atom_type_from_label:
+            # print("atom_type_label", atom_type_label)
+            # print("atom_type_symbol", atom_type_symbol)
+            # print("atom_type_from_label", atom_type_from_label)
 
             '''
             Type 1.
             Ex) test/format_label_cif_files/symbolic_atom_label_type_1/250165.cif
-
-            M1 Th 4 a 0 0 0 0.99
-            M2 Ir 4 a 0 0 0 0.01
-
-            to
-            
-            Th1 Th 4 a 0 0 0 0.99
-            Ir2 Ir 4 a 0 0 0 0.01
+            M1 Th 4 a 0 0 0 0.99 -> Th1 Th 4 a 0 0 0 0.99
             '''
             if (len(atom_type_label) == 2 and
                 atom_type_label[-1].isdigit() and
@@ -58,17 +54,8 @@ def preprocess_cif_file_on_label_element(file_path):
         
             '''
             Type 2.
-            Ex) test/format_label_cif_files/symbolic_atom_label_type_2/312084.cif
-
-            M1A Ge 8 h 0 0.06 0.163 0.500
-            M1B Pd 8 h 0 0.06 0.163 0.500
-            Ce1 Ce 4 e 0 0.25 0.547 1
-
-            to 
-            
-            Ge1A Ge 8 h 0 0.06 0.163 0.500
-            Pd1B Pd 8 h 0 0.06 0.163 0.500
-            Ce1 Ce 4 e 0 0.25 0.547 1
+            Ex) 312084.cif
+            M1A Ge 8 h 0 0.06 0.163 0.500 -> Ge1A Ge 8 h 0 0.06 0.163 0.50
             '''
         
             if (len(atom_type_label) == 3 and
@@ -81,17 +68,8 @@ def preprocess_cif_file_on_label_element(file_path):
 
             '''
             Type 3.
-            Ex) test/format_label_cif_files/symbolic_atom_label_type_3/1603834.cif
-
-            Sb Sb 24 g 0 0.15596 0.34021 1
-            Os Os 8 c 0.25 0.25 0.25 1
-            R Nd 2 a 0 0 0 1
-
-            to 
-
-            Sb Sb 24 g 0 0.15596 0.34021 1
-            Os Os 8 c 0.25 0.25 0.25 1
-            Nd Nd 2 a 0 0 0 1
+            Ex)1603834.cif
+            R Nd 2 a 0 0 0 1 -> Nd Nd 2 a 0 0 0 1
             '''
 
             if len(atom_type_label) == 1 and atom_type_label[-1].isalpha():
@@ -99,27 +77,57 @@ def preprocess_cif_file_on_label_element(file_path):
                 line = line.replace(atom_type_label, new_label)
                 is_cif_file_updated = True
 
+
             '''
             Type 4.
-            Ex) test/format_label_cif_files/symbolic_atom_label_type_4/1711694.cif
+            Ex) 1711694.cif
+            Ln Gd 2 a 0 0 0.0 1 -> Gd Gd 2 a 0 0 0.0 1
+            '''
+            if len(atom_type_label) == 2 and atom_type_label[-1].isalpha() and atom_type_label[-2].isalpha():
 
-            Sb Sb 2 b 0.333333 0.666667 0.2751 1
-            Pd Pd 2 b 0.333333 0.666667 0.6801 1
-            Ln Gd 2 a 0 0 0.0 1
 
-            to
+                if atom_type_label.lower() not in atom_type_symbol.lower():
+                    print(atom_type_label.lower(), atom_type_symbol.lower())
+                    # Do not use get_atom_type since replace the entire label
+                    new_label = atom_type_label.replace(atom_type_label, atom_type_symbol)
+                    line = line.replace(atom_type_label, new_label)
+                    is_cif_file_updated = True
+                
+            
+            '''
+            Type 5. 
+            Ex) 1049941.cif
+            PR1 Pr 4 j 0.02076 0.5 0.30929 1 -> Pr1 Pr 4 j 0.02076 0.5 0.30929 1
+            '''
+        
+            if (len(atom_type_label) == 3 and
+                atom_type_label[0].isalpha() and
+                atom_type_label[1].isalpha() and
+                atom_type_label[2].isdigit()):
+                first_two_label_characters = atom_type_label[0] + atom_type_label[1]
+                if first_two_label_characters.lower() == atom_type_symbol.lower():
+                    modified_label = atom_type_label[0] + atom_type_label[1].lower() + atom_type_label[2]
+                    line = line.replace(atom_type_label, modified_label)
+                    is_cif_file_updated = True
 
-            Sb Sb 2 b 0.333333 0.666667 0.2751 1
-            Pd Pd 2 b 0.333333 0.666667 0.6801 1
-            Gd Gd 2 a 0 0 0.0 1
 
             '''
+            Type 6. 
+            Ex) 1049941.cif
+            NG1A Ni 4 j 0 0.172 0.5 0.88(1) -> Ni1A Ni 4 j 0 0.172 0.5 0.88(1)
+            '''
+            if (len(atom_type_label) == 4 and
+                atom_type_label[0].isalpha() and
+                atom_type_label[1].isalpha() and
+                atom_type_label[2].isdigit() and
+                atom_type_label[3].isalpha()):
+                first_two_label_characters = atom_type_label[0] + atom_type_label[1]
+                if first_two_label_characters.lower() != atom_type_symbol.lower():
+                    modified_label = atom_type_symbol + atom_type_label[2] + atom_type_label[3]
+                    line = line.replace(atom_type_label, modified_label)
+                    is_cif_file_updated = True
             
-            if len(atom_type_label) == 2 and atom_type_label[-1].isalpha() and atom_type_label[-2].isalpha():
-                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
-                line = line.replace(atom_type_label, new_label)
-                is_cif_file_updated = True
-        
+
         modified_lines.append(line + '\n')
 
     if is_cif_file_updated:
@@ -133,6 +141,7 @@ def preprocess_cif_file_on_label_element(file_path):
         # Write the modified content back to the file
         with open(file_path, 'w') as f:
             f.writelines(original_lines)
+
 
 def move_files_based_on_format_error(script_directory):
 
