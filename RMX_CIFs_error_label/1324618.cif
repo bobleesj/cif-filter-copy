@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Prelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -39,7 +39,7 @@ _chemical_formula_weight                 336.2
 # Bibliographic data
 
 _publ_section_title
-'Magnetic and electronic properties of RCo~x~Ge~2~ (R= Pr, Nd) compounds'     
+'Magnetic and electronic properties of PrCo~x~Ge~2~ (Pr= Pr, Nd) compounds'     
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
 _journal_year                            2008
@@ -67,7 +67,7 @@ Poland
 'Kaczorowski D.'
 ;
 Polish Academy of Sciences (PAN)
-Trzebiatowski W. Institute of Low Temperature and Structure Research
+Trzebiatowski W. Institute of Low Temperature and Structure Presearch
 Wroclaw
 Poland
 ;
@@ -147,7 +147,7 @@ loop_
  _atom_site_occupancy
  Ge1 Ge 4 c 0 0.0431 0.25 1
  Co Co 4 c 0 0.1886 0.25 0.85
- R Pr 4 c 0 0.3913 0.25 1
+ Pr Pr 4 c 0 0.3913 0.25 1
  Ge2 Ge 4 c 0 0.7499 0.25 1
 
 
@@ -163,7 +163,7 @@ _diffrn_ambient_temperature              1.5
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type
 ;
-Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BER II reactor, E6
+Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BEPr II reactor, E6
 ;
 _diffrn_radiation_type                   neutrons
 _diffrn_radiation_wavelength             2.444
@@ -173,11 +173,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   0.064
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               ?
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    0.076
+_refine_ls_Pr_factor_gt                   0.064
+_refine_ls_wPr_factor_gt                  ?
+_pd_proc_ls_proof_Pr_factor               ?
+_pd_proc_ls_proof_wPr_factor              ?
+_refine_ls_Pr_I_factor                    0.076
 
 # End of data set 1324618
 

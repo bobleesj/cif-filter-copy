@@ -1,2 +1,6 @@
 filename,error_message
-/Users/imac/Documents/GitHub/cif-filter-copy/cif_files_test/462141.cif,object of type 'bool' has no len()
+/Users/imac/Documents/GitHub/cif-filter-copy/cif_files_test/1633288.cif,"find(): incompatible function arguments. The following argument types are supported:
+    1. (self: gemmi.cif.Block, prefix: str, tags: List[str]) -> gemmi.cif.Table
+    2. (self: gemmi.cif.Block, tags: List[str]) -> gemmi.cif.Table
+
+Invoked with: <gemmi.cif.Block 1633288>, '_atom_site.label'"

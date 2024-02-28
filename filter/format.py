@@ -32,7 +32,7 @@ def preprocess_cif_file_on_label_element(file_path):
 
             '''
             Type 1.
-
+            Ex) test/format_label_cif_files/symbolic_atom_label_type_1/250165.cif
 
             M1 Th 4 a 0 0 0 0.99
             M2 Ir 4 a 0 0 0 0.01
@@ -43,57 +43,75 @@ def preprocess_cif_file_on_label_element(file_path):
             Ir2 Ir 4 a 0 0 0 0.01
             '''
         
-            # Check if the last character is a number
-            if (len(atom_type_label) == 2 and
-                atom_type_label[-1].isdigit() and
-                atom_type_label[-2].isalpha()):
-                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
-                content = content.replace(atom_type_label, new_label)
-                is_cif_file_updated = True
+            # # Check if the last character is a number
+            # if (len(atom_type_label) == 2 and
+            #     atom_type_label[-1].isdigit() and
+            #     atom_type_label[-2].isalpha()):
+            #     new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+            #     content = content.replace(atom_type_label, new_label)
+            #     is_cif_file_updated = True
 
-            '''
-            Type 2.
-            312084.cif
+            # '''
+            # Type 2.
+            # Ex) test/format_label_cif_files/symbolic_atom_label_type_2/312084.cif
 
-            M1A Ge 8 h 0 0.06 0.163 0.500
-            M1B Pd 8 h 0 0.06 0.163 0.500
-            Ce1 Ce 4 e 0 0.25 0.547 1
+            # M1A Ge 8 h 0 0.06 0.163 0.500
+            # M1B Pd 8 h 0 0.06 0.163 0.500
+            # Ce1 Ce 4 e 0 0.25 0.547 1
 
-            to 
+            # to 
             
-            Ge1A Ge 8 h 0 0.06 0.163 0.500
-            Pd1B Pd 8 h 0 0.06 0.163 0.500
-            Ce1 Ce 4 e 0 0.25 0.547 1
-            '''
-            
-            if (len(atom_type_label) == 3 and
-                atom_type_label[-1].isalpha() and
-                atom_type_label[-2].isdigit() and
-                atom_type_label[-3].isalpha()):
-                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
-                content = content.replace(atom_type_label, new_label)
-                is_cif_file_updated = True
+            # Ge1A Ge 8 h 0 0.06 0.163 0.500
+            # Pd1B Pd 8 h 0 0.06 0.163 0.500
+            # Ce1 Ce 4 e 0 0.25 0.547 1
+            # '''
 
-        
-            '''
-            Type 3.
-            1603834
-            Sb Sb 24 g 0 0.15596 0.34021 1
-            Os Os 8 c 0.25 0.25 0.25 1
-            R Nd 2 a 0 0 0 1
+            # if (len(atom_type_label) == 3 and
+            #     atom_type_label[-1].isalpha() and
+            #     atom_type_label[-2].isdigit() and
+            #     atom_type_label[-3].isalpha()):
+            #     new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+            #     content = content.replace(atom_type_label, new_label)
+            #     is_cif_file_updated = True
 
-            to 
-            Sb Sb 24 g 0 0.15596 0.34021 1
-            Os Os 8 c 0.25 0.25 0.25 1
-            Nd Nd 2 a 0 0 0 1
-            '''
+            # '''
+            # Type 3.
+            # Ex) test/format_label_cif_files/symbolic_atom_label_type_3/1603834.cif
 
-            if len(atom_type_label) == 1 and atom_type_label[-1].isalpha():
-                new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
-                content = content.replace(atom_type_label, new_label)
-                is_cif_file_updated = True
+            # Sb Sb 24 g 0 0.15596 0.34021 1
+            # Os Os 8 c 0.25 0.25 0.25 1
+            # R Nd 2 a 0 0 0 1
 
+            # to 
 
+            # Sb Sb 24 g 0 0.15596 0.34021 1
+            # Os Os 8 c 0.25 0.25 0.25 1
+            # Nd Nd 2 a 0 0 0 1
+            # '''
+
+            # if len(atom_type_label) == 1 and atom_type_label[-1].isalpha():
+            #     new_label = atom_type_label.replace(atom_type_from_label, atom_type_symbol)
+            #     content = content.replace(atom_type_label, new_label)
+            #     is_cif_file_updated = True
+
+            # '''
+            # Type 4.
+            # Ex) test/format_label_cif_files/symbolic_atom_label_type_4/1711694.cif
+
+            # Sb Sb 2 b 0.333333 0.666667 0.2751 1
+            # Pd Pd 2 b 0.333333 0.666667 0.6801 1
+            # Ln Gd 2 a 0 0 0.0 1
+
+            # to
+
+            # Sb Sb 2 b 0.333333 0.666667 0.2751 1
+            # Pd Pd 2 b 0.333333 0.666667 0.6801 1
+            # Gd Gd 2 a 0 0 0.0 1
+
+            # '''
+            # if len(atom_type_label) == 2 and atom_type_label[-1].isalpha() and atom_type_label[-2].isalpha():
+            #     content = content.replace(atom_type_label, atom_type_symbol)
+            #     is_cif_file_updated = True
 
 
     if is_cif_file_updated:

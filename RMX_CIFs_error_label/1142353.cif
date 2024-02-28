@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Erelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -52,19 +52,19 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Romaka L.P.'
+'Eromaka L.P.'
 ;
 Lviv Ivan Franko National University
 Lviv
 Ukraine
 ;
-'Romaniv O.I.'
+'Eromaniv O.I.'
 ;
 Lviv Ivan Franko National University
 Lviv
 Ukraine
 ;
-'Romaka V.V.'
+'Eromaka V.V.'
 ;
 Lviv Polytechnic National University
 Lviv
@@ -131,7 +131,7 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  Ni1 Ni 4 f 0.333333 0.666667 0.0542 1
- R Er 4 f 0.333333 0.666667 0.6327 1
+ Er Er 4 f 0.333333 0.666667 0.6327 1
  Ni3 Ni 4 e 0 0 0.1687 0.45
  Sn2 Sn 2 c 0.333333 0.666667 0.25 1
  Ni2 Ni 2 b 0 0 0.25 0.55
@@ -154,11 +154,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.108
-_pd_proc_ls_proof_wR_factor              0.145
-_refine_ls_R_I_factor                    0.079
+_refine_ls_Er_factor_gt                   ?
+_refine_ls_wEr_factor_gt                  ?
+_pd_proc_ls_proof_Er_factor               0.108
+_pd_proc_ls_proof_wEr_factor              0.145
+_refine_ls_Er_I_factor                    0.079
 
 # End of data set 1142353
 

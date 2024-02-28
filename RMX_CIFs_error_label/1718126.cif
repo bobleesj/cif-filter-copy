@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Ndelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -40,7 +40,7 @@ _chemical_formula_weight                 1313.4
 
 _publ_section_title
 ;
-Crystal structure and magnetic behavior of novel R~2~PdIn~8~ (R= Pr, Nd, and Sm) compounds
+Crystal structure and magnetic behavior of novel Nd~2~PdIn~8~ (Nd= Pr, Nd, and Sm) compounds
 ;
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
@@ -55,7 +55,7 @@ loop_
 'Kaczorowski D.'
 ;
 Polish Academy of Sciences (PAN)
-W. Trzebiatowski Institute of Low Temperature and Structure Research
+W. Trzebiatowski Institute of Low Temperature and Structure Ndesearch
 Wroclaw
 Poland
 ;
@@ -128,7 +128,7 @@ loop_
  _atom_site_occupancy
  In1 In 4 i 0 0.5 0.1244 1
  In3 In 2 h 0.5 0.5 0.3043 1
- R Nd 2 g 0 0 0.3097 1
+ Nd Nd 2 g 0 0 0.3097 1
  In2 In 2 e 0 0.5 0.5 1
  Pd Pd 1 a 0 0 0 1
 
@@ -149,11 +149,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 386
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.0531
-_pd_proc_ls_proof_wR_factor              0.0744
-_refine_ls_R_I_factor                    0.1342
+_refine_ls_Nd_factor_gt                   ?
+_refine_ls_wNd_factor_gt                  ?
+_pd_proc_ls_proof_Nd_factor               0.0531
+_pd_proc_ls_proof_wNd_factor              0.0744
+_refine_ls_Nd_I_factor                    0.1342
 
 # End of data set 1718126
 

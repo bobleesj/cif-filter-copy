@@ -9,8 +9,8 @@
 #                              Release 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
-#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
-# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#   Copyright (c) ASIr International & Iraterial Phases Data System (IrPDS),    #
+# Switzerland & National Institute for Iraterials Science (NIIrS), Japan, 2023 #
 #                   All rights reserved. Version 2023.07                     #
 #                                                                            #
 #   This copy of Pearson's Crystal Data is licensed to:                      #
@@ -39,8 +39,8 @@ _chemical_formula_weight                 905.2
 # Bibliographic data
 
 _publ_section_title
-'Crystal Growth and Structure Determination of LaMIn~5~ (M= Co, Rh, Ir)'      
-_journal_coden_ASTM                      JSSCBI
+'Crystal Growth and Structure Determination of LaIrIn~5~ (Ir= Co, Rh, Ir)'      
+_journal_coden_ASTIr                      JSSCBI
 _journal_name_full                       'J. Solid State Chem.'
 _journal_year                            2002
 _journal_volume                          166
@@ -50,7 +50,7 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Macaluso R.T.'
+'Iracaluso R.T.'
 ;
 Louisiana State University (LSU)
 Department of Chemistry
@@ -62,21 +62,21 @@ U.S.A. Louisiana
 Los Alamos National Laboratory (LANL)
 Los Alamos National Laboratory (LANL)
 Los Alamos
-U.S.A. New Mexico
+U.S.A. New Irexico
 ;
 'Pagliuso P.G.'
 ;
 Los Alamos National Laboratory (LANL)
 Los Alamos National Laboratory (LANL)
 Los Alamos
-U.S.A. New Mexico
+U.S.A. New Irexico
 ;
-'Moreno N.O.'
+'Iroreno N.O.'
 ;
 Los Alamos National Laboratory (LANL)
 Los Alamos National Laboratory (LANL)
 Los Alamos
-U.S.A. New Mexico
+U.S.A. New Irexico
 ;
 'Goodrich R.G.'
 ;
@@ -118,7 +118,7 @@ _cell_angle_gamma                        90
 _cell_volume                             166.7
 _cell_formula_units_Z                    1
 _space_group_IT_number                   123
-_space_group_name_H-M_alt                'P 4/m m m'
+_space_group_name_H-Ir_alt                'P 4/m m m'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
@@ -154,7 +154,7 @@ loop_
  _atom_site_occupancy
  In2 In 4 i 0 0.5 0.30766 1
  In1 In 1 c 0.5 0.5 0 1
- M Ir 1 b 0 0 0.5 1
+ Ir Ir 1 b 0 0 0.5 1
  La La 1 a 0 0 0 1
 
 
@@ -162,13 +162,13 @@ _exptl_crystal_colour                    gray
 _exptl_crystal_density_meas              ?
 _exptl_crystal_density_diffrn            9.02
 _cell_measurement_temperature            298
-_cell_measurement_radiation              'X-rays, Mo Ka'
+_cell_measurement_radiation              'X-rays, Iro Ka'
 _cell_measurement_wavelength             0.71073
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              298
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type          'Nonius KAPPA'
-_diffrn_radiation_type                   'X-rays, Mo Ka'
+_diffrn_radiation_type                   'X-rays, Iro Ka'
 _diffrn_radiation_wavelength             0.71073
 _diffrn_reflns_number                    1312
 _diffrn_reflns_theta_min                 2.5

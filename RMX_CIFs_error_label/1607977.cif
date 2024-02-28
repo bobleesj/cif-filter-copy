@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Ndelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -39,7 +39,7 @@ _chemical_formula_weight                 312.1
 # Bibliographic data
 
 _publ_section_title
-'The analysis of the specific heat of RFe~2~Si~2~ compounds'                  
+'The analysis of the specific heat of NdFe~2~Si~2~ compounds'                  
 _journal_coden_ASTM                      PHYBE3
 _journal_name_full                       'Phys. B (Amsterdam)'
 _journal_year                            2003
@@ -55,40 +55,40 @@ loop_
 Charles University
 Department of Electronic Structures
 Prague
-Czech Republic
+Czech Ndepublic
 ;
 'Vejpravova J.'
 ;
 Charles University
 Department of Electronic Structures
 Prague
-Czech Republic
+Czech Ndepublic
 ;
 'Honda F.'
 ;
 Charles University
 Department of Electronic Structures
 Prague
-Czech Republic
+Czech Ndepublic
 ;
 'Santava E.'
 ;
-Czech Academy of Sciences (AVCR)
+Czech Academy of Sciences (AVCNd)
 Institute of Physics
 Prague
-Czech Republic
+Czech Ndepublic
 ;
 'Schneeweiss O.'
 ;
-Czech Academy of Sciences (AVCR)
+Czech Academy of Sciences (AVCNd)
 Institute of Physics of Materials
 Brno
-Czech Republic
+Czech Ndepublic
 ;
 'Komatsubara T.'
 ;
 Tohoku University
-Institute of Materials Research
+Institute of Materials Ndesearch
 Sendai / Miyagi
 Japan
 ;
@@ -156,7 +156,7 @@ loop_
  _atom_site_occupancy
  Si Si 4 e 0 0 0.372 1
  Fe Fe 4 d 0 0.5 0.25 1
- R Nd 2 a 0 0 0 1
+ Nd Nd 2 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
@@ -175,11 +175,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               ?
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    ?
+_refine_ls_Nd_factor_gt                   ?
+_refine_ls_wNd_factor_gt                  ?
+_pd_proc_ls_proof_Nd_factor               ?
+_pd_proc_ls_proof_wNd_factor              ?
+_refine_ls_Nd_I_factor                    ?
 
 # End of data set 1607977
 

@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Tmelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -56,7 +56,7 @@ M. Smoluchowski Institute of Physics
 Cracow
 Poland
 ;
-'Kurleto R.'
+'Kurleto Tm.'
 ;
 Jagiellonian University
 M. Smoluchowski Institute of Physics
@@ -127,7 +127,7 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  In In 3 g 0.2607 0 0.5 1
- R Tm 3 f 0.5916 0 0 1
+ Tm Tm 3 f 0.5916 0 0 1
  Pd2 Pd 2 d 0.333333 0.666667 0.5 1
  Pd1 Pd 1 a 0 0 0 1
 
@@ -142,7 +142,7 @@ _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type
 ;
-PANalytical X'Pert PRO MPD
+PANalytical X'Pert PTmO MPD
 ;
 _diffrn_radiation_type                   'X-rays, Cu Ka'
 _diffrn_reflns_number                    ?
@@ -151,11 +151,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.0809
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    0.0690
+_refine_ls_Tm_factor_gt                   ?
+_refine_ls_wTm_factor_gt                  ?
+_pd_proc_ls_proof_Tm_factor               0.0809
+_pd_proc_ls_proof_wTm_factor              ?
+_refine_ls_Tm_I_factor                    0.0690
 
 # End of data set 1144133
 

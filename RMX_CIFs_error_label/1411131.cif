@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Tbelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -39,7 +39,7 @@ _chemical_formula_weight                 335.0
 # Bibliographic data
 
 _publ_section_title
-'Magnetic properties of RPdGa (R= Gd-Er) compounds'                           
+'Magnetic properties of TbPdGa (Tb= Gd-Er) compounds'                           
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
 _journal_year                            2000
@@ -81,7 +81,7 @@ Poland
 'Zygmunt A.'
 ;
 Polish Academy of Sciences (PAN)
-Trzebiatowski W. Institute of Low Temperature and Structure Research
+Trzebiatowski W. Institute of Low Temperature and Structure Tbesearch
 Wroclaw
 Poland
 ;
@@ -123,7 +123,7 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- R Tb 4 c 0.0053 0.25 0.6885 1
+ Tb Tb 4 c 0.0053 0.25 0.6885 1
  Ga Ga 4 c 0.1616 0.25 0.0528 1
  Pd Pd 4 c 0.2743 0.25 0.4003 1
 
@@ -140,7 +140,7 @@ _diffrn_ambient_temperature              40
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type
 ;
-Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BER II reactor, E6
+Germany, Berlin, Hahn-Meitner Institute, Berlin Neutron Scattering Center, BETb II reactor, E6
 ;
 _diffrn_radiation_type                   neutrons
 _diffrn_radiation_wavelength             2.441
@@ -151,11 +151,11 @@ _computing_structure_solution
 'starting values derived from related structure, Fourier synthesis'           
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.0752
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    0.0574
+_refine_ls_Tb_factor_gt                   ?
+_refine_ls_wTb_factor_gt                  ?
+_pd_proc_ls_proof_Tb_factor               0.0752
+_pd_proc_ls_proof_wTb_factor              ?
+_refine_ls_Tb_I_factor                    0.0574
 
 # End of data set 1411131
 

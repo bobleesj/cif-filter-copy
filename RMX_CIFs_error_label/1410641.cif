@@ -39,7 +39,7 @@ _chemical_formula_weight                 364.8
 # Bibliographic data
 
 _publ_section_title
-'Crystal structure of ternary CeRhX compounds, X= As, Sb, Bi'                 
+'Crystal structure of ternary CeRhSb compounds, Sb= As, Sb, Bi'                 
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
 _journal_year                            2000
@@ -117,7 +117,7 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  Ce Ce 4 c 0.0118 0.25 0.7008 1
- X Sb 4 c 0.19081 0.25 0.09004 1
+ Sb Sb 4 c 0.19081 0.25 0.09004 1
  Rh Rh 4 c 0.2997 0.25 0.4172 1
 
 
@@ -125,12 +125,12 @@ _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
 _exptl_crystal_density_diffrn            9.00
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_radiation              'Sb-rays, Cu Ka'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type          ?
-_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_type                   'Sb-rays, Cu Ka'
 _diffrn_reflns_number                    ?
 _diffrn_reflns_theta_min                 5.02
 _diffrn_reflns_theta_max                 50

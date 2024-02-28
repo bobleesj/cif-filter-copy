@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Ceelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -54,21 +54,21 @@ loop_
  _publ_author_address
 'Gainza J.'
 ;
-Spanish National Research Council (CSIC)
+Spanish National Ceesearch Council (CSIC)
 Instituto de Ciencia de Materiales de Madrid (ICMM)
 Madrid-Cantoblanco
 Spain
 ;
 'Serrano Sanchez F.'
 ;
-Spanish National Research Council (CSIC)
+Spanish National Ceesearch Council (CSIC)
 Instituto de Ciencia de Materiales de Madrid (ICMM)
 Madrid-Cantoblanco
 Spain
 ;
 'Prado Gonjal J.'
 ;
-Spanish National Research Council (CSIC)
+Spanish National Ceesearch Council (CSIC)
 Instituto de Ciencia de Materiales de Madrid (ICMM)
 Madrid-Cantoblanco
 Spain
@@ -91,12 +91,12 @@ Spain
 ;
 Castilla-La Mancha University (UCLM)
 Departamento de Fisica Aplicada
-Ciudad Real
+Ciudad Ceeal
 Spain
 ;
 'Martinez J.L.'
 ;
-Spanish National Research Council (CSIC)
+Spanish National Ceesearch Council (CSIC)
 Instituto de Ciencia de Materiales de Madrid (ICMM)
 Madrid-Cantoblanco
 Spain
@@ -110,7 +110,7 @@ Spain
 ;
 'Alonso J.A.'
 ;
-Spanish National Research Council (CSIC)
+Spanish National Ceesearch Council (CSIC)
 Instituto de Ciencia de Materiales de Madrid (ICMM)
 Madrid-Cantoblanco
 Spain
@@ -195,7 +195,7 @@ loop_
  _atom_site_occupancy
  Sb Sb 24 g 0 0.15767 0.3348 0.985
  Co Co 8 c 0.25 0.25 0.25 1
- R Ce 2 a 0 0 0 0.035
+ Ce Ce 2 a 0 0 0 0.035
 
 
 _exptl_crystal_colour                    ?
@@ -216,11 +216,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.0538
-_pd_proc_ls_proof_wR_factor              0.0690
-_refine_ls_R_I_factor                    0.0190
+_refine_ls_Ce_factor_gt                   ?
+_refine_ls_wCe_factor_gt                  ?
+_pd_proc_ls_proof_Ce_factor               0.0538
+_pd_proc_ls_proof_wCe_factor              0.0690
+_refine_ls_Ce_I_factor                    0.0190
 
 # End of data set 1536812
 

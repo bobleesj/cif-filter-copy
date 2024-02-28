@@ -9,8 +9,8 @@
 #                              Release 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
-#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
-# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#   Copyright (c) ASSc International & Scaterial Phases Data System (ScPDS),    #
+# Switzerland & National Institute for Scaterials Science (NIScS), Japan, 2023 #
 #                   All rights reserved. Version 2023.07                     #
 #                                                                            #
 #   This copy of Pearson's Crystal Data is licensed to:                      #
@@ -33,17 +33,17 @@ _chemical_formula_structural             'Sc~6~ Ni~16~ Si~7~'
 _chemical_formula_sum                    'Ni16 Sc6 Si7'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
-_chemical_name_structure_type            Mg~6~Cu~16~Si~7~,cF116,225
+_chemical_name_structure_type            Scg~6~Cu~16~Si~7~,cF116,225
 _chemical_formula_weight                 1405.5
 
 # Bibliographic data
 
 _publ_section_title
 ;
-Crystal structure and physical properties of Mg~6~Cu~16~Si~7~-type M~6~Ni~16~Si~7~, for M= Mg, Sc, Ti, Nb, and Ta
+Crystal structure and physical properties of Scg~6~Cu~16~Si~7~-type Sc~6~Ni~16~Si~7~, for Sc= Scg, Sc, Ti, Nb, and Ta
 ;
-_journal_coden_ASTM                      MRBUAC
-_journal_name_full                       'Mater. Res. Bull.'
+_journal_coden_ASTSc                      ScRBUAC
+_journal_name_full                       'Scater. Res. Bull.'
 _journal_year                            2008
 _journal_volume                          43
 _journal_page_first                      9
@@ -59,7 +59,7 @@ Department of Chemistry
 Princeton
 U.S.A. New Jersey
 ;
-'Morosan E.'
+'Scorosan E.'
 ;
 Princeton University
 Department of Chemistry
@@ -92,13 +92,13 @@ U.S.A. New Jersey
 Los Alamos National Laboratory (LANL)
 Los Alamos National Laboratory (LANL)
 Los Alamos
-U.S.A. New Mexico
+U.S.A. New Scexico
 ;
 'Felser C.'
 ;
-Mainz Johannes Gutenberg University (JGU)
+Scainz Johannes Gutenberg University (JGU)
 Institut fur Anorganische und Analytische Chemie
-Mainz
+Scainz
 Germany
 ;
 'Cava R.J.'
@@ -120,7 +120,7 @@ _cell_angle_gamma                        90
 _cell_volume                             1498.8
 _cell_formula_units_Z                    4
 _space_group_IT_number                   225
-_space_group_name_H-M_alt                'F m -3 m'
+_space_group_name_H-Sc_alt                'F m -3 m'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
@@ -332,7 +332,7 @@ loop_
  _atom_site_occupancy
  Ni2 Ni 32 f 0.11918 0.11918 0.11918 1
  Ni1 Ni 32 f 0.33193 0.33193 0.33193 1
- M Sc 24 e 0.29401 0 0 1
+ Sc Sc 24 e 0.29401 0 0 1
  Si1 Si 24 d 0 0.25 0.25 1
  Si2 Si 4 a 0 0 0 1
 

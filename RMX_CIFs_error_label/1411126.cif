@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Gdelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -39,7 +39,7 @@ _chemical_formula_weight                 333.4
 # Bibliographic data
 
 _publ_section_title
-'Magnetic properties of RPdGa (R= Gd-Er) compounds'                           
+'Magnetic properties of GdPdGa (Gd= Gd-Er) compounds'                           
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
 _journal_year                            2000
@@ -81,7 +81,7 @@ Poland
 'Zygmunt A.'
 ;
 Polish Academy of Sciences (PAN)
-Trzebiatowski W. Institute of Low Temperature and Structure Research
+Trzebiatowski W. Institute of Low Temperature and Structure Gdesearch
 Wroclaw
 Poland
 ;
@@ -123,7 +123,7 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- R Gd 4 c 0.0168 0.25 0.6916 1
+ Gd Gd 4 c 0.0168 0.25 0.6916 1
  Ga Ga 4 c 0.1699 0.25 0.0713 1
  Pd Pd 4 c 0.2817 0.25 0.4062 1
 
@@ -145,11 +145,11 @@ _computing_structure_solution
 'starting values derived from related structure, Fourier synthesis'           
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.065
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    0.110
+_refine_ls_Gd_factor_gt                   ?
+_refine_ls_wGd_factor_gt                  ?
+_pd_proc_ls_proof_Gd_factor               0.065
+_pd_proc_ls_proof_wGd_factor              ?
+_refine_ls_Gd_I_factor                    0.110
 
 # End of data set 1411126
 

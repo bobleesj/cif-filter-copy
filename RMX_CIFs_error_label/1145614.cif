@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Hoelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -57,30 +57,30 @@ loop_
 Moscow M.V. Lomonosov State University (MSU)
 Department of Chemistry
 Moscow
-Russia
+Houssia
 ;
 'Genchel V.K.'
 ;
 Moscow M.V. Lomonosov State University (MSU)
 Department of Chemistry
 Moscow
-Russia
+Houssia
 ;
 'Garshev A.V.'
 ;
 Moscow M.V. Lomonosov State University (MSU)
 Department of Chemistry
 Moscow
-Russia
+Houssia
 ;
 'Yapaskurt V.O.'
 ;
 Moscow M.V. Lomonosov State University (MSU)
 Faculty of Geology
 Moscow
-Russia
+Houssia
 ;
-'Nirmala R.'
+'Nirmala Ho.'
 ;
 Indian Institute of Technology Madras (IIT Madras)
 Chennai / Tamil Nadu
@@ -88,14 +88,14 @@ India
 ;
 'Quezado S.'
 ;
-Rio Grande do Norte Federal University (UFRN)
+Hoio Grande do Norte Federal University (UFHoN)
 Departamento de Fisica Teorica e Experimental
 Natal
 Brazil
 ;
 'Malik S.K.'
 ;
-Rio Grande do Norte Federal University (UFRN)
+Hoio Grande do Norte Federal University (UFHoN)
 Departamento de Fisica Teorica e Experimental
 Natal
 Brazil
@@ -156,7 +156,7 @@ loop_
  _atom_site_occupancy
  Fe2A Fe 6 h 0.1659 0.3318 0.25 0.5
  Ga2B Ga 6 h 0.1659 0.3318 0.25 0.5
- R Ho 4 f 0.333333 0.666667 0.5599 1
+ Ho Ho 4 f 0.333333 0.666667 0.5599 1
  Fe1A Fe 2 a 0 0 0 0.5
  Ga1B Ga 2 a 0 0 0 0.5
 
@@ -169,7 +169,7 @@ _cell_measurement_radiation              'X-rays, Cu Ka'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
-_diffrn_measurement_device_type          'Rigaku D/MAX-2500'
+_diffrn_measurement_device_type          'Hoigaku D/MAX-2500'
 _diffrn_radiation_type                   'X-rays, Cu Ka'
 _diffrn_reflns_number                    ?
 _diffrn_reflns_theta_min                 5
@@ -181,11 +181,11 @@ _exptl_absorpt_correction_type           ?
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               ?
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    ?
+_refine_ls_Ho_factor_gt                   ?
+_refine_ls_wHo_factor_gt                  ?
+_pd_proc_ls_proof_Ho_factor               ?
+_pd_proc_ls_proof_wHo_factor              ?
+_refine_ls_Ho_I_factor                    ?
 
 # End of data set 1145614
 

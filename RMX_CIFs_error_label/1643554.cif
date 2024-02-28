@@ -39,7 +39,7 @@ _chemical_formula_weight                 271.4
 # Bibliographic data
 
 _publ_section_title
-'Study of 4f hybridization in CeNiX with X= Sn~d~Ge~1-d~, 0 <= d <= 1'        
+'Study of 4f hybridization in CeNiGe with Ge= Sn~d~Ge~1-d~, 0 <= d <= 1'        
 _journal_coden_ASTM                      JMMMDC
 _journal_name_full                       'J. Magn. Magn. Mater.'
 _journal_year                            2010
@@ -125,19 +125,19 @@ loop_
  _atom_site_occupancy
  Ce Ce 4 c -0.02 0.25 0.72 1
  Ni Ni 4 c 0.17 0.25 0.04 1
- X Ge 4 c 0.35 0.25 0.39 1
+ Ge Ge 4 c 0.35 0.25 0.39 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
 _exptl_crystal_density_diffrn            7.95
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              X-rays
+_cell_measurement_radiation              Ge-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type          ?
-_diffrn_radiation_type                   X-rays
+_diffrn_radiation_type                   Ge-rays
 _diffrn_reflns_number                    ?
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?

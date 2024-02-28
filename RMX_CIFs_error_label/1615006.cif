@@ -119,7 +119,7 @@ loop_
  Si2B Si 6 h 0.142 0.438 0.25 0.33
  Gd1 Gd 6 h 0.23 0.232 0.25 1
  Gd2 Gd 6 h 0.52 0.133 0.25 1
- X Si 2 c 0.333333 0.666667 0.25 1
+ Si Si 2 c 0.333333 0.666667 0.25 1
  Co1 Co 2 b 0 0 0 1
 
 
@@ -127,12 +127,12 @@ _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
 _exptl_crystal_density_diffrn            7.85
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka'
+_cell_measurement_radiation              'Si-rays, Cu Ka'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type          DRON-3
-_diffrn_radiation_type                   'X-rays, Cu Ka'
+_diffrn_radiation_type                   'Si-rays, Cu Ka'
 _diffrn_reflns_number                    ?
 _diffrn_reflns_theta_min                 10
 _diffrn_reflns_theta_max                 35

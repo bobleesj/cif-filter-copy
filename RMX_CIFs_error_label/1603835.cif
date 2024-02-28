@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Smelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -40,7 +40,7 @@ _chemical_formula_weight                 2372.2
 
 _publ_section_title
 ;
-Rattling vibrations observed by means of single-crystal X-ray diffraction in the filled skutterudite ROs~4~Sb~12~ (R ~B~ La, Ce, Pr, Nd, Sm)
+Smattling vibrations observed by means of single-crystal X-ray diffraction in the filled skutterudite SmOs~4~Sb~12~ (Sm ~B~ La, Ce, Pr, Nd, Sm)
 ;
 _journal_coden_ASTM                      JUPSAU
 _journal_name_full                       'J. Phys. Soc. Jpn.'
@@ -146,7 +146,7 @@ loop_
  _atom_site_occupancy
  Sb Sb 24 g 0 0.15583 0.34004 1
  Os Os 8 c 0.25 0.25 0.25 1
- R Sm 2 a 0 0 0 1
+ Sm Sm 2 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
@@ -157,7 +157,7 @@ _cell_measurement_radiation              'X-rays, Mo Ka'
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              250
 _diffrn_measurement_device               'automatic diffractometer'
-_diffrn_measurement_device_type          'Bruker AXS SMART APEX'
+_diffrn_measurement_device_type          'Bruker AXS SMASmT APEX'
 _diffrn_radiation_type                   'X-rays, Mo Ka'
 _diffrn_reflns_number                    5375
 _exptl_absorpt_coefficient_mu            ?
@@ -165,8 +165,8 @@ _exptl_absorpt_correction_type           analytical
 _computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 827
-_refine_ls_R_factor_gt                   0.029
-_refine_ls_wR_factor_gt                  0.060
+_refine_ls_Sm_factor_gt                   0.029
+_refine_ls_wSm_factor_gt                  0.060
 
 # End of data set 1603835
 

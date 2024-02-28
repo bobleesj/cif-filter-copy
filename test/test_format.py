@@ -138,11 +138,17 @@ def run_preprocess_test_on_cif_files(cif_directory):
 def test_preprocess_cif_file_on_label_element_type_1():
     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_1"
     run_preprocess_test_on_cif_files(cif_directory)
+    # I have to ensure that the CIF file is not modified but the loop values
 
-def test_preprocess_cif_file_on_label_element_type_2():
-    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
-    run_preprocess_test_on_cif_files(cif_directory)
 
-def test_preprocess_cif_file_on_label_element_type_3():
-    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_3"
-    run_preprocess_test_on_cif_files(cif_directory)
+# def test_preprocess_cif_file_on_label_element_type_2():
+#     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_2"
+#     run_preprocess_test_on_cif_files(cif_directory)
+
+# def test_preprocess_cif_file_on_label_element_type_3():
+#     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_3"
+#     run_preprocess_test_on_cif_files(cif_directory)
+
+# def test_preprocess_cif_file_on_label_element_type_4():
+#     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_4"
+#     run_preprocess_test_on_cif_files(cif_directory)

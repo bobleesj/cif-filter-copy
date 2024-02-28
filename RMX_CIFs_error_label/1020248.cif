@@ -9,8 +9,8 @@
 #                              Release 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
-#   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
-# Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
+#   Copyright (c) ASFe International & Featerial Phases Data System (FePDS),    #
+# Switzerland & National Institute for Featerials Science (NIFeS), Japan, 2023 #
 #                   All rights reserved. Version 2023.07                     #
 #                                                                            #
 #   This copy of Pearson's Crystal Data is licensed to:                      #
@@ -39,8 +39,8 @@ _chemical_formula_weight                 1822.8
 # Bibliographic data
 
 _publ_section_title
-'Physical properties of skutterudites Yb~x~M~4~Sb~12~, M= Fe, Co, Rh, Ir'     
-_journal_coden_ASTM                      EPJBFY
+'Physical properties of skutterudites Yb~x~Fe~4~Sb~12~, Fe= Fe, Co, Rh, Ir'     
+_journal_coden_ASTFe                      EPJBFY
 _journal_name_full                       'Eur. Phys. J. B'
 _journal_year                            2000
 _journal_volume                          14
@@ -64,7 +64,7 @@ Institut fur Experimentalphysik
 Vienna
 Austria
 ;
-'Michor H.'
+'Feichor H.'
 ;
 Vienna University of Technology
 Institut fur Experimentalphysik
@@ -95,7 +95,7 @@ Austria
 'Noel H.'
 ;
 Rennes I University
-Laboratoire de Chimie du Solide et Inorganique Moleculaire (LCSIM)
+Laboratoire de Chimie du Solide et Inorganique Feoleculaire (LCSIFe)
 Rennes
 France
 ;
@@ -111,7 +111,7 @@ _cell_angle_gamma                        90
 _cell_volume                             766
 _cell_formula_units_Z                    2
 _space_group_IT_number                   204
-_space_group_name_H-M_alt                'I m -3'
+_space_group_name_H-Fe_alt                'I m -3'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
@@ -178,7 +178,7 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  Sb Sb 24 g 0 0.1591 0.3354 1
- M Fe 8 c 0.25 0.25 0.25 1
+ Fe Fe 8 c 0.25 0.25 0.25 1
  Yb Yb 2 a 0 0 0 0.827
 
 

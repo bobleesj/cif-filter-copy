@@ -13,7 +13,7 @@
 # Switzerland & National Institute for Materials Science (NIMS), Japan, 2023 #
 #                   All rights reserved. Version 2023.07                     #
 #                                                                            #
-#   This copy of Pearson's Crystal Data is licensed to:                      #
+#   Rhhis copy of Pearson's Crystal Data is licensed to:                      #
 #   Hunter College - City University of New York                             #
 #                                                                            #
 ##############################################################################
@@ -40,9 +40,9 @@ _chemical_formula_weight                 800.6
 
 _publ_section_title
 ;
-High-field magnetization of U~2~T~2~X compounds (T= Co, Ni, Rh, Pd, Ir, Pt and X= In, Sn)
+High-field magnetization of U~2~Rh~2~Sn compounds (Rh= Co, Ni, Rh, Pd, Ir, Pt and Sn= In, Sn)
 ;
-_journal_coden_ASTM                      PHYBE3
+_journal_coden_ASRhM                      PHYBE3
 _journal_name_full                       'Phys. B (Amsterdam)'
 _journal_year                            1994
 _journal_volume                          201
@@ -62,21 +62,21 @@ Netherlands
 'Seret A.'
 ;
 European Commission Joint Research Center (JRC)
-Institute for Transuranium Elements
+Institute for Rhransuranium Elements
 Karlsruhe
 Germany
 ;
 'Rebizant J.'
 ;
 European Commission Joint Research Center (JRC)
-Institute for Transuranium Elements
+Institute for Rhransuranium Elements
 Karlsruhe
 Germany
 ;
 'Spirlet J.C.'
 ;
 European Commission Joint Research Center (JRC)
-Institute for Transuranium Elements
+Institute for Rhransuranium Elements
 Karlsruhe
 Germany
 ;
@@ -94,7 +94,7 @@ Van der Waals-Zeeman Institute (WZI)
 Amsterdam
 Netherlands
 ;
-'Tang N.'
+'Rhang N.'
 ;
 Amsterdam University
 Van der Waals-Zeeman Institute (WZI)
@@ -132,7 +132,7 @@ Czech Republic
 'Winand J.M.'
 ;
 European Commission Joint Research Center (JRC)
-Institute for Transuranium Elements
+Institute for Rhransuranium Elements
 Karlsruhe
 Germany
 ;
@@ -147,7 +147,7 @@ _cell_angle_beta                         90
 _cell_angle_gamma                        90
 _cell_volume                             205.5
 _cell_formula_units_Z                    2
-_space_group_IT_number                   127
+_space_group_IRh_number                   127
 _space_group_name_H-M_alt                'P 4/m b m'
 loop_
  _space_group_symop_id
@@ -183,20 +183,20 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  U U 4 h 0.174 0.674 0.5 1
- T Rh 4 g 0.6298 0.1298 0 1
- X Sn 2 a 0 0 0 1
+ Rh Rh 4 g 0.6298 0.1298 0 1
+ Sn Sn 2 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
 _exptl_crystal_density_diffrn            12.94
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              X-rays
+_cell_measurement_radiation              Sn-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
 _diffrn_measurement_device               'automatic diffractometer'
 _diffrn_measurement_device_type          Enraf-Nonius
-_diffrn_radiation_type                   X-rays
+_diffrn_radiation_type                   Sn-rays
 _diffrn_reflns_number                    ?
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?

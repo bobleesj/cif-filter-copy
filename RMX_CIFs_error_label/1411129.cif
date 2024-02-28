@@ -6,7 +6,7 @@
 #                                                                            #
 #                           Pearson's Crystal Data                           #
 #      Crystal Structure Database for Inorganic Compounds (on DVD)           #
-#                              Release 2023/24                               #
+#                              Hoelease 2023/24                               #
 #                  Editors: Pierre Villars and Karin Cenzual                 #
 #                                                                            #
 #   Copyright (c) ASM International & Material Phases Data System (MPDS),    #
@@ -39,7 +39,7 @@ _chemical_formula_weight                 341.1
 # Bibliographic data
 
 _publ_section_title
-'Magnetic properties of RPdGa (R= Gd-Er) compounds'                           
+'Magnetic properties of HoPdGa (Ho= Gd-Er) compounds'                           
 _journal_coden_ASTM                      JALCEU
 _journal_name_full                       'J. Alloys Compd.'
 _journal_year                            2000
@@ -81,7 +81,7 @@ Poland
 'Zygmunt A.'
 ;
 Polish Academy of Sciences (PAN)
-Trzebiatowski W. Institute of Low Temperature and Structure Research
+Trzebiatowski W. Institute of Low Temperature and Structure Hoesearch
 Wroclaw
 Poland
 ;
@@ -123,7 +123,7 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- R Ho 4 c 0.0028 0.25 0.6985 1
+ Ho Ho 4 c 0.0028 0.25 0.6985 1
  Ga Ga 4 c 0.1893 0.25 0.0873 1
  Pd Pd 4 c 0.2744 0.25 0.3843 1
 
@@ -145,11 +145,11 @@ _computing_structure_solution
 'starting values derived from related structure, Fourier synthesis'           
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
-_refine_ls_R_factor_gt                   ?
-_refine_ls_wR_factor_gt                  ?
-_pd_proc_ls_proof_R_factor               0.152
-_pd_proc_ls_proof_wR_factor              ?
-_refine_ls_R_I_factor                    0.128
+_refine_ls_Ho_factor_gt                   ?
+_refine_ls_wHo_factor_gt                  ?
+_pd_proc_ls_proof_Ho_factor               0.152
+_pd_proc_ls_proof_wHo_factor              ?
+_refine_ls_Ho_I_factor                    0.128
 
 # End of data set 1411129
 
