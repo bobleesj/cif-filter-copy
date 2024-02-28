@@ -28,7 +28,7 @@ No need to import packages or *write a line of code*. One can simply drag and dr
 - **Excel Integration:** Check CIF folder content against an Excel file for missing entries.
 
 ## Installation
-The simpliest method to run the code is just copying and pasting each line below on your command line interface.
+The simpliest method to run the codhttps://bobleesj.github.io/tutorial/2024/02/26/intro-to-python-package-manager.htmle is just copying and pasting each line below on your command line interface.
 
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
@@ -48,6 +48,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Tutorial
+> If you are new to Conda (Python package manager), I have written a tutorial for you here [Intro to Python package manager for beginners (Ft. Conda with Cheatsheet](https://bobleesj.github.io/tutorial/2024/02/26/intro-to-python-package-manager.html).
 ## Test
 
 ```
