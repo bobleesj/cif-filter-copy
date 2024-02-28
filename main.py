@@ -7,15 +7,6 @@ import filter.supercell_size as supercell_size
 import filter.info as info
 import filter.occupancy as occupancy
 
-import os
-import filter.excel as excel
-import filter.tags as tags
-import filter.min_distance as min_distance
-import filter.format as format
-import filter.supercell_size as supercell_size
-import filter.info as info
-import filter.occupancy as occupancy
-
 def main():  
     script_directory = os.path.dirname(os.path.abspath(__file__))
 

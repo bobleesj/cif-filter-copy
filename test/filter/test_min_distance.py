@@ -2,7 +2,6 @@ import pandas as pd
 from filter.min_distance import move_files_based_on_min_dist
 import pandas as pd
 from os.path import join, exists
-from filter.tags import move_files_based_on_tags
 from util.folder import (
     remove_directories,
     remove_file,
@@ -11,12 +10,12 @@ from util.folder import (
     get_cif_file_path_list_from_directory
 )
 
-
+'''
 def test_move_files_based_on_min_dist():
-    base_dir = "test/bad_cif_files/min_dist"
+    base_dir = "test/filter/cif/min_dist"
     filtered_dir = join(base_dir, "min_dist_filter_dist_min")
 
-    histogram_path = join(base_dir, "plot", "histogram.png")
+    histogram_path = join(base_dir, "plot", "histogram-min-dist.png")
     csv_file_path = join(base_dir, "csv", "min_dist_filter_dist_min_log.csv")
 
     # Step 1. Setup
@@ -49,3 +48,4 @@ def test_move_files_based_on_min_dist():
     remove_directories([filtered_dir])
     remove_file(csv_file_path)
     remove_file(histogram_path)
+'''

@@ -18,3 +18,5 @@ def rounded_distance(distance, precision=2):
     return round(distance, precision)
 
 
+def round_to_three_decimal(num):
+    return round(num, 3)
