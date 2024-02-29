@@ -1,0 +1,8 @@
+SUMMARY:
+Pair: In2-U, Count: 1, Distances: 2.825
+Pair: Rh1-Rh1, Count: 1, Distances: 2.825
+Pair: In2-Rh1, Count: 1, Distances: 2.825
+Pair: In2-In2, Count: 1, Distances: 2.825
+Pair: Rh1-U, Count: 1, Distances: 2.825
+
+Missing pairs:
