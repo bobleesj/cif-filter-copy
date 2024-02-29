@@ -54,16 +54,13 @@ def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
     all_coords_list = supercell.get_coords_list(CIF_block, CIF_loop_values)
     all_points, _, _ = supercell.get_points_and_labels(all_coords_list, CIF_loop_values)
     num_of_atoms = len(all_points)
-    print("num_of_atoms:", num_of_atoms)
+
     
     min_distance = None
     if is_dist_computed:
         atomic_pair_list = supercell.get_atomic_pair_list(all_points, cell_lengths, cell_angles_rad)
         sorted_atomic_pairs = sorted(atomic_pair_list, key=lambda x: x['distance'])
         min_distance = sorted_atomic_pairs[0]['distance']
-
-        print(sorted_atomic_pairs)
-
 
     return num_of_atoms, min_distance
     
