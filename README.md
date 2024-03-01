@@ -28,7 +28,7 @@ No need to import packages or *write a line of code*. One can simply drag and dr
 - **Excel Integration:** Check CIF folder content against an Excel file for missing entries.
 
 ## Installation
-The simpliest method to run the codhttps://bobleesj.github.io/tutorial/2024/02/26/intro-to-python-package-manager.htmle is just copying and pasting each line below on your command line interface.
+Simply copy and paste the following block.
 
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
