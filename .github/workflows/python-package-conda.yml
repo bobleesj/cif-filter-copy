@@ -9,22 +9,23 @@ jobs:
       max-parallel: 5
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 3.12
-      uses: actions/setup-python@v3
-      with:
-        python-version: '3.12'
-    - name: Add conda to system path
-      run: |
-        echo $CONDA/bin >> $GITHUB_PATH
-    - name: Install dependencies with pip
-      run: |
-        conda create --name myenv python=3.12 -y
-        echo "source $CONDA/etc/profile.d/conda.sh" >> $GITHUB_ENV
-        conda activate myenv
-        pip install -r requirements.txt
-      shell: bash
-    - name: Test with pytest
-      run: |
-        conda install pytest
-        pytest
+      - uses: actions/checkout@v3
+  
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.12'
+  
+      - name: Add conda to system path
+        run: |
+          echo $CONDA/bin >> $GITHUB_PATH
+  
+      - name: Create Conda environment and install dependencies
+        run: |
+          conda create --name myenv python=3.12 -y
+          echo "source $CONDA/etc/profile.d/conda.sh" >> $GITHUB_ENV
+          conda run --name myenv pip install -r requirements.txt
+  
+      - name: Test with pytest
+        run: |
+          conda run --name myenv pytest
