@@ -7,7 +7,8 @@ import filter.supercell_size as supercell_size
 import filter.info as info
 import filter.occupancy as occupancy
 
-def main():  
+
+def main():
     script_directory = os.path.dirname(os.path.abspath(__file__))
 
     print("\nWelcome! Please choose an option to proceed:")
@@ -23,7 +24,7 @@ def main():
 
     for key, value in options.items():
         print(f"[{key}] {value}")
-    
+
     choice = input("Enter your choice (1-7): ")
 
     if choice in options:
@@ -43,7 +44,7 @@ def main():
     # 3. Relocate CIF based on tags
     elif choice == '3':
         tags.move_files_based_on_tags(script_directory)
-        
+
     # 4. Relocate CIF based the number of atoms in the supercell
     elif choice == '4':
         supercell_size.move_files_based_on_supercell_size(script_directory)
@@ -55,11 +56,11 @@ def main():
     # 6. Get info on the supercell
     elif choice == '6':
         info.get_cif_folder_info(script_directory)
-    
+
     # 7. Check missing files against Excel sheet
     elif choice == '7':
         excel.get_new_Excel_with_matching_entries(script_directory)
 
-    
+
 if __name__ == "__main__":
     main()

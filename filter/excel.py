@@ -1,8 +1,8 @@
 import os
-import shutil
 import pandas as pd
 import util.folder as folder
 import textwrap
+
 
 def choose_excel_file(script_directory):
     """"
@@ -20,7 +20,8 @@ def choose_excel_file(script_directory):
 
     while True:
         try:
-            choice = int(input("\nEnter the number corresponding to the Excel file: "))
+            prompt = "\nEnter the number corresponding to the Excel file: "
+            choice = int(input(prompt))
             if 1 <= choice <= len(files):
                 return os.path.join(script_directory, files[choice-1])
             else:
@@ -45,7 +46,8 @@ def choose_excel_sheet(excel_path):
     # User choice
     while True:
         try:
-            choice = int(input("\nEnter the number corresponding to the Excel sheet: "))
+            prompt = "\nEnter the number corresponding to the Excel sheet: "
+            choice = int(input(prompt))
             if 1 <= choice <= len(sheets):
                 return sheets[choice-1]
             else:
@@ -63,10 +65,11 @@ def load_excel_data_to_set(excel_path, column_name, sheet_name):
 
 def extract_tag_from_line(line):
     """Extracts a tag from a line based on the format provided."""
-    parts = [part.strip() for part in line.split("#") if part.strip()]  # Remove any empty parts
+    # Remove any empty parts
+    parts = [part.strip() for part in line.split("#") if part.strip()]
     if len(parts) >= 3:
         return parts[2]  # Return the CIF
-    
+
     return None
 
 
@@ -100,7 +103,7 @@ def load_data_from_excel(excel_path):
 
 def gather_cif_ids_from_files(folder_info):
     files_lst = [os.path.join(folder_info, file) for file in os.listdir(folder_info) if file.endswith('.cif')]
-    
+
     cif_ids_in_files = set()
     for file_path in files_lst:
         CIF_id_string = read_third_line(file_path)
@@ -110,27 +113,30 @@ def gather_cif_ids_from_files(folder_info):
         except ValueError:
             print(f"Error: Invalid CIF ID in {os.path.basename(file_path)}")
             continue
-    
+
     return cif_ids_in_files, len(files_lst)
 
 
-def generate_and_save_report(folder_info, chosen_sheet_name, CIF_id_set_from_Excel, cif_ids_in_files, script_directory):
-    """Generates and saves a report of missing CIF IDs compared to an Excel sheet."""
+def generate_and_save_report(
+        folder_info,
+        CIF_id_set_from_Excel,
+        cif_ids_in_files,
+        script_directory):
+    """Generates and saves a report of missing CIF IDs compared"""
     folder_name = os.path.basename(folder_info)
-    missing_cif_ids = CIF_id_set_from_Excel - cif_ids_in_files
-    
-   
-    if missing_cif_ids:
+    cif_id_not_found_list = CIF_id_set_from_Excel - cif_ids_in_files
+
+    if cif_id_not_found_list:
         print("Missing CIF IDs:")
-        for cif_id in missing_cif_ids:
+        for cif_id in cif_id_not_found_list:
             print(cif_id)
     else:
-        print("Every CIF file in the chosen Excel sheet exists in the chosen folder")
+        print("All CIF files in the Excel sheet exists in the folder")
 
     print("\nSummary:")
-    print(f"- {len(missing_cif_ids)} entries from the Excel sheet are missing in the chosen CIF folder.\n")
+    print(f"- {len(cif_id_not_found_list)} entries from the Excel sheet are missing.\n")
         
-    df_missing = pd.DataFrame(list(missing_cif_ids), columns=['Missing CIF IDs'])
+    df_missing = pd.DataFrame(list(cif_id_not_found_list), columns=['Missing CIF IDs'])
     
     csv_filename = f"{folder_name}_missing_files.csv"
     csv_path = os.path.join(script_directory, csv_filename)
@@ -141,7 +147,7 @@ def generate_and_save_report(folder_info, chosen_sheet_name, CIF_id_set_from_Exc
 
 def filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name):
     """
-    Filters the original Excel sheet to only include the rows where the entry matches 
+    Filters the original Excel sheet to only include the rows
     the cif_ids_in_files and saves the modified DataFrame to a new Excel file.
     """
     df_original = pd.read_excel(excel_path, sheet_name=chosen_sheet_name)
@@ -162,18 +168,16 @@ def filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name):
 
 
 def get_new_Excel_with_matching_entries(script_directory):
-    """Processes an Excel check by orchestrating multiple functions together."""
+    
     introductory_paragraph = textwrap.dedent("""\
     ===
     Welcome to the CIF-Excel Matching Tool!
 
-    You will be required to provide an Excel file that contains a list of CIF IDs.
-    Next, select the CIF directory of your choice. This tool will then compare the entries in the 
-    provided Excel sheet with the CIF files in the chosen directory. 
+    You will be required to provide an Excel file that contains CIF IDs.
 
     Upon completion, two outputs will be generated:
-    1. A new Excel file that will only have rows matching the CIF files present in the chosen directory.
-    2. A CSV report showcasing the missing CIF IDs that are present in the Excel sheet but not found in the directory.
+    1. Filtered Excel file with rows matching CIF content in the folder
+    2. CSV on unavailable CIF content that are not found in the sheet
 
     Let's get started!
     ===
@@ -191,5 +195,10 @@ def get_new_Excel_with_matching_entries(script_directory):
     
     # Filter the original Excel and save to a new file
     filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name)
-    generate_and_save_report(folder_info, chosen_sheet_name, CIF_id_set_from_Excel, cif_ids_in_files, script_directory)
+    generate_and_save_report(
+        folder_info,
+        CIF_id_set_from_Excel,
+        cif_ids_in_files,
+        script_directory
+    )
 

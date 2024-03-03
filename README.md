@@ -7,6 +7,7 @@ Interactive and codeless program for sorting, pre-processing, sorting CIF (Cryst
 This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information, and checking CIF folder content against an Excel file.
 
 When you run `python main.py`, a prompt below will appear. 
+
 ```
 Welcome! Please choose an option to proceed:
 [1] Move files based on unsupported CIF format
@@ -61,4 +62,5 @@ python -m pytest
 README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue. If you have any questions, please feel free to send me an email at sl5400@columbia.edu
 
 ## Changelog
+- 20240303 implementing Flake8 linting requirement
 - 20240303 added GitHub CI integration
