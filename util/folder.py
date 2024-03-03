@@ -33,8 +33,7 @@ def save_to_csv_directory(folder_info, df, base_filename):
     """
     Saves the dataframe as a CSV inside a 'csv' sub-directory of the provided folder.
     """
-    # Create the sub-directory for CSVs if it doesn't exist
-    
+        
     csv_directory = join(folder_info, "csv")
     if not os.path.exists(csv_directory):
         os.mkdir(csv_directory)

@@ -77,6 +77,7 @@ def read_third_line(file_path):
             file.readline()
         return extract_tag_from_line(file.readline())
 
+
 def select_directory_and_file(script_directory):
     folder_info = folder.choose_CIF_directory(script_directory)
     if not folder_info:
@@ -136,6 +137,7 @@ def generate_and_save_report(folder_info, chosen_sheet_name, CIF_id_set_from_Exc
     
     df_missing.to_csv(csv_path, index=False)
     print(f"\nMissing CIF IDs saved to {csv_filename}.")
+
 
 def filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name):
     """
