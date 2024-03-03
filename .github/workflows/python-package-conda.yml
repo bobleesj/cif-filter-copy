@@ -33,4 +33,4 @@ jobs:
       run: |
         source venv/bin/activate
         pip install pytest
-        pytest
+        python -m pytest
