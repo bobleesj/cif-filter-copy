@@ -33,7 +33,7 @@ Simply copy and paste the following block.
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
 cd cif-cleaner
-pip install pandas==2.2.1 click==8.1.7 gemmi==0.6.5 matplotlib==3.8.3 pytest==8.0.1 scipy
+pip install pandas click gemmi matplotlib pytest scipy sympy
 python main.py
 ```
 
