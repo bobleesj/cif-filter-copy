@@ -33,7 +33,7 @@ Simply copy and paste the following block.
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
 cd cif-cleaner
-pip install pandas==2.2.1 click==8.1.7 gemmi==0.6.5 matplotlib==3.8.3 pytest==8.0.1
+pip install pandas click gemmi matplotlib pytest scipy sympy openpyxl
 python main.py
 ```
 
@@ -42,7 +42,7 @@ The above method had no issue so far. But If you are interested in using `Conda`
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
 cd cif-cleaner
-conda create -n cif python=3.10
+conda create -n cif python=3.12
 conda activate cif
 pip install -r requirements.txt
 python main.py
