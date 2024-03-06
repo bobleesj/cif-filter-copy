@@ -135,11 +135,11 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- M2A Co 3 g 0.5 0 0.5 0.8
- M2B Ga 3 g 0.5 0 0.5 0.2
- M1A Co 2 c 0.333333 0.666667 0 0.8
- M1B Ga 2 c 0.333333 0.666667 0 0.2
- La La 1 a 0 0 0 1
+Co2A Co 3 g 0.5 0 0.5 0.8
+Ga2B Ga 3 g 0.5 0 0.5 0.2
+Co1A Co 2 c 0.333333 0.666667 0 0.8
+Ga1B Ga 2 c 0.333333 0.666667 0 0.2
+La La 1 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
