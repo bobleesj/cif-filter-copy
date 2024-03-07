@@ -4,8 +4,10 @@ import preprocess.cif_parser as cif_parser
 import preprocess.supercell as supercell
 import filter.format as format
 from util.folder import get_cif_file_path_list_from_directory
+import preprocess.cif_editor as cif_editor
 import shutil
 import tempfile
+
 
 def preprocess_supercell_operation(file_path):
     """
@@ -13,9 +15,8 @@ def preprocess_supercell_operation(file_path):
     extracting CIF block and loop values, and getting coordinates and labels from the supercell.
     Raises exceptions if the CIF file is improperly formatted or if there is an error in processing.
     """
-    result = cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
-    _, compound_formula, _, _ = result
-    format.preprocess_cif_file_on_label_element(file_path)
+    cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
+    cif_editor.preprocess_cif_file_on_label_element(file_path)
     CIF_block = cif_parser.get_CIF_block(file_path)
     CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
     print(CIF_loop_values)
@@ -69,7 +70,7 @@ def test_bad_cif_files_without_error_message():
 
 def test_good_cif_files():
     """
-    Verifies that CIF files considered to be correctly formatted are processed without errors.
+    Verifies that CIF files considered to be correctly formatted with no errors.
     This function ensures the preprocessing operation can handle valid CIF files as expected.
     """
 
@@ -77,7 +78,7 @@ def test_good_cif_files():
     cif_file_path_list = get_cif_file_path_list_from_directory(good_files_dir)
     for cif_file_path in cif_file_path_list:
         try:
-            preprocess_supercell_operation(cif_file_path)
+            cif_editor.preprocess_supercell_operation(cif_file_path)
         except Exception as e:
             assert False, f"An unexpected error occurred for {cif_file_path}: {str(e)}"
 
@@ -92,10 +93,9 @@ def test_preprocess_cif_file_on_label_element_on_type_1():
 
     cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
     for temp_cif_file_path in cif_file_path_list:   
-        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        cif_editor.preprocess_cif_file_on_label_element(temp_cif_file_path)
         
         # Perform your tests on the modified temporary file
-        filename = os.path.basename(temp_cif_file_path)
         CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
         CIF_loop_values = cif_parser.get_loop_values(CIF_block, cif_parser.get_loop_tags())
         num_element_labels = len(CIF_loop_values[0])
@@ -116,7 +116,7 @@ def run_preprocess_test_on_cif_files(cif_directory):
 
     cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
     for temp_cif_file_path in cif_file_path_list:
-        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        cif_editor.preprocess_cif_file_on_label_element(temp_cif_file_path)
         
         # Perform tests on the modified temporary file
         CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
@@ -157,8 +157,11 @@ def test_preprocess_cif_file_on_label_element_type_6():
     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_6"
     run_preprocess_test_on_cif_files(cif_directory)
 
+def test_preprocess_cif_file_on_label_element_type_7():
+    cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_7"
+    run_preprocess_test_on_cif_files(cif_directory)
 
-# Manual testing from each CIF File
+# Manual testing from each CIF File from a folder
 def test_preprocess_cif_file_on_label_element_type_mixed():
     cif_directory = "test/format_label_cif_files/symbolic_atom_label_type_mixed"
     
@@ -169,8 +172,8 @@ def test_preprocess_cif_file_on_label_element_type_mixed():
     cif_file_path_list = get_cif_file_path_list_from_directory(temp_cif_directory)
 
     for temp_cif_file_path in cif_file_path_list:
-        format.preprocess_cif_file_on_label_element(temp_cif_file_path)
-        content_lines = cif_parser.get_atom_site_loop_content(temp_cif_file_path,
+        cif_editor.preprocess_cif_file_on_label_element(temp_cif_file_path)
+        content_lines = cif_parser.get_loop_content(temp_cif_file_path,
                                                               "_atom_site_occupancy")
 
         filename = os.path.basename(temp_cif_file_path)
@@ -200,4 +203,19 @@ def test_preprocess_cif_file_on_label_element_type_mixed():
             assert len(content_lines) == 6
             assert content_lines[0].strip() == "Ni1A Ni 4 j 0 0.172 0.5 0.88(1)"
             assert content_lines[1].strip() == "Ga1B Ga 4 j 0 0.172 0.5 0.12(1)"
+        
+        # Type 7
+        if filename == "1817279.cif":
+            assert len(content_lines) == 3
+            assert content_lines[0].strip() == "Fe1 Fe 1 d 0.5 0.5 0.5 0.99(4)"
+            assert content_lines[1].strip() == "Pt2 Pt 1 d 0.5 0.5 0.5 0.01(4)"
+
+        # Type 7
+        if filename == "1817275.cif":
+            assert len(content_lines) == 4
+            assert content_lines[0].strip() == "Fe1 Fe 1 d 0.5 0.5 0.5 0.97(4)"
+            assert content_lines[1].strip() == "Pt2 Pt 1 d 0.5 0.5 0.5 0.03(4)"
+            assert content_lines[2].strip() == "Pt1 Pt 1 a 0 0 0 0.98(4)"
+            assert content_lines[3].strip() == "Fe2 Fe 1 a 0 0 0 0.02(4)"
+            
     shutil.rmtree(temp_dir)

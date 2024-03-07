@@ -220,7 +220,7 @@ def get_cell_lenghts_angles_rad(CIF_block):
     return cell_lengths, cell_angles_rad
 
 # Index is one lower than the actual line number
-def get_atom_site_loop_end_start_line_indexes(file_path, start_keyword):
+def get_line_start_end_line_indexes(file_path, start_keyword):
     """
     Finds the starting and ending indexes of the lines in atom_site_loop
     """
@@ -249,8 +249,8 @@ def get_atom_site_loop_end_start_line_indexes(file_path, start_keyword):
     return start_index, end_index
 
 
-def get_atom_site_loop_content(file_path, start_keyword):
-    start_index, end_index = get_atom_site_loop_end_start_line_indexes(file_path, start_keyword)
+def get_loop_content(file_path, start_keyword):
+    start_index, end_index = get_line_start_end_line_indexes(file_path, start_keyword)
     
     if start_index is None or end_index is None:
         print("Section starting with", start_keyword, "not found.")
