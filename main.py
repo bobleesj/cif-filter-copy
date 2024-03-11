@@ -19,7 +19,7 @@ def main():
         "4": "Move files based on supercell atom count",
         "5": "Copy files based on atomic occupancy and mixing",
         "6": "Get file info in the folder",
-        "7": "Check CIF folder content against Excel file"
+        "7": "Check CIF folder content against Excel file",
     }
 
     for key, value in options.items():
@@ -34,31 +34,31 @@ def main():
         return
 
     # 1. Relocate CIF format with error
-    if choice == '1':
+    if choice == "1":
         format.move_files_based_on_format_error(script_directory)
 
     # 2. Relocate CIF files with unreasonable distances
-    elif choice == '2':
+    elif choice == "2":
         min_distance.move_files_based_on_min_dist(script_directory)
 
     # 3. Relocate CIF based on tags
-    elif choice == '3':
+    elif choice == "3":
         tags.move_files_based_on_tags(script_directory)
 
     # 4. Relocate CIF based the number of atoms in the supercell
-    elif choice == '4':
+    elif choice == "4":
         supercell_size.move_files_based_on_supercell_size(script_directory)
 
     # 5. Copy files based on atomic occupancy and atomic mixing
-    elif choice == '5':
+    elif choice == "5":
         occupancy.copy_files_based_on_atomic_occupancy_mixing(script_directory)
 
     # 6. Get info on the supercell
-    elif choice == '6':
+    elif choice == "6":
         info.get_cif_folder_info(script_directory)
 
     # 7. Check missing files against Excel sheet
-    elif choice == '7':
+    elif choice == "7":
         excel.get_new_Excel_with_matching_entries(script_directory)
 
 

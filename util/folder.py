@@ -3,14 +3,21 @@ from os.path import join, exists
 import glob
 from shutil import rmtree, move
 
+
 def choose_CIF_directory(script_directory):
     """
     Allows the user to select a directory from the given path.
     """
-    directories = [d for d in os.listdir(script_directory) 
-                   if os.path.isdir(join(script_directory, d)) 
-                   and any(file.endswith('.cif') for file in os.listdir(join(script_directory, d)))]
-    
+    directories = [
+        d
+        for d in os.listdir(script_directory)
+        if os.path.isdir(join(script_directory, d))
+        and any(
+            file.endswith(".cif")
+            for file in os.listdir(join(script_directory, d))
+        )
+    ]
+
     if not directories:
         print("No directories found in the current path containing .cif files!")
         return None
@@ -20,11 +27,17 @@ def choose_CIF_directory(script_directory):
         print(f"{idx}. {dir_name}, {num_of_cif_files} files")
     while True:
         try:
-            choice = int(input("\nEnter the number corresponding to the folder containing .cif files: "))
+            choice = int(
+                input(
+                    "\nEnter the number corresponding to the folder containing .cif files: "
+                )
+            )
             if 1 <= choice <= len(directories):
-                return join(script_directory, directories[choice-1])
+                return join(script_directory, directories[choice - 1])
             else:
-                print(f"Please enter a number between 1 and {len(directories)}.")
+                print(
+                    f"Please enter a number between 1 and {len(directories)}."
+                )
         except ValueError:
             print("Invalid input. Please enter a number.")
 
@@ -33,7 +46,7 @@ def save_to_csv_directory(folder_info, df, base_filename):
     """
     Saves the dataframe as a CSV inside a 'csv' sub-directory of the provided folder.
     """
-        
+
     csv_directory = join(folder_info, "csv")
     if not os.path.exists(csv_directory):
         os.mkdir(csv_directory)
@@ -72,6 +85,4 @@ def move_files(to_directory, file_path_list):
 
 def remove_file(file_path):
     if exists(file_path):
-       os.remove(file_path)
-
-
+        os.remove(file_path)

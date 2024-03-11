@@ -7,9 +7,10 @@ import textwrap
 
 
 def copy_files_based_on_atomic_occupancy_mixing(
-        script_directory, is_interactive_mode=True):
-
-    introductory_paragraph = textwrap.dedent("""\
+    script_directory, is_interactive_mode=True
+):
+    introductory_paragraph = textwrap.dedent(
+    """\
     ===
     Welcome to the CIF Atomic Occupancy and Mixing Filter Tool!
 
@@ -26,12 +27,12 @@ def copy_files_based_on_atomic_occupancy_mixing(
 
     Let's get started!
     ===
-    """)
-    
+    """
+    )
+
     print(introductory_paragraph)
     _, chosen_folder_path, files = get_cif_files_and_folder_info(
-        script_directory,
-        is_interactive_mode
+        script_directory, is_interactive_mode
     )
     if len(files) is not None:
         process_files(files, chosen_folder_path)
@@ -46,7 +47,7 @@ def get_cif_files_and_folder_info(script_directory, is_interactive_mode):
         if not chosen_folder_path:
             print("No directory chosen. Exiting.")
             return None, None, None, None
-        
+
     # No graphic user interface
     if not is_interactive_mode:
         chosen_folder_path = script_directory
@@ -59,9 +60,11 @@ def get_cif_files_and_folder_info(script_directory, is_interactive_mode):
 def get_atom_info(CIF_loop_values, i):
     label = CIF_loop_values[0][i]
     occupancy = float(cif_parser.remove_string_braket(CIF_loop_values[7][i]))
-    coordinates = (cif_parser.remove_string_braket(CIF_loop_values[4][i]),
-                   cif_parser.remove_string_braket(CIF_loop_values[5][i]),
-                   cif_parser.remove_string_braket(CIF_loop_values[6][i]))
+    coordinates = (
+        cif_parser.remove_string_braket(CIF_loop_values[4][i]),
+        cif_parser.remove_string_braket(CIF_loop_values[5][i]),
+        cif_parser.remove_string_braket(CIF_loop_values[6][i]),
+    )
     return label, occupancy, coordinates
 
 
@@ -69,16 +72,14 @@ def copy_to_dir(chosen_folder_path, folder_suffix, file):
     folder_name = os.path.basename(chosen_folder_path)
 
     destination_directory = os.path.join(
-        chosen_folder_path,
-        f"{folder_name}_{folder_suffix}"
+        chosen_folder_path, f"{folder_name}_{folder_suffix}"
     )
 
     if not os.path.exists(destination_directory):
         os.makedirs(destination_directory)
 
-    shutil.copy(file, os.path.join(
-        destination_directory,
-        os.path.basename(file))
+    shutil.copy(
+        file, os.path.join(destination_directory, os.path.basename(file))
     )
 
 
@@ -87,8 +88,7 @@ def process_files(files, folder_path):
         filename = os.path.basename(file)
         CIF_block = cif_parser.get_CIF_block(file)
         CIF_loop_values = cif_parser.get_loop_values(
-            CIF_block,
-            cif_parser.get_loop_tags()
+            CIF_block, cif_parser.get_loop_tags()
         )
         num_atom_labels = len(CIF_loop_values[0])
 
