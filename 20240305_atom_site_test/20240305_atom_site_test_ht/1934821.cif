@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Pr-Ru            # PrRu2                                         #  250134 #
+# Dy-Pd            # Dy2.12Pd0.88 ht                               # 1934821 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,35 +18,34 @@
 #                                                                            #
 ##############################################################################
 
-data_250134
+data_1934821
 _audit_creation_date                     2024-02-23
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      250134
-_database_code_PDF                       04-001-0084
+#_database_code_PCD                      1934821
+_database_code_PDF                       ?
 
 # Entry summary
 
-_chemical_formula_structural             'Pr Ru~2~'
-_chemical_formula_sum                    'Pr Ru2'
+_chemical_formula_structural             'Dy~2.12~ Pd~0.88~'
+_chemical_formula_sum                    'Dy2.13 Pd0.88'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
-_chemical_name_structure_type            MgCu~2~,cF24,227
-_chemical_formula_weight                 343.0
-_chemical_melting_point                  1954(15)
+_chemical_name_structure_type            Dy~2~(Dy~0.12~Pd~0.88~),cF112,227
+_chemical_formula_weight                 438.1
 
 # Bibliographic data
 
 _publ_section_title
-'Melting points of LaRu~2~, CeRu~2~, and PrRu~2~'                             
-_journal_coden_ASTM                      JCOMAH
-_journal_name_full                       'J. Less-Common Met.'
-_journal_year                            1963
-_journal_volume                          5
-_journal_page_first                      432
-_journal_page_last                       433
+'The hydrogenation of Dy~5~Pd~2~ followed by in situ methods'                 
+_journal_coden_ASTM                      JSSCBI
+_journal_name_full                       'J. Solid State Chem.'
+_journal_year                            2012
+_journal_volume                          187
+_journal_page_first                      244
+_journal_page_last                       248
 _journal_language                        English
 loop_
  _publ_author_name
@@ -57,14 +56,14 @@ loop_
 
 # Standardized crystallographic data
 
-_cell_length_a                           7.6223
-_cell_length_b                           7.6223
-_cell_length_c                           7.6223
+_cell_length_a                           13.549
+_cell_length_b                           13.549
+_cell_length_c                           13.549
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             442.85
-_cell_formula_units_Z                    8
+_cell_volume                             2487.3
+_cell_formula_units_Z                    32
 _space_group_IT_number                   227
 _space_group_name_H-M_alt                'F d -3 m (origin choice 2)'
 loop_
@@ -264,8 +263,8 @@ loop_
  192 '1/4+z, 1/4+x, -y'
 loop_
  _atom_type_symbol
- Ru
- Pr
+ Dy
+ Pd
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -275,28 +274,41 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Ru Ru 16 c 0 0 0 1
- Pr Pr 8 b 0.375 0.375 0.375 1
+ Dy1 Dy 48 f 0.438 0.125 0.125 1
+ Dy2 Dy 32 e 0.027 0.027 0.027 0.5
+ Pd,Dy3A Pd 32 e 0.224 0.224 0.224 0.875
+ Pd,Dy3B Dy 32 e 0.224 0.224 0.224 0.125
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            10.29
-_cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka'
+_exptl_crystal_density_diffrn            9.36
+_cell_measurement_temperature            425
+_cell_measurement_radiation              neutrons
+_cell_measurement_wavelength             1.8671
+_pd_proc_wavelength                      1.8671
 _cell_measurement_reflns_used            ?
-_diffrn_ambient_temperature              ?
-_diffrn_measurement_device               'Debye-Scherrer film'
-_diffrn_measurement_device_type          ?
-_diffrn_radiation_type                   ?
+_diffrn_ambient_temperature              425
+_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device_type
+'France, Grenoble, Institut Laue-Langevin ILL, D20'                           
+_diffrn_radiation_type                   neutrons
+_diffrn_radiation_wavelength             1.8671
 _diffrn_reflns_number                    ?
+_diffrn_reflns_theta_min                 1.5
+_diffrn_reflns_theta_max                 75
+_pd_proc_2theta_range_min                3
+_pd_proc_2theta_range_max                150
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?
-_computing_structure_solution            ?
+_computing_structure_solution            'starting values from the literature'
 _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
 
-# End of data set 250134
+# End of data set 1934821
 

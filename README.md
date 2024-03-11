@@ -1,14 +1,14 @@
 # CIF Cleaner
+
 Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
 
-[![codecov](https://codecov.io/gh/bobleesj/cif-cleaner/graph/badge.svg?token=3KDQ4344V5)](https://codecov.io/gh/bobleesj/cif-cleaner)
-
 ## Overview
+
 This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information, and checking CIF folder content against an Excel file.
 
 When you run `python main.py`, a prompt below will appear. 
 
-```
+```bash
 Welcome! Please choose an option to proceed:
 [1] Move files based on unsupported CIF format
 [2] Move files based on unreasonable distance
@@ -23,6 +23,7 @@ Enter your choice (1-7):
 No need to import packages or *write a line of code*. One can simply drag and drop CIF files to have all the features below.
 
 ## Features
+
 - **Move Unsupported CIF Files:** Relocate CIF files that do not comply with the expected format.
 - **Move CIF Files Based on Distance:** Relocate CIF files containing unreasonable distances between atoms.
 - **Move CIF Files Based on Tags:** Relocate CIF files based on specific tags.
@@ -31,6 +32,7 @@ No need to import packages or *write a line of code*. One can simply drag and dr
 - **Excel Integration:** Check CIF folder content against an Excel file for missing entries.
 
 ## Installation
+
 Simply copy and paste the following block.
 
 ```bash
@@ -52,15 +54,18 @@ python main.py
 ```
 
 ## Tutorial
+
 > If you are new to Conda (Python package manager), I have written a tutorial for you here [Intro to Python package manager for beginners (Ft. Conda with Cheatsheet](https://bobleesj.github.io/tutorial/2024/02/26/intro-to-python-package-manager.html).
+
 ## Test
 
-```
+```bash
 python -m pytest           
 ```
 
 README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue. If you have any questions, please feel free to send me an email at sl5400@columbia.edu
 
 ## Changelog
-- 20240303 implementing Flake8 linting requirement
+
+- 20240311 implementing Flake8 linting requirement
 - 20240303 added GitHub CI integration

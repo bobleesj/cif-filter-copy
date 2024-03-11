@@ -6,8 +6,9 @@ from util.folder import (
     remove_file,
     get_cif_file_count_from_directory,
     move_files,
-    get_cif_file_path_list_from_directory
+    get_cif_file_path_list_from_directory,
 )
+
 
 def test_move_files_based_on_tags():
     """
@@ -17,7 +18,6 @@ def test_move_files_based_on_tags():
     The test will fail if these conditions are not met, indicating an issue with the file moving process.
     """
 
-    
     base_dir = "test/tag_cif_files"
     cif_ht_tag_dir = join(base_dir, "tag_cif_files_ht")
     cif_m_tag_dir = join(base_dir, "tag_cif_files_m")
@@ -37,35 +37,35 @@ def test_move_files_based_on_tags():
     # There should be one file in each ht and m tags for testing
     moved_ht_cif_file_count = get_cif_file_count_from_directory(cif_ht_tag_dir)
     moved_m_cif_file_count = get_cif_file_count_from_directory(cif_m_tag_dir)
-    
+
     assert moved_ht_cif_file_count == 1, "Not all expected files were moved."
     assert moved_m_cif_file_count == 1, "Not all expected files were moved."
     assert exists(csv_file_path), "CSV log file was not created."
 
-    total_cif_file_moved_count = moved_ht_cif_file_count + moved_m_cif_file_count
+    total_cif_file_moved_count = (
+        moved_ht_cif_file_count + moved_m_cif_file_count
+    )
     csv_data = pd.read_csv(csv_file_path)
-    assert len(csv_data.index) == total_cif_file_moved_count, f"CSV log does not match the # of moved files."
+    assert (
+        len(csv_data.index) == total_cif_file_moved_count
+    ), f"CSV log does not match the # of moved files."
 
     # Move the files back to their original location
-    moved_ht_cif_file_path_list = get_cif_file_path_list_from_directory(cif_ht_tag_dir)
-    moved_m_cif_file_path_list = get_cif_file_path_list_from_directory(cif_m_tag_dir)
+    moved_ht_cif_file_path_list = get_cif_file_path_list_from_directory(
+        cif_ht_tag_dir
+    )
+    moved_m_cif_file_path_list = get_cif_file_path_list_from_directory(
+        cif_m_tag_dir
+    )
 
     move_files(base_dir, moved_ht_cif_file_path_list)
     move_files(base_dir, moved_m_cif_file_path_list)
- 
-     # Check the folder contains a total of 3 CIF files as started
-    assert initial_cif_files_count == get_cif_file_count_from_directory(base_dir)
+
+    # Check the folder contains a total of 3 CIF files as started
+    assert initial_cif_files_count == get_cif_file_count_from_directory(
+        base_dir
+    )
 
     # Cleanup: Remove the folders and files created by the test
     remove_directories(cif_tag_dir_list)
     remove_file(csv_file_path)
-
-
-
-
-
-
-
-
-
-

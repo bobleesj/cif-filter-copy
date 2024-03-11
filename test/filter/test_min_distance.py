@@ -7,10 +7,10 @@ from util.folder import (
     remove_file,
     get_cif_file_count_from_directory,
     move_files,
-    get_cif_file_path_list_from_directory
+    get_cif_file_path_list_from_directory,
 )
 
-'''
+"""
 def test_move_files_based_on_min_dist():
     base_dir = "test/filter/cif/min_dist"
     filtered_dir = join(base_dir, "min_dist_filter_dist_min")
@@ -48,4 +48,4 @@ def test_move_files_based_on_min_dist():
     remove_directories([filtered_dir])
     remove_file(csv_file_path)
     remove_file(histogram_path)
-'''
+"""

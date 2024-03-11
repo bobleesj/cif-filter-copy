@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Pr-Ru            # PrRu2                                         #  250134 #
+# Ce-Ru            # CeRu2 rt                                      #  250133 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,24 +18,24 @@
 #                                                                            #
 ##############################################################################
 
-data_250134
+data_250133
 _audit_creation_date                     2024-02-23
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      250134
-_database_code_PDF                       04-001-0084
+#_database_code_PCD                      250133
+_database_code_PDF                       04-001-0083
 
 # Entry summary
 
-_chemical_formula_structural             'Pr Ru~2~'
-_chemical_formula_sum                    'Pr Ru2'
+_chemical_formula_structural             'Ce Ru~2~'
+_chemical_formula_sum                    'Ce Ru2'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            MgCu~2~,cF24,227
-_chemical_formula_weight                 343.0
-_chemical_melting_point                  1954(15)
+_chemical_formula_weight                 342.3
+_chemical_melting_point                  1812(30)
 
 # Bibliographic data
 
@@ -57,13 +57,13 @@ loop_
 
 # Standardized crystallographic data
 
-_cell_length_a                           7.6223
-_cell_length_b                           7.6223
-_cell_length_c                           7.6223
+_cell_length_a                           7.5364
+_cell_length_b                           7.5364
+_cell_length_c                           7.5364
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             442.85
+_cell_volume                             428.05
 _cell_formula_units_Z                    8
 _space_group_IT_number                   227
 _space_group_name_H-M_alt                'F d -3 m (origin choice 2)'
@@ -265,7 +265,7 @@ loop_
 loop_
  _atom_type_symbol
  Ru
- Pr
+ Ce
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -276,12 +276,12 @@ loop_
  _atom_site_fract_z
  _atom_site_occupancy
  Ru Ru 16 c 0 0 0 1
- Pr Pr 8 b 0.375 0.375 0.375 1
+ Ce Ce 8 b 0.375 0.375 0.375 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            10.29
+_exptl_crystal_density_diffrn            10.62
 _cell_measurement_temperature            ?
 _cell_measurement_radiation              'X-rays, Cu Ka'
 _cell_measurement_reflns_used            ?
@@ -298,5 +298,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 250134
+# End of data set 250133
 

@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Fe-Pr            # Pr2Fe17                                       #  250432 #
+# Fe-Nd            # Nd2Fe17 ht                                    #  250433 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,23 +18,23 @@
 #                                                                            #
 ##############################################################################
 
-data_250432
+data_250433
 _audit_creation_date                     2024-02-23
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      250432
+#_database_code_PCD                      250433
 _database_code_PDF                       ?
 
 # Entry summary
 
-_chemical_formula_structural             'Pr~2.33~ Fe~16.33~'
-_chemical_formula_sum                    'Fe16.33 Pr2.33'
+_chemical_formula_structural             'Nd~2.33~ Fe~16.33~'
+_chemical_formula_sum                    'Fe16.33 Nd2.33'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            Pr~2.33~Fe~16.33~,hR60,166
-_chemical_formula_weight                 1240.3
+_chemical_formula_weight                 1248.1
 
 # Bibliographic data
 
@@ -58,13 +58,13 @@ loop_
 
 # Standardized crystallographic data
 
-_cell_length_a                           8.575
-_cell_length_b                           8.575
+_cell_length_a                           8.57
+_cell_length_b                           8.57
 _cell_length_c                           12.439
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        120
-_cell_volume                             792.11
+_cell_volume                             791.18
 _cell_formula_units_Z                    3
 _space_group_IT_number                   166
 _space_group_name_H-M_alt                'R -3 m h'
@@ -113,7 +113,7 @@ loop_
 loop_
  _atom_type_symbol
  Fe
- Pr
+ Nd
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -127,13 +127,13 @@ loop_
  Fe2 Fe 18 f 0.297 0 0 1
  Fe3 Fe 9 d 0.5 0 0.5 1
  Fe4 Fe 6 c 0 0 0.103 0.667
- Pr1 Pr 6 c 0 0 0.34 1
- Pr2 Pr 3 a 0 0 0 0.333
+ Nd1 Nd 6 c 0 0 0.34 1
+ Nd2 Nd 3 a 0 0 0 0.333
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            7.80
+_exptl_crystal_density_diffrn            7.86
 _cell_measurement_temperature            ?
 _cell_measurement_radiation              ?
 _cell_measurement_reflns_used            ?
@@ -150,5 +150,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 250432
+# End of data set 250433
 
