@@ -52,11 +52,8 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Buschow K.H.J.'
+''
 ;
-Philips Research Laboratories
-Eindhoven
-Netherlands
 ;
 
 # Standardized crystallographic data
