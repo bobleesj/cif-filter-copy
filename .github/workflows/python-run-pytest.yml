@@ -34,6 +34,7 @@ jobs:
         source venv/bin/activate
         pip install pytest
         python -m pytest
+        pytest --cov .
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4.0.1
