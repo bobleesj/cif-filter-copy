@@ -1,5 +1,7 @@
 # CIF Cleaner
 
+[![codecov](https://codecov.io/gh/bobleesj/cif-cleaner/graph/badge.svg?token=3KDQ4344V5)](https://codecov.io/gh/bobleesj/cif-cleaner)
+
 Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
 
 ## Overview
