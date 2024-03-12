@@ -10,7 +10,7 @@ This Python toolkit provides a set of tools for processing Crystallographic Info
 
 When you run `python main.py`, a prompt below will appear. 
 
-```txt
+```text
 Welcome! Please choose an option to proceed:
 [1] Move files based on unsupported CIF format
 [2] Move files based on unreasonable distance
