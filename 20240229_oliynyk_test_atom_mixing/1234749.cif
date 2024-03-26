@@ -52,33 +52,8 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Dzevenko M.D.'
+''
 ;
-Lviv Ivan Franko National University
-Department of Analytical Chemistry
-Lviv
-Ukraine
-;
-'Hamyk A.'
-;
-Lviv Ivan Franko National University
-Department of Analytical Chemistry
-Lviv
-Ukraine
-;
-'Tyvanchuk Y.B.'
-;
-Lviv Ivan Franko National University
-Department of Analytical Chemistry
-Lviv
-Ukraine
-;
-'Kalychak Y.M.'
-;
-Lviv Ivan Franko National University
-Department of Analytical Chemistry
-Lviv
-Ukraine
 ;
 
 # Standardized crystallographic data
