@@ -1,8 +1,12 @@
 import os
+import sys
+from pathlib import Path
+
+# Assuming the script is run from the root directory above src
+sys.path.append(str(Path(__file__).resolve().parent / 'src'))
 
 from cifcleaner.filter import format, min_distance, excel, tags, supercell_size, info, occupancy
 from cifcleaner.util import folder
-
 
 def main():
     script_dir_path = os.path.dirname(os.path.abspath(__file__))
