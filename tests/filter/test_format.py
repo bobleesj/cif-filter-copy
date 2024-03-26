@@ -15,7 +15,7 @@ def preprocess_supercell_operation(file_path):
     """
     cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
     cif_editor.preprocess_cif_file_on_label_element(file_path)
-    cif_block = cif_parser.get_CIF_block(file_path)
+    cif_block = cif_parser.get_cif_block(file_path)
     cof_loop_values = cif_parser.get_loop_values(
         cif_block, cif_parser.get_loop_tags()
     )
@@ -118,7 +118,7 @@ def test_preprocess_cif_file_on_label_element_on_type_1():
         cif_editor.preprocess_cif_file_on_label_element(temp_cif_file_path)
 
         # Perform your tests on the modified temporary file
-        CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
+        CIF_block = cif_parser.get_cif_block(temp_cif_file_path)
         CIF_loop_values = cif_parser.get_loop_values(
             CIF_block, cif_parser.get_loop_tags()
         )
@@ -143,7 +143,7 @@ def run_preprocess_test_on_cif_files(cif_dir):
         cif_editor.preprocess_cif_file_on_label_element(temp_cif_file_path)
 
         # Perform tests on the modified temporary file
-        CIF_block = cif_parser.get_CIF_block(temp_cif_file_path)
+        CIF_block = cif_parser.get_cif_block(temp_cif_file_path)
         CIF_loop_values = cif_parser.get_loop_values(
             CIF_block, cif_parser.get_loop_tags()
         )
@@ -201,6 +201,7 @@ def test_preprocess_cif_file_on_label_element_type_8():
     run_preprocess_test_on_cif_files(cif_dir)
 
 
+@pytest.mark.fast
 # Manual testing from each CIF File from a folder
 def test_preprocess_cif_file_on_label_element_type_mixed():
     cif_dir = "tests/cifs/format_label/symbolic_atom_label_type_mixed"
@@ -261,18 +262,23 @@ def test_preprocess_cif_file_on_label_element_type_mixed():
 
         # Type 8
         if filename == "1814810.cif":
-            print(filename, "called")
             assert len(lines) == 13
             assert lines[0].strip() == "Er7 Er 16 h 0.06284 0.06662 0.39495 1"
-            assert lines[9].strip() == "Er1,In3A Er 4 c 0.75 0.25 0.14542 0.83(2)"
+            assert lines[9].strip() == "Er13A Er 4 c 0.75 0.25 0.14542 0.83(2)"
             assert (
                 lines[10].strip() == "In13B In 4 c 0.75 0.25 0.14542 0.17(2)"
             )
             assert (
-                lines[11].strip() == "In1,Co3A In 4 c 0.75 0.25 0.59339 0.93(3)"
+                lines[11].strip() == "In13A In 4 c 0.75 0.25 0.59339 0.93(3)"
             )
             assert (
                 lines[12].strip() == "Co13B Co 4 c 0.75 0.25 0.59339 0.07(3)"
             )
+
+        # Type 9
+        if filename == "1200981.cif":
+            assert len(lines) == 4
+            assert lines[1].strip() == "SnB Sn 4 c 0.0595 0.25 0.0952 1"
+            assert lines[2].strip() == "SnA Sn 4 c 0.0983 0.25 0.6419 1"
 
     shutil.rmtree(temp_dir)

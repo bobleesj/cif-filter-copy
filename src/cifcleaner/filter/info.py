@@ -63,7 +63,7 @@ def save_results_to_csv(results, folder_info):
 
 
 def get_num_of_atoms_shortest_dist(file_path, is_dist_computed):
-    CIF_block = cif_parser.get_CIF_block(file_path)
+    CIF_block = cif_parser.get_cif_block(file_path)
     cell_lengths, cell_angles_rad = cif_parser.get_cell_lenghts_angles_rad(
         CIF_block
     )

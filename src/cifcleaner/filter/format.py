@@ -47,7 +47,7 @@ def move_files_based_on_format_error(dir_path):
 
             print(f"Preprocessing {filename} ({idx} out of {total_files})")
             # Apply operations that would be done in practice
-            cif_block = cif_parser.get_CIF_block(file_path)
+            cif_block = cif_parser.get_cif_block(file_path)
             cif_loop_values = cif_parser.get_loop_values(
                 cif_block, cif_parser.get_loop_tags()
             )

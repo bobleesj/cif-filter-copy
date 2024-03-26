@@ -9,7 +9,7 @@ def get_CIF_info(file_path, loop_tags):
     """
     Parse the CIF data from the given file path.
     """
-    cif_block = cif_parser.get_CIF_block(file_path)
+    cif_block = cif_parser.get_cif_block(file_path)
     cell_lengths, cell_angles_rad = cif_parser.get_cell_lenghts_angles_rad(
         cif_block
     )

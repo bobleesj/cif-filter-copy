@@ -270,7 +270,7 @@ def get_unit_cell_lengths_angles(block):
     return tuple(lengths + angles)
 
 
-def get_CIF_block(filename):
+def get_cif_block(filename):
     """
     Returns a CIF block from its CIF filename.
     """

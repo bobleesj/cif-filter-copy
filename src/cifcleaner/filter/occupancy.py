@@ -72,7 +72,7 @@ def copy_to_dir(cif_dir_path, folder_suffix, file):
 def process_files(files, folder_path):
     for idx, file in enumerate(files, start=1):
         filename = os.path.basename(file)
-        cif_block = cif_parser.get_CIF_block(file)
+        cif_block = cif_parser.get_cif_block(file)
         cif_loop_values = cif_parser.get_loop_values(
             cif_block, cif_parser.get_loop_tags()
         )

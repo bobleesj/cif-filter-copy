@@ -50,7 +50,7 @@ def move_files_based_on_supercell_size(
 
         # Extract filename and number of atoms first
         filename_base = os.path.basename(file_path)
-        CIF_block = cif_parser.get_CIF_block(file_path)
+        CIF_block = cif_parser.get_cif_block(file_path)
         CIF_loop_values = cif_parser.get_loop_values(
             CIF_block, cif_parser.get_loop_tags()
         )
