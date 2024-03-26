@@ -5,8 +5,8 @@ import shutil
 from click import style
 from os.path import join, exists
 
-from ..preprocess import cif_parser, supercell
-from ..util import folder
+from preprocess import cif_parser, supercell
+from util import folder
 
 
 def get_user_input():

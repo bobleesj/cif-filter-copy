@@ -1,7 +1,7 @@
 import gemmi
 import re
-from ..util.string_parser import remove_string_braket
-from ..util.unit import get_radians_from_degrees
+from util.string_parser import remove_string_braket
+from util.unit import get_radians_from_degrees
 
 
 def extract_formula_and_tag(compound_formula_tag):

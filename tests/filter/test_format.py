@@ -19,7 +19,7 @@ def preprocess_supercell_operation(file_path):
     cof_loop_values = cif_parser.get_loop_values(
         cif_block, cif_parser.get_loop_tags()
     )
-    print(cof_loop_values)
+    
     all_coords_list = supercell.get_coords_list(cif_block, cof_loop_values)
     (
         _,

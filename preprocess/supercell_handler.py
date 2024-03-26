@@ -1,5 +1,5 @@
 from click import style, echo
-from ..preprocess import cif_parser_handler, supercell
+from preprocess import cif_parser_handler, supercell
 import os
 
 

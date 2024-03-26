@@ -6,8 +6,8 @@ import click
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from ..preprocess import cif_parser, cif_parser_handler, supercell_handler
-from ..util import folder
+from preprocess import cif_parser, cif_parser_handler, supercell_handler
+from util import folder
 
 
 def print_intro_prompt():

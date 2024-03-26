@@ -1,7 +1,7 @@
 import shutil
 import pandas as pd
 import os
-from ..util import folder
+from util import folder
 
 
 def extract_formula_and_tag(compound_formula_tag):

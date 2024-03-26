@@ -1,5 +1,5 @@
 import numpy as np
-from ..preprocess.cif_parser import *
+from preprocess.cif_parser import *
 
 
 def calculate_distance(point1, point2, cell_lengths, angles):
@@ -162,8 +162,6 @@ def get_points_and_labels(all_coords_list, loop_values):
         20240221 - switch to containing the label for the case of
         Co,Ni1 Co 4 a 0 0 0 0.50
         """
-        print(get_atom_type(atom_site_label))
-        print(atom_site_type)
 
         if atom_site_type in atom_site_label:
             continue

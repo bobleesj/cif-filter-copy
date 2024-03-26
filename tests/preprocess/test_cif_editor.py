@@ -25,7 +25,6 @@ def get_is_identical_cif(file_path1, file_path2):
 
 
 def test_preprocess_cif_file_by_removing_author_loop():
-    print("Hello worlod")
 
     # Create a temp folder
     cif_directory = "tests/cifs/format_author"

@@ -1,8 +1,8 @@
 import os
 import glob
 import shutil
-from ..preprocess import cif_parser
-from ..util import folder
+from preprocess import cif_parser
+from util import folder
 import textwrap
 
 

@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 import glob
-from ..util import folder
-from ..preprocess import cif_parser, cif_editor, supercell
+from util import folder
+from preprocess import cif_parser, cif_editor, supercell
 
 
 def move_files_based_on_format_error(dir_path):

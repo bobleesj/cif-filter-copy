@@ -1,7 +1,41 @@
 import os
 import textwrap
 import pandas as pd
-from ..util import folder
+from util import folder
+
+
+def get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path):
+    introductory_paragraph = textwrap.dedent(
+        """\
+    ===
+    Welcome to the CIF-Excel Matching Tool!
+
+    You will be required to provide an Excel file that contains CIF IDs.
+
+    Upon completion, two outputs will be generated:
+    1. Filtered Excel file with rows matching CIF content in the folder
+    2. CSV on unavailable CIF content that are not found in the sheet
+
+    Let's get started!
+    ===
+    """
+    )
+
+    print(introductory_paragraph)
+
+    excel_path = select_directory_and_file(script_dir_path)
+    if not cif_dir_path or not excel_path:
+        print("Exiting.")
+        return
+
+    CIF_id_set_from_Excel, chosen_sheet_name = load_data_from_excel(excel_path)
+    cif_ids_in_files, total_files = gather_cif_ids_from_files(cif_dir_path)
+
+    # Filter the original Excel and save to a new file
+    filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name)
+    generate_and_save_report(
+        cif_dir_path, CIF_id_set_from_Excel, cif_ids_in_files, script_dir_path
+    )
 
 
 def choose_excel_file(script_directory):
@@ -82,17 +116,13 @@ def read_third_line(file_path):
 
 
 def select_directory_and_file(script_directory):
-    folder_info = folder.choose_dir(script_directory)
-    if not folder_info:
-        print("No folder selected.")
-        return None, None
 
     excel_path = choose_excel_file(script_directory)
     if not excel_path:
         print("No Excel file selected.")
-        return folder_info, None
+        return None
 
-    return folder_info, excel_path
+    return excel_path
 
 
 def load_data_from_excel(excel_path):
@@ -176,35 +206,3 @@ def filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name):
     return new_excel_path
 
 
-def get_new_Excel_with_matching_entries(script_directory):
-    introductory_paragraph = textwrap.dedent(
-        """\
-    ===
-    Welcome to the CIF-Excel Matching Tool!
-
-    You will be required to provide an Excel file that contains CIF IDs.
-
-    Upon completion, two outputs will be generated:
-    1. Filtered Excel file with rows matching CIF content in the folder
-    2. CSV on unavailable CIF content that are not found in the sheet
-
-    Let's get started!
-    ===
-    """
-    )
-
-    print(introductory_paragraph)
-
-    folder_info, excel_path = select_directory_and_file(script_directory)
-    if not folder_info or not excel_path:
-        print("Exiting.")
-        return
-
-    CIF_id_set_from_Excel, chosen_sheet_name = load_data_from_excel(excel_path)
-    cif_ids_in_files, total_files = gather_cif_ids_from_files(folder_info)
-
-    # Filter the original Excel and save to a new file
-    filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name)
-    generate_and_save_report(
-        folder_info, CIF_id_set_from_Excel, cif_ids_in_files, script_directory
-    )

@@ -3,8 +3,8 @@ import os
 import pandas as pd
 import time
 from click import style
-from ..preprocess import cif_parser, supercell
-from ..util import folder
+from preprocess import cif_parser, supercell
+from util import folder
 import matplotlib.pyplot as plt
 
 

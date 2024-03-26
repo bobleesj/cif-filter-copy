@@ -1,5 +1,5 @@
 import re
-from cifcleaner.preprocess import cif_parser
+from preprocess import cif_parser
 
 
 def preprocess_cif_file_on_label_element(file_path):

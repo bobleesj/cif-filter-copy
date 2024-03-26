@@ -1,8 +1,8 @@
 import os
 import click
 from click import style
-from ..preprocess import cif_parser, supercell
-from ..util import folder
+from preprocess import cif_parser, supercell
+from util import folder
 
 
 def get_CIF_info(file_path, loop_tags):
