@@ -108,7 +108,6 @@ def move_files_based_on_min_dist(cif_dir, isInteractiveMode=True):
     shortest_dist_list = []
     skipped_indices = set()
     result_df = pd.DataFrame()
-    supercell_max_atom_count = float("inf")
     dist_threshold = 1.0  # Set a default value of 1.0 Å
     (
         folder_info,
@@ -135,7 +134,7 @@ def move_files_based_on_min_dist(cif_dir, isInteractiveMode=True):
         shortest_dist_list,
         skipped_indices,
     ) = supercell_handler.get_shortest_dist_list(
-        files_lst, loop_tags, supercell_max_atom_count, supercell_method
+        files_lst, loop_tags, supercell_method
     )
 
     # Create histogram directory and save

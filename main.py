@@ -17,7 +17,7 @@ def main():
 
     print("\nWelcome! Please choose an option to proceed:")
     options = {
-        "1": "Move files based on unsupported format after standarlization",
+        "1": "Move files based on unsupported format after pre-formatting",
         "2": "Move files based on unreasonable distance",
         "3": "Move files based on tags",
         "4": "Move files based on supercell atom count",
