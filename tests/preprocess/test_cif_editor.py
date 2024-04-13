@@ -1,8 +1,8 @@
 import os
 import shutil
 import tempfile
-from cifcleaner.util import folder
-from cifcleaner.preprocess import cif_editor
+from util import folder
+from preprocess import cif_editor
 
 
 def get_is_identical_cif(file_path1, file_path2):

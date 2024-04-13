@@ -1,7 +1,7 @@
 import pandas as pd
 from os.path import join, exists
-from cifcleaner.filter.min_distance import move_files_based_on_min_dist
-from cifcleaner.util.folder import (
+from filter.min_distance import move_files_based_on_min_dist
+from util.folder import (
     remove_directories,
     remove_file,
     get_cif_file_count_from_directory,

@@ -1,6 +1,6 @@
-from cifcleaner.filter.supercell_size import move_files_based_on_supercell_size
+from filter.supercell_size import move_files_based_on_supercell_size
 from os.path import join
-from cifcleaner.util.folder import (
+from util.folder import (
     remove_directories,
     get_cif_file_count_from_directory,
     move_files,

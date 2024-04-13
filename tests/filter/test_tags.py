@@ -1,7 +1,7 @@
 import pandas as pd
 from os.path import join, exists
-from cifcleaner.filter.tags import move_files_based_on_tags
-from cifcleaner.util.folder import (
+from filter.tags import move_files_based_on_tags
+from util.folder import (
     remove_directories,
     remove_file,
     get_cif_file_count_from_directory,

@@ -2,7 +2,6 @@ import os
 import pytest
 import shutil
 import tempfile
-from filter import format
 from preprocess import cif_parser, cif_editor, supercell
 from util.folder import get_cif_file_path_list_from_directory
 

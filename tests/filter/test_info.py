@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from os.path import join, exists
 
-from cifcleaner.filter.info import get_cif_folder_info
-from cifcleaner.util.folder import (
+from filter.info import get_cif_folder_info
+from util.folder import (
     remove_file,
     get_cif_file_count_from_directory,
 )

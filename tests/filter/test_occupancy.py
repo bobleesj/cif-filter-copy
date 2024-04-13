@@ -1,8 +1,8 @@
 from os.path import join
-from cifcleaner.filter.occupancy import (
+from filter.occupancy import (
     copy_files_based_on_atomic_occupancy_mixing,
 )
-from cifcleaner.util.folder import (
+from util.folder import (
     get_cif_file_count_from_directory,
     remove_directories,
 )
