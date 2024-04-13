@@ -1,5 +1,5 @@
 import numpy as np
-import util.unit
+from util import unit
 
 
 def test_round_to_three_decimal():
