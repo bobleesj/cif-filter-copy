@@ -5,9 +5,7 @@ from util import prompt
 import os
 
 
-def get_shortest_dist_list_and_skipped_indices(
-    files_lst, loop_tags, supercell_method=3
-):
+def get_shortest_dist_list(files_lst, loop_tags, supercell_method=3):
     """
     Process each CIF file to find the shortest atomic distance.
     """

@@ -40,7 +40,7 @@ Simply copy and paste the following block.
 ```bash
 git clone https://github.com/bobleesj/cif-cleaner.git
 cd cif-cleaner
-pip install pandas click gemmi matplotlib pytest scipy sympy openpyxl
+pip install pandas click gemmi matplotlib scipy sympy openpyxl
 python main.py
 ```
 
