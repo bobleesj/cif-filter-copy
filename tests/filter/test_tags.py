@@ -14,9 +14,6 @@ def test_move_files_based_on_tags():
     """
     Tests the move_files_based_on_tags function to ensure it
     correctly moves CIF files based on the tags appearing on the 3rd line
-
-    Out of the 3 files present, only 2 should be moved according to their tags, with one file remaining unmoved.
-    The test will fail if these conditions are not met, indicating an issue with the file moving process.
     """
 
     base_dir = "tests/cifs/tags"

@@ -1,5 +1,5 @@
 import numpy as np
-from cifcleaner.util import unit
+import unit
 
 
 def test_round_to_three_decimal():
