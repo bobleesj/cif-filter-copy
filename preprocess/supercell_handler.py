@@ -6,7 +6,7 @@ import os
 
 
 def get_shortest_dist_list_and_skipped_indices(
-    files_lst, loop_tags, max_atom_count, supercell_method=3
+    files_lst, loop_tags, supercell_method=3
 ):
     """
     Process each CIF file to find the shortest atomic distance.
@@ -24,12 +24,6 @@ def get_shortest_dist_list_and_skipped_indices(
         )
         _, cell_lengths, cell_angles_rad, _, all_points, _, _ = result
         num_of_atoms = len(all_points)
-        file_skip_message = f"Skipped - {filename} has {num_of_atoms} atoms"
-
-        if num_of_atoms > max_atom_count:
-            echo(style(file_skip_message, fg="yellow"))
-            skipped_indices.add(idx)
-            continue
 
         atomic_pair_list = supercell.get_atomic_pair_list(
             all_points, cell_lengths, cell_angles_rad
