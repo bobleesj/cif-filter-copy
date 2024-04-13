@@ -1,16 +1,23 @@
 import os
-import sys
-from pathlib import Path
 
-from filter import format, min_distance, excel, tags, supercell_size, info, occupancy
+from filter import (
+    format,
+    min_distance,
+    excel,
+    tags,
+    supercell_size,
+    info,
+    occupancy,
+)
 from util import folder
+
 
 def main():
     script_dir_path = os.path.dirname(os.path.abspath(__file__))
 
     print("\nWelcome! Please choose an option to proceed:")
     options = {
-        "1": "Move files based on unsupported CIF format after standardizing atomic labels",
+        "1": "Move files based on unsupported format after standarlization",
         "2": "Move files based on unreasonable distance",
         "3": "Move files based on tags",
         "4": "Move files based on supercell atom count",
@@ -32,11 +39,11 @@ def main():
 
     # Choose the folder
     cif_dir_path = folder.choose_dir(script_dir_path)
-    
+
     if not cif_dir_path:
         print("No directory chosen. Exiting.")
         return
-    
+
     # 1. Relocate CIF format with error
     if choice == "1":
         format.move_files_based_on_format_error(cif_dir_path)
@@ -63,7 +70,9 @@ def main():
 
     # 7. Check missing files against Excel sheet
     elif choice == "7":
-        excel.get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path)
+        excel.get_new_Excel_with_matching_entries(
+            cif_dir_path, script_dir_path
+        )
 
 
 if __name__ == "__main__":

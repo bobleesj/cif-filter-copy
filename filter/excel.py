@@ -116,7 +116,6 @@ def read_third_line(file_path):
 
 
 def select_directory_and_file(script_directory):
-
     excel_path = choose_excel_file(script_directory)
     if not excel_path:
         print("No Excel file selected.")
@@ -204,5 +203,3 @@ def filter_and_save_excel(excel_path, cif_ids_in_files, chosen_sheet_name):
     print(f"\nFiltered Excel sheet saved to {new_filename}.")
 
     return new_excel_path
-
-

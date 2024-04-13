@@ -3,11 +3,12 @@ import shutil
 import textwrap
 
 import click
+from click import echo
 import pandas as pd
 import matplotlib.pyplot as plt
 
 from preprocess import cif_parser, cif_parser_handler, supercell_handler
-from util import folder
+from util import folder, prompt
 
 
 def print_intro_prompt():
@@ -17,13 +18,7 @@ def print_intro_prompt():
     ===
     Welcome to the CIF Atomic Distance Filter Tool!
 
-    This tool reads CIF files and calculates the shortest atomic distance for each file. 
-    Once these distances are determined, it displays a histogram, allowing you to visually 
-    understand the distribution of the shortest atomic distances for all processed CIF files.
-
-    You will then be prompted to enter a distance threshold after you close the histogram.
-    Based on this threshold, CIF files having the shortest atomic distance less than the given
-    threshold will be moved to a new sub-directory.
+    This tool reads CIF files and calculates the shortest atomic distance.
 
     At the end, a comprehensive log will be saved in CSV format, capturing:
     1. File names of CIFs.
@@ -31,11 +26,6 @@ def print_intro_prompt():
     3. Shortest atomic distance computed.
     4. Whether the file was moved (filtered) based on the threshold.
     5. Number of atoms in each file's supercell.
-
-    Additionally, you can optionally choose to skip files based on the number of unique atoms 
-    present in the supercell.
-
-    Let's get started!
     ===
     """
     )
@@ -131,26 +121,21 @@ def move_files_based_on_min_dist(cif_dir, isInteractiveMode=True):
     )
 
     if isInteractiveMode:
-        click.echo(
-            "\nQ. Do you want to skip any CIF files based on the number of unique atoms in the supercell? Any file above the number will be skipped."
-        )
-        skip_based_on_atoms = click.confirm("(Default: N)", default=False)
+        supercell_method = prompt.get_user_input_on_supercell_method()
 
-        if skip_based_on_atoms:
-            click.echo(
-                "\nEnter the threshold for the maximum number of atoms in the supercell."
+        if not supercell_method:
+            echo(
+                "> Your default option is generating a 2-2-2 supercell for "
+                "files more than 100 atoms in the unit cell.",
             )
-            supercell_max_atom_count = click.prompt(
-                "Files with atoms exceeding this count will be skipped",
-                type=int,
-            )
+            supercell_method = 3
 
     # Process CIF files
     (
         shortest_dist_list,
         skipped_indices,
     ) = supercell_handler.get_shortest_dist_list_and_skipped_indices(
-        files_lst, loop_tags, supercell_max_atom_count
+        files_lst, loop_tags, supercell_max_atom_count, supercell_method
     )
 
     # Create histogram directory and save
@@ -162,9 +147,8 @@ def move_files_based_on_min_dist(cif_dir, isInteractiveMode=True):
         folder_info, "plot", "histogram-min-dist.png"
     )
     plot_histogram(shortest_dist_list, histogram_save_path, num_of_files)
-    print(
-        "Histogram saved. Please check the 'plot' folder of the selected cif directory."
-    )
+
+    print("Histogram saved. Please check the 'plot' folder of the cif folder.")
 
     if isInteractiveMode:
         prompt_dist_threshold = (

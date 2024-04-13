@@ -2,16 +2,16 @@ import os
 import pytest
 import shutil
 import tempfile
-from cifcleaner.preprocess import cif_parser, cif_editor, supercell
-from cifcleaner.filter import format
-from cifcleaner.util.folder import get_cif_file_path_list_from_directory
+from filter import format
+from preprocess import cif_parser, cif_editor, supercell
+from util.folder import get_cif_file_path_list_from_directory
 
 
 def preprocess_supercell_operation(file_path):
     """
-    Processes a CIF file by extracting compound information, formatting the file,
-    extracting CIF block and loop values, and getting coordinates and labels from the supercell.
-    Raises exceptions if the CIF file is improperly formatted or if there is an error in processing.
+    Processes a CIF file by extracting compound information,
+    Raises exceptions if the CIF file is improperly formatted o
+    if there is an error in processing.
     """
     cif_parser.get_compound_phase_tag_id_from_third_line(file_path)
     cif_editor.preprocess_cif_file_on_label_element(file_path)
@@ -19,7 +19,7 @@ def preprocess_supercell_operation(file_path):
     cof_loop_values = cif_parser.get_loop_values(
         cif_block, cif_parser.get_loop_tags()
     )
-    
+
     all_coords_list = supercell.get_coords_list(cif_block, cof_loop_values)
     (
         _,
@@ -30,8 +30,8 @@ def preprocess_supercell_operation(file_path):
 
 def run_test_for_error_type(error_dir, expected_error_message):
     """
-    Runs tests for CIF files in a specified directory expected to raise specific error messages.
-    Verifies that the correct exception is raised for each file, ensuring error handling works as expected.
+    Runs tests for CIF files in a specified directory expected to raise
+    specific error messages.
     """
 
     cif_file_path_list = get_cif_file_path_list_from_directory(error_dir)
@@ -46,8 +46,8 @@ def run_test_for_error_type(error_dir, expected_error_message):
 
 def test_bad_cif_files_with_error_message():
     """
-    Tests various types of known bad CIF files that should raise specific errors.
-    Each test case checks for a particular type of formatting or content error within the CIF file.
+    Tests various types of known bad CIF files that should raise specific
+    errors.
     """
     error_cases = [
         (
@@ -74,10 +74,6 @@ def test_bad_cif_files_with_error_message():
 
 
 def test_bad_cif_files_without_error_message():
-    """
-    Tests CIF files known to be bad but without checking for specific error messages.
-    Ensures that any processing error is caught, verifying that problematic files are indeed recognized.
-    """
     cif_error_others = "test/bad_cif_files_error_others"
     cif_file_path_list = get_cif_file_path_list_from_directory(
         cif_error_others
@@ -89,11 +85,6 @@ def test_bad_cif_files_without_error_message():
 
 
 def test_good_cif_files():
-    """
-    Verifies that CIF files considered to be correctly formatted with no errors.
-    This function ensures the preprocessing operation can handle valid CIF files as expected.
-    """
-
     good_files_dir = "test/good_cif_files_test"
     cif_file_path_list = get_cif_file_path_list_from_directory(good_files_dir)
     for cif_file_path in cif_file_path_list:

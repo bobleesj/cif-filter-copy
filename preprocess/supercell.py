@@ -1,10 +1,11 @@
 import numpy as np
-from preprocess.cif_parser import *
+import gemmi
+from preprocess import cif_parser
 
 
 def calculate_distance(point1, point2, cell_lengths, angles):
     """
-    Calculates the Euclidean distance between two points using the given cell lengths and angles.
+    Calculates the Euclidean distance between two points.
     """
     delta_x1, delta_y1, delta_z1, label1 = list(map(float, point1[:-1])) + [
         point1[-1]
@@ -42,10 +43,86 @@ def calculate_distance(point1, point2, cell_lengths, angles):
     return distance, label1, label2
 
 
-def shift_and_append_points(points, atom_site_label):
+def shift_and_append_points(
+    points,
+    atom_site_label,
+    num_unitcell_atom,
+    supercell_generation_method,
+):
     """
-    Shift and duplicate points to create a 2 by 2 by 2 supercell.
+    Shift and duplicate points to create supercell.
     """
+
+    translation_op_unit_cell_atom_num_threshold = 100
+    # Method 1 - No sfhits
+    # Method 2 - +1 +1 +1 shifts
+    # Method 3 - +-1 +-1 +-1 shifts
+
+    if num_unitcell_atom > translation_op_unit_cell_atom_num_threshold:
+        if supercell_generation_method == 1:
+            shifts = np.array([[0, 0, 0]])
+            shifted_points = points[:, None, :] + shifts[None, :, :]
+            all_points = []
+            for point_group in shifted_points:
+                for point in point_group:
+                    new_point = (*np.round(point, 5), atom_site_label)
+                    all_points.append(new_point)
+
+            return all_points
+
+        if supercell_generation_method == 2:
+            shifts = np.array(
+                [
+                    [0, 0, 0],
+                    [1, 0, 0],
+                    [0, 1, 0],
+                    [1, 1, 0],
+                    [0, 0, 1],
+                    [1, 0, 1],
+                    [0, 1, 1],
+                    [1, 1, 1],
+                ]
+            )
+            shifted_points = points[:, None, :] + shifts[None, :, :]
+            all_points = []
+            for point_group in shifted_points:
+                for point in point_group:
+                    new_point = (*np.round(point, 5), atom_site_label)
+                    all_points.append(new_point)
+
+            return all_points
+
+        if supercell_generation_method == 3:
+            shifts = np.array(
+                [
+                    [0, 0, 0],
+                    [1, 0, 0],
+                    [0, 1, 0],
+                    [1, 1, 0],
+                    [0, 0, 1],
+                    [1, 0, 1],
+                    [0, 1, 1],
+                    [1, 1, 1],
+                    [-1, 0, 0],
+                    [0, -1, 0],
+                    [-1, -1, 0],
+                    [0, 0, -1],
+                    [1, 0, -1],
+                    [0, -1, -1],
+                    [-1, -1, -1],
+                ]
+            )
+
+            shifted_points = points[:, None, :] + shifts[None, :, :]
+            all_points = []
+            for point_group in shifted_points:
+                for point in point_group:
+                    new_point = (*np.round(point, 5), atom_site_label)
+                    all_points.append(new_point)
+
+            return all_points
+
+    # General method for files below 100 atoms in the unit cell
     shifts = np.array(
         [
             [0, 0, 0],
@@ -65,6 +142,7 @@ def shift_and_append_points(points, atom_site_label):
             [-1, -1, -1],
         ]
     )
+
     shifted_points = points[:, None, :] + shifts[None, :, :]
     all_points = []
     for point_group in shifted_points:
@@ -77,21 +155,20 @@ def shift_and_append_points(points, atom_site_label):
 
 def get_coords_list(block, loop_values):
     """
-    Computes the new coordinates after applying symmetry operations to the initial coordinates.
+    Computes the new coordinates after applying symmetry operations
+    to the initial coordinates.
     """
 
     loop_length = len(loop_values[0])
     coords_list = []
     for i in range(loop_length):
         atom_site_x, atom_site_y, atom_site_z = (
-            remove_string_braket(loop_values[4][i]),
-            remove_string_braket(loop_values[5][i]),
-            remove_string_braket(loop_values[6][i]),
+            cif_parser.remove_string_braket(loop_values[4][i]),
+            cif_parser.remove_string_braket(loop_values[5][i]),
+            cif_parser.remove_string_braket(loop_values[6][i]),
         )
         atom_site_label = loop_values[0][i]
-        atom_type_symbol = loop_values[1][i]
 
-        # print(atom_site_x, atom_site_y, atom_site_z, atom_site_label, atom_type_symbol)
         coordinates_after_symmetry_operations = (
             get_coords_after_sym_operations(
                 block,
@@ -139,13 +216,24 @@ def get_coords_after_sym_operations(
     return list(all_coords)
 
 
-def get_points_and_labels(all_coords_list, loop_values):
+def get_points_and_labels(
+    all_coords_list, loop_values, supercell_generation_method=3
+):
     """
-    Process coordinates and loop values to extract points, labels, and atom types.
+    Process coordinates and loop values to extract points, labels, atom type.
     """
     all_points = []
     unique_labels = []
     unique_atoms_tuple = []
+
+    # Get the total number of atoms in the unit cell
+    num_unitcell_atom = 0
+
+    for i, all_coords in enumerate(all_coords_list):
+        points = np.array(
+            [list(map(float, coord[:-1])) for coord in all_coords]
+        )
+        num_unitcell_atom += len(points)
 
     for i, all_coords in enumerate(all_coords_list):
         points = np.array(
@@ -156,16 +244,20 @@ def get_points_and_labels(all_coords_list, loop_values):
 
         unique_labels.append(atom_site_label)
         unique_atoms_tuple.append(atom_site_type)
-        all_points.extend(shift_and_append_points(points, atom_site_label))
 
-        """
-        20240221 - switch to containing the label for the case of
-        Co,Ni1 Co 4 a 0 0 0 0.50
-        """
+        all_points.extend(
+            shift_and_append_points(
+                points,
+                atom_site_label,
+                num_unitcell_atom,
+                supercell_generation_method,
+            )
+        )
 
         if atom_site_type in atom_site_label:
             continue
-        elif get_atom_type(atom_site_label) != atom_site_type:
+
+        if cif_parser.get_atom_type(atom_site_label) != atom_site_type:
             raise RuntimeError(
                 "Different elements found in atom site and label"
             )

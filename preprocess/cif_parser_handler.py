@@ -1,11 +1,10 @@
 import os
-import click
 from click import style
 from preprocess import cif_parser, supercell
 from util import folder
 
 
-def get_CIF_info(file_path, loop_tags):
+def get_CIF_info(file_path, loop_tags, supercell_method=3):
     """
     Parse the CIF data from the given file path.
     """
@@ -19,7 +18,9 @@ def get_CIF_info(file_path, loop_tags):
         all_points,
         unique_labels,
         unique_atoms_tuple,
-    ) = supercell.get_points_and_labels(all_coords_list, cif_loop_values)
+    ) = supercell.get_points_and_labels(
+        all_coords_list, cif_loop_values, supercell_method
+    )
 
     return (
         cif_block,

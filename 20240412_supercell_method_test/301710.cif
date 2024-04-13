@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Co-Er-In         # ErCo2.68In0.32                                # 1234749 #
+# Fe-Si-Y          # YFeSi3                                        #  301710 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,36 +18,33 @@
 #                                                                            #
 ##############################################################################
 
-data_1234749
-_audit_creation_date                     2024-03-05
+data_301710
+_audit_creation_date                     2024-02-24
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      1234749
-_database_code_PDF                       04-020-2183
+#_database_code_PCD                      301710
+_database_code_PDF                       ?
 
 # Entry summary
 
-_chemical_formula_structural             'Er Co~2.68~ In~0.32~'
-_chemical_formula_sum                    'Co2.68 Er In0.32'
+_chemical_formula_structural             'Y Fe Si~3~'
+_chemical_formula_sum                    'Fe Si3 Y'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
-_chemical_name_structure_type            PuNi~3~,hR36,166
-_chemical_formula_weight                 361.9
+_chemical_name_structure_type            Ce(Ni~0.59~Sb~0.41~)~4~,oI10,71
+_chemical_formula_weight                 229.0
 
 # Bibliographic data
 
-_publ_section_title
-;
-Phase equilibria in the Er-Co-In system and crystal structure of Er~8~CoIn~3~ compound
-;
-_journal_coden_ASTM                      CEJCAZ
-_journal_name_full                       'Cent. Eur. J. Chem.'
-_journal_year                            2013
-_journal_volume                          11
-_journal_page_first                      604
-_journal_page_last                       609
+_publ_section_title                      'The systems (Y,Gd)-Fe-Si'
+_journal_coden_ASTM                      INOMAF
+_journal_name_full                       'Inorg. Mater.'
+_journal_year                            1978
+_journal_volume                          14
+_journal_page_first                      366
+_journal_page_last                       369
 _journal_language                        English
 loop_
  _publ_author_name
@@ -58,63 +55,43 @@ loop_
 
 # Standardized crystallographic data
 
-_cell_length_a                           4.97
-_cell_length_b                           4.97
-_cell_length_c                           24.17
+_cell_length_a                           3.92
+_cell_length_b                           3.95
+_cell_length_c                           9.6
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
-_cell_angle_gamma                        120
-_cell_volume                             517
-_cell_formula_units_Z                    9
-_space_group_IT_number                   166
-_space_group_name_H-M_alt                'R -3 m h'
+_cell_angle_gamma                        90
+_cell_volume                             148.6
+_cell_formula_units_Z                    2
+_space_group_IT_number                   71
+_space_group_name_H-M_alt                'I m m m'
 loop_
  _space_group_symop_id
  _space_group_symop_operation_xyz
  1 'x, y, z'
- 2 '-x+y, -x, z'
- 3 '-x+y, y, z'
- 4 '-x, -x+y, -z'
- 5 '-x, -y, -z'
- 6 '-y, -x, z'
- 7 '-y, x-y, z'
- 8 'x, x-y, z'
- 9 'x-y, -y, -z'
- 10 'x-y, x, -z'
- 11 'y, -x+y, -z'
- 12 'y, x, -z'
- 13 '2/3+x, 1/3+y, 1/3+z'
- 14 '2/3-x+y, 1/3-x, 1/3+z'
- 15 '2/3-x+y, 1/3+y, 1/3+z'
- 16 '2/3-x, 1/3-x+y, 1/3-z'
- 17 '2/3-x, 1/3-y, 1/3-z'
- 18 '2/3-y, 1/3-x, 1/3+z'
- 19 '2/3-y, 1/3+x-y, 1/3+z'
- 20 '2/3+x, 1/3+x-y, 1/3+z'
- 21 '2/3+x-y, 1/3-y, 1/3-z'
- 22 '2/3+x-y, 1/3+x, 1/3-z'
- 23 '2/3+y, 1/3-x+y, 1/3-z'
- 24 '2/3+y, 1/3+x, 1/3-z'
- 25 '1/3+x, 2/3+y, 2/3+z'
- 26 '1/3-x+y, 2/3-x, 2/3+z'
- 27 '1/3-x+y, 2/3+y, 2/3+z'
- 28 '1/3-x, 2/3-x+y, 2/3-z'
- 29 '1/3-x, 2/3-y, 2/3-z'
- 30 '1/3-y, 2/3-x, 2/3+z'
- 31 '1/3-y, 2/3+x-y, 2/3+z'
- 32 '1/3+x, 2/3+x-y, 2/3+z'
- 33 '1/3+x-y, 2/3-y, 2/3-z'
- 34 '1/3+x-y, 2/3+x, 2/3-z'
- 35 '1/3+y, 2/3-x+y, 2/3-z'
- 36 '1/3+y, 2/3+x, 2/3-z'
+ 2 '-x, -y, -z'
+ 3 '-x, -y, z'
+ 4 '-x, y, -z'
+ 5 '-x, y, z'
+ 6 'x, -y, -z'
+ 7 'x, -y, z'
+ 8 'x, y, -z'
+ 9 '1/2+x, 1/2+y, 1/2+z'
+ 10 '1/2-x, 1/2-y, 1/2-z'
+ 11 '1/2-x, 1/2-y, 1/2+z'
+ 12 '1/2-x, 1/2+y, 1/2-z'
+ 13 '1/2-x, 1/2+y, 1/2+z'
+ 14 '1/2+x, 1/2-y, 1/2-z'
+ 15 '1/2+x, 1/2-y, 1/2+z'
+ 16 '1/2+x, 1/2+y, 1/2-z'
 
 # Atomic positions taken from type-defining entry
 
 loop_
  _atom_type_symbol
- Co
- In
- Er
+ Si
+ Fe
+ Y
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -124,24 +101,21 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
-Co1A Co 18 h 0.5002 0.4998 0.0829 0.893
-In1B In 18 h 0.5002 0.4998 0.0829 0.107
-Er1 Er 6 c 0 0 0.1414 1
-Co2A Co 6 c 0 0 0.3336 0.893
-In2B In 6 c 0 0 0.3336 0.107
-Co3A Co 3 b 0 0 0.5 0.893
-In3B In 3 b 0 0 0.5 0.107
-Er2 Er 3 a 0 0 0 1
+Si1A Si 4 j 0.5 0 0.256 0.750
+Fe1B Fe 4 j 0.5 0 0.256 0.250
+Si2A Si 4 i 0 0 0.38 0.750
+Fe2B Fe 4 i 0 0 0.38 0.250
+Y1 Y 2 a 0 0 0 1
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            10.46
+_exptl_crystal_density_diffrn            5.12
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu Ka, Fe Ka'
+_cell_measurement_radiation              X-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               'automatic diffractometer'
+_diffrn_measurement_device               film
 _diffrn_measurement_device_type          ?
 _diffrn_radiation_type                   ?
 _diffrn_reflns_number                    ?
@@ -153,5 +127,5 @@ _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
 
-# End of data set 1234749
+# End of data set 301710
 

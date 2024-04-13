@@ -1,0 +1,6 @@
+{
+  "exec": "black -l 79 main.py excel filter preprocess tests util && python main.py",
+  "ext": "py",
+  "ignore": ["*.pyc", "*__pycache__*"],
+  "watch": ["*.*"]
+}
