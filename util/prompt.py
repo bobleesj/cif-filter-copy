@@ -36,15 +36,14 @@ def get_user_input_on_supercell_method():
     return method
 
 
-def print_progress(filename_with_ext, num_of_atoms, elapsed_time, is_finished):
-    if is_finished:
-        echo(
-            style(
-                f"Processed {filename_with_ext} with {num_of_atoms} atoms in "
-                f"{round(elapsed_time, 2)} s\n",
-                fg="yellow",
-            )
+def print_finished_progress(filename_with_ext, num_of_atoms, elapsed_time):
+    echo(
+        style(
+            f"Processed {filename_with_ext} with {num_of_atoms} atoms in "
+            f"{round(elapsed_time, 2)} s",
+            fg="blue",
         )
+    )
 
 
 
@@ -56,3 +55,5 @@ def print_progress_current(i, filename_with_ext, supercell_points, num_of_files)
             fg="yellow",
         )
     )
+
+

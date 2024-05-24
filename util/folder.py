@@ -45,17 +45,17 @@ def choose_dir(script_directory):
             print("Invalid input. Please enter a number.")
 
 
-def save_to_csv_directory(folder_info, df, base_filename):
+def save_to_csv_directory(dir_path, df, base_filename):
     """
     Saves the dataframe as a CSV inside a 'csv' sub-directory of the provided folder.
     """
 
-    csv_directory = join(folder_info, "csv")
+    csv_directory = join(dir_path, "csv")
     if not os.path.exists(csv_directory):
         os.mkdir(csv_directory)
 
     # Extract the name of the chosen folder
-    folder_name = os.path.basename(folder_info)
+    folder_name = os.path.basename(dir_path)
 
     # Set the name for the CSV file based on the chosen folder
     csv_filename = f"{folder_name}_{base_filename}.csv"
