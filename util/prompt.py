@@ -45,3 +45,14 @@ def print_progress(filename_with_ext, num_of_atoms, elapsed_time, is_finished):
                 fg="yellow",
             )
         )
+
+
+
+def print_progress_current(i, filename_with_ext, supercell_points, num_of_files):
+    echo(
+        style(
+            f"Processing {filename_with_ext} with "
+            f"{len(supercell_points)} atoms ({i+1}/{num_of_files})",
+            fg="yellow",
+        )
+    )
