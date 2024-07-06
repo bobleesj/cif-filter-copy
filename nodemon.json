@@ -1,5 +1,5 @@
 {
-  "exec": "black -l 79 main.py excel filter preprocess tests util && python main.py",
+  "exec": "ruff format &&  python -m pytest -m now",
   "ext": "py",
   "ignore": ["*.pyc", "*__pycache__*"],
   "watch": ["*.*"]

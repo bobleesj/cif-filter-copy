@@ -1,7 +1,6 @@
 import os
 
-from filter import (
-    format,
+from core.filter import (
     min_distance,
     excel,
     tags,
@@ -10,6 +9,7 @@ from filter import (
     occupancy,
 )
 from util import folder
+from cifkit import CifEnsemble
 
 
 def main():
@@ -46,7 +46,7 @@ def main():
 
     # 1. Relocate CIF format with error
     if choice == "1":
-        format.move_files_based_on_format_error(cif_dir_path)
+        CifEnsemble(cif_dir_path)
 
     # 2. Relocate CIF files with unreasonable distances
     elif choice == "2":
@@ -70,9 +70,7 @@ def main():
 
     # 7. Check missing files against Excel sheet
     elif choice == "7":
-        excel.get_new_Excel_with_matching_entries(
-            cif_dir_path, script_dir_path
-        )
+        excel.get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path)
 
 
 if __name__ == "__main__":
