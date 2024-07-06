@@ -1,11 +1,12 @@
 import os
-import glob
 import shutil
-from core.utils import folder
 import textwrap
+import pandas as pd
+from core.utils import folder
+from cifkit import CifEnsemble
 
 
-def copy_files_based_on_atomic_occupancy_mixing(cif_dir_path, is_interactive_mode=True):
+def copy_files_based_on_atomic_occupancy_mixing(cif_dir_path):
     introductory_paragraph = textwrap.dedent(
         """\
     ===
@@ -28,64 +29,42 @@ def copy_files_based_on_atomic_occupancy_mixing(cif_dir_path, is_interactive_mod
     )
 
     print(introductory_paragraph)
-    if len(files) is not None:
-        process_files(files, cif_dir_path)
 
-    print("Finished - relevant folder(s) and file(s) moved!")
+    ensemble = CifEnsemble(cif_dir_path)
+
+    # Dataframe setup
+    df_rows = []
+
+    for idx, cif in enumerate(ensemble.cifs, start=1):
+        copy_to_dir(ensemble.dir_path, cif.site_mixing_type, cif.file_path)
+        df_rows.append(
+            {
+                "Filename": cif.file_name_without_ext,
+                "Formula": cif.formula,
+                "Site mixing type": cif.site_mixing_type,
+            }
+        )
+
+        print(
+            f"({idx}/{ensemble.file_count}) {cif.file_name} is {cif.site_mixing_type}"
+        )
+    
+    # Create and save DataFrame
+    df = pd.DataFrame(df_rows)
+    folder.save_to_csv_directory(cif_dir_path, df, "occupancy")
 
 
-def copy_to_dir(cif_dir_path, folder_suffix, file):
+def copy_to_dir(cif_dir_path, suffix, file_path):
+    """
+    Coopy a file to the directroy, skipping if the file already exists.
+    """
     folder_name = os.path.basename(cif_dir_path)
 
-    destination_directory = os.path.join(cif_dir_path, f"{folder_name}_{folder_suffix}")
+    destination_directory = os.path.join(cif_dir_path, f"{folder_name}_{suffix}")
 
     if not os.path.exists(destination_directory):
         os.makedirs(destination_directory)
 
-    shutil.copy(file, os.path.join(destination_directory, os.path.basename(file)))
-
-
-def process_files(files, folder_path):
-    for idx, file in enumerate(files, start=1):
-        filename = os.path.basename(file)
-        cif_block = cif_parser.get_cif_block(file)
-        cif_loop_values = cif_parser.get_loop_values(
-            cif_block, cif_parser.get_loop_tags()
-        )
-        num_atom_labels = len(cif_loop_values[0])
-
-        # Check for full occupancy
-        coord_occupancy_sum = {}
-        is_full_occupancy = True
-
-        for i in range(num_atom_labels):
-            _, occupancy, coordinates = get_atom_info(cif_loop_values, i)
-            occupancy_num = coord_occupancy_sum.get(coordinates, 0) + occupancy
-            coord_occupancy_sum[coordinates] = occupancy_num
-
-        # Now check summed occupancies
-        for coordinates, sum_occ in coord_occupancy_sum.items():
-            if sum_occ != 1:
-                is_full_occupancy = False
-                print(f"Summed occupancy at {coordinates}: {sum_occ}")
-                break
-
-        # Check for atomic mixing
-        is_atomic_mixing = len(coord_occupancy_sum) != num_atom_labels
-
-        print(filename)
-        print("is_atomic_mixing", is_atomic_mixing)
-        print("is_full_occupancy", is_full_occupancy)
-        print()
-
-        if is_atomic_mixing and not is_full_occupancy:
-            copy_to_dir(folder_path, "deficiency_atomic_mixing", file)
-
-        elif is_atomic_mixing and is_full_occupancy:
-            copy_to_dir(folder_path, "full_occupancy_atomic_mixing", file)
-
-        elif not is_atomic_mixing and not is_full_occupancy:
-            copy_to_dir(folder_path, "deficiency_no_atomic_mixing", file)
-
-        elif is_full_occupancy:
-            copy_to_dir(folder_path, "full_occupancy", file)
+    shutil.copy(
+        file_path, os.path.join(destination_directory, os.path.basename(file_path))
+    )

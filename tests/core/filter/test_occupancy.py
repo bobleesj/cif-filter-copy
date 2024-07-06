@@ -1,13 +1,5 @@
 # from os.path import join
-# from core.filter.occupancy import (
-#     copy_files_based_on_atomic_occupancy_mixing,
-# )
-# from core.utils.folder import (
-#     get_cif_file_count_from_directory,
-# )
 
-
-# # Move files - should be 2 files per each folder
 # def test_copy_files_based_on_atomic_occupancy_mixing():
 #     base_dir = "tests/cifs/occupancy"
 #     deficiency_atomic_mixing_dir = join(base_dir, "occupancy_deficiency_atomic_mixing")

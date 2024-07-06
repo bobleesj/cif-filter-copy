@@ -23,22 +23,17 @@ def move_files_based_on_tags(cif_dir_path):
             subfolder_path = os.path.join(
                 cif_dir_path, f"{os.path.basename(cif_dir_path)}_{cif.tag}"
             )
-            try:
-                move_files(subfolder_path, [cif.file_path])
-                print(
-                    f"{os.path.basename(cif.file_name)} has been moved to {subfolder_path}"
-                )
-                df_rows.append(
-                    {
-                        "Filename": cif.file_name_without_ext,
-                        "Formula": cif.formula,
-                        "Tag(s)": cif.tag,
-                    }
-                )
-            except Exception as e:
-                print(f"Failed to move {cif.file_name}: {e}")
-
+            move_files(subfolder_path, [cif.file_path])
+            print(
+                f"{os.path.basename(cif.file_name)} has been moved to {subfolder_path}"
+            )
+            df_rows.append(
+                {
+                    "Filename": cif.file_name_without_ext,
+                    "Formula": cif.formula,
+                    "Tag(s)": cif.tag,
+                }
+            )
     # Create and save DataFrame
     df = pd.DataFrame(df_rows)
-    csv_path = folder.save_to_csv_directory(cif_dir_path, df, "tags_log")
-    print(f"Tags log saved to {csv_path}")
+    folder.save_to_csv_directory(cif_dir_path, df, "tags_log")

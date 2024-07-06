@@ -64,7 +64,7 @@ def main():
     elif choice == "5":
         occupancy.copy_files_based_on_atomic_occupancy_mixing(cif_dir_path)
 
-    # 6. Get info on the supercell
+    # 6. Get info on the atom
     elif choice == "6":
         info.get_cif_folder_info(cif_dir_path)
 
