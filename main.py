@@ -10,7 +10,6 @@ from core.options import (
     occupancy,
 )
 from core.utils import folder
-from cifkit import CifEnsemble
 
 
 def main():
@@ -65,7 +64,7 @@ def main():
     elif choice == "5":
         occupancy.copy_files_based_on_atomic_occupancy_mixing(cif_dir_path)
 
-    # 6. Get info on the atom
+    # 6. Get info per file in the folder
     elif choice == "6":
         info.get_cif_folder_info(cif_dir_path)
 

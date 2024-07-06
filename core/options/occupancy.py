@@ -1,35 +1,13 @@
 import os
 import shutil
-import textwrap
+
 import pandas as pd
-from core.utils import folder
+from core.utils import folder, intro
 from cifkit import CifEnsemble
 
 
 def copy_files_based_on_atomic_occupancy_mixing(cif_dir_path):
-    introductory_paragraph = textwrap.dedent(
-        """\
-    ===
-    Welcome to the CIF Atomic Occupancy and Mixing Filter Tool!
-
-    This tool reads CIF files and sorts them based on atomic occupancy
-    and the presence of atomic mixing. The tool offers 4 filtering options:
-
-    [1] Files with full occupancy
-    [2] Files with site deficiency and atomic mixing
-    [3] Files with full occupancy and atomic mixing
-    [4] Files with site deficiency but no atomic mixing
-
-    After you choose one of the above options, the files will be copied to
-    corresponding sub-directories within the chosen folder.
-
-    Let's get started!
-    ===
-    """
-    )
-
-    print(introductory_paragraph)
-
+    intro.print_occupacny_intro_paragraph()
     ensemble = CifEnsemble(cif_dir_path)
 
     # Dataframe setup

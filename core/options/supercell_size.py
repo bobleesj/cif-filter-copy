@@ -1,64 +1,44 @@
 import click
-import os
-import pandas as pd
-import shutil
 from os.path import join
-from core.utils import folder
+from core.utils import prompt
+from core.utils.histogram import plot_supercell_size_histogram
 from cifkit import CifEnsemble
-
-
-def get_user_input():
-    max_atoms_count = click.prompt(
-        "\nEnter the maximum number of atoms in the supercell"
-        " (files above this number will be moved)",
-        type=int,
-    )
-    return max_atoms_count
-
-
-def print_intro_prompt():
-    print(
-        "Move CIF files to a separate directory if the number"
-        " of atoms in the supercell exceeds the input provided by the user."
-    )
 
 
 def move_files_based_on_supercell_size(
     cif_dir_path, is_interactive_mode=True, max_atoms_threshold=1000
 ):
-    print_intro_prompt()
-
-    df_rows = []
-
-    if is_interactive_mode:
-        max_atoms_threshold = get_user_input()
-
-    file_moved_count = 0
-    filtered_folder_name = f"supercell_size_above_{max_atoms_threshold}"
-    filtered_folder_path = join(cif_dir_path, filtered_folder_name)
-    os.makedirs(filtered_folder_path, exist_ok=True)
-
     ensemble = CifEnsemble(cif_dir_path)
-
+    # Generate all supercell in the file and plot histogram
+    atom_counts = []
     for idx, cif in enumerate(ensemble.cifs, start=1):
-        filtered_flag = False
+        atom_counts.append(cif.supercell_atom_count)
 
-        if cif.supercell_atom_count > max_atoms_threshold:
-            filtered_flag = True
-            file_moved_count += 1
+    plot_supercell_size_histogram(cif_dir_path, atom_counts, ensemble.file_count)
 
-        data = {
-            "CIF file": cif.file_name_without_ext,
-            "Formula": cif.formula,
-            "Number of atoms in supercell": cif.supercell_atom_count,
-            "Moved": filtered_flag,
-        }
-        df_rows.append(data)
+    min_atom_count = click.prompt(
+        "\nEnter the min number of atoms in the supercell", type=int
+    )
 
-        # Move
-        shutil.move(cif.file_path, filtered_folder_path) if filtered_flag else None
+    max_atom_count = click.prompt(
+        "\nEnter the max number of atoms in the supercell", type=int
+    )
 
-    print(f"{file_moved_count} files were moved to {filtered_folder_path}")
-    folder.save_to_csv_directory(
-        cif_dir_path, pd.DataFrame(df_rows), f"supercell_above_{max_atoms_threshold}"
+    # Enter the range
+    filtered_file_paths = ensemble.filter_by_supercell_count(
+        min_atom_count, max_atom_count
+    )
+
+    # Filter files based on the minimum distance
+    filtered_dir_path = join(
+        ensemble.dir_path, f"supercell_above_{min_atom_count}_below{max_atom_count}"
+    )
+
+    # Move filtered files to a new directory
+    if filtered_file_paths:
+        ensemble.move_cif_files(filtered_file_paths, filtered_dir_path)
+
+    print(f"Moved {len(filtered_file_paths)} files to {filtered_dir_path}")
+    prompt.print_done_with_option(
+        f"supercell_above_{min_atom_count}_below_{max_atom_count}"
     )
