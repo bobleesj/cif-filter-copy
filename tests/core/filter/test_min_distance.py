@@ -1,5 +1,5 @@
 import pytest
-from core.filter.min_distance import filter_files_by_min_dist
+from core.options.min_distance import filter_files_by_min_dist
 from cifkit.utils.folder import get_file_paths, copy_files, get_file_count
 
 

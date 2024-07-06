@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 from os.path import join, exists
 from cifkit.utils.folder import get_file_paths, copy_files, get_file_count
-from core.filter.tags import move_files_based_on_tags
+from core.options.tags import move_files_based_on_tags
 
 
 @pytest.mark.now

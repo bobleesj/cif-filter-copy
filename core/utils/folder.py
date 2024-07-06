@@ -20,7 +20,7 @@ def choose_dir(script_directory):
         return None
     print("\nAvailable folders containing CIF files:")
     for idx, dir_name in enumerate(directories, start=1):
-        num_of_cif_files = get_cif_file_count_from_directory(dir_name)
+        num_of_cif_files = len(glob.glob(join(dir_name, "*.cif")))
         print(f"{idx}. {dir_name}, {num_of_cif_files} files")
     while True:
         try:
@@ -56,17 +56,3 @@ def save_to_csv_directory(dir_path, df, base_filename):
     df.to_csv(join(csv_directory, csv_filename), index=False)
 
     print(csv_filename, "saved")
-
-
-def get_cif_file_count_from_directory(directory):
-    """Helper function to count .cif files in a given directory."""
-    return len(glob.glob(join(directory, "*.cif")))
-
-
-def get_cif_file_paths_from_directory(directory):
-    return glob.glob(os.path.join(directory, "*.cif"))
-
-
-def remove_file(file_path):
-    if exists(file_path):
-        os.remove(file_path)

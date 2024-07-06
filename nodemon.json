@@ -1,5 +1,5 @@
 {
-  "exec": "ruff format &&  python -m pytest -m now",
+  "exec": "ruff format &&  python main.py",
   "ext": "py",
   "ignore": ["*.pyc", "*__pycache__*"],
   "watch": ["*.*"]

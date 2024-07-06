@@ -1,4 +1,4 @@
-from core.filter.info import get_cif_folder_info
+from core.options.info import get_cif_folder_info
 from core.utils.folder import (
     remove_file,
     get_cif_file_count_from_directory,

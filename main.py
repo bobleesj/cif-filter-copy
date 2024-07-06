@@ -1,11 +1,12 @@
 import os
 
-from core.filter import (
+from core.options import (
     min_distance,
     excel,
     tags,
     supercell_size,
     info,
+    format,
     occupancy,
 )
 from core.utils import folder
@@ -46,7 +47,7 @@ def main():
 
     # 1. Relocate CIF format with error
     if choice == "1":
-        CifEnsemble(cif_dir_path)
+        format.format_files(cif_dir_path)
 
     # 2. Relocate CIF files with unreasonable distances
     elif choice == "2":
