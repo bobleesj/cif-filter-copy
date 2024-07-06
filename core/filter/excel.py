@@ -1,7 +1,6 @@
 import os
 import textwrap
 import pandas as pd
-from core.utils import folder
 
 
 def get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path):
@@ -39,8 +38,8 @@ def get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path):
 
 
 def choose_excel_file(script_directory):
-    """ "
-    Lets the user choose an Excel file from the specified directory.
+    """
+    Let the user choose an Excel file from the specified directory.
     """
     files = [f for f in os.listdir(script_directory) if f.endswith(".xlsx")]
 

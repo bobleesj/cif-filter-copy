@@ -2,8 +2,7 @@ import click
 import os
 import pandas as pd
 import shutil
-from click import style
-from os.path import join, exists
+from os.path import join
 from core.utils import folder
 from cifkit import CifEnsemble
 
