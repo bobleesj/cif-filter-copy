@@ -8,7 +8,7 @@ from core.filter import (
     info,
     occupancy,
 )
-from util import folder
+from core.utils import folder
 from cifkit import CifEnsemble
 
 

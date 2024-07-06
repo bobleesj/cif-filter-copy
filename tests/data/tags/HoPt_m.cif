@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Ho-Pt            # HoPt                                          # 2030011 #
+# Ho-Pt            # HoPt  m                                          # 2030011 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -52,26 +52,8 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Castets A.'
+''
 ;
-National Center for Scientific Research (CNRS)
-Laboratoire Louis Neel (LLN)
-Grenoble
-France
-;
-'Gignoux D.'
-;
-National Center for Scientific Research (CNRS)
-Laboratoire Louis Neel (LLN)
-Grenoble
-France
-;
-'Gomez Sal J.C.'
-;
-Santander University
-Departamento de Fisica Fundamental
-Santander
-Spain
 ;
 
 # Standardized crystallographic data

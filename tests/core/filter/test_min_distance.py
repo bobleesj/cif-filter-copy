@@ -3,7 +3,7 @@ from core.filter.min_distance import filter_files_by_min_dist
 from cifkit.utils.folder import get_file_paths, copy_files, get_file_count
 
 
-@pytest.mark.now
+@pytest.mark.slow
 def test_filter_files_by_min_dist(tmpdir):
     # Setup initial directory paths
     source_dir = "tests/data/min_dist"
@@ -19,14 +19,6 @@ def test_filter_files_by_min_dist(tmpdir):
     ("tests/data/min_dist/453316.cif", 2.625),
     ("tests/data/min_dist/382886.cif", 2.592),
     """
-
-    # histogram_path = tmp_dir / "plot" / "histogram-min-dist.png"
-    # csv_file_path = tmp_dir / "csv" / "min_dist_filter_dist_min_log.csv"
-    # (tmp_dir / "plot").mkdir(parents=True, exist_ok=True)
-    # (tmp_dir / "csv").mkdir(parents=True, exist_ok=True)
-    # # Optionally check for histogram and CSV log existence
-    # assert histogram_path.exists(), "Histogram image file is missing."
-    # assert csv_file_path.exists(), "CSV log file is missing."
 
     # Initial file count (For non-interactive default is 2.6 A)
     assert get_file_count(tmpdir) == 5

@@ -2,75 +2,43 @@ import shutil
 import pandas as pd
 import os
 from core.utils import folder
+from cifkit.utils.folder import move_files
+from cifkit import CifEnsemble
 
 
-def move_files_based_on_tags(cif_dir_path, is_interactive_mode=True):
+def move_files_based_on_tags(cif_dir_path):
     print(
-        "This script sorts CIF files based on specific",
-        "tags present in their third line.",
+        "This script moves CIF files based on specific tags present in their third line."
     )
 
-    # With graphic user interface:
-    cif_dir_name = os.path.basename(cif_dir_path)
+    # Dataframe setup
+    df_rows = []
 
-    # Create an empty dataframe to track the moved files
-    df = pd.DataFrame(columns=["Filename", "Formula", "Tag(s)"])
+    # Process each file
+    ensemble = CifEnsemble(cif_dir_path)
+    for idx, cif in enumerate(ensemble.cifs, start=1):
+        print(f"Processing {cif.file_name_without_ext}, ({idx}/{ensemble.file_count})")
 
-    # Get a list of all .cif files in the chosen directory
-    files_lst = [
-        os.path.join(cif_dir_path, file)
-        for file in os.listdir(cif_dir_path)
-        if file.endswith(".cif")
-    ]
-    total_files = len(files_lst)
-
-    # Iterate through each .cif file, extract its tag and sort it accordingly
-    for idx, file_path in enumerate(files_lst, start=1):
-        cif_dir_name = os.path.basename(cif_dir_path)
-        filename = os.path.basename(file_path)
-        print(f"Processing {filename}, ({idx}/{total_files})")
-
-        # Initialize variables outside of the with statement
-        compound_formula = None
-        tags = None
-        subfolder_path = None
-
-        # Open and read the file
-        with open(file_path, "r") as f:
-            f.readline()  # First line
-            f.readline()  # Second line
-            third_line = f.readline().strip()  # Third line
-            third_line = third_line.replace(",", "")
-            third_line_parts = [
-                part.strip() for part in third_line.split("#") if part.strip()
-            ]
-
-        # File is now closed after the with block
-        if third_line_parts:
-            compound_formula, tags = extract_formula_and_tag(third_line_parts[1])
-            print("Formula:", compound_formula, "Tags:", tags)
-
-        if tags:
-            subfolder_path = os.path.join(cif_dir_path, f"{cif_dir_name}_{tags}")
-            new_file_path = os.path.join(subfolder_path, filename)
-            new_row_df = pd.DataFrame(
-                {
-                    "Filename": [filename],
-                    "Formula": [compound_formula],
-                    "Tag(s)": [tags],
-                }
+        if cif.tag:
+            subfolder_path = os.path.join(
+                cif_dir_path, f"{os.path.basename(cif_dir_path)}_{cif.tag}"
             )
-            df = pd.concat([df, new_row_df], ignore_index=True)
+            try:
+                move_files(subfolder_path, [cif.file_path])
+                print(
+                    f"{os.path.basename(cif.file_name)} has been moved to {subfolder_path}"
+                )
+                df_rows.append(
+                    {
+                        "Filename": cif.file_name_without_ext,
+                        "Formula": cif.formula,
+                        "Tag(s)": cif.tag,
+                    }
+                )
+            except Exception as e:
+                print(f"Failed to move {cif.file_name}: {e}")
 
-            if not os.path.exists(subfolder_path):
-                os.makedirs(subfolder_path)
-
-            # Check if the file exists and delete it to avoid the PermissionError
-            if os.path.exists(new_file_path):
-                os.remove(new_file_path)
-
-            # Now move the file after it's been closed
-            shutil.move(file_path, subfolder_path)
-            print(f"{os.path.basename(file_path)} has been moved to {subfolder_path}")
-
-    folder.save_to_csv_directory(cif_dir_path, df, "tags_log")
+    # Create and save DataFrame
+    df = pd.DataFrame(df_rows)
+    csv_path = folder.save_to_csv_directory(cif_dir_path, df, "tags_log")
+    print(f"Tags log saved to {csv_path}")
