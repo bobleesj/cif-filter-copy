@@ -4,15 +4,14 @@ __pycache__/
 *$py.class
 .DS_Store
 
+
 # C extensions
 *.so
 .ruff_cache
 
 # CIF files
-binary M-X CIF/
-R-M_CIFs2/
-R-M-X_CIFs2/
-cif_zips/
+CN12_big_test
+
 # cif_files/
 cif_files_test/
 debug/
