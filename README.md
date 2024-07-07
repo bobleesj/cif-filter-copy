@@ -71,19 +71,23 @@ Available folders containing CIF files:
 Enter the number corresponding to the folder containing .cif files:
 ```
 
+## Demo
+
+![supercell demo](assets/gif/supercell-demo.gif)
+
 ## **Options**
 
-| Option | Description                                                                             | User Input                               |
-| ------ | --------------------------------------------------------------------------------------- | ---------------------------------------- |
-| 1      | Standardize and relocate .cif files that do not comply with the expected format.        | N/S                                      |
-| 2      | Relocate .cif files based on the minimum distance threshold.                            | Minimum distance threshold (e.g., 2.0 Å) |
-| 3      | Relocate .cif files based on supercell size.                                            | Minimum and maximum atom count           |
-| 4      | Relocate .cif files based on specific tags.                                             | N/S                                      |
-| 5      | Relocate .cif files based on composition type i.g. binary, ternary, etc.                | N/S                                      |
-| 6      | Relocate .cif files based on input elements, either matching or containing N/S          | Elements (e.g., Er Co)                   |
-| 7      | Relocate .cif files based on input coordination numbers, either matching or containing. | Coordination numbers (e.g., 12 16)       |
-| 8      | Copy .cif files that meet criteria for atomic occupancy and atomic mixing.              | N/S                                      |
-| 9      | Retrieve information from .cif files and save as a CSV file.                            | N/S                                      |
+| Option | Description                                                                     | User input                           |
+| ------ | ------------------------------------------------------------------------------- | ------------------------------------ |
+| 1      | Standardize and relocate .cif files that do not comply with the expected format | -                                  |
+| 2      | Move .cif by minimum distance threshold                                         | Min distance threshold (e.g., 2.0 Å) |
+| 3      | Move .cif by supercell size                                                     | Min and max atom count               |
+| 4      | Move .cif by tags                                                               | -                                  |
+| 5      | Move .cif by composition type i.g. binary, ternary, etc.                        | -                                  |
+| 6      | Move .cif by input elements, either matching or containing                      | Elements (e.g., Er Co)               |
+| 7      | Move .cif by input coordination numbers, either matching or containing          | Coordination numbers (e.g., 12 16)   |
+| 8      | Copy .cif by atomic mixing, i.g. full occupancy, atomic mixing, etc.            | -                                  |
+| 9      | Get information from .cif files and save .csv                                   | -                                  |
 
 ### Option 2: Filter files by minimum distance
 
@@ -121,17 +125,17 @@ meet the criteria.
 A `.csv` is generated containing containing information for each `.cif` file in
 the selected folder.
 
-| Filename | Formula                  | Structure         | Tag | Supercell atom count | Site mixing type                 | Composition type | Min distance (√Ö) | Processing time (s) |
-| -------- | ------------------------ | ----------------- | --- | -------------------- | -------------------------------- | ---------------- | ----------------- | ------------------- |
-| 300237   | LaPtSb                   | CaIn2             |     | 423                  | full_occupancy_atomic_mixing     | 3                | 2.727             | 0.301               |
-| 301710   | YFeSi3                   | Ce(Ni0.59Sb0.41)4 |     | 558                  | full_occupancy_atomic_mixing     | 3                | 2.293             | 0.329               |
-| 1955459  | PrNi0.48Si1.48           | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.328             | 0.181               |
-| 1949113  | Ce2.11Pd1.92In0.89       | Mo2FeB2           |     | 437                  | deficiency_atomic_mixing         | 3                | 2.431             | 0.254               |
-| 301188   | Yb0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.2               | 0.183               |
-| 1942974  | Dy0.0011Fe0.8291Ga0.1698 | W                 |     | 162                  | full_occupancy_atomic_mixing     | 3                | 2.514             | 0.032               |
-| 1940621  | LuPd0.5Si1.5             | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.325             | 0.186               |
-| 1200981  | Ni3Sn2                   | Ni3Sn2            | rt  | 594                  | full_occupancy                   | 2                | 2.503             | 0.317               |
-| 301180   | Lu0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.197             | 0.187               |
+| Filename | Formula                  | Structure         | Tag | Supercell atom count | Site mixing type                 | Composition type | Min distance (Å) | Processing time (s) |
+| -------- | ------------------------ | ----------------- | --- | -------------------- | -------------------------------- | ---------------- | ---------------- | ------------------- |
+| 300237   | LaPtSb                   | CaIn2             |     | 423                  | full_occupancy_atomic_mixing     | 3                | 2.727            | 0.301               |
+| 301710   | YFeSi3                   | Ce(Ni0.59Sb0.41)4 |     | 558                  | full_occupancy_atomic_mixing     | 3                | 2.293            | 0.329               |
+| 1955459  | PrNi0.48Si1.48           | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.328            | 0.181               |
+| 1949113  | Ce2.11Pd1.92In0.89       | Mo2FeB2           |     | 437                  | deficiency_atomic_mixing         | 3                | 2.431            | 0.254               |
+| 301188   | Yb0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.2              | 0.183               |
+| 1942974  | Dy0.0011Fe0.8291Ga0.1698 | W                 |     | 162                  | full_occupancy_atomic_mixing     | 3                | 2.514            | 0.032               |
+| 1940621  | LuPd0.5Si1.5             | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.325            | 0.186               |
+| 1200981  | Ni3Sn2                   | Ni3Sn2            | rt  | 594                  | full_occupancy                   | 2                | 2.503            | 0.317               |
+| 301180   | Lu0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.197            | 0.187               |
 
 ## Other tools
 

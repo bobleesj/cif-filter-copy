@@ -22,9 +22,9 @@ def move_files_based_on_elements(cif_dir_path):
     elements_str = "_".join(elements)
 
     # Ask user for the type of filter
-    click.echo("\nQ2. Now choose the filter method:")
-    click.echo("[1] Exactly match the elements")
-    click.echo("[2] Contain at least one of the elements ")
+    click.echo("\nQ2. Now choose your option:")
+    click.echo("[1] Move files exactly matching the elements")
+    click.echo("[2] Move files containing at least one of the elements")
     filter_choice = click.prompt("Enter your choice (1 or 2)", type=int)
 
     # Folder info
@@ -49,7 +49,7 @@ def move_files_based_on_elements(cif_dir_path):
     # Print summary:
     print("Summary:")
     print(
-        f"{len(filtered_file_paths)} moved to"
+        f"{len(filtered_file_paths)} files moved to"
         f" {destination_directory} out of {ensemble.file_count} files."
     )
     prompt.print_done_with_option("filter by elements")
