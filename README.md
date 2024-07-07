@@ -1,71 +1,134 @@
 # CIF Cleaner
 
+![Integration Tests](https://github.com/bobleesj/cifkit/actions/workflows/python-run-pytest.yml/badge.svg)
+![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
+![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
+![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
 [![codecov](https://codecov.io/gh/bobleesj/cif-cleaner/graph/badge.svg?token=3KDQ4344V5)](https://codecov.io/gh/bobleesj/cif-cleaner)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/bobleesj/cif-cleaner/blob/main/LICENSE)
+clear
 
-Interactive and codeless program for sorting, pre-processing, sorting CIF (Crystallographic Information File) files
+`CIF Cleaner` is an interactive and codeless program for sorting,
+pre-processing, and parsing CIF (Crystallographic Information File) files. It
+extracts information from `.cif` files in a folder containing such files.
 
-## Overview
+`CIF Cleaner` is built using the `cifkit` package:
+https://github.com/bobleesj/cifkit.
 
-This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information.
+## Motivation
 
-When you run `python main.py`, a prompt below will appear. 
+In high-throughput analysis, we extract `.cif` files from databases, sorting
+them based on specific attributes. `CIF Cleaner` was developed to streamline
+this process by utilizing interactive prompts.
+
+This tool is used by both undergraduate and graduate researchers in the Oliynyk
+research group at CUNY Hunter College.
+
+## Getting started
+
+Open your terminal or command-line interface:
+
+1. Clone the repository and enter the directory:
+
+```bash
+git clone https://github.com/bobleesj/cif-cleaner.git
+cd cif-cleaner
+```
+
+2. Install dependencies from the requirements.txt file:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the program:
+
+```bash
+python main.py
+```
+
+The program automatically detects folders containing .cif files at the project
+level.
 
 ```text
 Welcome! Please choose an option to proceed:
-[1] Move files based on unsupported CIF format
+[1] Move files based on unsupported format after pre-formatting
 [2] Move files based on unreasonable distance
-[3] Move files based on tags
-[4] Move files based on supercell atom count
+[3] Move files based on supercell atom count
+[4] Move files based on tags
 [5] Copy files based on atomic occupancy and mixing
 [6] Get file info in the folder
-Enter your choice (1-7): 
+
+Enter your choice (1-6): 6
+You have chosen: Get file info in the folder
+
+Available folders containing CIF files:
+1. 20240706_test, 9 files
+
+Enter the number corresponding to the folder containing .cif files:
 ```
 
-No need to import packages or *write a line of code*. One can simply drag and drop CIF files to have all the features below.
+## **Options**
 
-## Features
+| Option | Description                                                                      | User Input                               |
+| ------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
+| 1      | Standardize and relocate .cif files that do not comply with the expected format. | N/S                                      |
+| 2      | Relocate .cif files based on the minimum distance threshold.                     | Minimum distance threshold (e.g., 2.0 Å) |
+| 3      | Relocate .cif files based on supercell size.                                     | Minimum and maximum atom count           |
+| 4      | Relocate .cif files based on specific tags.                                      | N/S                                      |
+| 5      | Copy .cif files that meet criteria for atomic occupancy and atomic mixing.       | N/S                                      |
+| 6      | Retrieve information from .cif files and save as a CSV file.                     | N/S                                      |
 
-- **Move Unsupported CIF Files:** Relocate CIF files that do not comply with the expected format.
-- **Move CIF Files Based on Distance:** Relocate CIF files containing unreasonable distances between atoms.
-- **Move CIF Files Based on Tags:** Relocate CIF files based on specific tags.
-- **Copy Files Based on Atomic Occupancy and Mixing:** Copy CIF files that meet criteria for atomic occupancy and atomic mixing.
-- **Get File Info:** Retrieve information from CIF files within a folder.
+### Options with user input
 
-## Installation
+#### Option 2: Filter files by minimum distance
 
-Simply copy and paste the following block.
+For Option [2], the following histogram is saved in the folder. You need to
+enter the threshold distance. Any files below this threshold will be moved to a
+separate folder.
 
-```bash
-git clone https://github.com/bobleesj/cif-cleaner.git
-cd cif-cleaner
-pip install pandas click gemmi matplotlib scipy sympy openpyxl
-python main.py
+![histogram by minimum distance](assets/img/histogram-min-dist.png)
+
+```text
+Enter the threshold distance (unit in Å): 2
 ```
 
-The above method had no issue so far. But If you are interested in using `Conda` with a fresh new environment
+A folder called `min_dist_below_2.0` is created, and files with the minimum
+atomic distance below 2.0 Å are moved.
 
-```bash
-git clone https://github.com/bobleesj/cif-cleaner.git
-cd cif-cleaner
-conda create -n cif python=3.12
-conda activate cif
-pip install -r requirements.txt
-python main.py
+#### Option 3. Filter by supercell size
+
+A supercell is generated by applying a ±1 shift from the unit cell
+
+![Supercell size ](assets/img/histogram-supercell-size.png)
+
+The program prompts you to enter the minimum and maximum supercell atom count:
+
+```text
+Enter the min number of atoms in the supercell: 300
+Enter the max number of atoms in the supercell: 500
 ```
 
-## Tutorial
+A folder called `supercell_above_300_below_500` will be created with files that
+meet the criteria.
 
-> If you are new to Conda (Python package manager), I have written a tutorial for you here [Intro to Python package manager for beginners (Ft. Conda with Cheatsheet](https://bobleesj.github.io/tutorial/2024/02/26/intro-to-python-package-manager.html).
+## Other tools
 
-## Test
+In addition to `CIF Cleaner`, there are other interactive tools available that
+allow you to extract geometric features and visualize bonding patterns from
+`.cif` files. I invite you to explore these tools to enhance your analysis:
 
-```bash
-python -m pytest           
-```
+- Cif Bond Analyzer (CBA): conduct bonding, coordination, and site analysis.
+  https://github.com/bobleesj/structure-analyzer-featurizer
+- Structure Analysis/Featurizer (SAF): extract ML features for binary and
+  ternary compounds. https://github.com/bobleesj/cif-bond-analyzer
 
-README is to be updated once the code becomes more robust. If you have any further suggestions or ideas, please feel free to make an issue. If you have any questions, please feel free to send me an email at sl5400@columbia.edu
+## Feedback how to ask for help
+
+If you have any other feature requests, you can reach out to me at the email
+provided in my GitHub profile.
 
 ## Changelog
 
-- 20240311 implementing Flake8 linting requirement
-- 20240303 added GitHub CI integration
+- 20240705: integrated `cikift`, refactored code and prompts
+- 20240303: added GitHub CI integration

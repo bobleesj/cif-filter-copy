@@ -32,7 +32,7 @@ def move_files_based_on_supercell_size(
 
     # Filter files based on the minimum distance
     filtered_dir_path = join(
-        ensemble.dir_path, f"supercell_above_{min_atom_count}_below{max_atom_count}"
+        ensemble.dir_path, f"supercell_above_{min_atom_count}_below_{max_atom_count}"
     )
 
     # Move filtered files to a new directory

@@ -18,8 +18,8 @@ def main():
     options = {
         "1": "Move files based on unsupported format after pre-formatting",
         "2": "Move files based on unreasonable distance",
-        "3": "Move files based on tags",
-        "4": "Move files based on supercell atom count",
+        "3": "Move files based on supercell atom count",
+        "4": "Move files based on tags",
         "5": "Copy files based on atomic occupancy and mixing",
         "6": "Get file info in the folder",
     }
@@ -50,13 +50,13 @@ def main():
     elif choice == "2":
         min_distance.move_files_based_on_min_dist(cif_dir_path)
 
-    # 3. Relocate CIF based on tags
-    elif choice == "3":
-        tags.move_files_based_on_tags(cif_dir_path)
-
     # 4. Relocate CIF based the number of atoms in the supercell
-    elif choice == "4":
+    elif choice == "3":
         supercell_size.move_files_based_on_supercell_size(cif_dir_path)
+    # 3. Relocate CIF based on tags
+
+    elif choice == "4":
+        tags.move_files_based_on_tags(cif_dir_path)
 
     # 5. Copy files based on atomic occupancy and atomic mixing
     elif choice == "5":
