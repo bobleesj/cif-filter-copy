@@ -56,10 +56,13 @@ Welcome! Please choose an option to proceed:
 [2] Move files based on unreasonable distance
 [3] Move files based on supercell atom count
 [4] Move files based on tags
-[5] Copy files based on atomic occupancy and mixing
-[6] Get file info in the folder
+[5] Move files based on composition type
+[6] Move files based on elements
+[7] Move files based on coordination number
+[8] Copy files based on atomic occupancy and mixing
+[9] Get file info in the folder
 
-Enter your choice (1-6): 6
+Enter your choice (1-9): 6
 You have chosen: Get file info in the folder
 
 Available folders containing CIF files:
@@ -70,14 +73,17 @@ Enter the number corresponding to the folder containing .cif files:
 
 ## **Options**
 
-| Option | Description                                                                      | User Input                               |
-| ------ | -------------------------------------------------------------------------------- | ---------------------------------------- |
-| 1      | Standardize and relocate .cif files that do not comply with the expected format. | N/S                                      |
-| 2      | Relocate .cif files based on the minimum distance threshold.                     | Minimum distance threshold (e.g., 2.0 Å) |
-| 3      | Relocate .cif files based on supercell size.                                     | Minimum and maximum atom count           |
-| 4      | Relocate .cif files based on specific tags.                                      | N/S                                      |
-| 5      | Copy .cif files that meet criteria for atomic occupancy and atomic mixing.       | N/S                                      |
-| 6      | Retrieve information from .cif files and save as a CSV file.                     | N/S                                      |
+| Option | Description                                                                             | User Input                               |
+| ------ | --------------------------------------------------------------------------------------- | ---------------------------------------- |
+| 1      | Standardize and relocate .cif files that do not comply with the expected format.        | N/S                                      |
+| 2      | Relocate .cif files based on the minimum distance threshold.                            | Minimum distance threshold (e.g., 2.0 Å) |
+| 3      | Relocate .cif files based on supercell size.                                            | Minimum and maximum atom count           |
+| 4      | Relocate .cif files based on specific tags.                                             | N/S                                      |
+| 5      | Relocate .cif files based on composition type i.g. binary, ternary, etc.                | N/S                                      |
+| 6      | Relocate .cif files based on input elements, either matching or containing N/S          | Elements (e.g., Er Co)                   |
+| 7      | Relocate .cif files based on input coordination numbers, either matching or containing. | Coordination numbers (e.g., 12 16)       |
+| 8      | Copy .cif files that meet criteria for atomic occupancy and atomic mixing.              | N/S                                      |
+| 9      | Retrieve information from .cif files and save as a CSV file.                            | N/S                                      |
 
 ### Option 2: Filter files by minimum distance
 
