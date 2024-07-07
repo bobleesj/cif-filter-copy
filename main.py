@@ -2,7 +2,6 @@ import os
 
 from core.options import (
     min_distance,
-    excel,
     tags,
     supercell_size,
     info,
@@ -23,13 +22,12 @@ def main():
         "4": "Move files based on supercell atom count",
         "5": "Copy files based on atomic occupancy and mixing",
         "6": "Get file info in the folder",
-        "7": "Check CIF folder content against Excel file",
     }
 
     for key, value in options.items():
         print(f"[{key}] {value}")
 
-    choice = input("Enter your choice (1-7): ")
+    choice = input("Enter your choice (1-6): ")
 
     if choice in options:
         print(f"You have chosen: {options[choice]}\n")
@@ -67,10 +65,6 @@ def main():
     # 6. Get info per file in the folder
     elif choice == "6":
         info.get_cif_folder_info(cif_dir_path)
-
-    # 7. Check missing files against Excel sheet
-    elif choice == "7":
-        excel.get_new_Excel_with_matching_entries(cif_dir_path, script_dir_path)
 
 
 if __name__ == "__main__":

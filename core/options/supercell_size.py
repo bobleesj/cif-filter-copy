@@ -1,6 +1,6 @@
 import click
 from os.path import join
-from core.utils import prompt
+from core.utils import prompt, intro
 from core.utils.histogram import plot_supercell_size_histogram
 from cifkit import CifEnsemble
 
@@ -8,6 +8,7 @@ from cifkit import CifEnsemble
 def move_files_based_on_supercell_size(
     cif_dir_path, is_interactive_mode=True, max_atoms_threshold=1000
 ):
+    intro.prompt_suppercell_size_intro()
     ensemble = CifEnsemble(cif_dir_path)
     # Generate all supercell in the file and plot histogram
     atom_counts = []

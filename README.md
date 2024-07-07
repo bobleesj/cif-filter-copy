@@ -6,7 +6,7 @@ Interactive and codeless program for sorting, pre-processing, sorting CIF (Cryst
 
 ## Overview
 
-This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information, and checking CIF folder content against an Excel file.
+This Python toolkit provides a set of tools for processing Crystallographic Information File (CIF) files. It allows for moving files based on unsupported formats, unreasonable distances, and specific tags, copying files based on atomic occupancy and mixing, retrieving file information.
 
 When you run `python main.py`, a prompt below will appear. 
 
@@ -18,7 +18,6 @@ Welcome! Please choose an option to proceed:
 [4] Move files based on supercell atom count
 [5] Copy files based on atomic occupancy and mixing
 [6] Get file info in the folder
-[7] Check CIF folder content against Excel file
 Enter your choice (1-7): 
 ```
 
@@ -31,7 +30,6 @@ No need to import packages or *write a line of code*. One can simply drag and dr
 - **Move CIF Files Based on Tags:** Relocate CIF files based on specific tags.
 - **Copy Files Based on Atomic Occupancy and Mixing:** Copy CIF files that meet criteria for atomic occupancy and atomic mixing.
 - **Get File Info:** Retrieve information from CIF files within a folder.
-- **Excel Integration:** Check CIF folder content against an Excel file for missing entries.
 
 ## Installation
 

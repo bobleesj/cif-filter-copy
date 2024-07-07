@@ -1,12 +1,13 @@
 import time
 import click
 from os.path import join
-from core.utils import prompt
+from core.utils import prompt, intro
 from cifkit import CifEnsemble
 from core.utils.histogram import plot_distance_histogram
 
 
 def move_files_based_on_min_dist(cif_dir):
+    intro.prompt_min_dist_intro()
     filter_files_by_min_dist(cif_dir)
 
 
