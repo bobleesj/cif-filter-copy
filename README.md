@@ -79,15 +79,15 @@ Enter the number corresponding to the folder containing .cif files:
 
 | Option | Description                                                                     | User input                           |
 | ------ | ------------------------------------------------------------------------------- | ------------------------------------ |
-| 1      | Standardize and relocate .cif files that do not comply with the expected format | -                                  |
+| 1      | Standardize and relocate .cif files that do not comply with the expected format | -                                    |
 | 2      | Move .cif by minimum distance threshold                                         | Min distance threshold (e.g., 2.0 Å) |
 | 3      | Move .cif by supercell size                                                     | Min and max atom count               |
-| 4      | Move .cif by tags                                                               | -                                  |
-| 5      | Move .cif by composition type i.g. binary, ternary, etc.                        | -                                  |
+| 4      | Move .cif by tags                                                               | -                                    |
+| 5      | Move .cif by composition type i.g. binary, ternary, etc.                        | -                                    |
 | 6      | Move .cif by input elements, either matching or containing                      | Elements (e.g., Er Co)               |
 | 7      | Move .cif by input coordination numbers, either matching or containing          | Coordination numbers (e.g., 12 16)   |
-| 8      | Copy .cif by atomic mixing, i.g. full occupancy, atomic mixing, etc.            | -                                  |
-| 9      | Get information from .cif files and save .csv                                   | -                                  |
+| 8      | Copy .cif by atomic mixing, i.g. full occupancy, atomic mixing, etc.            | -                                    |
+| 9      | Get information from .cif files and save .csv                                   | -                                    |
 
 ### Option 2: Filter files by minimum distance
 
