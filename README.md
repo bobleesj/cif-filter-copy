@@ -111,8 +111,8 @@ meet the criteria.
 
 ### Option 6. Info
 
-`csv/20240706_test_info.csv` is generated containing information for each `.cif`
-file in the selected folder.
+A `.csv` is generated containing containing information for each `.cif` file in
+the selected folder.
 
 | Filename | Formula                  | Structure         | Tag | Supercell atom count | Site mixing type                 | Composition type | Min distance (√Ö) | Processing time (s) |
 | -------- | ------------------------ | ----------------- | --- | -------------------- | -------------------------------- | ---------------- | ----------------- | ------------------- |
