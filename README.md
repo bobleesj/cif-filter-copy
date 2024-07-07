@@ -78,9 +78,7 @@ Enter the number corresponding to the folder containing .cif files:
 | 5      | Copy .cif files that meet criteria for atomic occupancy and atomic mixing.       | N/S                                      |
 | 6      | Retrieve information from .cif files and save as a CSV file.                     | N/S                                      |
 
-### Options with user input
-
-#### Option 2: Filter files by minimum distance
+### Option 2: Filter files by minimum distance
 
 For Option [2], the following histogram is saved in the folder. You need to
 enter the threshold distance. Any files below this threshold will be moved to a
@@ -110,6 +108,23 @@ Enter the max number of atoms in the supercell: 500
 
 A folder called `supercell_above_300_below_500` will be created with files that
 meet the criteria.
+
+### Option 6. Info
+
+`csv/20240706_test_info.csv` is generated containing information for each `.cif`
+file in the selected folder.
+
+| Filename | Formula                  | Structure         | Tag | Supercell atom count | Site mixing type                 | Composition type | Min distance (√Ö) | Processing time (s) |
+| -------- | ------------------------ | ----------------- | --- | -------------------- | -------------------------------- | ---------------- | ----------------- | ------------------- |
+| 300237   | LaPtSb                   | CaIn2             |     | 423                  | full_occupancy_atomic_mixing     | 3                | 2.727             | 0.301               |
+| 301710   | YFeSi3                   | Ce(Ni0.59Sb0.41)4 |     | 558                  | full_occupancy_atomic_mixing     | 3                | 2.293             | 0.329               |
+| 1955459  | PrNi0.48Si1.48           | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.328             | 0.181               |
+| 1949113  | Ce2.11Pd1.92In0.89       | Mo2FeB2           |     | 437                  | deficiency_atomic_mixing         | 3                | 2.431             | 0.254               |
+| 301188   | Yb0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.2               | 0.183               |
+| 1942974  | Dy0.0011Fe0.8291Ga0.1698 | W                 |     | 162                  | full_occupancy_atomic_mixing     | 3                | 2.514             | 0.032               |
+| 1940621  | LuPd0.5Si1.5             | AlB2              |     | 267                  | deficiency_atomic_mixing         | 3                | 2.325             | 0.186               |
+| 1200981  | Ni3Sn2                   | Ni3Sn2            | rt  | 594                  | full_occupancy                   | 2                | 2.503             | 0.317               |
+| 301180   | Lu0.5Co3Ge3              | Y0.5Co3Ge3        |     | 323                  | deficiency_without_atomic_mixing | 3                | 1.197             | 0.187               |
 
 ## Other tools
 

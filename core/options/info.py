@@ -41,7 +41,7 @@ def get_cif_folder_info(cif_dir_path):
             "Site mixing type": cif.site_mixing_type,
             "Composition type": cif.composition_type,
             "Min distance (Å)": min_distance,
-            "Processing time": round(elapsed_time, 3),
+            "Processing time (s)": round(elapsed_time, 3),
         }
         results.append(data)
 
