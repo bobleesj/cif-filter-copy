@@ -144,5 +144,5 @@ provided in my GitHub profile.
 
 ## Changelog
 
-- 20240705: integrated `cikift`, refactored code and prompts
+- 20240705: integrated `cikift`, refactored code and prompts https://github.com/bobleesj/cif-cleaner/pull/21
 - 20240303: added GitHub CI integration
