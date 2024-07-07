@@ -1,12 +1,11 @@
 # CIF Cleaner
 
-![Integration Tests](https://github.com/bobleesj/cifkit/actions/workflows/python-run-pytest.yml/badge.svg)
+![Integration Tests](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml/badge.svg)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
 [![codecov](https://codecov.io/gh/bobleesj/cif-cleaner/graph/badge.svg?token=3KDQ4344V5)](https://codecov.io/gh/bobleesj/cif-cleaner)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/bobleesj/cif-cleaner/blob/main/LICENSE)
-clear
 
 `CIF Cleaner` is an interactive and codeless program for sorting,
 pre-processing, and parsing CIF (Crystallographic Information File) files. It
