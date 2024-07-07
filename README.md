@@ -1,6 +1,6 @@
 # CIF Cleaner
 
-![Integration Tests](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml/badge.svg)
+<!-- ![Integration Tests](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml/badge.svg) -->
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
