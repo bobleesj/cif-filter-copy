@@ -1,0 +1,18 @@
+[project]
+name = "CIF Cleaner"
+authors = [
+  {name = "Sangjoon Lee", email = "sl5400@columbia.edu"}
+]
+maintainers = [
+  {name = "Sangjoon Lee", email = "sl5400@columbia.edu"}
+]
+description = "An interactive command-line tool to preprocess, sort, and extract info from .cif files"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["CIF", "high-throughput", "crystallography", "materials science", "data cleaning"]
+
+[project.urls]
+Repository = "https://github.com/bobleesj/cif-cleander"
+
+[tool.ruff]
+line-length = 79

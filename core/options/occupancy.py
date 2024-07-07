@@ -14,15 +14,18 @@ def copy_files_based_on_atomic_occupancy_mixing(cif_dir_path):
 
 def copy_to_dir(cif_dir_path, suffix, file_path):
     """
-    Coopy a file to the directroy, skipping if the file already exists.
+    Copy a file to a directory, skipping if the file already exists.
     """
     folder_name = os.path.basename(cif_dir_path)
-
-    destination_directory = os.path.join(cif_dir_path, f"{folder_name}_{suffix}")
+    destination_directory = os.path.join(
+        cif_dir_path, f"{folder_name}_{suffix}"
+    )
+    destination_file_path = os.path.join(
+        destination_directory, os.path.basename(file_path)
+    )
 
     if not os.path.exists(destination_directory):
         os.makedirs(destination_directory)
 
-    shutil.copy(
-        file_path, os.path.join(destination_directory, os.path.basename(file_path))
-    )
+    if not os.path.exists(destination_file_path):
+        shutil.copy(file_path, destination_file_path)

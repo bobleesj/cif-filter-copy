@@ -53,6 +53,48 @@ def prompt_occupancy_intro():
     print(intro_prompt)
 
 
+def prompt_composition_intro():
+    intro_prompt = textwrap.dedent(
+        """\
+    ==========================COMPOSITION=============================
+    Process for this option:
+    
+    [1] Get the composition type for each .cif file (unary, binary, etc.)
+    [2] Move files to subfolders based on the composition type
+    ==================================================================
+    """
+    )
+    print(intro_prompt)
+
+
+def prompt_element_intro():
+    intro_prompt = textwrap.dedent(
+        """\
+    ==========================ELEMENT=============================
+    Process for this option:
+    
+    [1] Enter the elements of interest separated by a space
+    [2] Choose to filter by exactly matching or containing the elements 
+    ==================================================================
+    """
+    )
+    print(intro_prompt)
+
+
+def prompt_coordination_number_intro():
+    intro_prompt = textwrap.dedent(
+        """\
+    ==========================COORDINAITON_NUMBER=============================
+    Process for this option:
+    
+    [1] Enter coordination numbers by d/min_dist method separated by a space
+    [2] Choose to filter by exactly matching or containing coordination numbers
+    ==================================================================
+    """
+    )
+    print(intro_prompt)
+
+
 def prompt_suppercell_size_intro():
     intro_prompt = textwrap.dedent(
         """\
