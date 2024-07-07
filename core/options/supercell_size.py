@@ -15,7 +15,9 @@ def move_files_based_on_supercell_size(
     for idx, cif in enumerate(ensemble.cifs, start=1):
         atom_counts.append(cif.supercell_atom_count)
 
-    plot_supercell_size_histogram(cif_dir_path, atom_counts, ensemble.file_count)
+    plot_supercell_size_histogram(
+        cif_dir_path, atom_counts, ensemble.file_count
+    )
 
     min_atom_count = click.prompt(
         "\nEnter the min number of atoms in the supercell", type=int
@@ -32,7 +34,8 @@ def move_files_based_on_supercell_size(
 
     # Filter files based on the minimum distance
     filtered_dir_path = join(
-        ensemble.dir_path, f"supercell_above_{min_atom_count}_below_{max_atom_count}"
+        ensemble.dir_path,
+        f"supercell_above_{min_atom_count}_below_{max_atom_count}",
     )
 
     # Move filtered files to a new directory

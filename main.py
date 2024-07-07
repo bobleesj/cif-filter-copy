@@ -2,11 +2,14 @@ import os
 
 from core.options import (
     min_distance,
-    tags,
+    tag,
     supercell_size,
     info,
     format,
     occupancy,
+    composition,
+    coordination,
+    element,
 )
 from core.utils import folder
 
@@ -20,14 +23,17 @@ def main():
         "2": "Move files based on unreasonable distance",
         "3": "Move files based on supercell atom count",
         "4": "Move files based on tags",
-        "5": "Copy files based on atomic occupancy and mixing",
-        "6": "Get file info in the folder",
+        "5": "Move files based on composition type",
+        "6": "Move files based on elements",
+        "7": "Move files based on coordination number",
+        "8": "Copy files based on atomic occupancy and mixing",
+        "9": "Get file info in the folder",
     }
 
     for key, value in options.items():
         print(f"[{key}] {value}")
 
-    choice = input("Enter your choice (1-6): ")
+    choice = input("Enter your choice (1-9): ")
 
     if choice in options:
         print(f"You have chosen: {options[choice]}\n")
@@ -50,20 +56,32 @@ def main():
     elif choice == "2":
         min_distance.move_files_based_on_min_dist(cif_dir_path)
 
-    # 4. Relocate CIF based the number of atoms in the supercell
+    # 3. Relocate CIF based the number of atoms in the supercell
     elif choice == "3":
         supercell_size.move_files_based_on_supercell_size(cif_dir_path)
-    # 3. Relocate CIF based on tags
 
+    # 4. Relocate CIF based on tags
     elif choice == "4":
-        tags.move_files_based_on_tags(cif_dir_path)
+        tag.move_files_based_on_tags(cif_dir_path)
 
-    # 5. Copy files based on atomic occupancy and atomic mixing
+    # 5. Relocate CIF based on composition type
     elif choice == "5":
+        composition.move_files_based_on_composition_type(cif_dir_path)
+
+    # 6. Relocate CIF based by element(s)
+    elif choice == "6":
+        element.move_files_based_on_elements(cif_dir_path)
+
+    # 7. Relocate CIF based on coordination number
+    elif choice == "7":
+        coordination.move_files_based_on_coordination_number(cif_dir_path)
+
+    # 8. Copy files based on atomic occupancy and atomic mixing
+    elif choice == "8":
         occupancy.copy_files_based_on_atomic_occupancy_mixing(cif_dir_path)
 
-    # 6. Get info per file in the folder
-    elif choice == "6":
+    # 9. Get info per file in the folder
+    elif choice == "9":
         info.get_cif_folder_info(cif_dir_path)
 
 

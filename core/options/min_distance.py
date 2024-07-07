@@ -39,13 +39,17 @@ def filter_files_by_min_dist(cif_dir, isInteractiveMode=True):
     plot_distance_histogram(cif_dir, min_dists, ensemble.file_count)
 
     if isInteractiveMode:
-        click.echo("Note: .cif with minimum distance below threashold are relocated.")
+        click.echo(
+            "Note: .cif with minimum distance below threashold are relocated."
+        )
         prompt_dist_threshold = "\nEnter the threashold distance (unit in Å)"
         dist_threshold = click.prompt(prompt_dist_threshold, type=float)
 
     # Filter files based on the minimum distance
     filtered_file_paths = ensemble.filter_by_min_distance(0.0, dist_threshold)
-    filtered_dir_path = join(ensemble.dir_path, f"min_dist_below_{dist_threshold}")
+    filtered_dir_path = join(
+        ensemble.dir_path, f"min_dist_below_{dist_threshold}"
+    )
 
     # Move filtered files to a new directory
     if filtered_file_paths:
