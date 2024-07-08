@@ -54,7 +54,7 @@ def get_cif_folder_info(cif_dir_path):
 
     # Total processing time
     total_elapsed_time = time.perf_counter() - overall_start_time
-    print(f"Total processing time for all files: {total_elapsed_time:.2f} s")
+    prompt.print_total_time(total_elapsed_time, ensemble.file_count)
 
     # Done message
     prompt.print_done_with_option("Info")
