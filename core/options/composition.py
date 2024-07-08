@@ -4,11 +4,11 @@ from core.utils import intro, prompt
 from cifkit import CifEnsemble
 
 
-def move_files_based_on_composition_type(cif_dir_path):
+def move_files_based_on_composition_type(cif_dir_path: str) -> None:
     """
     Organize CIF files in directories based on their composition type.
     """
-    intro.prompt_composition_intro()  # Make sure this is adapted to your actual setup
+    intro.prompt_composition_intro()
     ensemble = CifEnsemble(cif_dir_path)
 
     # Define the composition type naming conventions
@@ -30,7 +30,7 @@ def move_files_based_on_composition_type(cif_dir_path):
     prompt.print_done_with_option("move files based on composition type")
 
 
-def move_to_dir(cif_dir_path, suffix, file_path):
+def move_to_dir(cif_dir_path: str, suffix: str, file_path: str) -> None:
     """
     Copy a CIF file to a directory based on composition type,
     skipping if the file already exists.

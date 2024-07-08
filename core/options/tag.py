@@ -1,25 +1,28 @@
-import pandas as pd
+import shutil
 import os
 from core.utils import prompt, intro
 from cifkit import CifEnsemble
-from cifkit.utils.folder import move_files
 
 
-def move_files_based_on_tags(cif_dir_path):
+def move_files_based_on_tags(cif_dir_path: str) -> None:
     intro.prompt_tag_intro()
+
     ensemble = CifEnsemble(cif_dir_path)
-    file_moved = 0
+    filtered_files_paths = set()
     # Process each file
-    for idx, cif in enumerate(ensemble.cifs, start=1):
-        print(f"Processing {cif.file_name} ({idx}/{ensemble.file_count})")
+    for cif in ensemble.cifs:
+        tag = cif.tag
+        file_name = cif.file_name
+        file_path = cif.file_path
 
-        if cif.tag:
-            subfolder_path = os.path.join(
-                cif_dir_path, f"{os.path.basename(cif_dir_path)}_{cif.tag}"
+        if tag:
+            destination_path = os.path.join(
+                cif_dir_path, f"{os.path.basename(cif_dir_path)}_{tag}"
             )
-            move_files(subfolder_path, [cif.file_path])
-            print(f"{cif.file_name} moved to {subfolder_path}")
-            file_moved += 1
+            os.makedirs(destination_path, exist_ok=True)
+            shutil.move(file_path, destination_path)
+            print(f"{file_name} with {tag} moved.")
+            filtered_files_paths.add(file_path)
 
-    print("Number of files moved based on tags:", file_moved)
+    prompt.print_moved_files_summary(filtered_files_paths, ensemble.file_count)
     prompt.print_done_with_option("Tags")

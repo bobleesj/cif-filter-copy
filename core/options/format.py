@@ -1,5 +1,4 @@
 from core.utils import prompt, intro
-from cifkit import Cif
 from cifkit.utils.folder import (
     get_file_paths,
 )
@@ -14,8 +13,9 @@ from cifkit.utils.cif_parser import (
 )
 
 
-def format_files(cif_dir_path):
+def format_files(cif_dir_path: str) -> None:
     intro.prompt_format_intro()
+
     file_paths = get_file_paths(cif_dir_path)
     for file_path in file_paths:
         try:

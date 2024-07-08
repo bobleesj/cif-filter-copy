@@ -36,11 +36,18 @@ def print_done_with_option(option_name):
 
 
 def print_moved_files_summary(
-    filtered_file_paths, destination_path, file_count
+    filtered_file_paths, file_count, destination_path=None
 ):
-    echo(
-        style(
-            f"Moved {len(filtered_file_paths)} out of {file_count} files to "
-            f"{destination_path}."
+    if destination_path:
+        echo(
+            style(
+                f"Moved {len(filtered_file_paths)} out of {file_count} files to "
+                f"{destination_path}."
+            )
         )
-    )
+    else:
+        echo(
+            style(
+                f"Moved {len(filtered_file_paths)} out of {file_count} files."
+            )
+        )

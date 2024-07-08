@@ -1,16 +1,14 @@
 import pytest
+import shutil
 from core.options.min_distance import filter_files_by_min_dist
-from cifkit.utils.folder import get_file_paths, copy_files, get_file_count
+from cifkit.utils.folder import get_file_count
 
 
 @pytest.mark.slow
 def test_filter_files_by_min_dist(tmpdir):
     # Setup initial directory paths
     source_dir = "tests/data/min_dist"
-    copy_files(tmpdir, get_file_paths(source_dir))
-
-    # Paths for filtered results and logs
-    tmp_filtered_dir = tmpdir / "min_dist_below_2.6"
+    tmp_dir_path = shutil.copytree(source_dir, tmpdir.join("dist"))
 
     """
     ("tests/data/min_dist/311764.cif", 2.613),
@@ -21,7 +19,12 @@ def test_filter_files_by_min_dist(tmpdir):
     """
 
     # Initial file count (For non-interactive default is 2.6 A)
-    assert get_file_count(tmpdir) == 5
-    filter_files_by_min_dist(str(tmpdir), isInteractiveMode=False)
-    assert get_file_count(tmp_filtered_dir) == 2
-    assert get_file_count(tmpdir) == 3
+    min_dist_below_path = tmp_dir_path.join("min_dist_below_2.6")
+    assert get_file_count(tmp_dir_path) == 5
+    filter_files_by_min_dist(tmp_dir_path, is_interactive_mode=False)
+
+    # 2 files should be moved
+    assert get_file_count(min_dist_below_path) == 2
+
+    # 3 files should remain in the original directory
+    assert get_file_count(tmp_dir_path) == 3

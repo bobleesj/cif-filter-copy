@@ -14,6 +14,7 @@ def get_cif_folder_info(cif_dir_path):
     # Keep track overall time
     overall_start_time = time.perf_counter()
 
+    # Initialize ensemble
     ensemble = CifEnsemble(cif_dir_path)
 
     # Ask user to calculate distance

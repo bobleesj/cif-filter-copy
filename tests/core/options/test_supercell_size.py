@@ -1,33 +1,25 @@
-# from core.filter.supercell_size import move_files_based_on_supercell_size
-# from os.path import join
-# from core.utils.folder import (
-#     remove_directories,
-#     get_cif_file_count_from_directory,
-#     move_files,
-#     get_cif_file_path_list_from_directory,
-# )
+import pytest
+import shutil
+from core.options.supercell_size import move_files_based_on_supercell_size
+from cifkit.utils.folder import get_file_count
+from cifkit import CifEnsemble
 
 
-# def test_move_files_based_on_supercell_size():
-#     base_dir = "tests/cifs/supercell_size"
-#     filtered_dir = join(base_dir, "supercell_size_filter_supercell_size")
+@pytest.mark.now
+def test_move_files_based_on_supercell_size(tmpdir):
+    # Setup initial directory paths
+    source_dir = "tests/data/supercell"
+    tmp_dir_path = shutil.copytree(source_dir, tmpdir.join("supercell"))
 
-#     # Setup: Ensure the environment is clean before testing
-#     remove_directories([filtered_dir])
+    dest_path = tmp_dir_path.join("supercell_above_300_below_500")
 
-#     # Test: move files based on the maximum number of atoms in the supercell
-#     move_files_based_on_supercell_size(base_dir, False, 100)
+    # 12 files should be present in the original directory
+    assert get_file_count(tmp_dir_path) == 12
 
-#     assert (
-#         get_cif_file_count_from_directory(filtered_dir) == 4
-#     ), "Not all expected files were copied."
-#     assert (
-#         get_cif_file_count_from_directory(base_dir) == 1
-#     ), "Not all expected files were copied."
+    move_files_based_on_supercell_size(tmp_dir_path, is_interactive_mode=False)
 
-#     # Finish: bring the filtered backs and remove generated folders
-#     move_files(base_dir, get_cif_file_path_list_from_directory(filtered_dir))
-#     assert (
-#         get_cif_file_count_from_directory(base_dir) == 5
-#     ), "Not all expected files were copied."
-#     remove_directories([filtered_dir])
+    # 2 files should be moved
+    assert get_file_count(dest_path) == 9
+
+    # 3 files should remain in the original directory
+    assert get_file_count(tmp_dir_path) == 3
