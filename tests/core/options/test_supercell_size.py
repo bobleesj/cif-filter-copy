@@ -2,10 +2,9 @@ import pytest
 import shutil
 from core.options.supercell_size import move_files_based_on_supercell_size
 from cifkit.utils.folder import get_file_count
-from cifkit import CifEnsemble
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_move_files_based_on_supercell_size(tmpdir):
     # Setup initial directory paths
     source_dir = "tests/data/supercell"

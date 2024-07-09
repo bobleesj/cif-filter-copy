@@ -6,31 +6,51 @@ from cifkit import CifEnsemble
 from cifkit.utils import folder
 
 
-def move_files_based_on_coordination_number(cif_dir_path: str) -> None:
+def move_files_based_on_coordination_number(
+    cif_dir_path: str,
+    is_interactive_mode=True,
+    numbers: list[int] = None,
+    option: int = None,
+) -> None:
     intro.prompt_coordination_number_intro()
     ensemble = CifEnsemble(cif_dir_path)
 
-    # Prompt for elements
-    CN_input = click.prompt(
-        "Q1. Enter the coordination number(s) to filter by,"
-        " separated by a space (Ex: '12 16')",
-        type=str,
-    )
+    if is_interactive_mode:
+        # Prompt for elements
+        CN_input = click.prompt(
+            "Q1. Enter the coordination number(s) to filter by,"
+            " separated by a space (Ex: '12 16')",
+            type=str,
+        ).strip()
 
-    numbers = CN_input.split()
-    # click.echo("You've entered:", numbers)
-    numbers_str = "_".join(numbers)
-    numbers = [int(num) for num in numbers]
+        # Split by space
+        numbers = [number for number in CN_input.split() if number]
 
-    # Ask user for the type of filter
-    click.echo("\nQ2. Now choose your option:")
-    click.echo("[1] Move files exactly matching the coordination numbers")
-    click.echo(
-        "[2] Move files containing at least one of the coordination numbers"
-    ).strip()
-    filter_choice = click.prompt("Enter your choice (1 or 2)", type=int)
+        # Convert to int
+        numbers = [int(num) for num in numbers]
 
+        # Ask user for the type of filter
+        click.echo("\nQ2. Now choose your option:")
+        click.echo("[1] Move files exactly matching the coordination numbers")
+        click.echo(
+            "[2] Move files containing at least one of the coordination numbers"
+        )
+        filter_choice = click.prompt("Enter your choice (1 or 2)", type=int)
+    else:
+        filter_choice = option
+
+    filter_and_move_files(ensemble, filter_choice, cif_dir_path, numbers)
+
+
+def filter_and_move_files(
+    ensemble: CifEnsemble,
+    filter_choice: int,
+    cif_dir_path: str,
+    numbers: list[int],
+) -> None:
     # Folder info
+
+    numbers_str = "_".join(str(number) for number in numbers)
     overall_start_time = time.perf_counter()
     folder_name = os.path.basename(cif_dir_path)
     filtered_file_paths = set()
@@ -53,7 +73,7 @@ def move_files_based_on_coordination_number(cif_dir_path: str) -> None:
             )
             # Check if the CN values are exactly the same
             if set(numbers) == CN_values:
-                filtered_file_paths.add()
+                filtered_file_paths.add(cif.file_path)
 
         elif filter_choice == 2:
             destination_path = os.path.join(
@@ -66,6 +86,17 @@ def move_files_based_on_coordination_number(cif_dir_path: str) -> None:
         elapsed_time = time.perf_counter() - file_start_time
         prompt.print_finished_progress(file_name, atom_count, elapsed_time)
 
+    move_files_and_prompt(
+        filtered_file_paths, destination_path, file_count, overall_start_time
+    )
+
+
+def move_files_and_prompt(
+    filtered_file_paths: set[str],
+    destination_path: str,
+    file_count: int,
+    overall_start_time: float,
+) -> None:
     if filtered_file_paths:
         # Create folder and move files
         folder.move_files(destination_path, filtered_file_paths)

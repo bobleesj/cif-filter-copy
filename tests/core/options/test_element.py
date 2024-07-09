@@ -11,7 +11,7 @@ def tmp_dir_path(tmpdir):
     return tmp_dir_path
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_move_files_based_on_one_element_containing(tmp_dir_path):
     """
     Test contain 1 element
@@ -29,7 +29,7 @@ def test_move_files_based_on_one_element_containing(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 3
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_move_files_based_on_two_elements_containing(tmp_dir_path):
     """
     Test contain 2 elements
@@ -47,10 +47,10 @@ def test_move_files_based_on_two_elements_containing(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 1
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_move_files_based_on_one_elements_matching(tmp_dir_path):
     """
-    Test match 1 element
+    Test exact match 3 elements
     """
     # Initially there are 5 files
     assert get_file_count(tmp_dir_path) == 5

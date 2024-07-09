@@ -1,6 +1,6 @@
 ##############################################################################
 #                                                                            #
-# Ru-Th            # Th0.99Ru0.01 rt                               #  250143 #
+# Ni-Sb            # Ni0.92Sb0.08                                  #  529848 #
 #                                                                            #
 ##############################################################################
 #                                                                            #
@@ -18,36 +18,37 @@
 #                                                                            #
 ##############################################################################
 
-data_250143
-_audit_creation_date                     2024-02-23
+data_529848
+_audit_creation_date                     2024-02-17
 _audit_creation_method
 ;
 Pearson's Crystal Data browser
 ;
-#_database_code_PCD                      250143
-_database_code_PDF                       04-001-0088
+#_database_code_PCD                      529848
+_database_code_PDF                       04-004-4510
 
 # Entry summary
 
-_chemical_formula_structural             'Th~0.99~ Ru~0.01~'
-_chemical_formula_sum                    'Ru0.01 Th0.99'
+_chemical_formula_structural             'Ni~0.92~ Sb~0.08~'
+_chemical_formula_sum                    'Ni0.92 Sb0.08'
 _chemical_name_mineral                   ?
 _chemical_compound_source                ?
 _chemical_name_structure_type            Cu,cF4,225
-_chemical_formula_weight                 230.7
+_chemical_formula_weight                 63.7
 
 # Bibliographic data
 
 _publ_section_title
 ;
-Alloys of thorium with certain transition metals. I. The systems thorium-ruthenium and thorium-rhodium
+Lattice parameter data of Ni (\g), Ni~3~Al (\g') and Ni~3~Ga (\g') solid solutions
 ;
-_journal_coden_ASTM                      JCOMAH
-_journal_name_full                       'J. Less-Common Met.'
-_journal_year                            1963
-_journal_volume                          5
-_journal_page_first                      437
-_journal_page_last                       442
+_journal_coden_ASTM                      BLPTDL
+_journal_name_full
+'Bull. Res. Lab. Precis. Mach. Electron. (Tokyo Inst. Technol.)'              
+_journal_year                            1984
+_journal_volume                          53
+_journal_page_first                      15
+_journal_page_last                       28
 _journal_language                        English
 loop_
  _publ_author_name
@@ -58,13 +59,13 @@ loop_
 
 # Standardized crystallographic data
 
-_cell_length_a                           5.0869
-_cell_length_b                           5.0869
-_cell_length_c                           5.0869
+_cell_length_a                           3.58
+_cell_length_b                           3.58
+_cell_length_c                           3.58
 _cell_angle_alpha                        90
 _cell_angle_beta                         90
 _cell_angle_gamma                        90
-_cell_volume                             131.63
+_cell_volume                             45.88
 _cell_formula_units_Z                    4
 _space_group_IT_number                   225
 _space_group_name_H-M_alt                'F m -3 m'
@@ -265,8 +266,8 @@ loop_
  192 '1/2+z, 1/2+y, x'
 loop_
  _atom_type_symbol
- Th
- Ru
+ Ni
+ Sb
 loop_
  _atom_site_label
  _atom_site_type_symbol
@@ -276,20 +277,20 @@ loop_
  _atom_site_fract_y
  _atom_site_fract_z
  _atom_site_occupancy
- Th1 Th 4 a 0 0 0 0.99
- Ru2 Ru 4 a 0 0 0 0.01
+Ni1 Ni 4 a 0 0 0 0.92
+Sb2 Sb 4 a 0 0 0 0.08
 
 
 _exptl_crystal_colour                    ?
 _exptl_crystal_density_meas              ?
-_exptl_crystal_density_diffrn            11.64
+_exptl_crystal_density_diffrn            9.23
 _cell_measurement_temperature            ?
-_cell_measurement_radiation              'X-rays, Cu K'
+_cell_measurement_radiation              X-rays
 _cell_measurement_reflns_used            ?
 _diffrn_ambient_temperature              ?
-_diffrn_measurement_device               'Unicam film'
+_diffrn_measurement_device               ?
 _diffrn_measurement_device_type          ?
-_diffrn_radiation_type                   ?
+_diffrn_radiation_type                   X-rays
 _diffrn_reflns_number                    ?
 _exptl_absorpt_coefficient_mu            ?
 _exptl_absorpt_correction_type           ?
@@ -298,6 +299,9 @@ _refine_ls_number_parameters             ?
 _refine_ls_number_reflns                 ?
 _refine_ls_R_factor_gt                   ?
 _refine_ls_wR_factor_gt                  ?
+_pd_proc_ls_proof_R_factor               ?
+_pd_proc_ls_proof_wR_factor              ?
+_refine_ls_R_I_factor                    ?
 
-# End of data set 250143
+# End of data set 529848
 

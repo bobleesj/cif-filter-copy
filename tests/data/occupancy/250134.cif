@@ -51,19 +51,8 @@ _journal_language                        English
 loop_
  _publ_author_name
  _publ_author_address
-'Reiswig R.D.'
+''
 ;
-Los Alamos National Laboratory (LANL)
-Los Alamos National Laboratory (LANL)
-Los Alamos
-U.S.A. New Mexico
-;
-'Gschneidner K.A. Jr.'
-;
-Iowa State University
-Ames Laboratory
-Ames
-U.S.A. Iowa
 ;
 
 # Standardized crystallographic data

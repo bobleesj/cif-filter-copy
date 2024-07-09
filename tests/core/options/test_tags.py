@@ -4,7 +4,7 @@ from core.options.tag import move_files_based_on_tags
 from cifkit.utils.folder import get_file_count
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_move_files_based_on_tags(tmpdir):
     source_dir = "tests/data/tag"
     tmp_dir_path = shutil.copytree(source_dir, tmpdir.join("tag"))

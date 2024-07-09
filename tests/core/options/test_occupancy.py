@@ -1,51 +1,36 @@
-# from os.path import join
+import pytest
+import shutil
+from core.options.occupancy import copy_files_based_on_atomic_occupancy_mixing
+from cifkit.utils.folder import get_file_count
 
-# def test_copy_files_based_on_atomic_occupancy_mixing():
-#     base_dir = "tests/cifs/occupancy"
-#     deficiency_atomic_mixing_dir = join(base_dir, "occupancy_deficiency_atomic_mixing")
-#     full_occupancy_atomic_mixing_dir = join(
-#         base_dir, "occupancy_full_occupancy_atomic_mixing"
-#     )
-#     deficiency_no_atomic_mixing_dir = join(
-#         base_dir, "occupancy_deficiency_no_atomic_mixing"
-#     )
-#     full_occupancy_dir = join(base_dir, "occupancy_full_occupancy")
 
-#     directory_list = [
-#         deficiency_atomic_mixing_dir,
-#         full_occupancy_atomic_mixing_dir,
-#         deficiency_no_atomic_mixing_dir,
-#         full_occupancy_dir,
-#     ]
-#     # Setup: Ensure the environment is clean before testing
-#     # remove_directories(directory_list)
+@pytest.fixture
+def tmp_dir_path(tmpdir):
+    source_dir = "tests/data/occupancy"
+    tmp_dir_path = shutil.copytree(source_dir, tmpdir.join("occupancy"))
+    return tmp_dir_path
 
-#     copy_files_based_on_atomic_occupancy_mixing(base_dir, False)
-#     assert (
-#         get_cif_file_count_from_directory(base_dir) == 8
-#     ), "Expected 8 files in the test folder"
 
-#     deficiency_atomic_mixing_dir_cif_count = get_cif_file_count_from_directory(
-#         deficiency_atomic_mixing_dir
-#     )
-#     full_occupancy_atomic_mixing_dir_cif_count = get_cif_file_count_from_directory(
-#         full_occupancy_atomic_mixing_dir
-#     )
-#     deficiency_no_atomic_mixing_dir_cif_count = get_cif_file_count_from_directory(
-#         deficiency_no_atomic_mixing_dir
-#     )
-#     full_occupancy_dir_cif_count = get_cif_file_count_from_directory(full_occupancy_dir)
+@pytest.mark.now
+def test_copy_files_based_on_atomic_occupancy_mixing(tmp_dir_path):
+    assert get_file_count(tmp_dir_path) == 8
 
-#     assert (
-#         deficiency_atomic_mixing_dir_cif_count == 2
-#     ), "Not all expected files were copied."
-#     assert (
-#         full_occupancy_atomic_mixing_dir_cif_count == 2
-#     ), "Not all expected files were copied."
-#     assert (
-#         deficiency_no_atomic_mixing_dir_cif_count == 2
-#     ), "Not all expected files were copied."
-#     assert full_occupancy_dir_cif_count == 2, "Not all expected files were copied."
+    copy_files_based_on_atomic_occupancy_mixing(tmp_dir_path)
 
-#     # Finish: remove generated folders
-#     # remove_directories(directory_list)
+    deficiency_atomic_mixing_dir = tmp_dir_path.join(
+        "occupancy_deficiency_atomic_mixing"
+    )
+    full_occupancy_atomic_mixing_dir = tmp_dir_path.join(
+        "occupancy_deficiency_without_atomic_mixing"
+    )
+    deficiency_no_atomic_mixing_dir = tmp_dir_path.join(
+        "occupancy_full_occupancy"
+    )
+    full_occupancy_dir = tmp_dir_path.join(
+        "occupancy_full_occupancy_atomic_mixing"
+    )
+
+    assert get_file_count(deficiency_atomic_mixing_dir) == 2
+    assert get_file_count(full_occupancy_atomic_mixing_dir) == 2
+    assert get_file_count(deficiency_no_atomic_mixing_dir) == 2
+    assert get_file_count(full_occupancy_dir) == 2
