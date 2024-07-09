@@ -148,12 +148,15 @@ allow you to extract geometric features and visualize bonding patterns from
 - Structure Analysis/Featurizer (SAF): extract ML features for binary and
   ternary compounds. https://github.com/bobleesj/cif-bond-analyzer
 
-## Feedback how to ask for help
+## How to contribute
 
-If you have any other feature requests, you can reach out to me at the email
-provided in my GitHub profile.
+- [![Star on GitHub](https://img.shields.io/github/stars/bobleesj/cif-cleaner.svg?style=social)](https://github.com/bobleesj/cif-cleander/stargazers) the repository and recommend it to your colleagues who might find this repository helpful.
+- [![GitHub forks](https://img.shields.io/github/forks/bobleesj/cif-cleaner?style=social)](https://github.com/bobleesj/cif-cleaner/network/members) the repository and request a pull request for any changes.
+-  If you have any questions or have any suggestions, feel free to reach out to Sangjoon Bob Lee ([@bobleesj](https://github.com/bobleesj)) for any questions.
+ 
 
 ## Changelog
 
+- 20240708: integreated CI tests for all options
 - 20240705: integrated `cikift`, refactored code and prompts
 - 20240303: added GitHub CI integration
