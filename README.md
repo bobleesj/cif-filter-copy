@@ -21,8 +21,12 @@ In high-throughput analysis, we extract `.cif` files from databases, sorting
 them based on specific attributes. `CIF Cleaner` was developed to streamline
 this process by utilizing interactive prompts.
 
-This tool is used by both undergraduate and graduate researchers in the Oliynyk
+This tool is used by undergraduate and graduate researchers in the Oliynyk
 research group at CUNY Hunter College.
+
+## Demo
+
+![supercell demo](assets/gif/supercell-demo.gif)
 
 ## Getting started
 
@@ -70,10 +74,6 @@ Available folders containing CIF files:
 
 Enter the number corresponding to the folder containing .cif files:
 ```
-
-## Demo
-
-![supercell demo](assets/gif/supercell-demo.gif)
 
 ## **Options**
 
@@ -150,10 +150,13 @@ allow you to extract geometric features and visualize bonding patterns from
 
 ## How to contribute
 
-- [![Star on GitHub](https://img.shields.io/github/stars/bobleesj/cif-cleaner.svg?style=social)](https://github.com/bobleesj/cif-cleander/stargazers) the repository and recommend it to your colleagues who might find this repository helpful.
-- [![GitHub forks](https://img.shields.io/github/forks/bobleesj/cif-cleaner?style=social)](https://github.com/bobleesj/cif-cleaner/network/members) the repository and request a pull request for any changes.
--  If you have any questions or have any suggestions, feel free to reach out to Sangjoon Bob Lee ([@bobleesj](https://github.com/bobleesj)) for any questions.
- 
+- [![Star GitHub repository](https://img.shields.io/github/stars/bobleesj/cif-cleaner.svg?style=social)](https://github.com/bobleesj/cif-cleaner/stargazers)
+  the repository and recommend it to your colleagues who might find this
+  repository helpful.
+- [![Fork GitHub repository](https://img.shields.io/github/forks/bobleesj/cif-cleaner?style=social)](https://github.com/bobleesj/cif-cleaner/network/members)
+  the repository and request a pull request for any changes.
+- If you have any questions or have any suggestions, feel free to reach out to
+  Sangjoon Bob Lee ([@bobleesj](https://github.com/bobleesj)) for any questions.
 
 ## Changelog
 

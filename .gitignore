@@ -11,6 +11,11 @@ __pycache__/
 
 # CIF files
 CN12_big_test
+binary M-X CIF
+binary R-M CIF
+binary R-X CIF
+ternary R-M-X CIF
+elements CIF
 
 # cif_files/
 cif_files_test/

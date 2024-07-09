@@ -5,7 +5,12 @@ from core.utils.histogram import plot_supercell_size_histogram
 from cifkit import CifEnsemble
 
 
-def move_files_based_on_supercell_size(cif_dir_path, is_interactive_mode=True):
+def move_files_based_on_supercell_size(
+    cif_dir_path,
+    is_interactive_mode=True,
+    min_atom_count: int = None,
+    max_atom_count: int = None,
+):
     intro.prompt_suppercell_size_intro()
     ensemble = CifEnsemble(cif_dir_path)
     # Generate all supercell in the file and plot histogram
@@ -25,9 +30,6 @@ def move_files_based_on_supercell_size(cif_dir_path, is_interactive_mode=True):
         max_atom_count = click.prompt(
             "\nEnter the max number of atoms in the supercell", type=int
         )
-    else:
-        min_atom_count = 300  # For testing
-        max_atom_count = 500  # For testing
 
     # Enter the range
     filtered_file_paths = ensemble.filter_by_supercell_count(

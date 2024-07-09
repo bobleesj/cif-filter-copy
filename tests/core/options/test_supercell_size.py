@@ -15,7 +15,12 @@ def test_move_files_based_on_supercell_size(tmpdir):
     # 12 files should be present in the original directory
     assert get_file_count(tmp_dir_path) == 12
 
-    move_files_based_on_supercell_size(tmp_dir_path, is_interactive_mode=False)
+    move_files_based_on_supercell_size(
+        tmp_dir_path,
+        is_interactive_mode=False,
+        min_atom_count=300,
+        max_atom_count=500,
+    )
 
     # 2 files should be moved
     assert get_file_count(dest_path) == 9
