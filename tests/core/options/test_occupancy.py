@@ -11,7 +11,7 @@ def tmp_dir_path(tmpdir):
     return tmp_dir_path
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_copy_files_based_on_atomic_occupancy_mixing(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 8
 

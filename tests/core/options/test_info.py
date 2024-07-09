@@ -13,7 +13,7 @@ def tmp_dir_path(tmpdir):
     return tmp_dir_path
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_cif_folder_info(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 3
     get_cif_folder_info(
@@ -28,7 +28,7 @@ def test_cif_folder_info(tmp_dir_path):
     assert set(csv_data["Filename"]) == expected_filenames
 
 
-@pytest.mark.now
+@pytest.mark.fast
 def test_cif_folder_info_with_dist(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 3
     get_cif_folder_info(
