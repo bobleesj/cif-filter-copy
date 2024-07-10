@@ -70,9 +70,14 @@ Enter your choice (1-9): 6
 You have chosen: Get file info in the folder
 
 Available folders containing CIF files:
-1. 20240706_test, 9 files
+1. elements CIF, 1787 files
+2. binary R-X CIF, 3757 files
+3. binary R-M CIF, 5510 files
+4. binary M-X CIF, 2026 files
+5. 20240706_test, 28 files
+6. ternary R-M-X CIF, 11418 files
 
-Enter the number corresponding to the folder containing .cif files:
+Enter the number corresponding to the folder containing .cif files: 1
 ```
 
 ## **Options**

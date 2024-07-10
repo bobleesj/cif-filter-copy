@@ -11,6 +11,20 @@ readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["CIF", "high-throughput", "crystallography", "materials science", "data cleaning"]
 
+
+
+dependencies = [
+    "gemmi==0.6.6",
+    "matplotlib==3.9.1",
+    "numpy==2.0.0",
+    "pyvista==0.43.10",
+    "scipy==1.14.0",
+    "click==8.1.7",
+    "pandas==2.2.1",
+    "cifkit==1.0.2"
+]
+
+
 [project.urls]
 Repository = "https://github.com/bobleesj/cif-cleander"
 
