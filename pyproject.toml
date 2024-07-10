@@ -1,5 +1,5 @@
 [project]
-name = "CIF Cleaner"
+name = "cif-cleaner"  # Changed to a valid PEP 508 identifier
 authors = [
   {name = "Sangjoon Lee", email = "sl5400@columbia.edu"}
 ]
@@ -21,7 +21,6 @@ dependencies = [
     "pandas==2.2.1",
     "cifkit==1.0.2"
 ]
-
 
 [project.urls]
 Repository = "https://github.com/bobleesj/cif-cleaner"
