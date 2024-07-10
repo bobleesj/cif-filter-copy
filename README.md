@@ -165,6 +165,7 @@ allow you to extract geometric features and visualize bonding patterns from
 
 ## Changelog
 
+- 20240709: implement `cifki` v1.0.2, preprocess for option 1 only (https://github.com/bobleesj/cif-cleaner/issues/24)
 - 20240708: integreated CI tests for all options
 - 20240705: integrated `cikift`, refactored code and prompts
 - 20240303: added GitHub CI integration
