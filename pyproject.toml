@@ -11,8 +11,6 @@ readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["CIF", "high-throughput", "crystallography", "materials science", "data cleaning"]
 
-
-
 dependencies = [
     "gemmi==0.6.6",
     "matplotlib==3.9.1",
@@ -26,7 +24,4 @@ dependencies = [
 
 
 [project.urls]
-Repository = "https://github.com/bobleesj/cif-cleander"
-
-[tool.ruff]
-line-length = 79
+Repository = "https://github.com/bobleesj/cif-cleaner"
