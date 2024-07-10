@@ -1,8 +1,7 @@
 import click
 from os.path import join
-from core.utils import prompt, intro
+from core.utils import prompt, intro, object
 from core.utils.histogram import plot_supercell_size_histogram
-from cifkit import CifEnsemble
 
 
 def move_files_based_on_supercell_size(
@@ -12,15 +11,13 @@ def move_files_based_on_supercell_size(
     max_atom_count: int = None,
 ):
     intro.prompt_suppercell_size_intro()
-    ensemble = CifEnsemble(cif_dir_path)
+    ensemble = object.init_cif_ensemble(cif_dir_path)
     # Generate all supercell in the file and plot histogram
     atom_counts = []
     for idx, cif in enumerate(ensemble.cifs, start=1):
         atom_counts.append(cif.supercell_atom_count)
 
-    plot_supercell_size_histogram(
-        cif_dir_path, atom_counts, ensemble.file_count
-    )
+    plot_supercell_size_histogram(cif_dir_path, atom_counts, ensemble.file_count)
 
     if is_interactive_mode:
         min_atom_count = click.prompt(

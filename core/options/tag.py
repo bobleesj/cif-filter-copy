@@ -1,13 +1,13 @@
 import shutil
 import os
-from core.utils import prompt, intro
+from core.utils import prompt, intro, object
 from cifkit import CifEnsemble
 
 
 def move_files_based_on_tags(cif_dir_path: str) -> None:
     intro.prompt_tag_intro()
 
-    ensemble = CifEnsemble(cif_dir_path)
+    ensemble = object.init_cif_ensemble(cif_dir_path)
     filtered_files_paths = set()
     # Process each file
     for cif in ensemble.cifs:

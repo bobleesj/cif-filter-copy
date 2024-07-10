@@ -12,16 +12,11 @@ def choose_dir(script_directory):
         d
         for d in os.listdir(script_directory)
         if os.path.isdir(join(script_directory, d))
-        and any(
-            file.endswith(".cif")
-            for file in os.listdir(join(script_directory, d))
-        )
+        and any(file.endswith(".cif") for file in os.listdir(join(script_directory, d)))
     ]
 
     if not directories:
-        print(
-            "No directories found in the current path containing .cif files!"
-        )
+        print("No directories found in the current path containing .cif files!")
         return None
     print("\nAvailable folders containing CIF files:")
     for idx, dir_name in enumerate(directories, start=1):
@@ -37,9 +32,7 @@ def choose_dir(script_directory):
             if 1 <= choice <= len(directories):
                 return join(script_directory, directories[choice - 1])
             else:
-                print(
-                    f"Please enter a number between 1 and {len(directories)}."
-                )
+                print(f"Please enter a number between 1 and {len(directories)}.")
         except ValueError:
             print("Invalid input. Please enter a number.")
 

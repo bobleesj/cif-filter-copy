@@ -23,12 +23,8 @@ def test_copy_files_based_on_atomic_occupancy_mixing(tmp_dir_path):
     full_occupancy_atomic_mixing_dir = tmp_dir_path.join(
         "occupancy_deficiency_without_atomic_mixing"
     )
-    deficiency_no_atomic_mixing_dir = tmp_dir_path.join(
-        "occupancy_full_occupancy"
-    )
-    full_occupancy_dir = tmp_dir_path.join(
-        "occupancy_full_occupancy_atomic_mixing"
-    )
+    deficiency_no_atomic_mixing_dir = tmp_dir_path.join("occupancy_full_occupancy")
+    full_occupancy_dir = tmp_dir_path.join("occupancy_full_occupancy_atomic_mixing")
 
     assert get_file_count(deficiency_atomic_mixing_dir) == 2
     assert get_file_count(full_occupancy_atomic_mixing_dir) == 2

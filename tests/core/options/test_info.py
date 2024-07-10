@@ -16,9 +16,7 @@ def tmp_dir_path(tmpdir):
 @pytest.mark.fast
 def test_cif_folder_info(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 3
-    get_cif_folder_info(
-        tmp_dir_path, is_interactive_mode=False, compute_dist=False
-    )
+    get_cif_folder_info(tmp_dir_path, is_interactive_mode=False, compute_dist=False)
 
     csv_file_path = tmp_dir_path.join("csv", "info_info.csv")
     assert exists(csv_file_path)
@@ -31,9 +29,7 @@ def test_cif_folder_info(tmp_dir_path):
 @pytest.mark.fast
 def test_cif_folder_info_with_dist(tmp_dir_path):
     assert get_file_count(tmp_dir_path) == 3
-    get_cif_folder_info(
-        tmp_dir_path, is_interactive_mode=False, compute_dist=True
-    )
+    get_cif_folder_info(tmp_dir_path, is_interactive_mode=False, compute_dist=True)
 
     csv_file_path = tmp_dir_path.join("csv", "info_info_with_dist.csv")
     assert exists(csv_file_path)

@@ -1,7 +1,7 @@
 import os
 import click
 import time
-from core.utils import intro, prompt
+from core.utils import intro, prompt, object
 from cifkit import CifEnsemble
 from cifkit.utils import folder
 
@@ -13,7 +13,7 @@ def move_files_based_on_coordination_number(
     option: int = None,
 ) -> None:
     intro.prompt_coordination_number_intro()
-    ensemble = CifEnsemble(cif_dir_path)
+    ensemble = object.init_cif_ensemble(cif_dir_path)
 
     if is_interactive_mode:
         # Prompt for elements
@@ -32,9 +32,7 @@ def move_files_based_on_coordination_number(
         # Ask user for the type of filter
         click.echo("\nQ2. Now choose your option:")
         click.echo("[1] Move files exactly matching the coordination numbers")
-        click.echo(
-            "[2] Move files containing at least one of the coordination numbers"
-        )
+        click.echo("[2] Move files containing at least one of the coordination numbers")
         filter_choice = click.prompt("Enter your choice (1 or 2)", type=int)
     else:
         filter_choice = option
@@ -103,7 +101,5 @@ def move_files_and_prompt(
 
     overall_elapsed_time = time.perf_counter() - overall_start_time
     prompt.print_total_time(overall_elapsed_time, file_count)
-    prompt.print_moved_files_summary(
-        filtered_file_paths, file_count, destination_path
-    )
+    prompt.print_moved_files_summary(filtered_file_paths, file_count, destination_path)
     prompt.print_done_with_option("filter by coordination numbers")

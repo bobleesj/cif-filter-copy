@@ -44,16 +44,12 @@ def plot_distance_histogram(cif_dir, distances, num_of_files):
     )
 
 
-def plot_supercell_size_histogram(
-    cif_dir, supercell_atom_counts, num_of_files
-):
+def plot_supercell_size_histogram(cif_dir, supercell_atom_counts, num_of_files):
     """
     Plot the histogram of the supercell atom count in CIF files.
     """
     plot_directory = create_plot_directory(cif_dir)
-    histogram_path = os.path.join(
-        plot_directory, "histogram-supercell-size.png"
-    )
+    histogram_path = os.path.join(plot_directory, "histogram-supercell-size.png")
     title = f"Histogram of Supercell Atom Count of {num_of_files} files"
     save_histogram(
         supercell_atom_counts,
