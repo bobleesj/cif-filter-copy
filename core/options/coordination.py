@@ -61,8 +61,11 @@ def _filter_and_move_files(
         # Track time
         file_start_time = time.perf_counter()
         prompt._print_progress_current(i, file_name, atom_count, file_count)
-
-        CN_values_computed = connections.get_CN_values(cif)
+        try:
+            CN_values_computed = connections.get_CN_values(cif)
+        except Exception as e:
+            print(f"Skip {file_name} due to error occurred while computing CN: {e}")
+            continue
         if filter_choice == 1:
             destination_path = os.path.join(
                 cif_dir_path, f"{folder_name}_CN_exact_{numbers_str}"
