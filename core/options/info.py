@@ -3,7 +3,6 @@ import pandas as pd
 import time
 from core.utils import folder, prompt, intro, object
 
-
 def get_cif_folder_info(cif_dir_path, is_interactive_mode=True, compute_dist=False):
     intro.prompt_info_intro()
 

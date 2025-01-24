@@ -1,5 +1,5 @@
 from click import echo, style
-
+import time
 
 def print_progress_current(i, filename, atom_count, file_count):
     echo(

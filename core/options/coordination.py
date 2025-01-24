@@ -4,6 +4,7 @@ import time
 from core.utils import intro, prompt, object
 from cifkit import CifEnsemble
 from cifkit.utils import folder
+from core.utils import connections
 
 
 def move_files_based_on_coordination_number(
@@ -37,17 +38,16 @@ def move_files_based_on_coordination_number(
     else:
         filter_choice = option
 
-    filter_and_move_files(ensemble, filter_choice, cif_dir_path, numbers)
+    _filter_and_move_files(ensemble, filter_choice, cif_dir_path, numbers)
 
 
-def filter_and_move_files(
+def _filter_and_move_files(
     ensemble: CifEnsemble,
     filter_choice: int,
     cif_dir_path: str,
     numbers: list[int],
 ) -> None:
     # Folder info
-
     numbers_str = "_".join(str(number) for number in numbers)
     overall_start_time = time.perf_counter()
     folder_name = os.path.basename(cif_dir_path)
@@ -61,16 +61,17 @@ def filter_and_move_files(
         # Track time
         file_start_time = time.perf_counter()
         prompt.print_progress_current(i, file_name, atom_count, file_count)
-
-        # Compute CN values for each .cif
-        CN_values = cif.CN_unique_values_by_min_dist_method
-
+        try:
+            CN_values_computed = connections.get_CN_values(cif)
+        except Exception as e:
+            print(f"Skip {file_name} due to error occurred while computing CN: {e}")
+            continue
         if filter_choice == 1:
             destination_path = os.path.join(
                 cif_dir_path, f"{folder_name}_CN_exact_{numbers_str}"
             )
             # Check if the CN values are exactly the same
-            if set(numbers) == CN_values:
+            if set(numbers) == CN_values_computed:
                 filtered_file_paths.add(cif.file_path)
 
         elif filter_choice == 2:
@@ -78,18 +79,18 @@ def filter_and_move_files(
                 cif_dir_path, f"{folder_name}_CN_contain_{numbers_str}"
             )
             # Check if at least one of the CN values is present
-            if any(num in CN_values for num in numbers):
+            if any(num in CN_values_computed for num in numbers):
                 filtered_file_paths.add(cif.file_path)
 
         elapsed_time = time.perf_counter() - file_start_time
         prompt.print_finished_progress(file_name, atom_count, elapsed_time)
 
-    move_files_and_prompt(
+    _move_files_and_prompt(
         filtered_file_paths, destination_path, file_count, overall_start_time
     )
 
 
-def move_files_and_prompt(
+def _move_files_and_prompt(
     filtered_file_paths: set[str],
     destination_path: str,
     file_count: int,

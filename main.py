@@ -12,7 +12,7 @@ from core.options import (
     element,
 )
 from core.utils import folder
-
+import click
 
 def main():
     script_dir_path = os.path.dirname(os.path.abspath(__file__))
@@ -51,9 +51,17 @@ def main():
     # 1. Relocate CIF format with error
     if choice == "1":
         format.format_files(cif_dir_path)
+    else:
+        # For options other than "1", ask to pre-format .cif files
+        pre_format = click.confirm(
+            "Do you want to pre-format (option 1) the CIF files?",
+            default=False,
+        )
+        if pre_format:
+            format.format_files(cif_dir_path)
 
     # 2. Relocate CIF files with unreasonable distances
-    elif choice == "2":
+    if choice == "2":
         min_distance.move_files_based_on_min_dist(cif_dir_path)
 
     # 3. Relocate CIF based the number of atoms in the supercell
