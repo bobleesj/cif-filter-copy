@@ -26,7 +26,7 @@ def get_cif_folder_info(cif_dir_path, is_interactive_mode=True, compute_dist=Fal
     for i, cif in enumerate(ensemble.cifs, start=1):
         file_start_time = time.perf_counter()
 
-        prompt.print_progress_current(
+        prompt._print_progress_current(
             i, cif.file_name, cif.supercell_atom_count, ensemble.file_count
         )
         min_distance = None
@@ -47,7 +47,7 @@ def get_cif_folder_info(cif_dir_path, is_interactive_mode=True, compute_dist=Fal
         }
         results.append(data)
 
-        prompt.print_finished_progress(
+        prompt._print_finished_progress(
             cif.file_name, cif.supercell_atom_count, elapsed_time
         )
 
