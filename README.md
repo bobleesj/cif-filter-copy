@@ -3,9 +3,11 @@
 <!-- ![Integration Tests](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml/badge.svg) -->
 
 [![CI](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml/badge.svg)](https://github.com/bobleesj/cif-cleaner/actions/workflows/python-run-pytest.yml)
+![Python 3.10](https://img.shields.io/badge/python-3.9-blue.svg)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
+![Python 3.12](https://img.shields.io/badge/python-3.13-blue.svg)
 [![codecov](https://codecov.io/gh/bobleesj/cif-cleaner/graph/badge.svg?token=3KDQ4344V5)](https://codecov.io/gh/bobleesj/cif-cleaner)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/bobleesj/cif-cleaner/blob/main/LICENSE)
 
@@ -21,9 +23,6 @@ https://github.com/bobleesj/cifkit.
 In high-throughput analysis, we extract `.cif` files from databases, sorting
 them based on specific attributes. `CIF Cleaner` was developed to streamline
 this process by utilizing interactive prompts.
-
-This tool is used by undergraduate and graduate researchers in the Oliynyk
-research group at CUNY Hunter College.
 
 ## Demo
 
@@ -166,8 +165,8 @@ allow you to extract geometric features and visualize bonding patterns from
 
 ## Changelog
 
-- 20240709: implement `cifki` v1.0.2, preprocess for option 1 only
+- 20250124: add option to preprocess files for all all options.
+- 20240709: integrate `cifkit` for filtering and moving files.
   (https://github.com/bobleesj/cif-cleaner/issues/24)
-- 20240708: integreated CI tests for all options
-- 20240705: integrated `cikift`, refactored code and prompts
-- 20240303: added GitHub CI integration
+- 20240708: add CI tests for all options.
+- 20240705: use `cikift`, refactored code and prompts.
