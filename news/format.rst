@@ -1,6 +1,6 @@
 **Added:**
 
-* Add support for Python 3.9 and 3.13.
+* Add support for Python 3.13.
 
 **Changed:**
 
