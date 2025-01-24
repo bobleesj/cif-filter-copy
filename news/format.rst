@@ -1,6 +1,6 @@
 **Added:**
 
-* Add support for Python 3.13.
+* Remove support for Python 3.11
 
 **Changed:**
 
