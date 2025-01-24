@@ -4,6 +4,17 @@ import time
 from core.utils import intro, prompt, object
 from cifkit import CifEnsemble
 from cifkit.utils import folder
+from cifkit.preprocessors.environment import get_site_connections
+from cifkit.coordination.method import compute_CN_max_gap_per_site
+from cifkit.data.radius_handler import (
+    compute_radius_sum,
+)
+from cifkit.coordination.filter import (
+    get_CN_connections_by_min_dist_method,
+)
+from cifkit.coordination.composition import (
+    get_unique_CN_values,
+)
 
 
 def move_files_based_on_coordination_number(
@@ -37,17 +48,16 @@ def move_files_based_on_coordination_number(
     else:
         filter_choice = option
 
-    filter_and_move_files(ensemble, filter_choice, cif_dir_path, numbers)
+    _filter_and_move_files(ensemble, filter_choice, cif_dir_path, numbers)
 
 
-def filter_and_move_files(
+def _filter_and_move_files(
     ensemble: CifEnsemble,
     filter_choice: int,
     cif_dir_path: str,
     numbers: list[int],
 ) -> None:
     # Folder info
-
     numbers_str = "_".join(str(number) for number in numbers)
     overall_start_time = time.perf_counter()
     folder_name = os.path.basename(cif_dir_path)
@@ -62,15 +72,48 @@ def filter_and_move_files(
         file_start_time = time.perf_counter()
         prompt.print_progress_current(i, file_name, atom_count, file_count)
 
-        # Compute CN values for each .cif
-        CN_values = cif.CN_unique_values_by_min_dist_method
+        """
+        The reason we are not using the `cif.CN_connections_by_min_dist_method`
+        directly is that when the connections are computed, we also compute the
+        volume of the polyhedron. But when the polyhedron is flat, the function
+        provides error but it has nothing to do with determining the CN values.
+        Hence, we copy a portion of the cif code here to compute the CN_values
+        in order to not compute the polyhedron and volume.
+        """
+
+        # Determine CN_values based on the filter choice
+        connections = get_site_connections(
+            [
+                cif.site_labels,
+                cif.unitcell_lengths,
+                cif.unitcell_angles,
+            ],
+            cif.unitcell_points,
+            cif.supercell_points,
+            cutoff_radius=10.0,
+        )
+
+        radius_sum = compute_radius_sum(cif.radius_values, cif.is_radius_data_available)
+
+        CN_max_gap_per_site = compute_CN_max_gap_per_site(
+            radius_sum,
+            connections,
+            cif.is_radius_data_available,
+            cif.site_mixing_type,
+        )
+
+        CN_connections = get_CN_connections_by_min_dist_method(
+            CN_max_gap_per_site, connections
+        )
+
+        CN_values_computed = get_unique_CN_values(CN_connections)
 
         if filter_choice == 1:
             destination_path = os.path.join(
                 cif_dir_path, f"{folder_name}_CN_exact_{numbers_str}"
             )
             # Check if the CN values are exactly the same
-            if set(numbers) == CN_values:
+            if set(numbers) == CN_values_computed:
                 filtered_file_paths.add(cif.file_path)
 
         elif filter_choice == 2:
@@ -78,18 +121,18 @@ def filter_and_move_files(
                 cif_dir_path, f"{folder_name}_CN_contain_{numbers_str}"
             )
             # Check if at least one of the CN values is present
-            if any(num in CN_values for num in numbers):
+            if any(num in CN_values_computed for num in numbers):
                 filtered_file_paths.add(cif.file_path)
 
         elapsed_time = time.perf_counter() - file_start_time
         prompt.print_finished_progress(file_name, atom_count, elapsed_time)
 
-    move_files_and_prompt(
+    _move_files_and_prompt(
         filtered_file_paths, destination_path, file_count, overall_start_time
     )
 
 
-def move_files_and_prompt(
+def _move_files_and_prompt(
     filtered_file_paths: set[str],
     destination_path: str,
     file_count: int,

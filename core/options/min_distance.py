@@ -2,7 +2,6 @@ import time
 import click
 from os.path import join
 from core.utils import prompt, intro, object
-from cifkit import CifEnsemble
 from core.utils.histogram import plot_distance_histogram
 
 
