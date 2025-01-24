@@ -28,8 +28,9 @@ def filter_files_by_min_dist(cif_dir_path, is_interactive_mode=True):
     all_file_count = len(all_cif_file_paths)
     # Get all the distances
     for idx, file_path in enumerate(all_cif_file_paths, start=1):
-        start_time = time.perf_counter()
         cif = Cif(file_path)
+        prompt.print_progress_current(idx, cif.file_name, cif.supercell_atom_count, all_file_count)
+        start_time = time.perf_counter()
         try:
             min_dist = connections.compute_min_dist(cif)
         except Exception as e:
@@ -44,9 +45,9 @@ def filter_files_by_min_dist(cif_dir_path, is_interactive_mode=True):
 
         # Min distances are used for histogram generation
         min_dist_info[cif.file_name] = min_dist
-        prompt.print_progress_finished(
-            start_time, idx, cif.file_name, cif.supercell_atom_count, all_file_count
-        )
+        elasped_time = time.perf_counter() - start_time
+        prompt.print_finished_progress(cif.file_name, cif.supercell_atom_count, elasped_time)
+        
 
     # Get all min_dist values from the dictionary
     min_dists = [

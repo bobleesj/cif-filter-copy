@@ -1,15 +1,7 @@
 from click import echo, style
 import time
 
-
-def print_progress_finished(start_time, idx, file_name, atom_count, file_count):
-
-    _print_progress_current(idx, file_name, atom_count, file_count)
-    elasped_time = time.perf_counter() - start_time
-    _print_finished_progress(file_name, atom_count, elasped_time)
-
-
-def _print_progress_current(i, filename, atom_count, file_count):
+def print_progress_current(i, filename, atom_count, file_count):
     echo(
         style(
             f"Processing {filename} with " f"{atom_count} atoms ({i}/{file_count})",
@@ -18,7 +10,7 @@ def _print_progress_current(i, filename, atom_count, file_count):
     )
 
 
-def _print_finished_progress(filename, atom_count, elapsed_time):
+def print_finished_progress(filename, atom_count, elapsed_time):
     echo(
         style(
             f"Processed {filename} with {atom_count} atoms in "

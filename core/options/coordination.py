@@ -60,7 +60,7 @@ def _filter_and_move_files(
 
         # Track time
         file_start_time = time.perf_counter()
-        prompt._print_progress_current(i, file_name, atom_count, file_count)
+        prompt.print_progress_current(i, file_name, atom_count, file_count)
         try:
             CN_values_computed = connections.get_CN_values(cif)
         except Exception as e:
@@ -83,7 +83,7 @@ def _filter_and_move_files(
                 filtered_file_paths.add(cif.file_path)
 
         elapsed_time = time.perf_counter() - file_start_time
-        prompt._print_finished_progress(file_name, atom_count, elapsed_time)
+        prompt.print_finished_progress(file_name, atom_count, elapsed_time)
 
     _move_files_and_prompt(
         filtered_file_paths, destination_path, file_count, overall_start_time
